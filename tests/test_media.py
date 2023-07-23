@@ -161,6 +161,12 @@ def test_video_url(session):
     video = session.video(125506698)
     url = video.get_url()
     assert "m3u8" in url
+
+
+@pytest.mark.norecord
+def test_video_url_has_correct_resolution(session):
+    video = session.video(125506698)
+    url = video.get_url()
     verify_video_resolution(url, 1920, 1080)
 
 

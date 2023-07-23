@@ -1,8 +1,11 @@
+import pytest
+
 import tidalapi
 
 from .cover import verify_image_cover
 
 
+@pytest.mark.vcr
 def test_mix(session):
     mixes = session.mixes()
     first = next(iter(mixes))

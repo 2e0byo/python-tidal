@@ -167,3 +167,8 @@ def pytest_addoption(parser):
         default=False,
         help="Run tests that require user input",
     )
+
+
+@pytest.fixture(scope="session")
+def vcr_config():
+    return {"filter_headers": ["authorization"]}

@@ -26,6 +26,7 @@ import tidalapi
 from .cover import verify_image_cover, verify_image_resolution
 
 
+@pytest.mark.vcr
 def test_playlist(session):
     playlist = session.playlist("7eafb342-141a-4092-91eb-da0012da3a19")
 
@@ -56,6 +57,7 @@ def test_playlist(session):
     assert isinstance(creator, tidalapi.Artist)
 
 
+@pytest.mark.vcr
 def test_updated_playlist(session):
     playlist = session.playlist("944dd087-f65c-4954-a9a3-042a574e86e3")
     assert playlist.id == "944dd087-f65c-4954-a9a3-042a574e86e3"
@@ -77,6 +79,7 @@ def test_updated_playlist(session):
     assert creator.name == "user"
 
 
+@pytest.mark.vcr
 def test_video_playlist(session):
     playlist = session.playlist("aa3611ff-5b25-4bbe-8ce4-36c678c3438f")
     assert playlist.id == "aa3611ff-5b25-4bbe-8ce4-36c678c3438f"
@@ -104,6 +107,7 @@ def test_video_playlist(session):
     assert creator.name == "TIDAL"
 
 
+@pytest.mark.vcr
 def test_get_tracks(session):
     playlist = session.playlist("944dd087-f65c-4954-a9a3-042a574e86e3")
     remaining = 0
@@ -119,6 +123,7 @@ def test_get_tracks(session):
     assert items[5287].id == 209284860
 
 
+@pytest.mark.vcr
 def test_get_videos(session):
     playlist = session.playlist("aa3611ff-5b25-4bbe-8ce4-36c678c3438f")
     items = playlist.items()
@@ -127,11 +132,13 @@ def test_get_videos(session):
     assert items[-1].name == "Sundance 2017 Recap"
 
 
+@pytest.mark.vcr
 def test_image(session):
     playlist = session.playlist("33136f5a-d93a-4469-9353-8365897aaf94")
     verify_image_cover(session, playlist, [160, 320, 480, 640, 750, 1080])
 
 
+@pytest.mark.vcr
 def test_wide_image(session):
     playlist = session.playlist("7eafb342-141a-4092-91eb-da0012da3a19")
     resolutions = [(160, 107), (480, 320), (750, 500), (1080, 720)]

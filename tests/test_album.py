@@ -27,6 +27,7 @@ from tidalapi.album import Album
 from .cover import verify_image_cover, verify_video_cover
 
 
+@pytest.mark.vcr
 def test_album(session):
     album = session.album(17927863)
     assert album.id == 17927863
@@ -52,6 +53,7 @@ def test_album(session):
         session.album(17927863).video(1280)
 
 
+@pytest.mark.vcr
 def test_get_tracks(session):
     album = session.album(17927863)
     tracks = album.tracks()
@@ -67,6 +69,7 @@ def test_get_tracks(session):
     assert tracks[-1].track_num == 8
 
 
+@pytest.mark.vcr
 def test_get_items(session):
     album = session.album(108043414)
     items = album.items()
@@ -82,14 +85,17 @@ def test_get_items(session):
     assert items[-1].track_num == 15
 
 
+@pytest.mark.vcr
 def test_image_cover(session):
     verify_image_cover(session, session.album(108043414), [80, 160, 320, 640, 1280])
 
 
+@pytest.mark.vcr
 def test_video_cover(session):
     verify_video_cover(session.album(108043414), [80, 160, 320, 640, 1280])
 
 
+@pytest.mark.vcr
 def test_no_release_date(session):
     album = session.album(174114082)
     assert album.release_date is None
@@ -106,28 +112,33 @@ def test_default_image_used_if_no_cover_art(mocker):
     assert album.image(1280) == tidalapi.album.DEFAULT_ALBUM_IMAGE
 
 
+@pytest.mark.vcr
 def test_similar(session):
     album = session.album(108043414)
     for alb in album.similar():
         assert isinstance(alb.similar()[0], tidalapi.Album)
 
 
+@pytest.mark.vcr
 def test_review(session):
     album = session.album(199142349)
     review = album.review()
     assert "Kanye West" in review
 
 
+@pytest.mark.vcr
 def test_album_type_album(session):
     album = session.album(17927863)
     assert album.type == "ALBUM"
 
 
+@pytest.mark.vcr
 def test_album_type_single(session):
     album = session.album(239638071)
     assert album.type == "SINGLE"
 
 
+@pytest.mark.vcr
 def test_album_type_ep(session):
     album = session.album(289261563)
     assert album.type == "EP"

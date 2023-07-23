@@ -1,0 +1,43 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/tracks/78495659?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":78495659,"title":"Bullitt","duration":199,"replayGain":-11.08,"peak":0.992584,"allowStreaming":true,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2017-10-13T00:00:00.000+0000","premiumStreamingOnly":false,"trackNumber":13,"volumeNumber":1,"version":"Bonus
+        Track","popularity":1,"copyright":"Blackbird / Affection London / Musicast","url":"http://www.tidal.com/track/78495659","isrc":"FRP9Y1700014","editable":false,"explicit":false,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":3984864,"name":"Elephanz","type":"MAIN","picture":"7d87c8cc-4c0c-4800-bc08-efb58a38c13e"},"artists":[{"id":3984864,"name":"Elephanz","type":"MAIN","picture":"7d87c8cc-4c0c-4800-bc08-efb58a38c13e"}],"album":{"id":78495646,"title":"Elephanz","cover":"536fe2ef-d201-40e5-a2c5-724bf948898d","vibrantColor":"#c47281","videoCover":null},"mixes":{"TRACK_MIX":"001f7c73c883362feb798a293cbf81"}}'
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '949'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:54:13 GMT
+      Server:
+      - noyb
+      Via:
+      - 1.1 38a3f663851a0597e7026100a58b9b38.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - wjewD-DIrA5XlGndeMlyN5GqvwshKNzO2vjA4gRlZzNMGM7OkDmA7Q==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

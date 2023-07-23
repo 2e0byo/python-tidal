@@ -1,0 +1,225 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/artists/16147?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":16147,"name":"Lasgo","artistTypes":["ARTIST","CONTRIBUTOR"],"url":"http://www.tidal.com/artist/16147","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377","popularity":32,"artistRoles":[{"categoryId":-1,"category":"Artist"},{"categoryId":11,"category":"Performer"},{"categoryId":10,"category":"Production
+        team"},{"categoryId":2,"category":"Songwriter"}],"mixes":{"ARTIST_MIX":"000cb7886dd3be488a8fe3a204ffa5"}}'
+    headers:
+      Age:
+      - '8'
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '412'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:27 GMT
+      Server:
+      - noyb
+      Via:
+      - 1.1 924bf9febd74cef2bda62c15c8441e00.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - nIvw0bazjX2lUVhUQgKjUkLYROVCze367OduBwAywCijiCzgOHH9TQ==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Hit from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/albums/108748620?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: "{\"id\":108748620,\"title\":\"100% Clubland Classix\",\"duration\":16864,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2019-05-10T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":80,\"numberOfVideos\":0,\"numberOfVolumes\":4,\"releaseDate\":\"2019-05-10\",\"copyright\":\"\xA9
+        2019 Universal Music Operations Limited\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/108748620\",\"cover\":\"97b5122a-c075-4721-99d9-eb715c4ead25\",\"vibrantColor\":\"#f7a94a\",\"videoCover\":null,\"explicit\":true,\"upc\":\"00600753871560\",\"popularity\":25,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":2935,\"name\":\"Various
+        Artists\",\"type\":\"MAIN\",\"picture\":null},\"artists\":[{\"id\":2935,\"name\":\"Various
+        Artists\",\"type\":\"MAIN\",\"picture\":null}]}"
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '818'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:35 GMT
+      ETag:
+      - '"1966003315"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 3108e2685e0e061c5abe75f40944947c.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - R5c4f-BVWVaHodc3OhP_sk7QliNvWo0YjGXka3_U2wOVxQEuiZQAmA==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/albums/97216346?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":97216346,"title":"Dave Pearce Dance Anthems","duration":37474,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2018-11-16T00:00:00.000+0000","allowStreaming":true,"premiumStreamingOnly":false,"numberOfTracks":63,"numberOfVideos":0,"numberOfVolumes":1,"releaseDate":"2018-11-16","copyright":"(C)
+        2018 New State Music","type":"ALBUM","version":null,"url":"http://www.tidal.com/album/97216346","cover":"328f81ce-9ed8-4e48-951c-972f01aeb45a","vibrantColor":"#f36559","videoCover":null,"explicit":false,"upc":"885012034577","popularity":17,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":2935,"name":"Various
+        Artists","type":"MAIN","picture":null},"artists":[{"id":2935,"name":"Various
+        Artists","type":"MAIN","picture":null}]}'
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '801'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:35 GMT
+      ETag:
+      - '"817409295"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 168a24ef858eb187119582fbc6ac0718.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - apHfPy7Jf65JhEmE7Y0bgZz6uakVP_cHywvFU7Bp9w6wwRNr8bCyYg==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/artists/16147/albums?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000&filter=COMPILATIONS&offset=0
+  response:
+    body:
+      string: "{\"limit\":1000,\"offset\":0,\"totalNumberOfItems\":12,\"items\":[{\"id\":108748620,\"title\":\"100%
+        Clubland Classix\",\"duration\":16864,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2019-05-10T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":80,\"numberOfVideos\":0,\"numberOfVolumes\":4,\"releaseDate\":\"2019-05-10\",\"copyright\":\"\xA9
+        2019 Universal Music Operations Limited\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/108748620\",\"cover\":\"97b5122a-c075-4721-99d9-eb715c4ead25\",\"vibrantColor\":\"#f7a94a\",\"videoCover\":null,\"explicit\":true,\"upc\":\"00600753871560\",\"popularity\":25,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":2935,\"name\":\"Various
+        Artists\",\"type\":\"MAIN\",\"picture\":null},\"artists\":[{\"id\":2935,\"name\":\"Various
+        Artists\",\"type\":\"MAIN\",\"picture\":null}]},{\"id\":97216346,\"title\":\"Dave
+        Pearce Dance Anthems\",\"duration\":37474,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2018-11-16T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":63,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2018-11-16\",\"copyright\":\"(C)
+        2018 New State Music\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/97216346\",\"cover\":\"328f81ce-9ed8-4e48-951c-972f01aeb45a\",\"vibrantColor\":\"#f36559\",\"videoCover\":null,\"explicit\":false,\"upc\":\"885012034577\",\"popularity\":17,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":2935,\"name\":\"Various
+        Artists\",\"type\":\"MAIN\",\"picture\":null},\"artists\":[{\"id\":2935,\"name\":\"Various
+        Artists\",\"type\":\"MAIN\",\"picture\":null}]},{\"id\":95852807,\"title\":\"Positiva
+        25\",\"duration\":14457,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2018-10-05T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":70,\"numberOfVideos\":0,\"numberOfVolumes\":3,\"releaseDate\":\"2018-10-05\",\"copyright\":\"\xA9
+        2018 Universal Music Operations Limited\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/95852807\",\"cover\":\"8b31e829-96b3-4e93-b3dd-007fa1318798\",\"vibrantColor\":\"#29457b\",\"videoCover\":null,\"explicit\":true,\"upc\":\"00600753845066\",\"popularity\":6,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":2935,\"name\":\"Various
+        Artists\",\"type\":\"MAIN\",\"picture\":null},\"artists\":[{\"id\":2935,\"name\":\"Various
+        Artists\",\"type\":\"MAIN\",\"picture\":null}]},{\"id\":92315654,\"title\":\"Lost
+        In Trance\",\"duration\":13066,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2018-07-27T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":57,\"numberOfVideos\":0,\"numberOfVolumes\":3,\"releaseDate\":\"2018-07-27\",\"copyright\":\"\xA9
+        2018 Universal Music Operations Limited\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/92315654\",\"cover\":\"1b31f28e-60c0-47c0-b1ec-1d52ac84ee53\",\"vibrantColor\":\"#9ed2f1\",\"videoCover\":null,\"explicit\":false,\"upc\":\"00600753838679\",\"popularity\":25,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":2935,\"name\":\"Various
+        Artists\",\"type\":\"MAIN\",\"picture\":null},\"artists\":[{\"id\":2935,\"name\":\"Various
+        Artists\",\"type\":\"MAIN\",\"picture\":null}]},{\"id\":67330550,\"title\":\"Clubland
+        100% Euphoric\",\"duration\":13349,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2019-12-03T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":63,\"numberOfVideos\":0,\"numberOfVolumes\":3,\"releaseDate\":\"2016-11-25\",\"copyright\":\"\xA9
+        2016 Universal Music On Demand, a division of Universal Music Operations Limited\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/67330550\",\"cover\":\"2f5ae7a7-16e6-4a67-bd85-939d80632b3f\",\"vibrantColor\":\"#d85896\",\"videoCover\":null,\"explicit\":false,\"upc\":\"00600753746585\",\"popularity\":29,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":2935,\"name\":\"Various
+        Artists\",\"type\":\"MAIN\",\"picture\":null},\"artists\":[{\"id\":2935,\"name\":\"Various
+        Artists\",\"type\":\"MAIN\",\"picture\":null}]},{\"id\":59949673,\"title\":\"100%
+        Clubland\",\"duration\":16720,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2016-05-06T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":80,\"numberOfVideos\":0,\"numberOfVolumes\":4,\"releaseDate\":\"2016-05-27\",\"copyright\":\"\xA9
+        2016 Universal Music TV, a division of Universal Music Operations Ltd.\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/59949673\",\"cover\":\"2f2921d9-838d-42e9-b5e5-4eaa48ac76d6\",\"vibrantColor\":\"#f7e89b\",\"videoCover\":null,\"explicit\":true,\"upc\":\"00600753690666\",\"popularity\":50,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":2935,\"name\":\"Various
+        Artists\",\"type\":\"MAIN\",\"picture\":null},\"artists\":[{\"id\":2935,\"name\":\"Various
+        Artists\",\"type\":\"MAIN\",\"picture\":null}]},{\"id\":42972194,\"title\":\"The
+        Playlist - Club Classics\",\"duration\":9444,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2015-03-15T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":40,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2015-03-15\",\"copyright\":\"\xA9
+        2015 Universal Music TV, a division of Universal Music Operations Ltd.\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/42972194\",\"cover\":\"a546e8fa-30f0-4da8-a2b5-395d55a18546\",\"vibrantColor\":\"#e94360\",\"videoCover\":null,\"explicit\":false,\"upc\":\"00600753598566\",\"popularity\":47,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":2935,\"name\":\"Various
+        Artists\",\"type\":\"MAIN\",\"picture\":null},\"artists\":[{\"id\":2935,\"name\":\"Various
+        Artists\",\"type\":\"MAIN\",\"picture\":null}]},{\"id\":38652867,\"title\":\"The
+        Workout Mix 2015\",\"duration\":8489,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2014-12-22T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":40,\"numberOfVideos\":0,\"numberOfVolumes\":2,\"releaseDate\":\"2014-01-01\",\"copyright\":\"\xA9
+        2014 Universal Music TV, a division of Universal Music Operations Ltd.\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/38652867\",\"cover\":\"b95cc141-e13e-472b-b062-bd39e5d50042\",\"vibrantColor\":\"#a4d1df\",\"videoCover\":null,\"explicit\":false,\"upc\":\"00600753581643\",\"popularity\":13,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":2935,\"name\":\"Various
+        Artists\",\"type\":\"MAIN\",\"picture\":null},\"artists\":[{\"id\":2935,\"name\":\"Various
+        Artists\",\"type\":\"MAIN\",\"picture\":null}]},{\"id\":103649086,\"title\":\"Positiva
+        Presents.....Track Record Vol. 2\",\"duration\":6888,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2013-04-05T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":14,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2013-01-01\",\"copyright\":\"\xA9
+        2013 EMI Records Ltd\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/103649086\",\"cover\":\"e1dac414-2b1b-43ea-8e6a-8c92f9b5b746\",\"vibrantColor\":\"#db898b\",\"videoCover\":null,\"explicit\":false,\"upc\":\"05099993456555\",\"popularity\":3,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":2935,\"name\":\"Various
+        Artists\",\"type\":\"MAIN\",\"picture\":null},\"artists\":[{\"id\":2935,\"name\":\"Various
+        Artists\",\"type\":\"MAIN\",\"picture\":null}]},{\"id\":34695261,\"title\":\"NRG
+        Workout\",\"duration\":25957,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2013-12-30T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":65,\"numberOfVideos\":0,\"numberOfVolumes\":6,\"releaseDate\":\"2013-01-01\",\"copyright\":\"\xA9
+        2013 Universal Music TV, a division of Universal Music Operations Ltd.\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/34695261\",\"cover\":\"c082715f-68d1-4aa3-ad8b-9a65b80ffe1e\",\"vibrantColor\":\"#eba2c5\",\"videoCover\":null,\"explicit\":true,\"upc\":\"00600753478592\",\"popularity\":13,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":2935,\"name\":\"Various
+        Artists\",\"type\":\"MAIN\",\"picture\":null},\"artists\":[{\"id\":2935,\"name\":\"Various
+        Artists\",\"type\":\"MAIN\",\"picture\":null}]},{\"id\":38518197,\"title\":\"Greatest
+        Hits: Dance\",\"duration\":7900,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2012-10-08T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":33,\"numberOfVideos\":0,\"numberOfVolumes\":3,\"releaseDate\":\"2012-10-05\",\"copyright\":\"\xA9
+        2012 Parlophone Records Ltd, a Warner Music Group Company\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/38518197\",\"cover\":\"d431d193-5e30-4f3c-be98-ea6f6dbe9f9b\",\"vibrantColor\":\"#e8ce89\",\"videoCover\":null,\"explicit\":true,\"upc\":\"5099997908753\",\"popularity\":7,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":2935,\"name\":\"Various
+        Artists\",\"type\":\"MAIN\",\"picture\":null},\"artists\":[{\"id\":2935,\"name\":\"Various
+        Artists\",\"type\":\"MAIN\",\"picture\":null}]},{\"id\":34022905,\"title\":\"Club
+        Sounds - Club Classics Vol. 3\",\"duration\":6468,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2008-05-09T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":29,\"numberOfVideos\":0,\"numberOfVolumes\":2,\"releaseDate\":\"2008-05-09\",\"copyright\":\"(P)
+        2008 SONY BMG MUSIC ENTERTAINMENT (GERMANY) GmbH\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/34022905\",\"cover\":\"39f7d7cd-1221-4c68-870a-67f77ba8fb7e\",\"vibrantColor\":\"#f8ea9b\",\"videoCover\":null,\"explicit\":false,\"upc\":\"888880511577\",\"popularity\":3,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":2935,\"name\":\"Various
+        Artists\",\"type\":\"MAIN\",\"picture\":null},\"artists\":[{\"id\":2935,\"name\":\"Various
+        Artists\",\"type\":\"MAIN\",\"picture\":null}]}]}"
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:36 GMT
+      ETag:
+      - '"341601170"'
+      Server:
+      - noyb
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 e9ebe38de33a70557cf9d9c1d7e5d11e.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 9hnrM6BKTlLvmltYbdZ0h127_jxjprpDk97NKZbLEc6cYwv5IX905w==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

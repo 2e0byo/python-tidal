@@ -1,0 +1,132 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/albums/108043414?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: "{\"id\":108043414,\"title\":\"Lemonade\",\"duration\":7165,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2019-04-23T05:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":13,\"numberOfVideos\":2,\"numberOfVolumes\":1,\"releaseDate\":\"2016-04-23\",\"copyright\":\"(P)
+        2019 Parkwood Entertainment LLC, under exclusive license to Columbia Records,
+        a Division of Sony Music Entertainment\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/108043414\",\"cover\":\"e85770cd-4d4a-4651-815b-a1ce6cc6aaa8\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":\"07942bd5-bddc-4301-95bf-dc4cd2c593fa\",\"explicit\":true,\"upc\":\"886447695456\",\"popularity\":39,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"},\"artists\":[{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"}]}"
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '972'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:14 GMT
+      ETag:
+      - '"1667633875"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 9db8c72ec08059d1364d1dd74e1dc958.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 4MbkUfZIV-Lowc9DTbKFZuG5xqgRQXjfW3EPjwY2MxyoW-eiswYd_A==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/albums/108043414/items?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=100&offset=0
+  response:
+    body:
+      string: "{\"limit\":100,\"offset\":0,\"totalNumberOfItems\":15,\"items\":[{\"item\":{\"id\":108043415,\"title\":\"Pray
+        You Catch Me\",\"duration\":196,\"replayGain\":-8.69,\"peak\":0.97049,\"allowStreaming\":true,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2019-04-23T05:00:00.000+0000\",\"premiumStreamingOnly\":false,\"trackNumber\":1,\"volumeNumber\":1,\"version\":null,\"popularity\":13,\"copyright\":\"(P)
+        2016 Parkwood Entertainment LLC, under exclusive license to Columbia Records,
+        a Division of Sony Music Entertainment\",\"url\":\"http://www.tidal.com/track/108043415\",\"isrc\":\"USSM11603175\",\"editable\":false,\"explicit\":false,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"},\"artists\":[{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"}],\"album\":{\"id\":108043414,\"title\":\"Lemonade\",\"cover\":\"e85770cd-4d4a-4651-815b-a1ce6cc6aaa8\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":\"07942bd5-bddc-4301-95bf-dc4cd2c593fa\"},\"mixes\":{\"MASTER_TRACK_MIX\":\"014b5b8d97997efa0cfda17fdc9056\",\"TRACK_MIX\":\"001efeaba2363e73f5fe0276ea8434\"}},\"type\":\"track\"},{\"item\":{\"id\":108043416,\"title\":\"Hold
+        Up\",\"duration\":221,\"replayGain\":-8.69,\"peak\":0.99884,\"allowStreaming\":true,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2019-04-23T05:00:00.000+0000\",\"premiumStreamingOnly\":false,\"trackNumber\":2,\"volumeNumber\":1,\"version\":null,\"popularity\":16,\"copyright\":\"(P)
+        2016 Parkwood Entertainment LLC, under exclusive license to Columbia Records,
+        a Division of Sony Music Entertainment\",\"url\":\"http://www.tidal.com/track/108043416\",\"isrc\":\"USSM11603176\",\"editable\":false,\"explicit\":true,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"},\"artists\":[{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"}],\"album\":{\"id\":108043414,\"title\":\"Lemonade\",\"cover\":\"e85770cd-4d4a-4651-815b-a1ce6cc6aaa8\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":\"07942bd5-bddc-4301-95bf-dc4cd2c593fa\"},\"mixes\":{\"MASTER_TRACK_MIX\":\"014ddb241d7ff62ba7ef1ef1ea736f\",\"TRACK_MIX\":\"001ad9f74cb11de3bbb7ac6d2cc336\"}},\"type\":\"track\"},{\"item\":{\"id\":108043417,\"title\":\"Don't
+        Hurt Yourself (feat. Jack White)\",\"duration\":234,\"replayGain\":-8.69,\"peak\":0.99884,\"allowStreaming\":true,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2019-04-23T05:00:00.000+0000\",\"premiumStreamingOnly\":false,\"trackNumber\":3,\"volumeNumber\":1,\"version\":null,\"popularity\":16,\"copyright\":\"(P)
+        2016 Parkwood Entertainment LLC, under exclusive license to Columbia Records,
+        a Division of Sony Music Entertainment\",\"url\":\"http://www.tidal.com/track/108043417\",\"isrc\":\"USSM11603177\",\"editable\":false,\"explicit\":true,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"},\"artists\":[{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"},{\"id\":3523905,\"name\":\"Jack
+        White\",\"type\":\"FEATURED\",\"picture\":\"a209a9ce-52bb-474a-942e-8174a5e2dbcd\"}],\"album\":{\"id\":108043414,\"title\":\"Lemonade\",\"cover\":\"e85770cd-4d4a-4651-815b-a1ce6cc6aaa8\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":\"07942bd5-bddc-4301-95bf-dc4cd2c593fa\"},\"mixes\":{\"MASTER_TRACK_MIX\":\"014ab66bb3682258f85896331cbbe5\",\"TRACK_MIX\":\"0018440ebe3a47fc31434dfa923104\"}},\"type\":\"track\"},{\"item\":{\"id\":108043426,\"title\":\"Sorry\",\"duration\":233,\"replayGain\":-8.69,\"peak\":0.99884,\"allowStreaming\":true,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2019-04-23T05:00:00.000+0000\",\"premiumStreamingOnly\":false,\"trackNumber\":4,\"volumeNumber\":1,\"version\":null,\"popularity\":17,\"copyright\":\"(P)
+        2016 Parkwood Entertainment LLC, under exclusive license to Columbia Records,
+        a Division of Sony Music Entertainment\",\"url\":\"http://www.tidal.com/track/108043426\",\"isrc\":\"USSM11603178\",\"editable\":false,\"explicit\":true,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"},\"artists\":[{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"}],\"album\":{\"id\":108043414,\"title\":\"Lemonade\",\"cover\":\"e85770cd-4d4a-4651-815b-a1ce6cc6aaa8\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":\"07942bd5-bddc-4301-95bf-dc4cd2c593fa\"},\"mixes\":{\"MASTER_TRACK_MIX\":\"01447ccb95b4b4442139ff081a6f29\",\"TRACK_MIX\":\"0016c75d672316bb2cc07d7bf543db\"}},\"type\":\"track\"},{\"item\":{\"id\":108043427,\"title\":\"6
+        Inch (feat. The Weeknd)\",\"duration\":260,\"replayGain\":-8.69,\"peak\":0.998749,\"allowStreaming\":true,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2019-04-23T05:00:00.000+0000\",\"premiumStreamingOnly\":false,\"trackNumber\":5,\"volumeNumber\":1,\"version\":null,\"popularity\":15,\"copyright\":\"(P)
+        2016 Parkwood Entertainment LLC, under exclusive license to Columbia Records,
+        a Division of Sony Music Entertainment\",\"url\":\"http://www.tidal.com/track/108043427\",\"isrc\":\"USSM11603179\",\"editable\":false,\"explicit\":true,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"},\"artists\":[{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"},{\"id\":4761957,\"name\":\"The
+        Weeknd\",\"type\":\"FEATURED\",\"picture\":\"200c3e82-b3b2-4965-8e19-ac6a1d7e667b\"}],\"album\":{\"id\":108043414,\"title\":\"Lemonade\",\"cover\":\"e85770cd-4d4a-4651-815b-a1ce6cc6aaa8\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":\"07942bd5-bddc-4301-95bf-dc4cd2c593fa\"},\"mixes\":{\"MASTER_TRACK_MIX\":\"014dfa179eacec20fcacde60fd45fe\",\"TRACK_MIX\":\"001dcedda50729a620af7e0328e194\"}},\"type\":\"track\"},{\"item\":{\"id\":108043428,\"title\":\"Daddy
+        Lessons\",\"duration\":288,\"replayGain\":-8.69,\"peak\":0.99884,\"allowStreaming\":true,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2019-04-23T05:00:00.000+0000\",\"premiumStreamingOnly\":false,\"trackNumber\":6,\"volumeNumber\":1,\"version\":null,\"popularity\":13,\"copyright\":\"(P)
+        2016 Parkwood Entertainment LLC, under exclusive license to Columbia Records,
+        a Division of Sony Music Entertainment\",\"url\":\"http://www.tidal.com/track/108043428\",\"isrc\":\"USSM11603180\",\"editable\":false,\"explicit\":false,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"},\"artists\":[{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"}],\"album\":{\"id\":108043414,\"title\":\"Lemonade\",\"cover\":\"e85770cd-4d4a-4651-815b-a1ce6cc6aaa8\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":\"07942bd5-bddc-4301-95bf-dc4cd2c593fa\"},\"mixes\":{\"MASTER_TRACK_MIX\":\"0147386800b09c7d1a44ce328aed5b\",\"TRACK_MIX\":\"001df9d923ca672ab13545f8e2eb1f\"}},\"type\":\"track\"},{\"item\":{\"id\":108043429,\"title\":\"Love
+        Drought\",\"duration\":237,\"replayGain\":-8.69,\"peak\":0.997345,\"allowStreaming\":true,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2019-04-23T05:00:00.000+0000\",\"premiumStreamingOnly\":false,\"trackNumber\":7,\"volumeNumber\":1,\"version\":null,\"popularity\":13,\"copyright\":\"(P)
+        2016 Parkwood Entertainment LLC, under exclusive license to Columbia Records,
+        a Division of Sony Music Entertainment\",\"url\":\"http://www.tidal.com/track/108043429\",\"isrc\":\"USSM11603181\",\"editable\":false,\"explicit\":false,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"},\"artists\":[{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"}],\"album\":{\"id\":108043414,\"title\":\"Lemonade\",\"cover\":\"e85770cd-4d4a-4651-815b-a1ce6cc6aaa8\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":\"07942bd5-bddc-4301-95bf-dc4cd2c593fa\"},\"mixes\":{\"MASTER_TRACK_MIX\":\"014f62d36b7281e30c428289ba1fba\",\"TRACK_MIX\":\"0018960c9d4c60e7a71e60410d50af\"}},\"type\":\"track\"},{\"item\":{\"id\":108043430,\"title\":\"Sandcastles\",\"duration\":183,\"replayGain\":-8.69,\"peak\":0.923218,\"allowStreaming\":true,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2019-04-23T05:00:00.000+0000\",\"premiumStreamingOnly\":false,\"trackNumber\":8,\"volumeNumber\":1,\"version\":null,\"popularity\":12,\"copyright\":\"(P)
+        2016 Parkwood Entertainment LLC, under exclusive license to Columbia Records,
+        a Division of Sony Music Entertainment\",\"url\":\"http://www.tidal.com/track/108043430\",\"isrc\":\"USSM11603182\",\"editable\":false,\"explicit\":true,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"},\"artists\":[{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"}],\"album\":{\"id\":108043414,\"title\":\"Lemonade\",\"cover\":\"e85770cd-4d4a-4651-815b-a1ce6cc6aaa8\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":\"07942bd5-bddc-4301-95bf-dc4cd2c593fa\"},\"mixes\":{\"MASTER_TRACK_MIX\":\"014620f392c2d7680317b5ef3ca3f8\",\"TRACK_MIX\":\"0010b402f97090e03c56a5b94ef5cb\"}},\"type\":\"track\"},{\"item\":{\"id\":108043431,\"title\":\"Forward
+        (feat. James Blake)\",\"duration\":79,\"replayGain\":-8.69,\"peak\":0.947418,\"allowStreaming\":true,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2019-04-23T05:00:00.000+0000\",\"premiumStreamingOnly\":false,\"trackNumber\":9,\"volumeNumber\":1,\"version\":null,\"popularity\":10,\"copyright\":\"(P)
+        2016 Parkwood Entertainment LLC, under exclusive license to Columbia Records,
+        a Division of Sony Music Entertainment\",\"url\":\"http://www.tidal.com/track/108043431\",\"isrc\":\"USSM11603183\",\"editable\":false,\"explicit\":false,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"},\"artists\":[{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"},{\"id\":3801573,\"name\":\"James
+        Blake\",\"type\":\"FEATURED\",\"picture\":\"bdac081b-5ea2-44d3-92ce-a340da44cc41\"}],\"album\":{\"id\":108043414,\"title\":\"Lemonade\",\"cover\":\"e85770cd-4d4a-4651-815b-a1ce6cc6aaa8\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":\"07942bd5-bddc-4301-95bf-dc4cd2c593fa\"},\"mixes\":{\"MASTER_TRACK_MIX\":\"014a67db78e930a78e3f7f375eca8a\",\"TRACK_MIX\":\"0016ce434ad2a026c0a54aa91615a5\"}},\"type\":\"track\"},{\"item\":{\"id\":108043432,\"title\":\"Freedom
+        (feat. Kendrick Lamar)\",\"duration\":290,\"replayGain\":-8.69,\"peak\":0.997375,\"allowStreaming\":true,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2019-04-23T05:00:00.000+0000\",\"premiumStreamingOnly\":false,\"trackNumber\":10,\"volumeNumber\":1,\"version\":null,\"popularity\":12,\"copyright\":\"(P)
+        2016 Parkwood Entertainment LLC, under exclusive license to Columbia Records,
+        a Division of Sony Music Entertainment\",\"url\":\"http://www.tidal.com/track/108043432\",\"isrc\":\"USSM11603184\",\"editable\":false,\"explicit\":false,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"},\"artists\":[{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"},{\"id\":3816041,\"name\":\"Kendrick
+        Lamar\",\"type\":\"FEATURED\",\"picture\":\"f081ffab-8fba-4989-9043-9823518b6db3\"}],\"album\":{\"id\":108043414,\"title\":\"Lemonade\",\"cover\":\"e85770cd-4d4a-4651-815b-a1ce6cc6aaa8\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":\"07942bd5-bddc-4301-95bf-dc4cd2c593fa\"},\"mixes\":{\"MASTER_TRACK_MIX\":\"0141a370b4848cc03119bbadc7232e\",\"TRACK_MIX\":\"0012d2612f85bf91d806d1a49e5600\"}},\"type\":\"track\"},{\"item\":{\"id\":108043433,\"title\":\"All
+        Night\",\"duration\":322,\"replayGain\":-8.69,\"peak\":0.99884,\"allowStreaming\":true,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2019-04-23T05:00:00.000+0000\",\"premiumStreamingOnly\":false,\"trackNumber\":11,\"volumeNumber\":1,\"version\":null,\"popularity\":14,\"copyright\":\"(P)
+        2016 Parkwood Entertainment LLC, under exclusive license to Columbia Records,
+        a Division of Sony Music Entertainment\",\"url\":\"http://www.tidal.com/track/108043433\",\"isrc\":\"USSM11603185\",\"editable\":false,\"explicit\":false,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"},\"artists\":[{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"}],\"album\":{\"id\":108043414,\"title\":\"Lemonade\",\"cover\":\"e85770cd-4d4a-4651-815b-a1ce6cc6aaa8\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":\"07942bd5-bddc-4301-95bf-dc4cd2c593fa\"},\"mixes\":{\"MASTER_TRACK_MIX\":\"0145d9c5946c32b8ba1ba96e38735a\",\"TRACK_MIX\":\"00115fb6f173ad319712f876ea97f4\"}},\"type\":\"track\"},{\"item\":{\"id\":108043434,\"title\":\"Formation\",\"duration\":206,\"replayGain\":-8.69,\"peak\":0.988159,\"allowStreaming\":true,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2019-04-23T05:00:00.000+0000\",\"premiumStreamingOnly\":false,\"trackNumber\":12,\"volumeNumber\":1,\"version\":null,\"popularity\":14,\"copyright\":\"(P)
+        2016 Parkwood Entertainment LLC, under exclusive license to Columbia Records,
+        a Division of Sony Music Entertainment\",\"url\":\"http://www.tidal.com/track/108043434\",\"isrc\":\"USSM11603186\",\"editable\":false,\"explicit\":true,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"},\"artists\":[{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"}],\"album\":{\"id\":108043414,\"title\":\"Lemonade\",\"cover\":\"e85770cd-4d4a-4651-815b-a1ce6cc6aaa8\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":\"07942bd5-bddc-4301-95bf-dc4cd2c593fa\"},\"mixes\":{\"MASTER_TRACK_MIX\":\"014d31aaa63363e50ce3d34b07885f\",\"TRACK_MIX\":\"0015638ad7e4f5ab024a13a2e0d284\"}},\"type\":\"track\"},{\"item\":{\"id\":108043435,\"title\":\"Sorry
+        (Original Demo)\",\"duration\":204,\"replayGain\":-8.69,\"peak\":0.997345,\"allowStreaming\":true,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2019-04-23T05:00:00.000+0000\",\"premiumStreamingOnly\":false,\"trackNumber\":13,\"volumeNumber\":1,\"version\":null,\"popularity\":26,\"copyright\":\"(P)
+        2019 Parkwood Entertainment LLC, under exclusive license to Columbia Records,
+        a Division of Sony Music Entertainment\",\"url\":\"http://www.tidal.com/track/108043435\",\"isrc\":\"USSM11902968\",\"editable\":false,\"explicit\":true,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"},\"artists\":[{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"}],\"album\":{\"id\":108043414,\"title\":\"Lemonade\",\"cover\":\"e85770cd-4d4a-4651-815b-a1ce6cc6aaa8\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":\"07942bd5-bddc-4301-95bf-dc4cd2c593fa\"},\"mixes\":{\"MASTER_TRACK_MIX\":\"014961a8531830a43a6e8034e09a05\",\"TRACK_MIX\":\"0017eedebd52d6ab5f1fff3a4f67c5\"}},\"type\":\"track\"},{\"item\":{\"id\":108043436,\"title\":\"Formation
+        (Choreography Version)\",\"volumeNumber\":1,\"trackNumber\":14,\"releaseDate\":\"2019-04-22T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"6991045a-a992-42f9-b613-5d10c3e76c50\",\"vibrantColor\":\"#b7c8df\",\"duration\":261,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2019-04-23T05:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":true,\"popularity\":43,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artist\":{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"},\"artists\":[{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"}],\"album\":{\"id\":108043414,\"title\":\"Lemonade\",\"cover\":\"e85770cd-4d4a-4651-815b-a1ce6cc6aaa8\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":\"07942bd5-bddc-4301-95bf-dc4cd2c593fa\"}},\"type\":\"video\"},{\"item\":{\"id\":108043437,\"title\":\"Lemonade
+        Film\",\"volumeNumber\":1,\"trackNumber\":15,\"releaseDate\":\"2019-04-22T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"7e8aa773-b5de-4460-84cf-f72c18eb23c7\",\"vibrantColor\":\"#FFFFFF\",\"duration\":3951,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2019-04-23T05:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":true,\"popularity\":45,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artist\":{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"},\"artists\":[{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"}],\"album\":{\"id\":108043414,\"title\":\"Lemonade\",\"cover\":\"e85770cd-4d4a-4651-815b-a1ce6cc6aaa8\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":\"07942bd5-bddc-4301-95bf-dc4cd2c593fa\"}},\"type\":\"video\"}]}"
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:15 GMT
+      ETag:
+      - '"259590211"'
+      Server:
+      - noyb
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 f1f7e88380a0546160e4e023c7c1d332.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - __ZB426NLL4Mp68I9ATr_MA8yn7wVve9-ccbc_-bB0Ca5EPebDmTVw==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

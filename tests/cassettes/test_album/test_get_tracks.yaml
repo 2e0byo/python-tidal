@@ -1,0 +1,144 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/albums/17927863?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":17927863,"title":"Some Things (Deluxe)","duration":6712,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-10-01T00:00:00.000+0000","allowStreaming":true,"premiumStreamingOnly":false,"numberOfTracks":22,"numberOfVideos":0,"numberOfVolumes":2,"releaseDate":"2011-09-22","copyright":"Sinuz
+        Recordings (a division of HITT bv)","type":"ALBUM","version":"Deluxe","url":"http://www.tidal.com/album/17927863","cover":"30d83a8c-1db6-439d-84b4-dbfb6f03c44c","vibrantColor":"#FFFFFF","videoCover":null,"explicit":false,"upc":"3610151683488","popularity":32,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}]}'
+    headers:
+      Age:
+      - '1'
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '866'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:13 GMT
+      ETag:
+      - '"-460922226"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 0d54c3ddc4e7347d45d33a921b50661e.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - pRAmrnwHNbvduJW_fuiljQlYa4qVEll0sqAgwSFxmRsg242mMC7_eQ==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Hit from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/albums/17927863/tracks?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000&offset=0
+  response:
+    body:
+      string: '{"limit":1000,"offset":0,"totalNumberOfItems":22,"items":[{"id":17927864,"title":"Intro","duration":110,"replayGain":-10.32,"peak":0.702148,"allowStreaming":true,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-10-01T00:00:00.000+0000","premiumStreamingOnly":false,"trackNumber":1,"volumeNumber":1,"version":null,"popularity":1,"copyright":"Sinuz
+        Recordings (a division of HITT bv)","url":"http://www.tidal.com/track/17927864","isrc":"BEZ460100121","editable":false,"explicit":false,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}],"album":{"id":17927863,"title":"Some
+        Things (Deluxe)","cover":"30d83a8c-1db6-439d-84b4-dbfb6f03c44c","vibrantColor":"#FFFFFF","videoCover":null},"mixes":{"TRACK_MIX":"001ef6feb6a48c524fabf954a24dbb"}},{"id":17927865,"title":"Something","duration":221,"replayGain":-10.32,"peak":0.999969,"allowStreaming":true,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-10-01T00:00:00.000+0000","premiumStreamingOnly":false,"trackNumber":2,"volumeNumber":1,"version":null,"popularity":27,"copyright":"Sinuz
+        Recordings (a division of HITT bv)","url":"http://www.tidal.com/track/17927865","isrc":"BEZ460100055","editable":false,"explicit":false,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}],"album":{"id":17927863,"title":"Some
+        Things (Deluxe)","cover":"30d83a8c-1db6-439d-84b4-dbfb6f03c44c","vibrantColor":"#FFFFFF","videoCover":null},"mixes":{"TRACK_MIX":"0017a431c5210db5523ea75a5e69f1"}},{"id":17927866,"title":"Blue","duration":247,"replayGain":-10.32,"peak":0.999969,"allowStreaming":true,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-10-01T00:00:00.000+0000","premiumStreamingOnly":false,"trackNumber":3,"volumeNumber":1,"version":null,"popularity":1,"copyright":"Sinuz
+        Recordings (a division of HITT bv)","url":"http://www.tidal.com/track/17927866","isrc":"BEZ460100123","editable":false,"explicit":false,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}],"album":{"id":17927863,"title":"Some
+        Things (Deluxe)","cover":"30d83a8c-1db6-439d-84b4-dbfb6f03c44c","vibrantColor":"#FFFFFF","videoCover":null},"mixes":{"TRACK_MIX":"001adf65b92b1ddba1231fa4b060cf"}},{"id":17927867,"title":"Alone","duration":241,"replayGain":-10.32,"peak":0.999969,"allowStreaming":true,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-10-01T00:00:00.000+0000","premiumStreamingOnly":false,"trackNumber":4,"volumeNumber":1,"version":null,"popularity":13,"copyright":"Sinuz
+        Recordings (a division of HITT bv)","url":"http://www.tidal.com/track/17927867","isrc":"BEZ460100116","editable":false,"explicit":false,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}],"album":{"id":17927863,"title":"Some
+        Things (Deluxe)","cover":"30d83a8c-1db6-439d-84b4-dbfb6f03c44c","vibrantColor":"#FFFFFF","videoCover":null},"mixes":{"TRACK_MIX":"0011f4c82ab7d8b195edffe7249d22"}},{"id":17927868,"title":"Searching","duration":221,"replayGain":-10.32,"peak":0.999969,"allowStreaming":true,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-10-01T00:00:00.000+0000","premiumStreamingOnly":false,"trackNumber":5,"volumeNumber":1,"version":null,"popularity":2,"copyright":"Sinuz
+        Recordings (a division of HITT bv)","url":"http://www.tidal.com/track/17927868","isrc":"BEZ460200065","editable":false,"explicit":false,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}],"album":{"id":17927863,"title":"Some
+        Things (Deluxe)","cover":"30d83a8c-1db6-439d-84b4-dbfb6f03c44c","vibrantColor":"#FFFFFF","videoCover":null},"mixes":{"TRACK_MIX":"001be138efde44989695990f976b8f"}},{"id":17927869,"title":"I
+        Wonder","duration":221,"replayGain":-10.32,"peak":0.999969,"allowStreaming":true,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-10-01T00:00:00.000+0000","premiumStreamingOnly":false,"trackNumber":6,"volumeNumber":1,"version":null,"popularity":3,"copyright":"Sinuz
+        Recordings (a division of HITT bv)","url":"http://www.tidal.com/track/17927869","isrc":"BEZ460200066","editable":false,"explicit":false,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}],"album":{"id":17927863,"title":"Some
+        Things (Deluxe)","cover":"30d83a8c-1db6-439d-84b4-dbfb6f03c44c","vibrantColor":"#FFFFFF","videoCover":null},"mixes":{"TRACK_MIX":"001d95d52305c4439e82a486848087"}},{"id":17927870,"title":"Follow
+        You","duration":215,"replayGain":-10.32,"peak":1.0,"allowStreaming":true,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-10-01T00:00:00.000+0000","premiumStreamingOnly":false,"trackNumber":7,"volumeNumber":1,"version":null,"popularity":2,"copyright":"Sinuz
+        Recordings (a division of HITT bv)","url":"http://www.tidal.com/track/17927870","isrc":"BEZ460100125","editable":false,"explicit":false,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}],"album":{"id":17927863,"title":"Some
+        Things (Deluxe)","cover":"30d83a8c-1db6-439d-84b4-dbfb6f03c44c","vibrantColor":"#FFFFFF","videoCover":null},"mixes":{"TRACK_MIX":"0015a5610521b5419bfd03b1346fb3"}},{"id":17927871,"title":"Cry","duration":233,"replayGain":-10.32,"peak":0.999969,"allowStreaming":true,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-10-01T00:00:00.000+0000","premiumStreamingOnly":false,"trackNumber":8,"volumeNumber":1,"version":null,"popularity":1,"copyright":"Sinuz
+        Recordings (a division of HITT bv)","url":"http://www.tidal.com/track/17927871","isrc":"BEZ460100127","editable":false,"explicit":false,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}],"album":{"id":17927863,"title":"Some
+        Things (Deluxe)","cover":"30d83a8c-1db6-439d-84b4-dbfb6f03c44c","vibrantColor":"#FFFFFF","videoCover":null},"mixes":{"TRACK_MIX":"00170c1b4a3d493655a2abf93ac4da"}},{"id":17927872,"title":"Pray","duration":208,"replayGain":-10.32,"peak":0.980042,"allowStreaming":true,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-10-01T00:00:00.000+0000","premiumStreamingOnly":false,"trackNumber":9,"volumeNumber":1,"version":null,"popularity":5,"copyright":"Sinuz
+        Recordings (a division of HITT bv)","url":"http://www.tidal.com/track/17927872","isrc":"BEZ460100128","editable":false,"explicit":false,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}],"album":{"id":17927863,"title":"Some
+        Things (Deluxe)","cover":"30d83a8c-1db6-439d-84b4-dbfb6f03c44c","vibrantColor":"#FFFFFF","videoCover":null},"mixes":{"TRACK_MIX":"001e2709aa650e58de3f3136b60bbd"}},{"id":17927873,"title":"You","duration":274,"replayGain":-10.32,"peak":0.999969,"allowStreaming":true,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-10-01T00:00:00.000+0000","premiumStreamingOnly":false,"trackNumber":10,"volumeNumber":1,"version":null,"popularity":1,"copyright":"Sinuz
+        Recordings (a division of HITT bv)","url":"http://www.tidal.com/track/17927873","isrc":"BEZ460200067","editable":false,"explicit":false,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}],"album":{"id":17927863,"title":"Some
+        Things (Deluxe)","cover":"30d83a8c-1db6-439d-84b4-dbfb6f03c44c","vibrantColor":"#FFFFFF","videoCover":null},"mixes":{"TRACK_MIX":"001d49988c71e81281393438cdb460"}},{"id":17927874,"title":"Heaven","duration":228,"replayGain":-10.32,"peak":0.999969,"allowStreaming":true,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-10-01T00:00:00.000+0000","premiumStreamingOnly":false,"trackNumber":11,"volumeNumber":1,"version":null,"popularity":1,"copyright":"Sinuz
+        Recordings (a division of HITT bv)","url":"http://www.tidal.com/track/17927874","isrc":"BEZ460100122","editable":false,"explicit":false,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}],"album":{"id":17927863,"title":"Some
+        Things (Deluxe)","cover":"30d83a8c-1db6-439d-84b4-dbfb6f03c44c","vibrantColor":"#FFFFFF","videoCover":null},"mixes":{"TRACK_MIX":"001f065701c2912c84ba9e2c845604"}},{"id":17927875,"title":"Don''t
+        Belong 2 U","duration":292,"replayGain":-10.32,"peak":0.990051,"allowStreaming":true,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-10-01T00:00:00.000+0000","premiumStreamingOnly":false,"trackNumber":12,"volumeNumber":1,"version":null,"popularity":1,"copyright":"Sinuz
+        Recordings (a division of HITT bv)","url":"http://www.tidal.com/track/17927875","isrc":"BEZ460100124","editable":false,"explicit":false,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}],"album":{"id":17927863,"title":"Some
+        Things (Deluxe)","cover":"30d83a8c-1db6-439d-84b4-dbfb6f03c44c","vibrantColor":"#FFFFFF","videoCover":null},"mixes":{"TRACK_MIX":"0010a6ef5c9a4dacfcf3449093cf32"}},{"id":17927876,"title":"Cloud
+        Surfers","duration":372,"replayGain":-10.32,"peak":0.999969,"allowStreaming":true,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-10-01T00:00:00.000+0000","premiumStreamingOnly":false,"trackNumber":13,"volumeNumber":1,"version":null,"popularity":1,"copyright":"Sinuz
+        Recordings (a division of HITT bv)","url":"http://www.tidal.com/track/17927876","isrc":"BEZ460100126","editable":false,"explicit":false,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}],"album":{"id":17927863,"title":"Some
+        Things (Deluxe)","cover":"30d83a8c-1db6-439d-84b4-dbfb6f03c44c","vibrantColor":"#FFFFFF","videoCover":null},"mixes":{"TRACK_MIX":"001ba66a7e5b67205f55e5b1b68746"}},{"id":17927877,"title":"Feelings","duration":214,"replayGain":-10.32,"peak":0.999969,"allowStreaming":true,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-10-01T00:00:00.000+0000","premiumStreamingOnly":false,"trackNumber":14,"volumeNumber":1,"version":null,"popularity":1,"copyright":"Sinuz
+        Recordings (a division of HITT bv)","url":"http://www.tidal.com/track/17927877","isrc":"BEZ460100129","editable":false,"explicit":false,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}],"album":{"id":17927863,"title":"Some
+        Things (Deluxe)","cover":"30d83a8c-1db6-439d-84b4-dbfb6f03c44c","vibrantColor":"#FFFFFF","videoCover":null},"mixes":{"TRACK_MIX":"001ca57247e5d88e9c2ac33f1db69a"}},{"id":17927878,"title":"Something","duration":461,"replayGain":-10.32,"peak":0.999939,"allowStreaming":true,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-10-01T00:00:00.000+0000","premiumStreamingOnly":false,"trackNumber":1,"volumeNumber":2,"version":"Peter
+        Luts Remix","popularity":1,"copyright":"Sinuz Recordings (a division of HITT
+        bv)","url":"http://www.tidal.com/track/17927878","isrc":"BEZ460100050","editable":false,"explicit":false,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}],"album":{"id":17927863,"title":"Some
+        Things (Deluxe)","cover":"30d83a8c-1db6-439d-84b4-dbfb6f03c44c","vibrantColor":"#FFFFFF","videoCover":null},"mixes":{"TRACK_MIX":"001e48805b84f9c58f1257d810c0d4"}},{"id":17927879,"title":"Something","duration":411,"replayGain":-10.32,"peak":1.0,"allowStreaming":true,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-10-01T00:00:00.000+0000","premiumStreamingOnly":false,"trackNumber":2,"volumeNumber":2,"version":"Flip
+        & Fill Remix","popularity":1,"copyright":"Sinuz Recordings (a division of
+        HITT bv)","url":"http://www.tidal.com/track/17927879","isrc":"BEZ460100140","editable":false,"explicit":false,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}],"album":{"id":17927863,"title":"Some
+        Things (Deluxe)","cover":"30d83a8c-1db6-439d-84b4-dbfb6f03c44c","vibrantColor":"#FFFFFF","videoCover":null},"mixes":{"TRACK_MIX":"00196c9c59d65d8b4f2a498db37d83"}},{"id":17927880,"title":"Alone","duration":479,"replayGain":-10.32,"peak":0.976807,"allowStreaming":true,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-10-01T00:00:00.000+0000","premiumStreamingOnly":false,"trackNumber":3,"volumeNumber":2,"version":"Ian
+        Van Dahl Remix","popularity":1,"copyright":"Sinuz Recordings (a division of
+        HITT bv)","url":"http://www.tidal.com/track/17927880","isrc":"BEZ460100117","editable":false,"explicit":false,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}],"album":{"id":17927863,"title":"Some
+        Things (Deluxe)","cover":"30d83a8c-1db6-439d-84b4-dbfb6f03c44c","vibrantColor":"#FFFFFF","videoCover":null},"mixes":{"TRACK_MIX":"0016d7728b23092cd27d982d31b755"}},{"id":17927881,"title":"Alone","duration":379,"replayGain":-10.32,"peak":0.988556,"allowStreaming":true,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-10-01T00:00:00.000+0000","premiumStreamingOnly":false,"trackNumber":4,"volumeNumber":2,"version":"DJ
+        Shog Remix","popularity":1,"copyright":"Sinuz Recordings (a division of HITT
+        bv)","url":"http://www.tidal.com/track/17927881","isrc":"BEZ460200053","editable":false,"explicit":false,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}],"album":{"id":17927863,"title":"Some
+        Things (Deluxe)","cover":"30d83a8c-1db6-439d-84b4-dbfb6f03c44c","vibrantColor":"#FFFFFF","videoCover":null},"mixes":{"TRACK_MIX":"00161ecd675165adab4b332a50f15b"}},{"id":17927882,"title":"I
+        Wonder","duration":385,"replayGain":-10.32,"peak":0.999969,"allowStreaming":true,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-10-01T00:00:00.000+0000","premiumStreamingOnly":false,"trackNumber":5,"volumeNumber":2,"version":"Starsplash
+        Remix","popularity":1,"copyright":"Sinuz Recordings (a division of HITT bv)","url":"http://www.tidal.com/track/17927882","isrc":"BEZ460200081","editable":false,"explicit":false,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}],"album":{"id":17927863,"title":"Some
+        Things (Deluxe)","cover":"30d83a8c-1db6-439d-84b4-dbfb6f03c44c","vibrantColor":"#FFFFFF","videoCover":null},"mixes":{"TRACK_MIX":"0012b912b3752719db022bca4fd88a"}},{"id":17927883,"title":"Pray","duration":409,"replayGain":-10.32,"peak":1.0,"allowStreaming":true,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-10-01T00:00:00.000+0000","premiumStreamingOnly":false,"trackNumber":6,"volumeNumber":2,"version":"Peter
+        Luts Remix","popularity":1,"copyright":"Sinuz Recordings (a division of HITT
+        bv)","url":"http://www.tidal.com/track/17927883","isrc":"BEZ460200073","editable":false,"explicit":false,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}],"album":{"id":17927863,"title":"Some
+        Things (Deluxe)","cover":"30d83a8c-1db6-439d-84b4-dbfb6f03c44c","vibrantColor":"#FFFFFF","videoCover":null},"mixes":{"TRACK_MIX":"00173cfa868ef89a567aeefaaa7f0a"}},{"id":17927884,"title":"Pray","duration":443,"replayGain":-10.32,"peak":1.0,"allowStreaming":true,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-10-01T00:00:00.000+0000","premiumStreamingOnly":false,"trackNumber":7,"volumeNumber":2,"version":"Dave
+        McCullen Remix","popularity":1,"copyright":"Sinuz Recordings (a division of
+        HITT bv)","url":"http://www.tidal.com/track/17927884","isrc":"BEZ460200074","editable":false,"explicit":false,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}],"album":{"id":17927863,"title":"Some
+        Things (Deluxe)","cover":"30d83a8c-1db6-439d-84b4-dbfb6f03c44c","vibrantColor":"#FFFFFF","videoCover":null},"mixes":{"TRACK_MIX":"0016a3fbff59f0c04f261e08879a15"}},{"id":17927885,"title":"Pray","duration":448,"replayGain":-10.32,"peak":1.0,"allowStreaming":true,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-10-01T00:00:00.000+0000","premiumStreamingOnly":false,"trackNumber":8,"volumeNumber":2,"version":"Driftwood
+        Remix","popularity":1,"copyright":"Sinuz Recordings (a division of HITT bv)","url":"http://www.tidal.com/track/17927885","isrc":"BEZ460200075","editable":false,"explicit":false,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}],"album":{"id":17927863,"title":"Some
+        Things (Deluxe)","cover":"30d83a8c-1db6-439d-84b4-dbfb6f03c44c","vibrantColor":"#FFFFFF","videoCover":null},"mixes":{"TRACK_MIX":"0012c5702649946b8c71b0229e3bab"}}]}'
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:14 GMT
+      ETag:
+      - '"-240182217"'
+      Server:
+      - noyb
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 76991fdca074ecae847653e013587ff8.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - p01yY6LmebBosoZgoB24hcDL-HpDhRwiCOBcXTMIRxM2ZcuXKnrT6w==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

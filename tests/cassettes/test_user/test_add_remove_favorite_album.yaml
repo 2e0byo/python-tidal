@@ -1,0 +1,74 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/users/184964830/favorites/albums?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000&offset=0
+  response:
+    body:
+      string: "{\"limit\":1000,\"offset\":0,\"totalNumberOfItems\":8,\"items\":[{\"created\":\"2022-06-30T16:37:55.454+0000\",\"item\":{\"id\":20987655,\"title\":\"Best
+        of Gianni Morandi\",\"duration\":7558,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2013-07-15T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":38,\"numberOfVideos\":0,\"numberOfVolumes\":3,\"releaseDate\":\"2013-07-15\",\"copyright\":\"This
+        Product (P) 2013 Sony Music Entertainment Italy S.p.A.\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/20987655\",\"cover\":\"3c8a017b-8409-4a53-b29a-35c80444b440\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":null,\"explicit\":false,\"upc\":\"886444063630\",\"popularity\":7,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":1662,\"name\":\"Gianni
+        Morandi\",\"type\":\"MAIN\",\"picture\":\"7c8e8fc3-5397-4231-ba44-632c21687aac\"},\"artists\":[{\"id\":1662,\"name\":\"Gianni
+        Morandi\",\"type\":\"MAIN\",\"picture\":\"7c8e8fc3-5397-4231-ba44-632c21687aac\"}]}},{\"created\":\"2023-07-07T20:47:22.803+0000\",\"item\":{\"id\":32961852,\"title\":\"I'm
+        an Albatraoz\",\"duration\":167,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2015-04-26T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":1,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2014-01-01\",\"copyright\":\"(P)
+        2014 Aron Ekberg under exclusive license to Sony Music Entertainment Sweden
+        AB\",\"type\":\"SINGLE\",\"version\":null,\"url\":\"http://www.tidal.com/album/32961852\",\"cover\":\"f0e319f5-2b46-42b0-a0e5-30b9ed907f61\",\"vibrantColor\":\"#c27a70\",\"videoCover\":null,\"explicit\":true,\"upc\":\"886444784269\",\"popularity\":0,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":5247488,\"name\":\"AronChupa\",\"type\":\"MAIN\",\"picture\":\"1e522f1d-843b-42f7-8e6f-2d2de1774ac8\"},\"artists\":[{\"id\":5247488,\"name\":\"AronChupa\",\"type\":\"MAIN\",\"picture\":\"1e522f1d-843b-42f7-8e6f-2d2de1774ac8\"},{\"id\":7621395,\"name\":\"Little
+        Sis Nora\",\"type\":\"MAIN\",\"picture\":\"475f5c40-169c-4420-aa45-ac35228bb60d\"}]}},{\"created\":\"2022-01-24T20:21:47.929+0000\",\"item\":{\"id\":62994519,\"title\":\"Les
+        r\xE9citals\",\"duration\":16542,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2016-07-13T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":126,\"numberOfVideos\":0,\"numberOfVolumes\":4,\"releaseDate\":\"2016-07-13\",\"copyright\":\"EPM\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/62994519\",\"cover\":\"968fc7d4-05a8-4fde-9ed9-8bf418c48e89\",\"vibrantColor\":\"#dc5067\",\"videoCover\":null,\"explicit\":false,\"upc\":\"3540139869231\",\"popularity\":0,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":3566286,\"name\":\"Jacques
+        Douai\",\"type\":\"MAIN\",\"picture\":null},\"artists\":[{\"id\":3566286,\"name\":\"Jacques
+        Douai\",\"type\":\"MAIN\",\"picture\":null}]}},{\"created\":\"2022-02-11T18:03:51.091+0000\",\"item\":{\"id\":16449796,\"title\":\"Living-Room\",\"duration\":2754,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2019-06-24T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":12,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2000-11-21\",\"copyright\":\"\xA9
+        1999 Polydor (France)\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/16449796\",\"cover\":\"33e503eb-c69c-4a30-9a10-50518a3c8904\",\"vibrantColor\":\"#ead9b1\",\"videoCover\":null,\"explicit\":false,\"upc\":\"00731454798624\",\"popularity\":2,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":30238,\"name\":\"Paris
+        Combo\",\"type\":\"MAIN\",\"picture\":\"18b99f6d-ef4a-4e25-a6ad-4f2ea3f1ee5a\"},\"artists\":[{\"id\":30238,\"name\":\"Paris
+        Combo\",\"type\":\"MAIN\",\"picture\":\"18b99f6d-ef4a-4e25-a6ad-4f2ea3f1ee5a\"}]}},{\"created\":\"2022-02-11T13:29:49.235+0000\",\"item\":{\"id\":141181776,\"title\":\"Love
+        Songs\",\"duration\":3574,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2020-05-14T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":15,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"1998-08-04\",\"copyright\":\"(C)
+        1996 P.E.M. under exclusive license to Sony Music Entertainment UK Limited.\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/141181776\",\"cover\":\"7459163f-af04-4b9e-add1-82bbfa9bcb81\",\"vibrantColor\":\"#d7c48e\",\"videoCover\":null,\"explicit\":false,\"upc\":\"886448445616\",\"popularity\":3,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":2828,\"name\":\"Gipsy
+        Kings\",\"type\":\"MAIN\",\"picture\":\"df02513e-3e25-4309-a04e-74a1d2320bf7\"},\"artists\":[{\"id\":2828,\"name\":\"Gipsy
+        Kings\",\"type\":\"MAIN\",\"picture\":\"df02513e-3e25-4309-a04e-74a1d2320bf7\"}]}},{\"created\":\"2022-02-11T18:03:25.631+0000\",\"item\":{\"id\":162160709,\"title\":\"Po\xE9sie
+        : Fran\xE7ois Villon par Serge Reggiani\",\"duration\":989,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2017-01-01T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":7,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2017-01-01\",\"copyright\":\"Compagnie
+        du Savoir\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/162160709\",\"cover\":\"7029f6ed-ecce-4ede-ad42-c2591a8ed35e\",\"vibrantColor\":\"#aae39d\",\"videoCover\":null,\"explicit\":false,\"upc\":\"4064066767303\",\"popularity\":0,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":9877020,\"name\":\"Fran\xE7ois
+        Villon\",\"type\":\"MAIN\",\"picture\":null},\"artists\":[{\"id\":9877020,\"name\":\"Fran\xE7ois
+        Villon\",\"type\":\"MAIN\",\"picture\":null}]}},{\"created\":\"2022-04-02T11:24:36.540+0000\",\"item\":{\"id\":141182873,\"title\":\"The
+        Essential Gipsy Kings\",\"duration\":9887,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2020-05-14T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":42,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"1999-01-01\",\"copyright\":\"(P)
+        2020 Sony Music Entertainment (UK) Limited\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/141182873\",\"cover\":\"33c5204c-c709-4b61-8e6e-6494a193c7af\",\"vibrantColor\":\"#ed8925\",\"videoCover\":null,\"explicit\":false,\"upc\":\"886448445982\",\"popularity\":25,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":2828,\"name\":\"Gipsy
+        Kings\",\"type\":\"MAIN\",\"picture\":\"df02513e-3e25-4309-a04e-74a1d2320bf7\"},\"artists\":[{\"id\":2828,\"name\":\"Gipsy
+        Kings\",\"type\":\"MAIN\",\"picture\":\"df02513e-3e25-4309-a04e-74a1d2320bf7\"}]}},{\"created\":\"2022-02-02T14:10:41.655+0000\",\"item\":{\"id\":10716260,\"title\":\"The
+        French Song / Chronique De La Chanson Fran\xE7aise [1960], Volume 37\",\"duration\":4197,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2011-11-16T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":24,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2011-11-16\",\"copyright\":\"2011
+        Black Round Records\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/10716260\",\"cover\":\"2b3359f6-98bf-46ff-b605-417d3d462cd1\",\"vibrantColor\":\"#cc7373\",\"videoCover\":null,\"explicit\":false,\"upc\":\"5204833036914\",\"popularity\":1,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":2935,\"name\":\"Various
+        Artists\",\"type\":\"MAIN\",\"picture\":null},\"artists\":[{\"id\":2935,\"name\":\"Various
+        Artists\",\"type\":\"MAIN\",\"picture\":null}]}}]}"
+    headers:
+      Cache-Control:
+      - no-cache
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '7463'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:57:19 GMT
+      ETag:
+      - '"1688762842797"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 3180232852f42d0e8ed2a6999ef03c92.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - HLeg2wJ_ZtjiP02jahDToFzLE_miJs3pTSKy5R4tafTFfzUER6siHw==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

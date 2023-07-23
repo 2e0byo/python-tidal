@@ -1,0 +1,239 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/artists/4822757?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":4822757,"name":"Syn Cole","artistTypes":["ARTIST","CONTRIBUTOR"],"url":"http://www.tidal.com/artist/4822757","picture":"31e0effb-3636-40cb-bdbe-4c2def1bf6f0","popularity":33,"artistRoles":[{"categoryId":-1,"category":"Artist"},{"categoryId":3,"category":"Engineer"},{"categoryId":10,"category":"Production
+        team"},{"categoryId":1,"category":"Producer"},{"categoryId":2,"category":"Songwriter"},{"categoryId":11,"category":"Performer"}],"mixes":{"MASTER_ARTIST_MIX":"0151865d65acad7501b303aceb4aa0","ARTIST_MIX":"0005d1f1cac36eb244205189aa2bf7"}}'
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '550'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:42 GMT
+      Server:
+      - noyb
+      Via:
+      - 1.1 996a6dcadb486dbb9da5040a9ab13af2.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - VWjCOkNAvcsKt9PYN3Eb6P9OFnSM5oYDyezjuV8vuX5ll1oDrU7m7Q==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/videos/131869431?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":131869431,"title":"Mind Blown","volumeNumber":0,"trackNumber":0,"releaseDate":"2020-02-25T00:00:00.000+0000","imagePath":null,"imageId":"9ea24d4d-d4da-4167-9cbe-8d2b111ce076","vibrantColor":"#60bacd","duration":163,"quality":"MP4_1080P","streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2020-02-25T18:00:00.000+0000","allowStreaming":true,"explicit":true,"popularity":1,"type":"Music
+        Video","adsUrl":null,"adsPrePaywallOnly":true,"artist":{"id":4822757,"name":"Syn
+        Cole","type":"MAIN","picture":"31e0effb-3636-40cb-bdbe-4c2def1bf6f0"},"artists":[{"id":4822757,"name":"Syn
+        Cole","type":"MAIN","picture":"31e0effb-3636-40cb-bdbe-4c2def1bf6f0"}],"album":null}'
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '680'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:43 GMT
+      Server:
+      - noyb
+      Via:
+      - 1.1 c3ee0b759208fdcbade39e3e283300c6.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - LHAr594sr3K6e7QPDR-aIS0IPNozCFJHd6a2rikfCHFlmGVVA-l16g==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/videos/110282599?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":110282599,"title":"Lights Go Down","volumeNumber":0,"trackNumber":0,"releaseDate":"2019-04-24T00:00:00.000+0000","imagePath":null,"imageId":"9979c9be-00ff-4c5e-85ff-d83d8b653022","vibrantColor":"#d46351","duration":189,"quality":"MP4_1080P","streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2019-06-03T09:00:00.000+0000","allowStreaming":true,"explicit":false,"popularity":2,"type":"Music
+        Video","adsUrl":null,"adsPrePaywallOnly":true,"artist":{"id":4822757,"name":"Syn
+        Cole","type":"MAIN","picture":"31e0effb-3636-40cb-bdbe-4c2def1bf6f0"},"artists":[{"id":4822757,"name":"Syn
+        Cole","type":"MAIN","picture":"31e0effb-3636-40cb-bdbe-4c2def1bf6f0"},{"id":3625380,"name":"Dakota","type":"MAIN","picture":"8d36e77f-ea21-4820-9f79-8a2c4a46d7ba"}],"album":null}'
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '779'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:43 GMT
+      Server:
+      - noyb
+      Via:
+      - 1.1 32e17fe5a1e4cb77ad8ac75ddb0c4584.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - m-m4Nnj6myyh9gNl_8WAaIIR8KLypEEY4Tswm62Qqt6I7NETN5EB1g==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/videos/107910706?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":107910706,"title":"Lights Go Down","volumeNumber":0,"trackNumber":0,"releaseDate":"2019-04-19T00:00:00.000+0000","imagePath":null,"imageId":"21cc0a98-4f66-49f6-8d90-aef4c08924e6","vibrantColor":"#f8bf84","duration":188,"quality":"MP4_1080P","streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2019-04-19T00:00:00.000+0000","allowStreaming":true,"explicit":false,"popularity":2,"type":"Music
+        Video","adsUrl":null,"adsPrePaywallOnly":true,"artist":{"id":4822757,"name":"Syn
+        Cole","type":"MAIN","picture":"31e0effb-3636-40cb-bdbe-4c2def1bf6f0"},"artists":[{"id":4822757,"name":"Syn
+        Cole","type":"MAIN","picture":"31e0effb-3636-40cb-bdbe-4c2def1bf6f0"},{"id":3625380,"name":"Dakota","type":"MAIN","picture":"8d36e77f-ea21-4820-9f79-8a2c4a46d7ba"}],"album":null}'
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '779'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:44 GMT
+      Server:
+      - noyb
+      Via:
+      - 1.1 9569de78dc2ca85c5ba29cb17f0eb7ce.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - aNmaoV8MfphOBMGDPdXDIX05sZ9pKPFGjl6fdUme0tD2HJY8mRveSA==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/artists/4822757/videos?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000&offset=0
+  response:
+    body:
+      string: '{"limit":1000,"offset":0,"totalNumberOfItems":7,"items":[{"id":237831983,"title":"Side
+        By Side","volumeNumber":0,"trackNumber":0,"releaseDate":"2022-07-01T00:00:00.000+0000","imagePath":null,"imageId":"0e1702f0-41a9-441e-92c4-bd25fdcc781f","vibrantColor":"#ec5813","duration":159,"quality":"MP4_1080P","streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2022-07-12T00:00:00.000+0000","allowStreaming":true,"explicit":false,"popularity":0,"type":"Music
+        Video","adsUrl":null,"adsPrePaywallOnly":true,"artist":{"id":4822757,"name":"Syn
+        Cole","type":"MAIN","picture":"31e0effb-3636-40cb-bdbe-4c2def1bf6f0"},"artists":[{"id":4822757,"name":"Syn
+        Cole","type":"MAIN","picture":"31e0effb-3636-40cb-bdbe-4c2def1bf6f0"},{"id":10188804,"name":"MKLA","type":"MAIN","picture":null}],"album":null},{"id":224153547,"title":"Overdrive","volumeNumber":0,"trackNumber":0,"releaseDate":"2022-04-08T00:00:00.000+0000","imagePath":null,"imageId":"96348c3b-1534-46ab-8909-3d9fe5943034","vibrantColor":"#f1a96e","duration":150,"quality":"MP4_1080P","streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2022-04-08T00:00:00.000+0000","allowStreaming":true,"explicit":false,"popularity":1,"type":"Music
+        Video","adsUrl":null,"adsPrePaywallOnly":true,"artist":{"id":4822757,"name":"Syn
+        Cole","type":"MAIN","picture":"31e0effb-3636-40cb-bdbe-4c2def1bf6f0"},"artists":[{"id":4822757,"name":"Syn
+        Cole","type":"MAIN","picture":"31e0effb-3636-40cb-bdbe-4c2def1bf6f0"},{"id":10176412,"name":"Carla
+        Monroe","type":"MAIN","picture":null}],"album":null},{"id":215641517,"title":"Like
+        This","volumeNumber":0,"trackNumber":0,"releaseDate":"2022-02-04T00:00:00.000+0000","imagePath":null,"imageId":"ed85f619-8a8e-4277-a019-ea8165121d00","vibrantColor":"#9a7a40","duration":169,"quality":"MP4_1080P","streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2022-02-09T00:00:00.000+0000","allowStreaming":true,"explicit":false,"popularity":1,"type":"Music
+        Video","adsUrl":null,"adsPrePaywallOnly":true,"artist":{"id":4822757,"name":"Syn
+        Cole","type":"MAIN","picture":"31e0effb-3636-40cb-bdbe-4c2def1bf6f0"},"artists":[{"id":4822757,"name":"Syn
+        Cole","type":"MAIN","picture":"31e0effb-3636-40cb-bdbe-4c2def1bf6f0"}],"album":null},{"id":196995213,"title":"Drift","volumeNumber":0,"trackNumber":0,"releaseDate":"2021-09-10T00:00:00.000+0000","imagePath":null,"imageId":"a3fdb1a9-2dec-4ea0-b0cd-6eebe6f80fa4","vibrantColor":"#f5f1e8","duration":166,"quality":"MP4_1080P","streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2021-09-11T00:00:00.000+0000","allowStreaming":true,"explicit":false,"popularity":1,"type":"Music
+        Video","adsUrl":null,"adsPrePaywallOnly":true,"artist":{"id":4822757,"name":"Syn
+        Cole","type":"MAIN","picture":"31e0effb-3636-40cb-bdbe-4c2def1bf6f0"},"artists":[{"id":4822757,"name":"Syn
+        Cole","type":"MAIN","picture":"31e0effb-3636-40cb-bdbe-4c2def1bf6f0"}],"album":null},{"id":131869431,"title":"Mind
+        Blown","volumeNumber":0,"trackNumber":0,"releaseDate":"2020-02-25T00:00:00.000+0000","imagePath":null,"imageId":"9ea24d4d-d4da-4167-9cbe-8d2b111ce076","vibrantColor":"#60bacd","duration":163,"quality":"MP4_1080P","streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2020-02-25T18:00:00.000+0000","allowStreaming":true,"explicit":true,"popularity":1,"type":"Music
+        Video","adsUrl":null,"adsPrePaywallOnly":true,"artist":{"id":4822757,"name":"Syn
+        Cole","type":"MAIN","picture":"31e0effb-3636-40cb-bdbe-4c2def1bf6f0"},"artists":[{"id":4822757,"name":"Syn
+        Cole","type":"MAIN","picture":"31e0effb-3636-40cb-bdbe-4c2def1bf6f0"}],"album":null},{"id":110282599,"title":"Lights
+        Go Down","volumeNumber":0,"trackNumber":0,"releaseDate":"2019-04-24T00:00:00.000+0000","imagePath":null,"imageId":"9979c9be-00ff-4c5e-85ff-d83d8b653022","vibrantColor":"#d46351","duration":189,"quality":"MP4_1080P","streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2019-06-03T09:00:00.000+0000","allowStreaming":true,"explicit":false,"popularity":2,"type":"Music
+        Video","adsUrl":null,"adsPrePaywallOnly":true,"artist":{"id":4822757,"name":"Syn
+        Cole","type":"MAIN","picture":"31e0effb-3636-40cb-bdbe-4c2def1bf6f0"},"artists":[{"id":4822757,"name":"Syn
+        Cole","type":"MAIN","picture":"31e0effb-3636-40cb-bdbe-4c2def1bf6f0"},{"id":3625380,"name":"Dakota","type":"MAIN","picture":"8d36e77f-ea21-4820-9f79-8a2c4a46d7ba"}],"album":null},{"id":107910706,"title":"Lights
+        Go Down","volumeNumber":0,"trackNumber":0,"releaseDate":"2019-04-19T00:00:00.000+0000","imagePath":null,"imageId":"21cc0a98-4f66-49f6-8d90-aef4c08924e6","vibrantColor":"#f8bf84","duration":188,"quality":"MP4_1080P","streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2019-04-19T00:00:00.000+0000","allowStreaming":true,"explicit":false,"popularity":2,"type":"Music
+        Video","adsUrl":null,"adsPrePaywallOnly":true,"artist":{"id":4822757,"name":"Syn
+        Cole","type":"MAIN","picture":"31e0effb-3636-40cb-bdbe-4c2def1bf6f0"},"artists":[{"id":4822757,"name":"Syn
+        Cole","type":"MAIN","picture":"31e0effb-3636-40cb-bdbe-4c2def1bf6f0"},{"id":3625380,"name":"Dakota","type":"MAIN","picture":"8d36e77f-ea21-4820-9f79-8a2c4a46d7ba"}],"album":null}]}'
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '5148'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:44 GMT
+      Server:
+      - noyb
+      Via:
+      - 1.1 76991fdca074ecae847653e013587ff8.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - Df50cJ4NeprwTHt-4UYmUpbsAvnIRrXF_gTLNCLZji7yWELRLz46PQ==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

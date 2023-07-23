@@ -1,0 +1,44 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/search?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=50&query=ERIWGJRGIJGRWEIOGRJOGREIWJIOWREG&offset=0&types=artists%2Calbums%2Ctracks%2Cvideos%2Cplaylists%2Cmixs
+  response:
+    body:
+      string: '{"artists":{"limit":50,"offset":0,"totalNumberOfItems":0,"items":[]},"albums":{"limit":50,"offset":0,"totalNumberOfItems":0,"items":[]},"playlists":{"limit":50,"offset":0,"totalNumberOfItems":0,"items":[]},"tracks":{"limit":50,"offset":0,"totalNumberOfItems":0,"items":[]},"videos":{"limit":50,"offset":0,"totalNumberOfItems":0,"items":[]},"topHit":null}'
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '354'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:55:11 GMT
+      Server:
+      - noyb
+      Via:
+      - 1.1 e9ebe38de33a70557cf9d9c1d7e5d11e.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - XOCwaeuPiRDYmUrJg7Fp8ZVU5hiwbhj28ekWE66-irm5ZlsY_MnynQ==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+      X-Tidal-SearchQueryId:
+      - 724b27b1-c4f5-4a4c-8f71-f7e6bdd27daa
+    status:
+      code: 200
+      message: OK
+version: 1

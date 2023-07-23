@@ -1,0 +1,84 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/tracks/142278122?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: "{\"id\":142278122,\"title\":\"Funny\",\"duration\":221,\"replayGain\":-9.39,\"peak\":0.999935,\"allowStreaming\":true,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2020-07-16T00:00:00.000+0000\",\"premiumStreamingOnly\":false,\"trackNumber\":1,\"volumeNumber\":1,\"version\":null,\"popularity\":21,\"copyright\":\"\u2117
+        2020 Atlantic Recording Corporation and Interscope Records\",\"url\":\"http://www.tidal.com/track/142278122\",\"isrc\":\"USAT22003344\",\"editable\":false,\"explicit\":false,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":3915082,\"name\":\"ZEDD\",\"type\":\"MAIN\",\"picture\":\"336fca72-c672-4ba0-8434-30e499f1f118\"},\"artists\":[{\"id\":3915082,\"name\":\"ZEDD\",\"type\":\"MAIN\",\"picture\":\"336fca72-c672-4ba0-8434-30e499f1f118\"},{\"id\":5039309,\"name\":\"Jasmine
+        Thompson\",\"type\":\"MAIN\",\"picture\":\"24be413d-26fb-40c1-bdac-56aa339a60b6\"}],\"album\":{\"id\":142278121,\"title\":\"Funny\",\"cover\":\"f124794c-7fc6-478e-8802-e7cc69054ddb\",\"vibrantColor\":\"#7aa2c3\",\"videoCover\":null},\"mixes\":{\"MASTER_TRACK_MIX\":\"014b4189d7b8e9a2da811a7e75d6af\",\"TRACK_MIX\":\"001d2e0f94f3fb8e372d679660311a\"}}"
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1112'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:57 GMT
+      Server:
+      - noyb
+      Via:
+      - 1.1 e9ebe38de33a70557cf9d9c1d7e5d11e.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - y0CuIYfC5Y-EbD7h9DwhZhgRuqQTSxN3OiZ9aT0TTzyD66PsrBkQPA==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/tracks/142278122/urlpostpaywall?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000&urlusagemode=STREAM&audioquality=HI_RES&assetpresentation=FULL
+  response:
+    body:
+      string: '{"urls":["https://sp-pr-fa.audio.tidal.com/mediatracks/CAEaKRInZWUzN2RmZmI0OGQ1ZGQ3YTY0MTgyNWE5NDY0ZTFjMTVfNjEubXA0/0.flac?token=1690131238~MGI2YTc2YzVjNTg5M2NmNmNkYmRkNTg0YzliNmRmMTdkMWM4M2NhYg=="],"trackId":142278122,"assetPresentation":"FULL","audioQuality":"LOSSLESS","audioMode":"STEREO","streamingSessionId":null,"codec":"FLAC","securityType":null,"securityToken":null}'
+    headers:
+      Cache-Control:
+      - no-cache
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '375'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:58 GMT
+      Server:
+      - noyb
+      Via:
+      - 1.1 b63f332297d95bccb0f4e41c4aef0ab0.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 4Fgjt4c8WcGU0cVRYYN3j0Zl1fo1yHUPzn52BnYEwCL9YTBMVBVrTw==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

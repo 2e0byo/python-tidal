@@ -19,16 +19,19 @@ import pytest
 import tidalapi
 
 
+@pytest.mark.vcr
 def test_home(session):
     home = session.home()
     assert home
 
 
+@pytest.mark.vcr
 def test_explore(session):
     explore = session.explore()
     assert explore
 
 
+@pytest.mark.vcr
 @pytest.mark.xfail
 def test_get_explore_items(session):
     explore = session.explore()
@@ -48,6 +51,7 @@ def test_get_explore_items(session):
     assert next(iterator).title == "Blues"
 
 
+@pytest.mark.vcr
 def test_show_more(session):
     videos = session.videos()
     originals = next(
@@ -58,6 +62,7 @@ def test_show_more(session):
     assert isinstance(next(iter(more)), tidalapi.Artist)
 
 
+@pytest.mark.vcr
 def test_page_iterator(session):
     video_page = session.videos()
     playlists = 0
@@ -72,6 +77,7 @@ def test_page_iterator(session):
     assert videos > 20
 
 
+@pytest.mark.vcr
 def test_get_video_items(session):
     videos = session.videos()
     mix = videos.categories[1].items[0].get()
@@ -81,6 +87,7 @@ def test_get_video_items(session):
     assert len(mix.items()) >= 25
 
 
+@pytest.mark.vcr
 def test_page_links(session):
     explore = session.explore()
     for item in explore.categories[3].items:
@@ -89,6 +96,7 @@ def test_page_links(session):
             assert isinstance(page.categories[1].text, str)
 
 
+@pytest.mark.vcr
 def test_genres(session):
     genres = session.genres()
     first = next(iter(genres))
@@ -102,6 +110,7 @@ def test_genres(session):
     assert isinstance(next(iter(local_genres[-1].get())), tidalapi.Playlist)
 
 
+@pytest.mark.vcr
 def test_moods(session):
     moods = session.moods()
     first = next(iter(moods))
@@ -109,6 +118,7 @@ def test_moods(session):
     assert isinstance(next(iter(first.get())), tidalapi.Playlist)
 
 
+@pytest.mark.vcr
 def test_mixes(session):
     mixes = session.mixes()
     first = next(iter(mixes))
@@ -116,6 +126,7 @@ def test_mixes(session):
     assert len(first.items()) == 10
 
 
+@pytest.mark.vcr
 def test_artist_page(session):
     page = session.artist(3503597).page()
     for category in page.categories:
@@ -125,6 +136,7 @@ def test_artist_page(session):
     assert page
 
 
+@pytest.mark.vcr
 def test_album_page(session):
     page = session.album(108043414).page()
     for category in page.categories:

@@ -24,6 +24,7 @@ import tidalapi
 from .cover import verify_image_cover
 
 
+@pytest.mark.vcr
 def test_artist(session):
     artist = session.artist(16147)
     assert artist.id == 16147
@@ -41,6 +42,7 @@ def test_artist(session):
     assert requests.get(artist.image(160)).status_code == 200
 
 
+@pytest.mark.vcr
 def test_get_albums(session):
     artist = session.artist(16147)
     albums = [
@@ -54,6 +56,7 @@ def test_get_albums(session):
     find_ids(albums, artist.get_albums)
 
 
+@pytest.mark.vcr
 def test_get_albums_ep_singles(session):
     artist = session.artist(16147)
     albums = [
@@ -67,6 +70,7 @@ def test_get_albums_ep_singles(session):
     find_ids(albums, artist.get_albums_ep_singles)
 
 
+@pytest.mark.vcr
 def test_get_albums_other(session):
     artist = session.artist(16147)
     albums = [
@@ -77,6 +81,7 @@ def test_get_albums_other(session):
     find_ids(albums, artist.get_albums_other)
 
 
+@pytest.mark.vcr
 def test_get_top_tracks(session):
     artist = session.artist(16147)
     tracks = [
@@ -90,6 +95,7 @@ def test_get_top_tracks(session):
     find_ids(tracks, artist.get_top_tracks)
 
 
+@pytest.mark.vcr
 def test_get_videos_release_date(session):
     artist = session.artist(9341252)
 
@@ -105,6 +111,7 @@ def test_get_videos_release_date(session):
     find_ids(videos, artist.get_videos)
 
 
+@pytest.mark.vcr
 def test_get_videos(session):
     artist = session.artist(4822757)
     videos = [
@@ -115,18 +122,21 @@ def test_get_videos(session):
     find_ids(videos, artist.get_videos)
 
 
+@pytest.mark.vcr
 def test_get_bio(session):
     artist = session.artist(4822757)
     bio = artist.get_bio()
     assert all(keyword in bio for keyword in ["Syn Cole", "Estonia", "EDM"])
 
 
+@pytest.mark.vcr
 def test_get_similar(session):
     artist = session.artist(4822757)
     similar = [artist.name for artist in artist.get_similar()]
     assert all(artist in similar for artist in ["Avicii", "CAZZETTE", "Didrick"])
 
 
+@pytest.mark.vcr
 def test_get_radio(session):
     artist = session.artist(19275)
     radio = artist.get_radio()
@@ -134,6 +144,7 @@ def test_get_radio(session):
     assert radio[0].artist.name == artist.name
 
 
+@pytest.mark.vcr
 def test_artist_image(session):
     artist = session.artist(4822757)
     verify_image_cover(session, artist, [160, 320, 480, 750])

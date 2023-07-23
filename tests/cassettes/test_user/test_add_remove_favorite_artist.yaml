@@ -1,0 +1,50 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/users/184964830/favorites/artists?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000&offset=0
+  response:
+    body:
+      string: "{\"limit\":1000,\"offset\":0,\"totalNumberOfItems\":4,\"items\":[{\"created\":\"2023-07-07T20:47:22.234+0000\",\"item\":{\"id\":5247488,\"name\":\"AronChupa\",\"artistTypes\":[\"ARTIST\",\"CONTRIBUTOR\"],\"url\":\"http://www.tidal.com/artist/5247488\",\"picture\":\"1e522f1d-843b-42f7-8e6f-2d2de1774ac8\",\"popularity\":42,\"artistRoles\":[{\"categoryId\":-1,\"category\":\"Artist\"},{\"categoryId\":1,\"category\":\"Producer\"},{\"categoryId\":3,\"category\":\"Engineer\"},{\"categoryId\":2,\"category\":\"Songwriter\"},{\"categoryId\":10,\"category\":\"Production
+        team\"}],\"mixes\":{\"MASTER_ARTIST_MIX\":\"015606df080f0318843595a81371b6\",\"ARTIST_MIX\":\"00048cc91f01fb8f286c1c82738f1a\"}}},{\"created\":\"2022-01-24T14:12:15.199+0000\",\"item\":{\"id\":8385,\"name\":\"Charles
+        Trenet\",\"artistTypes\":[\"ARTIST\",\"CONTRIBUTOR\"],\"url\":\"http://www.tidal.com/artist/8385\",\"picture\":\"e22e8803-4481-4a61-9128-6f03110974ae\",\"popularity\":27,\"artistRoles\":[{\"categoryId\":-1,\"category\":\"Artist\"},{\"categoryId\":2,\"category\":\"Songwriter\"},{\"categoryId\":11,\"category\":\"Performer\"},{\"categoryId\":10,\"category\":\"Production
+        team\"},{\"categoryId\":1,\"category\":\"Producer\"}],\"mixes\":{\"MASTER_ARTIST_MIX\":\"0151a6d8c1520b9a8e84db0e8b2fc8\",\"ARTIST_MIX\":\"000904186d199df8913d0bbe01c14b\"}}},{\"created\":\"2022-01-24T14:12:15.199+0000\",\"item\":{\"id\":6650074,\"name\":\"Christine
+        S\xE8vres\",\"artistTypes\":[\"ARTIST\",\"CONTRIBUTOR\"],\"url\":\"http://www.tidal.com/artist/6650074\",\"picture\":null,\"popularity\":1,\"artistRoles\":[{\"categoryId\":-1,\"category\":\"Artist\"},{\"categoryId\":2,\"category\":\"Songwriter\"}],\"mixes\":{}}},{\"created\":\"2022-01-24T14:12:15.199+0000\",\"item\":{\"id\":3545728,\"name\":\"Georges
+        Brassens\",\"artistTypes\":[\"ARTIST\",\"CONTRIBUTOR\"],\"url\":\"http://www.tidal.com/artist/3545728\",\"picture\":\"a94779f4-0e8e-4f95-86f5-3a38573f3dfd\",\"popularity\":22,\"artistRoles\":[{\"categoryId\":-1,\"category\":\"Artist\"},{\"categoryId\":2,\"category\":\"Songwriter\"},{\"categoryId\":11,\"category\":\"Performer\"},{\"categoryId\":10,\"category\":\"Production
+        team\"}],\"mixes\":{\"MASTER_ARTIST_MIX\":\"0157084e522db64367263530b71860\",\"ARTIST_MIX\":\"000a796823d02b1d04b310e1670b2b\"}}}]}"
+    headers:
+      Cache-Control:
+      - no-cache
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2023'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:57:18 GMT
+      ETag:
+      - '"1688762842229"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 924bf9febd74cef2bda62c15c8441e00.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - fCLUaJTpwjscIqh5V1v6inbkSAZmRpKmRMnzDhgi_VWZMan_GwmgrA==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

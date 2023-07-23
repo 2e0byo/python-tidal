@@ -1,0 +1,56 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/users/184964830/favorites/tracks?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000&offset=0
+  response:
+    body:
+      string: "{\"limit\":1000,\"offset\":0,\"totalNumberOfItems\":3,\"items\":[{\"created\":\"2022-01-24T23:01:55.036+0000\",\"item\":{\"id\":1476335,\"title\":\"C'est
+        quand qu'on va o\xF9 ?\",\"duration\":228,\"replayGain\":-6.58,\"peak\":0.865356,\"allowStreaming\":true,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2003-03-03T00:00:00.000+0000\",\"premiumStreamingOnly\":false,\"trackNumber\":15,\"volumeNumber\":1,\"version\":null,\"popularity\":2,\"copyright\":\"Licence
+        exclusive Parlophone, Warner Music France, \u2117 1994 Couci-Cou\xE7a\",\"url\":\"http://www.tidal.com/track/1476335\",\"isrc\":\"FRZ619400030\",\"editable\":false,\"explicit\":false,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":8876,\"name\":\"Renaud\",\"type\":\"MAIN\",\"picture\":\"3cc5cac4-ddae-4f75-a8f1-d6f83a6d37b6\"},\"artists\":[{\"id\":8876,\"name\":\"Renaud\",\"type\":\"MAIN\",\"picture\":\"3cc5cac4-ddae-4f75-a8f1-d6f83a6d37b6\"}],\"album\":{\"id\":1476320,\"title\":\"The
+        Meilleur Of Renaud\",\"cover\":\"9cb145cf-363c-44d0-9ac6-133583a4cf64\",\"vibrantColor\":\"#dba8a6\",\"videoCover\":null},\"mixes\":{\"MASTER_TRACK_MIX\":\"014b300b290a62c3d4e84a127e791c\",\"TRACK_MIX\":\"00110ab8699d3df666ad560f0c2e75\"}}},{\"created\":\"2023-07-07T20:47:23.855+0000\",\"item\":{\"id\":32961853,\"title\":\"I'm
+        an Albatraoz\",\"duration\":167,\"replayGain\":-9.59,\"peak\":0.997375,\"allowStreaming\":true,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2014-10-14T00:00:00.000+0000\",\"premiumStreamingOnly\":false,\"trackNumber\":1,\"volumeNumber\":1,\"version\":null,\"popularity\":35,\"copyright\":\"(P)
+        2014 Aron Ekberg under exclusive license to Sony Music Entertainment Sweden
+        AB\",\"url\":\"http://www.tidal.com/track/32961853\",\"isrc\":\"SEYOK1406001\",\"editable\":false,\"explicit\":true,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":5247488,\"name\":\"AronChupa\",\"type\":\"MAIN\",\"picture\":\"1e522f1d-843b-42f7-8e6f-2d2de1774ac8\"},\"artists\":[{\"id\":5247488,\"name\":\"AronChupa\",\"type\":\"MAIN\",\"picture\":\"1e522f1d-843b-42f7-8e6f-2d2de1774ac8\"},{\"id\":7621395,\"name\":\"Little
+        Sis Nora\",\"type\":\"MAIN\",\"picture\":\"475f5c40-169c-4420-aa45-ac35228bb60d\"}],\"album\":{\"id\":32961852,\"title\":\"I'm
+        an Albatraoz\",\"cover\":\"f0e319f5-2b46-42b0-a0e5-30b9ed907f61\",\"vibrantColor\":\"#c27a70\",\"videoCover\":null},\"mixes\":{\"MASTER_TRACK_MIX\":\"014c8ce6ff6a5c7771119f3ed59521\",\"TRACK_MIX\":\"00180da747d2215013823acdce62e3\"}}},{\"created\":\"2022-11-17T09:44:46.038+0000\",\"item\":{\"id\":62994530,\"title\":\"Tu
+        viens \xE0 moi\",\"duration\":124,\"replayGain\":-7.59,\"peak\":0.736721,\"allowStreaming\":true,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2016-07-13T00:00:00.000+0000\",\"premiumStreamingOnly\":false,\"trackNumber\":11,\"volumeNumber\":1,\"version\":null,\"popularity\":0,\"copyright\":\"EPM\",\"url\":\"http://www.tidal.com/track/62994530\",\"isrc\":\"FRZ831610853\",\"editable\":false,\"explicit\":false,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":3566286,\"name\":\"Jacques
+        Douai\",\"type\":\"MAIN\",\"picture\":null},\"artists\":[{\"id\":3566286,\"name\":\"Jacques
+        Douai\",\"type\":\"MAIN\",\"picture\":null}],\"album\":{\"id\":62994519,\"title\":\"Les
+        r\xE9citals\",\"cover\":\"968fc7d4-05a8-4fde-9ed9-8bf418c48e89\",\"vibrantColor\":\"#dc5067\",\"videoCover\":null},\"mixes\":{}}}]}"
+    headers:
+      Cache-Control:
+      - no-cache
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '3232'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:57:20 GMT
+      ETag:
+      - '"1688762843844"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 7fbfed9453edeb4b5dca9173a3f5f8dc.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - NS493Pr-_F4SdXFl4bKWEymgx6sKktZjj4z0rKuaoBzjOzC6r56G0w==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -1,0 +1,48 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/albums/108043414?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: "{\"id\":108043414,\"title\":\"Lemonade\",\"duration\":7165,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2019-04-23T05:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":13,\"numberOfVideos\":2,\"numberOfVolumes\":1,\"releaseDate\":\"2016-04-23\",\"copyright\":\"(P)
+        2019 Parkwood Entertainment LLC, under exclusive license to Columbia Records,
+        a Division of Sony Music Entertainment\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/108043414\",\"cover\":\"e85770cd-4d4a-4651-815b-a1ce6cc6aaa8\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":\"07942bd5-bddc-4301-95bf-dc4cd2c593fa\",\"explicit\":true,\"upc\":\"886447695456\",\"popularity\":39,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"},\"artists\":[{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"}]}"
+    headers:
+      Age:
+      - '4'
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '972'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:14 GMT
+      ETag:
+      - '"1667633875"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 2646a167841368615f96564f373f8d20.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - IPDotlKhBauSPdpRoD-Uerhp7wKtOAg8_it4n2KQ7lyUXL59XjenJQ==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Hit from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

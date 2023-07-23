@@ -1,0 +1,66 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/pages/explore?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000&deviceType=BROWSER
+  response:
+    body:
+      string: '{"selfLink":null,"id":"eyJwIjoiMTNmMDA0MmUtNmM3Yi00NzI5LWFkN2QtYTJiZmYyOTRjNjRiIiwicFYiOjR9","title":"Explore","rows":[{"modules":[{"id":"eyJwIjoiMTNmMDA0MmUtNmM3Yi00NzI5LWFkN2QtYTJiZmYyOTRjNjRiIiwicFYiOjQsIm0iOiJhNzMzYzFhZS1jMTRhLTQ2NGYtYjk4ZC1kYzY3ZTZlMjdiMzciLCJtViI6MSwibUgiOiI4NTI0MGYxZCJ9","type":"FEATURED_PROMOTIONS","width":100,"title":"Featured","description":"","preTitle":null,"items":[{"header":"LISTEN:
+        NEW ALBUM","shortHeader":"Blur","shortSubHeader":"The Ballad Of Darren","imageId":"97cd7cac-4677-4640-ace1-75284a160172","type":"ALBUM","artifactId":"304357042","text":"","featured":false},{"header":"NEW
+        ON WEEKEND WAVES","shortHeader":"Rita Ora: Waiting For You","shortSubHeader":"+
+        Troye Sivan, Georgia & more","imageId":"17e70eb1-6321-41c8-b252-ffbfa5a05cae","type":"PLAYLIST","artifactId":"381240ed-041e-46bb-961c-ddd94cdd87b2","text":"","featured":false},{"header":"CELEBRATE","shortHeader":"Summer
+        is here!","shortSubHeader":" ","imageId":"1e3c577c-16fc-4ed8-bc7c-ba87b40634e2","type":"CATEGORY_PAGES","artifactId":"pages/genre_summer","text":"","featured":false},{"header":"NEW
+        IN UK ROCK","shortHeader":"Royal Blood","shortSubHeader":"+ Hot Milk, Queen
+        Cult & more","imageId":"c68d116b-772a-4ad0-a819-56c7810af664","type":"PLAYLIST","artifactId":"f46c158b-cb2c-4b39-832e-5510bf7587a4","text":"","featured":false},{"header":"ANNIVERSARY","shortHeader":"The
+        Beatles","shortSubHeader":"Abbey Road (Remastered)","imageId":"d42f8412-8d1e-439c-bff5-fd3a5f2c5275","type":"ALBUM","artifactId":"55130630","text":"","featured":false}]}]},{"modules":[{"id":"eyJwIjoiMTNmMDA0MmUtNmM3Yi00NzI5LWFkN2QtYTJiZmYyOTRjNjRiIiwicFYiOjQsIm0iOiIxMDgxMjVlMy0yNTNhLTQ1ODUtYmJkZC0wZTQyYThkNDYxMmQiLCJtViI6MiwibUgiOiI3MmE4ZWRmMiJ9","type":"PAGE_LINKS_CLOUD","width":100,"title":"Genres","description":"","preTitle":null,"showMore":{"title":"View
+        as list","apiPath":"pages/genre_page"},"pagedList":{"limit":40,"offset":0,"totalNumberOfItems":23,"items":[{"title":"Decades","icon":"genre","apiPath":"pages/genre_decades","imageId":"genre"},{"title":"Hip-Hop","icon":"hiphop","apiPath":"pages/genre_hip_hop","imageId":"hiphop"},{"title":"R&B
+        / Soul","icon":"rnb","apiPath":"pages/genre_rnb","imageId":"rnb"},{"title":"Pop","icon":"pop","apiPath":"pages/genre_pop","imageId":"pop"},{"title":"Rock
+        / Indie","icon":"rock","apiPath":"pages/genre_indierock","imageId":"rock"},{"title":"Dance","icon":"dance","apiPath":"pages/genre_dance","imageId":"dance"},{"title":"Africa","icon":"africa","apiPath":"pages/genre_africa","imageId":"africa"},{"title":"Latin","icon":"latin","apiPath":"pages/genre_latin","imageId":"latin"},{"title":"Country","icon":"country","apiPath":"pages/genre_country","imageId":"country"},{"title":"Jazz","icon":"jazz","apiPath":"pages/genre_jazz","imageId":"jazz"},{"title":"Electronic","icon":"electronic","apiPath":"pages/genre_electronic","imageId":"electronic"},{"title":"Reggae
+        / Dancehall","icon":"reggae","apiPath":"pages/genre_reggae","imageId":"reggae"},{"title":"Classical","icon":"classical","apiPath":"pages/genre_classical","imageId":"classical"},{"title":"Metal","icon":"metal","apiPath":"pages/genre_metal","imageId":"metal"},{"title":"Kids","icon":"kids","apiPath":"pages/genre_kids","imageId":"kids"},{"title":"Soundtracks","icon":"soundtrack","apiPath":"pages/genre_soundtrack","imageId":"soundtrack"},{"title":"Blues","icon":"blues","apiPath":"pages/genre_blues","imageId":"blues"},{"title":"K-Pop","icon":null,"apiPath":"pages/genre_kpop","imageId":null},{"title":"Gospel
+        / Christian","icon":"gospel","apiPath":"pages/genre_gospel","imageId":"gospel"},{"title":"Folk
+        / Americana","icon":"americana","apiPath":"pages/genre_americana","imageId":"americana"},{"title":"Global","icon":"world","apiPath":"pages/genre_world","imageId":"world"},{"title":"Comedy","icon":"comedy","apiPath":"pages/genre_comedy","imageId":"comedy"},{"title":"Legacy","icon":"retro","apiPath":"pages/genre_retro","imageId":"retro"}],"dataApiPath":"pages/data/0c1e5586-b83b-4737-8acd-caf5ce3151fc"},"lines":2}]},{"modules":[{"id":"eyJwIjoiMTNmMDA0MmUtNmM3Yi00NzI5LWFkN2QtYTJiZmYyOTRjNjRiIiwicFYiOjQsIm0iOiI4NTBjYWE0NS03Mzg2LTRlMTItYmQyYS0xZDBlZWMyYmFmZTEiLCJtViI6MSwibUgiOiI3YWViOTU5ZSJ9","type":"PAGE_LINKS_CLOUD","width":100,"title":"Moods,
+        Activities & Events","description":"","preTitle":null,"showMore":null,"pagedList":{"limit":15,"offset":0,"totalNumberOfItems":12,"items":[{"title":"Music
+        School","icon":"music_school","apiPath":"pages/music_school","imageId":"music_school"},{"title":"Workout","icon":"workout","apiPath":"pages/mood_workout","imageId":"workout"},{"title":"Sleep","icon":"mood_sleep","apiPath":"pages/mood_sleep","imageId":"mood_sleep"},{"title":"Party","icon":"party","apiPath":"pages/mood_party","imageId":"party"},{"title":"Summer","icon":"summer","apiPath":"pages/genre_summer","imageId":"summer"},{"title":"Gaming","icon":"mood_gaming","apiPath":"pages/mood_gaming","imageId":"mood_gaming"},{"title":"Relax","icon":"relax","apiPath":"pages/mood_relax","imageId":"relax"},{"title":"Focus","icon":"focus","apiPath":"pages/mood_focus","imageId":"focus"},{"title":"Credits","icon":"credits","apiPath":"pages/credits","imageId":"credits"},{"title":"Wellness","icon":"wellness","apiPath":"pages/mood_wellness","imageId":"wellness"},{"title":"Romance","icon":"love","apiPath":"pages/mood_love","imageId":"love"},{"title":"For
+        DJs","icon":"mood_djselector","apiPath":"pages/mood_djselector","imageId":"mood_djselector"}],"dataApiPath":"pages/data/27b444ac-e539-4f03-81e3-98d1da922edb"},"lines":1}]},{"modules":[{"id":"eyJwIjoiMTNmMDA0MmUtNmM3Yi00NzI5LWFkN2QtYTJiZmYyOTRjNjRiIiwicFYiOjQsIm0iOiJjMGNlMzdhZS0wZWM0LTQyYzYtYjk5Zi1kMThjZWUzM2UxMDkiLCJtViI6MSwibUgiOiJlNDgzOTZhMSJ9","type":"PAGE_LINKS","width":100,"title":"","description":"","preTitle":null,"pagedList":{"limit":8,"offset":0,"totalNumberOfItems":7,"items":[{"title":"New","icon":"new","apiPath":"pages/explore_new_music","imageId":null},{"title":"Top","icon":"top","apiPath":"pages/explore_top_music","imageId":null},{"title":"TIDAL
+        RISING","icon":"rising_list","apiPath":"pages/rising","imageId":null},{"title":"Cross-Genre","icon":"cross_genre","apiPath":"pages/cross_genre","imageId":null},{"title":"Clean
+        Content","icon":"clean_content","apiPath":"pages/clean_content","imageId":null},{"title":"Staff
+        Picks","icon":"staffpicks","apiPath":"pages/staff_picks","imageId":null},{"title":"Shows
+        & Podcasts","icon":"podcasts","apiPath":"pages/podcasts","imageId":null}]}}]}]}'
+    headers:
+      Cache-Control:
+      - private, max-age=60, s-max-age=60,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '6462'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:54:15 GMT
+      ETag:
+      - '"1858128998"'
+      Server:
+      - noyb
+      Vary:
+      - x-tidal-sessionid,x-tidal-token,authorization
+      Via:
+      - 1.1 404ac5621836af31e2d3d32ecae91e78.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - es9C2qhvkVky5BGCn-4su3B5DjNgMbu55J2Pk3uZ3CBsgz064pFk5A==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -1,0 +1,472 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/genres?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '[{"name":"Pop","path":"Pop","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":true,"image":"0239132d-99be-41f4-929d-e27280f7bff1"},{"name":"Rock","path":"Rock","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":true,"image":"674f6c6c-24db-4baf-8cc9-abcda685f2a3"},{"name":"Hip
+        Hop / Rap","path":"Hiphop","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":true,"image":"658519e4-8aea-41a8-86f9-e3fbfb31a630"},{"name":"R&B
+        / Soul","path":"Funk","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":true,"image":"b100bf56-2285-48ad-a608-386a7254fe8c"},{"name":"Metal","path":"Metal","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":true,"image":"d251e1ed-fef2-45a9-98d9-e8d5745f9bdd"},{"name":"Country","path":"Country","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":true,"image":"abc8250d-3fbe-4acc-a69d-29fcd0eb46be"},{"name":"Folk
+        / Americana","path":"Americana","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":false,"image":"7f53e08b-9e07-4813-99cb-237388122847"},{"name":"Blues","path":"Blues","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":false,"image":"a20b6923-0b2c-4651-b9ef-f88372355a74"},{"name":"Jazz","path":"Jazz","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":false,"hasVideos":false,"image":"04fb4597-c712-49ad-9b71-a5aefbe1d894"},{"name":"Classical","path":"Classical","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":false,"hasVideos":false,"image":"aad3c1fd-655a-43fa-8c9d-aab439340395"},{"name":"Electronic","path":"Electronic","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":true,"image":"e388fbee-3506-4000-ac4c-c4853f857d0a"},{"name":"Dance","path":"Dance","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":true,"image":"05fd0839-86f1-4517-a211-b9c20f17bfa2"},{"name":"Kids","path":"Kids","hasPlaylists":false,"hasArtists":false,"hasAlbums":true,"hasTracks":false,"hasVideos":false,"image":"8ee3c6ed-7342-430d-8e5d-20dc72d6ac77"},{"name":"Latin","path":"Latin","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":true,"image":"ddb3306e-c787-4468-a791-8efbe746aa8a"},{"name":"Reggae
+        / Dancehall","path":"Reggae","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":false,"image":"81a066ce-11f9-4685-a739-24dd9be85e5f"},{"name":"World
+        Music","path":"World","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":false,"image":"b0208879-eb06-4669-a5fb-cf1009b46a11"},{"name":"Soundtracks","path":"Film","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":false,"image":"d73a5448-0a5e-4606-9f3e-113d93eaaf05"},{"name":"Gospel
+        / Christian","path":"Gospel","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":false,"image":"3cce1ba2-2530-4384-8c51-dfdf81868a9d"},{"name":"Comedy","path":"Comedy","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":false,"image":"7cf188f8-93df-4119-b624-47dfb4d70e51"},{"name":"Retro","path":"Retro","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":true,"image":"8173edc1-ca03-4f22-8706-c8800848d331"}]'
+    headers:
+      Age:
+      - '4'
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '3476'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:51 GMT
+      ETag:
+      - '"64708782"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 9db8c72ec08059d1364d1dd74e1dc958.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - ADpaYnDw0qdfse0KHZzcHTcFvWEEY7El9T0KdbhzcKsS1vP2NaXgBw==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Hit from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/genres/Electronic/playlists?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: "{\"limit\":1000,\"offset\":0,\"totalNumberOfItems\":49,\"items\":[{\"uuid\":\"a64c1779-24cf-4ae0-9983-038f56e49085\",\"title\":\"Electronic:
+        Best of 2023 So Far\",\"numberOfTracks\":50,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"2023
+        so far has brought us some great new releases not only from blockbuster names
+        like Peggy Gou, Aphex Twin, Fred Again.. and The Chemical Brothers, but also
+        from rising electronic stars like Jayda G, Overmono, Yaeji, Jam City and Avalon
+        Emerson. Check out our 50 favorite picks of the year, so far. (Cover: Peggy
+        Gou / Photo: Johngha Park)\",\"duration\":13517,\"lastUpdated\":\"2023-06-30T18:37:01.674+0000\",\"created\":\"2023-04-04T15:50:34.569+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/a64c1779-24cf-4ae0-9983-038f56e49085\",\"image\":\"165abe90-3a4c-4da1-849e-7a2e07aa1926\",\"popularity\":33,\"squareImage\":\"40cb3382-76d4-424c-b1bd-1793e1fa014f\",\"promotedArtists\":[{\"id\":7591045,\"name\":\"Peggy
+        Gou\",\"type\":\"MAIN\",\"picture\":\"7c9c0fb5-100c-4ac7-8215-38500904fe64\"},{\"id\":3531604,\"name\":\"Aphex
+        Twin\",\"type\":\"MAIN\",\"picture\":\"ffbe2d5c-f42a-4911-9cb6-c8a95269e560\"},{\"id\":17062018,\"name\":\"Fred
+        again..\",\"type\":\"MAIN\",\"picture\":\"8c91999a-5524-413d-a8b4-4fcc787a8e3d\"},{\"id\":3853703,\"name\":\"Skrillex\",\"type\":\"MAIN\",\"picture\":\"1c1dd6ee-b6a0-49f8-88c5-2fa83ecafefd\"}],\"lastItemAddedAt\":\"2023-06-30T18:36:59.722+0000\"},{\"uuid\":\"a85b5abe-178e-4d5b-85c9-dd70471ec86f\",\"title\":\"Futureproof\",\"numberOfTracks\":50,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"Looking
+        for a portal to the future of electronic music? You've come to the right place.
+        From legacy innovators to the undeniable next-up producers, the artists on
+        Futureproof span all corners of the musical map, bound by vision alone \u2013
+        always eluding easy categorization, and always essential. New tracks added
+        every Friday. (Cover: BAMBII / Photo: Kirk Lisaj)\",\"duration\":13031,\"lastUpdated\":\"2023-07-21T04:01:15.252+0000\",\"created\":\"2018-08-16T20:05:41.763+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/a85b5abe-178e-4d5b-85c9-dd70471ec86f\",\"image\":\"11658a0a-b004-4a0c-88f7-39a5e61112aa\",\"popularity\":42,\"squareImage\":\"bb583972-bf99-44d2-a99e-f88e02fa6be5\",\"promotedArtists\":[{\"id\":8430129,\"name\":\"BAMBII\",\"type\":\"MAIN\",\"picture\":\"e8a2e261-cc58-44a1-81de-30bc2d9277b4\"},{\"id\":8268983,\"name\":\"Ragz
+        Originale\",\"type\":\"MAIN\",\"picture\":null},{\"id\":10074891,\"name\":\"Lamsi\",\"type\":\"MAIN\",\"picture\":null},{\"id\":3566153,\"name\":\"Dizzee
+        Rascal\",\"type\":\"MAIN\",\"picture\":\"5ffd8f9d-1a48-48b0-8f96-dee6be5b6404\"}],\"lastItemAddedAt\":\"2023-07-21T04:01:15.235+0000\"},{\"uuid\":\"40adb971-fcc9-47a1-8065-b3fd3da1e0fb\",\"title\":\"Rave
+        24/7\",\"numberOfTracks\":50,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"Rave
+        24/7 brings you non-stop heat, round the clock. Presenting the latest in ravey
+        techno, electro, acid, hard dance, breaks 'n bass, dubby voyages and general
+        ecstatic sounds on rotation for discerning listeners. New tracks added every
+        Friday. (Cover: James Hype & Major Lazer / Photo: STEREOHYPE)\",\"duration\":12843,\"lastUpdated\":\"2023-07-21T04:01:14.222+0000\",\"created\":\"2018-08-16T20:05:12.456+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/40adb971-fcc9-47a1-8065-b3fd3da1e0fb\",\"image\":\"1fb00c7c-e86e-4d13-9a23-7c15c0fa7d95\",\"popularity\":61,\"squareImage\":\"f945ff20-73fe-4bab-9c3e-e000bdb05a50\",\"promotedArtists\":[{\"id\":7148250,\"name\":\"James
+        Hype\",\"type\":\"MAIN\",\"picture\":\"3a556b9e-21db-4d8c-a917-3e9543e1fd90\"},{\"id\":3624619,\"name\":\"Major
+        Lazer\",\"type\":\"MAIN\",\"picture\":\"8ccbad54-19d1-45e5-9eda-6b6055c7431c\"},{\"id\":2573,\"name\":\"Kylie
+        Minogue\",\"type\":\"MAIN\",\"picture\":\"b739aa23-a1a4-4424-807c-39c38398d5c6\"},{\"id\":3644587,\"name\":\"Nina
+        Kraviz\",\"type\":\"MAIN\",\"picture\":\"5cd3f169-f50d-49d4-8bf1-6710ed010a03\"}],\"lastItemAddedAt\":\"2023-07-21T04:01:14.204+0000\"},{\"uuid\":\"dec0e250-c6ef-4374-a7e2-faace55db28c\",\"title\":\"Super
+        Sharp\",\"numberOfTracks\":50,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"160bpm
+        and up is a big tent: Jungle, D'n'B, footwork, Bmore, juke, acid, hardcore
+        and more all coexist. Working at warp speed, the producers and DJs in this
+        field are some of the most technically adept in the game. Their aim is Super
+        Sharp, and so are these rhythms. Fresh tracks added every Friday. (Cover:
+        Goldie / Photo: Metalheadz) \",\"duration\":12585,\"lastUpdated\":\"2023-07-21T04:01:14.315+0000\",\"created\":\"2018-10-05T20:25:31.446+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/dec0e250-c6ef-4374-a7e2-faace55db28c\",\"image\":\"7a46c411-31fa-451a-94a5-d1df36384f15\",\"popularity\":61,\"squareImage\":\"2a5c2501-211c-48b7-a8ba-23449347442c\",\"promotedArtists\":[{\"id\":13505,\"name\":\"Goldie\",\"type\":\"MAIN\",\"picture\":\"1f824cec-482a-4408-81ce-66e234757dd3\"},{\"id\":3583630,\"name\":\"DJ
+        Marky\",\"type\":\"MAIN\",\"picture\":\"9b2226ca-a751-4002-86a0-f36986f791fe\"},{\"id\":3540254,\"name\":\"Hidden
+        Agenda\",\"type\":\"MAIN\",\"picture\":null},{\"id\":3540436,\"name\":\"Sub
+        Focus\",\"type\":\"MAIN\",\"picture\":\"c8d0cfb6-d883-4db6-932e-2ea6fcb4b7a9\"}],\"lastItemAddedAt\":\"2023-07-21T04:01:14.302+0000\"},{\"uuid\":\"62eb0635-1bc6-4043-b564-f5f054dab918\",\"title\":\"Reverie\",\"numberOfTracks\":50,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"The
+        art of downtempo lies in between the subtle and the sublime, transcending
+        trend and time. Whether you need to chill out, zone out, or even tune in and
+        drop out, Reverie is where you want to be. (Cover: Laurel Halo / Photo: Norrel
+        Blair)\",\"duration\":13366,\"lastUpdated\":\"2023-07-20T19:33:07.842+0000\",\"created\":\"2018-10-05T20:20:55.177+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/62eb0635-1bc6-4043-b564-f5f054dab918\",\"image\":\"ddd62435-e2be-43ec-910c-3c2a0dbf28a1\",\"popularity\":27,\"squareImage\":\"61bc0062-b400-4962-85c5-b5d0ca48e123\",\"promotedArtists\":[{\"id\":3843594,\"name\":\"Laurel
+        Halo\",\"type\":\"MAIN\",\"picture\":\"c2bd844d-7f9c-47ff-b4e7-3213f491a4fc\"},{\"id\":8633599,\"name\":\"Coby
+        Sey\",\"type\":\"MAIN\",\"picture\":null},{\"id\":38250675,\"name\":\"Natural
+        Wonder Beauty Concept\",\"type\":\"MAIN\",\"picture\":\"52aaa788-fc95-4911-93e6-45980e10fe9a\"},{\"id\":10897391,\"name\":\"Ana
+        Roxanne\",\"type\":\"MAIN\",\"picture\":\"5214b437-d13a-4c49-a620-60480dca90be\"}],\"lastItemAddedAt\":\"2023-07-14T04:01:14.843+0000\"},{\"uuid\":\"06bb458a-eb92-463c-9419-05d200072137\",\"title\":\"Electronic:
+        RISING\",\"numberOfTracks\":140,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"TIDAL's
+        RISING Electronic playlist showcases all aspects of electronic music\u2013\u2013from
+        the bedroom producer to touring artists on the precipice of breaking through.
+        These are the ones to keep an eye on. (Cover: Echo Deep / Photo: Press)\",\"duration\":35475,\"lastUpdated\":\"2023-07-21T19:57:00.642+0000\",\"created\":\"2018-03-26T13:41:21.181+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/06bb458a-eb92-463c-9419-05d200072137\",\"image\":\"815cd2c4-74a0-4622-ba17-1b9bc3ec997f\",\"popularity\":40,\"squareImage\":\"326c388d-f9d9-48dd-b216-89f26b9a1ce8\",\"promotedArtists\":[{\"id\":4504546,\"name\":\"Echo
+        Deep\",\"type\":\"MAIN\",\"picture\":\"04952112-5521-4616-9705-0bd91d3e62dd\"},{\"id\":8982841,\"name\":\"Kilamanzego\",\"type\":\"MAIN\",\"picture\":null},{\"id\":9735741,\"name\":\"LP
+        Giobbi\",\"type\":\"MAIN\",\"picture\":\"4b2a75fe-8403-4b71-9858-00951bc23200\"},{\"id\":10609429,\"name\":\"Anna
+        Unusyan\",\"type\":\"MAIN\",\"picture\":null}],\"lastItemAddedAt\":\"2023-07-21T19:57:00.443+0000\"},{\"uuid\":\"4d6e1503-7176-4fd4-a4e4-e1857cadaf54\",\"title\":\"Electronic
+        Classics\",\"numberOfTracks\":100,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"100
+        gems from the wide world of Electronic music. Enjoy over six decades of synth-commanding,
+        beat-programming, circuit-bending and dancefloor-hypnotizing innovation \u2014
+        the best of the best. (Cover: Bj\xF6rk / Photo: Jean-Baptiste Mondino)\",\"duration\":37324,\"lastUpdated\":\"2023-07-17T17:36:42.050+0000\",\"created\":\"2023-07-03T18:03:48.473+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/4d6e1503-7176-4fd4-a4e4-e1857cadaf54\",\"image\":\"624280b1-f7c4-41e0-a7b0-ae8da4462cbc\",\"popularity\":7,\"squareImage\":\"e76c86b4-b970-4a5f-87cc-ab981c150059\",\"promotedArtists\":[{\"id\":16992,\"name\":\"Bj\xF6rk\",\"type\":\"MAIN\",\"picture\":\"34a62eac-a04e-4a01-a242-394a49082b29\"},{\"id\":8903,\"name\":\"Kraftwerk\",\"type\":\"MAIN\",\"picture\":\"9c12f70d-ff4b-4bc3-9f70-559bd347dbf0\"},{\"id\":11950,\"name\":\"New
+        Order\",\"type\":\"MAIN\",\"picture\":\"34d80a5c-90b5-478b-985d-caa3a72029f5\"},{\"id\":209,\"name\":\"Herbie
+        Hancock\",\"type\":\"MAIN\",\"picture\":\"89850789-5417-4885-89a9-5fa4f8e9ca5c\"}],\"lastItemAddedAt\":\"2023-07-17T17:35:47.883+0000\"},{\"uuid\":\"fa9f1177-95b4-482d-af79-1a570c5e26a5\",\"title\":\"New
+        Arrivals: R&B and Dance\",\"numberOfTracks\":50,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"This
+        playlist highlights the best new R&B and Dance tracks, including songs blending
+        both high-octane and high-passion worlds together. (Cover: Tinashe, Ro\xEDs\xEDn
+        Murphy / Photo: Artist's own / Nik Pate)\",\"duration\":9890,\"lastUpdated\":\"2023-07-21T04:01:15.528+0000\",\"created\":\"2022-07-25T17:20:23.643+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/fa9f1177-95b4-482d-af79-1a570c5e26a5\",\"image\":\"a0780744-a7f7-47eb-86ce-0bbdd8424292\",\"popularity\":16,\"squareImage\":\"c26f475d-1cf9-4f89-b061-6065a316e36a\",\"promotedArtists\":[{\"id\":5222063,\"name\":\"Tinashe\",\"type\":\"MAIN\",\"picture\":\"2bfe7577-dc37-4818-9d40-95635fbb040c\"},{\"id\":3648262,\"name\":\"R\xF3is\xEDn
+        Murphy\",\"type\":\"MAIN\",\"picture\":\"497abc7e-bd7e-4414-b39f-5c92529898c3\"},{\"id\":7779063,\"name\":\"RAYE\",\"type\":\"MAIN\",\"picture\":\"b0a36aa8-49ed-43b1-8657-a2309efc9bb9\"},{\"id\":6162093,\"name\":\"Stormzy\",\"type\":\"MAIN\",\"picture\":\"0bdd2aa7-2d64-4002-853c-e1fe4b55e81b\"}],\"lastItemAddedAt\":\"2023-07-21T04:01:15.508+0000\"},{\"uuid\":\"b8ad0666-ac96-408b-ad71-1e2b72e7fbe3\",\"title\":\"Dance/Electronic:
+        Dolby Atmos\",\"numberOfTracks\":74,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"Experience
+        the latest in dance and electronic music in Dolby Atmos. (Cover: ODESZA -
+        Tonje Thilesen)\",\"duration\":15620,\"lastUpdated\":\"2023-07-21T09:27:08.913+0000\",\"created\":\"2022-06-24T14:26:35.828+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/b8ad0666-ac96-408b-ad71-1e2b72e7fbe3\",\"image\":\"539a0c3d-8b15-4a72-80cf-87b92a9a3348\",\"popularity\":24,\"squareImage\":\"b6b5d33e-698e-4d18-8644-67db9622dd44\",\"promotedArtists\":[{\"id\":5438769,\"name\":\"ODESZA\",\"type\":\"MAIN\",\"picture\":\"5c8875a8-f9f7-4f7e-8869-54acc06e557b\"},{\"id\":8175238,\"name\":\"Yellow
+        House\",\"type\":\"MAIN\",\"picture\":null},{\"id\":5135134,\"name\":\"London
+        Grammar\",\"type\":\"MAIN\",\"picture\":\"8a85aba6-fb17-4961-b98a-2dd4f2bee75f\"},{\"id\":4007900,\"name\":\"CamelPhat\",\"type\":\"MAIN\",\"picture\":\"0d34c990-15aa-4a55-a8a2-39aec1dfc6e5\"}],\"lastItemAddedAt\":\"2023-07-21T09:27:08.901+0000\"},{\"uuid\":\"d695d52f-e563-44f3-be18-6d51f891ae87\",\"title\":\"Acid
+        & Rave & Breaks\",\"numberOfTracks\":75,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"In
+        honor of the mighty Roland TB-303 \u2014 whose curdled bass sound kicked off
+        an acid house and acid techno explosion which continues to reverberate \u2014
+        here is acid as heard through the prism of rave, breaks and 4/4. Pure accelerant
+        for the small hours of the morning. (Foto: Unsplash)\",\"duration\":29025,\"lastUpdated\":\"2023-02-27T21:21:27.933+0000\",\"created\":\"2023-02-27T21:20:06.557+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/d695d52f-e563-44f3-be18-6d51f891ae87\",\"image\":\"bd0fbb1e-2c2f-4fab-be88-15ef90ccaabc\",\"popularity\":10,\"squareImage\":\"4a2a5b7d-eba2-45fe-b762-760b6da906d3\",\"promotedArtists\":[],\"lastItemAddedAt\":\"2023-02-27T21:20:06.635+0000\"},{\"uuid\":\"292fa3bc-6f40-436b-b0a8-501a9aecbca4\",\"title\":\"Thrill
+        Jockey: Electronic\",\"numberOfTracks\":25,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"A
+        rich, if unusual, vein of Electronic music has always run through Thrill Jockey.
+        Synth-and-laptop gurus on the venerated Chicago label typically strike a balance
+        between two extremes: the serene, jazzy, melodic and austere; and the percussive,
+        dense, elliptical and utterly tripped-out. Sometimes they can conjur all of
+        the above in a single glitched loop. Other labels try, but they rarely come
+        close. Welcome to the Electronic side of Thrill Jockey. (Cover: Oval / Photo:
+        Sveta Rybkina, Thrill Jockey, press)\",\"duration\":9746,\"lastUpdated\":\"2023-03-30T22:51:26.963+0000\",\"created\":\"2023-03-18T19:06:45.688+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/292fa3bc-6f40-436b-b0a8-501a9aecbca4\",\"image\":null,\"popularity\":0,\"squareImage\":\"dda04551-056f-4060-9ea2-d527dffd9854\",\"promotedArtists\":[{\"id\":3567109,\"name\":\"Tortoise\",\"type\":\"MAIN\",\"picture\":\"bd281796-c5cb-4461-8293-5eadf5608176\"},{\"id\":3565252,\"name\":\"Mouse
+        On Mars\",\"type\":\"MAIN\",\"picture\":\"b312978d-e7f0-4159-9f67-3afe84620e69\"},{\"id\":3907645,\"name\":\"Sam
+        Prekop\",\"type\":\"MAIN\",\"picture\":\"6d7d4a01-d337-4698-b945-26b0b2ef1850\"},{\"id\":4750230,\"name\":\"John
+        McEntire\",\"type\":\"MAIN\",\"picture\":\"06566342-002f-45ab-b9d7-522167fe194e\"}],\"lastItemAddedAt\":\"2023-03-20T14:56:48.256+0000\"},{\"uuid\":\"709055b4-67bd-4181-b5a0-704155d2dbef\",\"title\":\"Dance/Electronic:
+        BMM RISING\",\"numberOfTracks\":21,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"In
+        honor of Black History Month, we present 20 of the best artists working today
+        across Dance & Electronic music. Whether white-hot jungle or hammering techno,
+        alt-R&B or amapiano, classic house or sounds we don't even have a name for
+        yet, they all carry the torch for a tradition which originated in Black and
+        queer subcultures \u2014 and they all make simply great bangers. (Cover: Tygapaw
+        / Photo: Press)\",\"duration\":5380,\"lastUpdated\":\"2023-05-30T16:03:46.922+0000\",\"created\":\"2023-01-24T01:48:45.820+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/709055b4-67bd-4181-b5a0-704155d2dbef\",\"image\":\"8c3b3c7b-f6e2-4e8f-8810-444f0d90e7f2\",\"popularity\":1,\"squareImage\":\"c6260957-00ac-49c1-ba6b-4a13291fa972\",\"promotedArtists\":[{\"id\":9250814,\"name\":\"TYGAPAW\",\"type\":\"MAIN\",\"picture\":\"ddcb6fd0-2300-4dc6-977c-1e307eaa8b78\"},{\"id\":19813635,\"name\":\"Nia
+        Archives\",\"type\":\"MAIN\",\"picture\":\"a35d34ff-494b-4fce-b3dd-626f471a55ed\"},{\"id\":23245960,\"name\":\"TAAHLIAH\",\"type\":\"MAIN\",\"picture\":null},{\"id\":10148363,\"name\":\"Loraine
+        James\",\"type\":\"MAIN\",\"picture\":\"c9c46818-ad8e-4336-a3bf-a93d96814bd6\"}],\"lastItemAddedAt\":\"2023-05-30T16:01:45.738+0000\"},{\"uuid\":\"578c0de3-8734-4a08-9687-540ace97c0e8\",\"title\":\"Legendary
+        Women of Dance & Electronic\",\"numberOfTracks\":47,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"Across
+        the history of Dance and Electronic music, women have played a pivotal role,
+        enlivening culture in countless ways. Some expanded the nature of sound by
+        mastering emerging synthesisers and software. Others blew minds with chops
+        on the decks, or by pumping out soaring anthems to set the heart racing. All
+        deserve recognition in the canon. Here's one track apiece from 50 Legendary
+        Women of Dance & Electronic. (Cover: Beth Gibbons, Portishead / Photo: Andy
+        Willsher)\",\"duration\":15005,\"lastUpdated\":\"2023-02-25T22:29:10.937+0000\",\"created\":\"2021-02-21T17:14:50.419+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/578c0de3-8734-4a08-9687-540ace97c0e8\",\"image\":\"d62423b5-ef90-4693-9c76-3a92c44554bb\",\"popularity\":17,\"squareImage\":\"899649a4-8201-44e9-9b4a-a31ee3febea5\",\"promotedArtists\":[{\"id\":27441,\"name\":\"Portishead\",\"type\":\"MAIN\",\"picture\":\"af2591dd-bc89-4433-bb3f-64af75e5b03e\"},{\"id\":16992,\"name\":\"Bj\xF6rk\",\"type\":\"MAIN\",\"picture\":\"34a62eac-a04e-4a01-a242-394a49082b29\"},{\"id\":8957,\"name\":\"Kate
+        Bush\",\"type\":\"MAIN\",\"picture\":\"3eaebacb-02af-40b7-b649-8391d126964d\"},{\"id\":3819688,\"name\":\"Grimes\",\"type\":\"MAIN\",\"picture\":\"146b6ac6-95f9-42c1-b7c1-c8d13b37f7f0\"}],\"lastItemAddedAt\":\"2022-03-01T05:00:14.600+0000\"},{\"uuid\":\"a9261511-b1c1-42f5-a866-876f6ee4a54f\",\"title\":\"Dance
+        & Electronic: Artists to Watch 2023\",\"numberOfTracks\":25,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"Which
+        way will Dance & Electronic music twist in 2023? Based off a roaring dancefloor
+        comeback in '22, we're expecting a deeper array of cutting-edge sounds and
+        a wider pool of artists than ever before. Here are 25 artists to keep your
+        eye on as they take it to the next level. (Photo: LP Giobbi / Credit: Tonje
+        Thielsen)\",\"duration\":6424,\"lastUpdated\":\"2023-01-12T13:00:13.875+0000\",\"created\":\"2022-12-07T22:14:24.528+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/a9261511-b1c1-42f5-a866-876f6ee4a54f\",\"image\":\"a90df43b-e37b-41fb-b153-2d57b46df0bd\",\"popularity\":13,\"squareImage\":\"9b8e96c9-051a-4ee7-9b01-e3f5f61eccab\",\"promotedArtists\":[{\"id\":9735741,\"name\":\"LP
+        Giobbi\",\"type\":\"MAIN\",\"picture\":\"4b2a75fe-8403-4b71-9858-00951bc23200\"},{\"id\":33831269,\"name\":\"Lolahol\",\"type\":\"MAIN\",\"picture\":null},{\"id\":33380326,\"name\":\"piri
+        & tommy\",\"type\":\"MAIN\",\"picture\":null},{\"id\":4128016,\"name\":\"Y2K\",\"type\":\"MAIN\",\"picture\":\"38cd667d-f031-4b45-954d-fe6062a3c711\"}],\"lastItemAddedAt\":\"2023-01-12T13:00:13.835+0000\"},{\"uuid\":\"ea72430b-dc01-46ab-8e5a-00e44959fc87\",\"title\":\"House
+        History\",\"numberOfTracks\":50,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"From
+        first-wave Chicago DJs to contemporary global megastars, house music survives
+        and thrives today in the hands of those who are willing to sculpt moments,
+        push the culture forward and spread the gospel to a wider audience. Beginning
+        in 1980s Black and queer communities and still going as strong as ever 40
+        years later, here are some of the most widely-heard, influential and creative
+        classics in House History. (Cover: Beyonc\xE9 / Photo: Parkwood)\",\"duration\":18101,\"lastUpdated\":\"2023-07-18T12:49:39.371+0000\",\"created\":\"2022-07-29T01:22:30.433+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/ea72430b-dc01-46ab-8e5a-00e44959fc87\",\"image\":\"16426299-f578-4ec9-9609-c064a3dbd7af\",\"popularity\":14,\"squareImage\":\"8a9bf50f-84ce-4c54-a0ed-380b004c227c\",\"promotedArtists\":[{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"},{\"id\":14843,\"name\":\"Robin
+        S\",\"type\":\"MAIN\",\"picture\":\"5cc4b669-3e20-450d-91cd-d8302e43df69\"},{\"id\":28270,\"name\":\"Crystal
+        Waters\",\"type\":\"MAIN\",\"picture\":\"9f1ed56d-9ed6-4a19-b5a3-bbf7936017ee\"},{\"id\":9033,\"name\":\"Janet
+        Jackson\",\"type\":\"MAIN\",\"picture\":\"802bd615-1eb9-4e5f-a0d5-4284a046ac98\"}],\"lastItemAddedAt\":\"2023-07-18T12:49:26.622+0000\"},{\"uuid\":\"9f184f5b-9f38-463f-bd2c-cfcde5f10935\",\"title\":\"Black
+        Influences on House & Techno\",\"numberOfTracks\":50,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"House
+        and Techno never attained the same universal popularity in America as in Europe,
+        but the fact remains that the two genres would not exist without the ingenuity
+        and creativity of its African American originators. From the dancefloors of
+        Chicago's underground clubs to Detroit's imposing industrial caverns, House
+        and Techno have spread far beyond their intended audiences and now serve as
+        the driving rhythmic forces behind much of contemporary popular music. This
+        playlist spotlights the most vital African American producers in House and
+        Techno, with tracks encompassing the birth of each genre through to the present
+        day. In memory of Frankie Knuckles, DJ Deeon, Kim English, Mike Huckaby, Paul
+        Johnson, K-Hand and others who we've lost along the way.\",\"duration\":18954,\"lastUpdated\":\"2023-07-18T12:53:58.631+0000\",\"created\":\"2019-05-28T17:01:44.586+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/9f184f5b-9f38-463f-bd2c-cfcde5f10935\",\"image\":\"42e57d97-56f8-447a-bba5-08cb2f7850e0\",\"popularity\":14,\"squareImage\":\"bb568331-427a-45a2-a49b-aa4915032c9a\",\"promotedArtists\":[{\"id\":3546279,\"name\":\"Frankie
+        Knuckles\",\"type\":\"MAIN\",\"picture\":\"01c58ff0-8e0e-4073-89e5-fc28b65f5f48\"},{\"id\":3519291,\"name\":\"Paul
+        Johnson\",\"type\":\"MAIN\",\"picture\":\"306f31d0-37de-48b1-a24e-78b87bd02dcf\"},{\"id\":3601232,\"name\":\"DJ
+        Deeon\",\"type\":\"MAIN\",\"picture\":null},{\"id\":3941724,\"name\":\"K-HAND\",\"type\":\"MAIN\",\"picture\":\"39e8b744-4be0-40d6-83d9-003903c81f5c\"}],\"lastItemAddedAt\":\"2023-07-18T12:53:51.298+0000\"},{\"uuid\":\"108384e4-1c93-40be-a1d2-37c94f251367\",\"title\":\"Black
+        Disco Excellence\",\"numberOfTracks\":49,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"While
+        the queens of disco, Donna Summer and Sylvester, ruled radio and dancefloors,
+        like many other Black artists of the 70s, they were often signed to unfair
+        label contracts, manipulated by opportunistic producers, and forced to endure
+        injustices beneath the dignity of any Queen. Still, the sound of disco remains
+        defiantly joyful. Like a spotlight cutting through the darkness of a discotheque,
+        the Black artists of disco are a beacon of beauty, power, and freedom even
+        in the most trying times.\",\"duration\":19646,\"lastUpdated\":\"2023-05-23T08:51:58.195+0000\",\"created\":\"2019-01-31T18:04:57.095+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/108384e4-1c93-40be-a1d2-37c94f251367\",\"image\":\"64d84f33-3a9a-44fc-a314-de5272e18af2\",\"popularity\":24,\"squareImage\":\"fc565feb-d6ad-4c06-80c8-32abeeb3f804\",\"promotedArtists\":[{\"id\":743,\"name\":\"Donna
+        Summer\",\"type\":\"MAIN\",\"picture\":\"8abc8b11-9c5a-489c-ba35-7e1c3978998b\"},{\"id\":64382,\"name\":\"Sylvester\",\"type\":\"MAIN\",\"picture\":\"7f4b3bc6-9276-4551-80e0-1f95013026aa\"},{\"id\":13770,\"name\":\"Sister
+        Sledge\",\"type\":\"MAIN\",\"picture\":\"d87c3ce9-666c-47ae-90aa-a00c492dbca7\"},{\"id\":14023,\"name\":\"Chaka
+        Khan\",\"type\":\"MAIN\",\"picture\":\"6f8018a3-295f-4380-9631-f43705a0bd66\"}],\"lastItemAddedAt\":\"2023-05-23T08:51:58.186+0000\"},{\"uuid\":\"f599e842-e074-455b-9a66-dfec9799d03d\",\"title\":\"Heart
+        Beats: Dance Romance\",\"numberOfTracks\":73,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"Heart
+        Beats is like all the best relationships: synced up in perfect flow, intended
+        to soundtrack your sunset to sunrise in go one. Beamed in direct from a half-century's
+        worth of hot & steamy dancefloors, these tried 'n tested classics are certain
+        to get your pulses racing \u2014 on Valentine's Day and all year long. (Photo:
+        TIDAL)\",\"duration\":24007,\"lastUpdated\":\"2022-02-11T00:00:13.961+0000\",\"created\":\"2019-02-11T21:22:09.367+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/f599e842-e074-455b-9a66-dfec9799d03d\",\"image\":\"9e064840-3513-4758-b952-43788d1a59a2\",\"popularity\":18,\"squareImage\":\"d17217a0-5d84-4ed4-8dbe-6f0736969c3b\",\"promotedArtists\":[{\"id\":3546279,\"name\":\"Frankie
+        Knuckles\",\"type\":\"MAIN\",\"picture\":\"01c58ff0-8e0e-4073-89e5-fc28b65f5f48\"},{\"id\":743,\"name\":\"Donna
+        Summer\",\"type\":\"MAIN\",\"picture\":\"8abc8b11-9c5a-489c-ba35-7e1c3978998b\"},{\"id\":3932005,\"name\":\"Breakbot\",\"type\":\"MAIN\",\"picture\":\"7c7d3c1b-6b60-4bd0-af5f-78fc53215220\"},{\"id\":9612,\"name\":\"The
+        Knife\",\"type\":\"MAIN\",\"picture\":\"f6f43180-d2a4-4135-86ad-8219c3d22198\"}],\"lastItemAddedAt\":\"2022-02-11T00:00:13.847+0000\"},{\"uuid\":\"896cd090-0745-4c00-a776-a3ce74579094\",\"title\":\"Aural
+        Wilderness: Findings From the Vaults\",\"numberOfTracks\":94,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"The
+        TIDAL team spend hours every week exploring the darkest corners and dustiest
+        shelves of our endless digital archives. Here are some deep cuts favorites
+        from the vaults as we stumble upon them. Some might be very familiar from
+        before, some brand new acquaintances, but we hope many of these songs will
+        trigger your inner crate digger. (Photo: Valentino Funghi, Unsplash)\",\"duration\":30661,\"lastUpdated\":\"2023-07-10T14:25:56.060+0000\",\"created\":\"2015-08-18T07:08:21.656+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/896cd090-0745-4c00-a776-a3ce74579094\",\"image\":\"6b84d9d2-3fb4-46bd-a8a1-99b1a3414b7b\",\"popularity\":19,\"squareImage\":\"f69b06be-eb1d-4ea8-a18d-313347074012\",\"promotedArtists\":[{\"id\":10167129,\"name\":\"Fishmans\",\"type\":\"MAIN\",\"picture\":null},{\"id\":8255045,\"name\":\"Bordoni\",\"type\":\"MAIN\",\"picture\":null},{\"id\":8954784,\"name\":\"Miglioli\",\"type\":\"MAIN\",\"picture\":null},{\"id\":9000536,\"name\":\"Bozzalla\",\"type\":\"MAIN\",\"picture\":null}],\"lastItemAddedAt\":\"2023-07-10T14:25:38.638+0000\"},{\"uuid\":\"4a605acd-d4c0-479f-8a29-084e534587c1\",\"title\":\"Electronic:
+        Best of 2022\",\"numberOfTracks\":65,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"It's
+        been a banner year for Electronic music. New stars rose, crossover anthems
+        were minted, and we got to dance anew. Actual Life came back \u2014 who could
+        ask for more? (Cover: Fred Again.. / Photo: Theo Batterham)\",\"duration\":18608,\"lastUpdated\":\"2022-12-08T00:06:29.898+0000\",\"created\":\"2022-11-27T05:29:13.056+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/4a605acd-d4c0-479f-8a29-084e534587c1\",\"image\":\"3777015d-6146-46d1-841d-184fab816fc1\",\"popularity\":13,\"squareImage\":\"dae2ae13-7e96-43d2-8b62-19942e9485b3\",\"promotedArtists\":[{\"id\":17062018,\"name\":\"Fred
+        again..\",\"type\":\"MAIN\",\"picture\":\"8c91999a-5524-413d-a8b4-4fcc787a8e3d\"},{\"id\":4192131,\"name\":\"KH\",\"type\":\"MAIN\",\"picture\":null},{\"id\":9754622,\"name\":\"Eliza
+        Rose\",\"type\":\"MAIN\",\"picture\":\"b87f4f9c-824c-4fad-9a91-e9de5f5eeaf8\"},{\"id\":8006336,\"name\":\"Interplanetary
+        Criminal\",\"type\":\"MAIN\",\"picture\":null}],\"lastItemAddedAt\":\"2022-12-08T00:06:13.502+0000\"},{\"uuid\":\"e970599a-f11c-4517-a675-cd66851b22ff\",\"title\":\"Label
+        Focus: Ghostly International\",\"numberOfTracks\":42,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"Ghostly
+        International has been one of the premium labels for discerning electronic
+        music fans ever since its inception in 1999. Originating in Detroit and now
+        residing in Brooklyn, Ghostly and its sub-label Spectral Sounds has been home
+        to experimental, techno and pop musicians like Matthew Dear, Tycho, Galcher
+        Lustwerk, Mary Lattimore, Shigeto, Com Truise, Brijean, Fort Romeau, Telefon
+        Tel Aviv, Kaitlyn Aurelia Smith, JTC, plus many more \u2014 as well as an
+        incubator for the best visual artists, designers, technologists and multi-hyphenates.
+        Where once Ghostly was known as \\\"genre-less\\\", now you could say 'Ghostly'
+        is a stylistic descriptor in its own right. Long may they reign. (Photo: Approved
+        logo)\",\"duration\":12871,\"lastUpdated\":\"2022-02-06T19:45:52.335+0000\",\"created\":\"2020-11-18T19:35:39.764+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/e970599a-f11c-4517-a675-cd66851b22ff\",\"image\":\"2d8dd794-470d-4baa-bfc7-2aa6e9d3b350\",\"popularity\":3,\"squareImage\":\"bef254ef-302e-4239-adea-12305762f215\",\"promotedArtists\":[{\"id\":29433840,\"name\":\"Whatever
+        The Weather\",\"type\":\"MAIN\",\"picture\":null},{\"id\":4781913,\"name\":\"Heathered
+        Pearls\",\"type\":\"MAIN\",\"picture\":\"e3f02162-b1a8-4f6b-a586-a05d829d8d42\"},{\"id\":10189603,\"name\":\"Private
+        Press\",\"type\":\"MAIN\",\"picture\":null},{\"id\":4857271,\"name\":\"Fort
+        Romeau\",\"type\":\"MAIN\",\"picture\":\"80944b9c-3b47-4967-97bf-b1cb87c568e7\"}],\"lastItemAddedAt\":\"2022-02-06T19:39:44.667+0000\"},{\"uuid\":\"16281204-84e0-4cae-8c5d-e03207002375\",\"title\":\"Panorama
+        Bar Playlist 10 | Alinka\",\"numberOfTracks\":41,\"numberOfVideos\":0,\"creator\":{\"id\":20425230,\"name\":\"Ostgut
+        Ton\",\"type\":null,\"picture\":\"f3e5aef5-bc32-438d-bf9f-1d8e393f3151\"},\"description\":\"Alinka
+        was born and raised in Kyiv, but grew to being a true house music advocate
+        as an emigrant to Chicago, the genre's original hometown in the late '80s.
+        She's been a resident at Smartbar's .Dotbleep nights, later hosting own club
+        nights and running the Twirl label together with Shaun J. Wright. For her
+        Panorama Bar Playlist, Alinka goes deep, picking fave tracks from Chicago,
+        Detroit, her current home of choice Berlin and beyond \u2013 a house music
+        journey from deep down to high energy, from doors open to shutters open. (Photo:
+        Lukas Viar)\",\"duration\":19918,\"lastUpdated\":\"2023-04-19T12:12:14.168+0000\",\"created\":\"2022-08-10T08:57:02.002+0000\",\"type\":\"ARTIST\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/16281204-84e0-4cae-8c5d-e03207002375\",\"image\":\"120c1101-ae65-454c-bca7-18fbb637c743\",\"popularity\":1,\"squareImage\":\"c22e836b-64d9-4ab2-b169-3e669cce1ece\",\"promotedArtists\":[],\"lastItemAddedAt\":\"2022-08-10T08:57:02.178+0000\"},{\"uuid\":\"165210a9-524a-4f29-9f33-a09fd297ae17\",\"title\":\"Panorama
+        Bar Playlist 09 | Ryan Elliott\",\"numberOfTracks\":34,\"numberOfVideos\":0,\"creator\":{\"id\":20425230,\"name\":\"Ostgut
+        Ton\",\"type\":null,\"picture\":\"f3e5aef5-bc32-438d-bf9f-1d8e393f3151\"},\"description\":\"Panorama
+        Bar Playlist 09 comes by Detroit-Berliner Ryan Elliott: extremely funky and
+        extremely on point. Here, Elliott compiles diverse artists and their broad
+        sonic range, from deep and powerful house cuts and minimal techno to filigree,
+        sax-leaning, soulful 4/4 \u2013 from Panorama Bar classics to new music, just
+        like a Klubnacht. (Photo: Lotte Thor)\",\"duration\":13894,\"lastUpdated\":\"2023-04-19T12:12:11.806+0000\",\"created\":\"2022-04-01T09:42:42.796+0000\",\"type\":\"ARTIST\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/165210a9-524a-4f29-9f33-a09fd297ae17\",\"image\":\"bd65c39d-1927-4651-9f12-a6576fa58bcb\",\"popularity\":1,\"squareImage\":\"23c0a044-2011-4a13-84e2-878b42ce242b\",\"promotedArtists\":[],\"lastItemAddedAt\":\"2022-04-01T09:42:42.966+0000\"},{\"uuid\":\"99f4594a-06db-47c7-87cd-b42dbed55ceb\",\"title\":\"Berghain
+        Playlist 08 | Sven Marquardt\",\"numberOfTracks\":29,\"numberOfVideos\":0,\"creator\":{\"id\":20425230,\"name\":\"Ostgut
+        Ton\",\"type\":null,\"picture\":\"f3e5aef5-bc32-438d-bf9f-1d8e393f3151\"},\"description\":\"First
+        working at the door of OstGut and later at Berghain, Sven Marquardt has had
+        a significant influence on club culture since the late 1990s. In regards to
+        aesthetics, his photography had a strong impact on Ostgut Ton artists\u2019
+        public perception. Unsurprisingly, this Berghain Playlist sounds different.
+        Here, Marquardt collages inspirations of his work night and day: music as
+        a companion before and after Klubnacht, as inspiration for and in preparation
+        of many of his photo sessions and projects. (Credit: Ole Westermann)\",\"duration\":11009,\"lastUpdated\":\"2022-02-03T11:00:11.170+0000\",\"created\":\"2022-02-03T10:14:35.939+0000\",\"type\":\"ARTIST\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/99f4594a-06db-47c7-87cd-b42dbed55ceb\",\"image\":\"41dbd43d-7bde-44f4-bc18-13fb0070f167\",\"popularity\":3,\"squareImage\":\"746dad68-e736-4ba6-9bd8-4c4b511e2e27\",\"promotedArtists\":[],\"lastItemAddedAt\":\"2022-02-03T10:14:36.136+0000\"},{\"uuid\":\"989a18f3-e3ed-4532-920c-75af65b058a9\",\"title\":\"Dance
+        to the '90s\",\"numberOfTracks\":44,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"Be
+        prepared to spill a drink or two, because anything could happen after you
+        throw on this list of the classic club smashers from the 1990's. (Cover: The
+        Chemical Brothers / Photo: Rovi) \",\"duration\":16448,\"lastUpdated\":\"2020-04-20T09:36:47.466+0000\",\"created\":\"2014-09-30T12:58:34.330+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/989a18f3-e3ed-4532-920c-75af65b058a9\",\"image\":\"2ac20d49-460c-478e-920a-6e9e8625c597\",\"popularity\":54,\"squareImage\":\"e299d245-4824-471d-bc69-dd6b14f2e655\",\"promotedArtists\":[{\"id\":16053482,\"name\":\"Stardust\",\"type\":\"MAIN\",\"picture\":\"dbf274c3-77c1-4995-b505-7a7fc88e4cf4\"},{\"id\":9124,\"name\":\"The
+        Chemical Brothers\",\"type\":\"MAIN\",\"picture\":\"444fdc02-4944-43b9-b3e2-beaa83b04843\"},{\"id\":14596,\"name\":\"The
+        Prodigy\",\"type\":\"MAIN\",\"picture\":\"4f45d52b-dc3e-4893-a7d5-78ee62d01041\"},{\"id\":8847,\"name\":\"Daft
+        Punk\",\"type\":\"MAIN\",\"picture\":\"c92cf3f5-066f-4f0a-87d0-c2bebff46d36\"}],\"lastItemAddedAt\":\"2020-04-20T08:58:29.217+0000\"},{\"uuid\":\"d839038d-871d-4730-92a5-fc13028f2fde\",\"title\":\"Open
+        World\",\"numberOfTracks\":147,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"Ambient
+        and atmospheric tracks for solitary strolls through the open world.\",\"duration\":49850,\"lastUpdated\":\"2022-10-04T10:54:20.965+0000\",\"created\":\"2019-06-26T20:49:30.221+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/d839038d-871d-4730-92a5-fc13028f2fde\",\"image\":\"9a1e8c5f-3bba-4a2c-9c36-8b84b2f7e29d\",\"popularity\":14,\"squareImage\":\"4caf139f-cb11-4f00-bf2a-7fcb31296a63\",\"promotedArtists\":[{\"id\":4828431,\"name\":\"Martin
+        O'Donnell\",\"type\":\"MAIN\",\"picture\":null},{\"id\":3664666,\"name\":\"Stephen
+        Rippy\",\"type\":\"MAIN\",\"picture\":null},{\"id\":3663670,\"name\":\"Inon
+        Zur\",\"type\":\"MAIN\",\"picture\":\"d0b0a85e-e782-4744-bb52-652d13d08214\"},{\"id\":9560490,\"name\":\"Lena
+        Raine\",\"type\":\"MAIN\",\"picture\":\"115f58de-56eb-45e9-a006-60ec4216ced3\"}],\"lastItemAddedAt\":\"2022-10-04T10:54:20.514+0000\"},{\"uuid\":\"00b1d39d-166c-428f-b4e3-3f70c1019565\",\"title\":\"In
+        The Loop\",\"numberOfTracks\":298,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"An
+        in-depth look at the best producer artists and wizkid beatmakers from around
+        the world. Strictly instrumental. Whether you're looking for the newest lo-fi
+        vibes or beats to study or work out to: Stay focused on your daily operation,
+        and let your head nod. (Picture: Wes Hicks /Unsplash)\",\"duration\":42718,\"lastUpdated\":\"2023-07-20T22:00:14.891+0000\",\"created\":\"2020-09-17T20:43:03.384+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/00b1d39d-166c-428f-b4e3-3f70c1019565\",\"image\":\"9a6e0a7c-2a50-477b-9e3c-1b21b467575d\",\"popularity\":35,\"squareImage\":\"a3d16cbb-7aa6-4321-850c-fbbe31ed6165\",\"promotedArtists\":[{\"id\":39935840,\"name\":\"Naptunes\",\"type\":\"MAIN\",\"picture\":null},{\"id\":4360849,\"name\":\"Shuko\",\"type\":\"MAIN\",\"picture\":\"3334aa72-1427-4aae-8c14-3a2b68a91eaa\"},{\"id\":10083677,\"name\":\"catch92\",\"type\":\"MAIN\",\"picture\":\"94a9c768-79f9-438e-95a6-82e7311d6a13\"},{\"id\":6883450,\"name\":\"Tom
+        Doolie\",\"type\":\"MAIN\",\"picture\":\"330c54dd-dd27-4184-a3fb-5ff425300af3\"}],\"lastItemAddedAt\":\"2023-07-20T22:00:14.869+0000\"},{\"uuid\":\"456a02f2-8a80-48cd-bc29-4a063f16a6ed\",\"title\":\"Space
+        Out\",\"numberOfTracks\":102,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"Home
+        to elusive electronic soundscapes, Space Out is designed to transport you
+        out of the present and into a deep and restful sleep. (Photo: Unsplash)\",\"duration\":39850,\"lastUpdated\":\"2022-05-07T12:13:34.643+0000\",\"created\":\"2017-10-30T18:31:41.965+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/456a02f2-8a80-48cd-bc29-4a063f16a6ed\",\"image\":\"7f73d47c-18e0-469e-a4d3-9ecbef0f0e49\",\"popularity\":37,\"squareImage\":\"a801dfea-b759-4c88-9ea2-a5648354ce04\",\"promotedArtists\":[{\"id\":4515766,\"name\":\"Sweatson
+        Klank\",\"type\":\"MAIN\",\"picture\":null},{\"id\":8914676,\"name\":\"The
+        Golden Islands\",\"type\":\"MAIN\",\"picture\":null},{\"id\":3930841,\"name\":\"Federico
+        Durand\",\"type\":\"MAIN\",\"picture\":null},{\"id\":7839681,\"name\":\"nthng\",\"type\":\"MAIN\",\"picture\":null}],\"lastItemAddedAt\":\"2022-05-07T12:13:34.324+0000\"},{\"uuid\":\"74df23e8-17da-4a16-80e0-811b2e6f0c9c\",\"title\":\"Roof
+        Access\",\"numberOfTracks\":165,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"Hit
+        your friends and tell them to bring the goods\u2013\u2013you\u2019ve got Roof
+        Access. These upbeat house cuts are guaranteed to get the party started. (Photo:
+        Unsplash)\",\"duration\":74595,\"lastUpdated\":\"2021-01-27T18:08:12.351+0000\",\"created\":\"2018-10-25T20:32:27.748+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/74df23e8-17da-4a16-80e0-811b2e6f0c9c\",\"image\":\"c72bb6eb-57bf-4241-bb75-c568ebb69f57\",\"popularity\":26,\"squareImage\":\"879698f7-4ea6-4d25-87be-0661ab15a36a\",\"promotedArtists\":[{\"id\":3714184,\"name\":\"JT
+        Donaldson\",\"type\":\"MAIN\",\"picture\":null},{\"id\":9787147,\"name\":\"Ben
+        Hixon\",\"type\":\"MAIN\",\"picture\":null},{\"id\":10668945,\"name\":\"\uBC15\uD61C\uC9C4
+        park hye jin\",\"type\":\"MAIN\",\"picture\":\"a7c7b631-b299-40a3-b166-e7e6edb79321\"},{\"id\":7507216,\"name\":\"Earth
+        Boys\",\"type\":\"MAIN\",\"picture\":null}],\"lastItemAddedAt\":\"2020-09-02T16:01:33.057+0000\"},{\"uuid\":\"2d90882d-cdfc-4a72-b7e2-5a417a4faac5\",\"title\":\"Underground
+        Sound\",\"numberOfTracks\":163,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"Can
+        you hear that? It's the sound of the underground. Say goodbye to daylight
+        and descend into the depths of electronic music with this selection of thumping
+        contemporary cuts. Sweat, smoke, and strobes await... (Photo: Unsplash)\",\"duration\":70070,\"lastUpdated\":\"2021-01-28T17:18:05.177+0000\",\"created\":\"2019-01-16T18:39:59.166+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/2d90882d-cdfc-4a72-b7e2-5a417a4faac5\",\"image\":\"4d6fc88d-e492-4d1c-acab-03cf15d230da\",\"popularity\":29,\"squareImage\":\"73fe9f93-bdf7-43ef-a361-46f2d857cf68\",\"promotedArtists\":[{\"id\":10705522,\"name\":\"New
+        Members\",\"type\":\"MAIN\",\"picture\":null},{\"id\":31846,\"name\":\"Lone\",\"type\":\"MAIN\",\"picture\":null},{\"id\":4626348,\"name\":\"Anaxander\",\"type\":\"MAIN\",\"picture\":null},{\"id\":10553712,\"name\":\"Adelphi
+        Music Factory\",\"type\":\"MAIN\",\"picture\":\"2531d465-22c7-4392-837b-c9356dba85b3\"}],\"lastItemAddedAt\":\"2020-08-28T22:18:08.996+0000\"},{\"uuid\":\"1b087082-ab54-4e7d-a0d3-b1cf1cf18ebc\",\"title\":\"Crossed
+        Wires\",\"numberOfTracks\":116,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"Electronic
+        music doesn't always follow the sacred 4:4 signature. Crossed Wires plugs
+        into an array of IDM, left-field, and ambient house to explore the sounds
+        defying club-friendly rotation. (Photo: Unsplash)\",\"duration\":45096,\"lastUpdated\":\"2020-07-20T18:03:35.818+0000\",\"created\":\"2018-10-04T21:53:46.106+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/1b087082-ab54-4e7d-a0d3-b1cf1cf18ebc\",\"image\":\"312f7641-61eb-4990-bd9c-d131134b8e70\",\"popularity\":31,\"squareImage\":\"d1e44a39-6ed0-41bb-959f-11c3acf08548\",\"promotedArtists\":[{\"id\":19944298,\"name\":\"Shielding\",\"type\":\"MAIN\",\"picture\":null},{\"id\":3832155,\"name\":\"Nicolas
+        Jaar\",\"type\":\"MAIN\",\"picture\":\"c5c67d43-62ad-4aa2-9d0f-7e1e7de681c4\"},{\"id\":16737637,\"name\":\"PLOD\",\"type\":\"MAIN\",\"picture\":null},{\"id\":4211184,\"name\":\"Barefoot\",\"type\":\"MAIN\",\"picture\":null}],\"lastItemAddedAt\":\"2020-07-20T18:03:34.810+0000\"},{\"uuid\":\"8c90436a-d652-41b3-acad-b3e611ccad14\",\"title\":\"Light
+        Cycles\",\"numberOfTracks\":153,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"Night
+        falls and street-lamps illuminate. The open road beckons. Shift your mind
+        into Sport Mode with this selection of brooding beat-driven electronic tracks.
+        (Photo: Unsplash)\",\"duration\":63389,\"lastUpdated\":\"2020-08-06T22:05:34.494+0000\",\"created\":\"2018-11-06T22:34:55.788+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/8c90436a-d652-41b3-acad-b3e611ccad14\",\"image\":\"89676645-70f7-4483-b156-8286045ee813\",\"popularity\":22,\"squareImage\":\"5f0b1a99-6d67-49ef-89c2-60599f7020ca\",\"promotedArtists\":[{\"id\":3987862,\"name\":\"Azuni\",\"type\":\"MAIN\",\"picture\":null},{\"id\":4867051,\"name\":\"Octal
+        Industries\",\"type\":\"MAIN\",\"picture\":null},{\"id\":3593220,\"name\":\"OHM\",\"type\":\"MAIN\",\"picture\":null},{\"id\":7839681,\"name\":\"nthng\",\"type\":\"MAIN\",\"picture\":null}],\"lastItemAddedAt\":\"2020-08-06T22:05:33.936+0000\"},{\"uuid\":\"d0e721e0-63fd-418c-94a3-e98dcf8d0ecf\",\"title\":\"Lo-Fi
+        House\",\"numberOfTracks\":59,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"Lo-fi
+        house at its best. Get in the right mood straight away. (Image: Juan Rojas
+        / unsplash)\",\"duration\":22509,\"lastUpdated\":\"2022-03-31T15:05:08.063+0000\",\"created\":\"2022-03-30T14:45:36.333+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/d0e721e0-63fd-418c-94a3-e98dcf8d0ecf\",\"image\":\"e070885b-9b27-450d-b2e7-2eefb700c7d4\",\"popularity\":7,\"squareImage\":\"70874fcd-f208-42c0-b819-2dee2994d8bd\",\"promotedArtists\":[{\"id\":5450380,\"name\":\"Grant\",\"type\":\"MAIN\",\"picture\":null},{\"id\":8368169,\"name\":\"DJ
+        Boring\",\"type\":\"MAIN\",\"picture\":\"07bd2f49-c887-4de9-bdfd-f042b7838aee\"},{\"id\":6854136,\"name\":\"Baltra\",\"type\":\"MAIN\",\"picture\":\"630c37c0-3452-4e19-adc9-d8768dc836b5\"},{\"id\":14998592,\"name\":\"Zayan
+        Khan\",\"type\":\"MAIN\",\"picture\":null}],\"lastItemAddedAt\":\"2022-03-30T14:45:36.541+0000\"},{\"uuid\":\"08c02944-b9f1-4c68-9b73-733edd1b0fa2\",\"title\":\"Chicago
+        House\",\"numberOfTracks\":28,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"Sin
+        prop\xF3sito comercial, solo con la felicidad y el disfrute por bandera, Chicago
+        experimentar\xEDa un cambio significativo en su gusto musical. Un gusto que
+        poco tardar\xEDa en esparcirse por el resto del mundo gracias a la figura
+        del DJ. Facturado a manos de pioneros del g\xE9nero como Frankie Knuckles,
+        Ralphi Rosario, Larry Heard, Paul Johnson, Ron Hardy o Joe Smooth, el house
+        de Chicago beb\xEDa del disco pero se compon\xEDa a base de sintetizadores
+        anal\xF3gicos, secuenciadores y voces del soul. Ni son todos los que est\xE1n,
+        ni est\xE1n todos los que son\u2026(Foto: Unsplash)\",\"duration\":25196,\"lastUpdated\":\"2020-09-07T10:47:05.037+0000\",\"created\":\"2020-09-02T14:58:48.035+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/08c02944-b9f1-4c68-9b73-733edd1b0fa2\",\"image\":\"363f716a-40f5-439c-b240-108ca36dac3e\",\"popularity\":11,\"squareImage\":\"1d72c065-64f7-4b4e-93f2-6b0e038cd5d1\",\"promotedArtists\":[{\"id\":3519291,\"name\":\"Paul
+        Johnson\",\"type\":\"MAIN\",\"picture\":\"306f31d0-37de-48b1-a24e-78b87bd02dcf\"},{\"id\":6142,\"name\":\"Larry
+        Heard\",\"type\":\"MAIN\",\"picture\":\"a6b64c4a-7098-4127-9b2c-1afbdaf590f5\"},{\"id\":3546279,\"name\":\"Frankie
+        Knuckles\",\"type\":\"MAIN\",\"picture\":\"01c58ff0-8e0e-4073-89e5-fc28b65f5f48\"},{\"id\":3549233,\"name\":\"Ralphi
+        Rosario\",\"type\":\"MAIN\",\"picture\":\"f22f6ad6-f6cf-484d-91d0-e1dc89e19fdb\"}],\"lastItemAddedAt\":\"2020-09-02T15:26:30.302+0000\"},{\"uuid\":\"8ee5973a-5e0e-4963-a6fd-d686fc3f1fbb\",\"title\":\"Funky
+        & Disco Bangers\",\"numberOfTracks\":127,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"Temazos
+        disco y funky de los 70 perfectos para reventar la pista de baile. LA PLAYLIST
+        para hacer bailar al nost\xE1lgico y al clubber del Dekmantel o Rainbow Disco
+        Club. (Foto: Unsplash)\",\"duration\":56591,\"lastUpdated\":\"2022-12-29T20:41:13.572+0000\",\"created\":\"2020-09-02T15:05:40.030+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/8ee5973a-5e0e-4963-a6fd-d686fc3f1fbb\",\"image\":\"ccdab9e5-46c6-4937-a01b-bdcba7e77b2b\",\"popularity\":20,\"squareImage\":\"ea9b56d7-8967-4060-8301-79251618b85e\",\"promotedArtists\":[{\"id\":8127204,\"name\":\"Jesse
+        Rudoy\",\"type\":\"MAIN\",\"picture\":null},{\"id\":3643297,\"name\":\"General
+        Johnson\",\"type\":\"MAIN\",\"picture\":null},{\"id\":64979,\"name\":\"Constellation
+        Orchestra\",\"type\":\"MAIN\",\"picture\":null},{\"id\":3681875,\"name\":\"Bohannon\",\"type\":\"MAIN\",\"picture\":null}],\"lastItemAddedAt\":\"2022-12-29T20:41:13.559+0000\"},{\"uuid\":\"b6fc6d6b-aa1a-4e4c-8031-fb74188034a9\",\"title\":\"Break
+        & Broken Beats\",\"numberOfTracks\":41,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"Ritmos
+        sincopados, bombos a destiempo e influencias del jazz-fusi\xF3n y el D&B\u2026
+        te juntamos lo mejorcito del breakbeat y broken beat para que te lo bailes,
+        si puedes.\\n\xA1Bienvenido al para\xEDso de los ritmos rotos! (Foto: Unsplash\",\"duration\":17892,\"lastUpdated\":\"2021-02-22T15:24:42.253+0000\",\"created\":\"2020-07-16T13:35:50.185+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/b6fc6d6b-aa1a-4e4c-8031-fb74188034a9\",\"image\":\"cef9c068-fb7f-40ee-bd34-4deed1babf7c\",\"popularity\":4,\"squareImage\":\"5a6c8658-4fba-4bed-8822-acea0125ddbb\",\"promotedArtists\":[{\"id\":3812220,\"name\":\"RTR\",\"type\":\"MAIN\",\"picture\":null},{\"id\":8638175,\"name\":\"N\xF8rus\",\"type\":\"MAIN\",\"picture\":null},{\"id\":6527754,\"name\":\"Skygaze\",\"type\":\"MAIN\",\"picture\":\"06a92dea-7d3e-486b-8a7f-dca3b79ef3eb\"},{\"id\":8766358,\"name\":\"Trudge\",\"type\":\"MAIN\",\"picture\":null}],\"lastItemAddedAt\":\"2021-02-22T15:24:41.789+0000\"},{\"uuid\":\"38fa1b3c-b64e-4052-a021-06744d8b477e\",\"title\":\"Dub
+        Techno\",\"numberOfTracks\":59,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"If
+        you like dark kicks, long delay tails and a smoky atmosphere, this is your
+        list. Combining Berlin techno patterns with Jamaican dub roots, dub techno's
+        birth in the '90s opened up a portal to another realm. From Basic Channel,
+        Deepchord and Porter Ricks through to modern disciples like Andy Stott, Claro
+        Intelecto and Oscar Mulero, dub techno still throbs eternal. Here are some
+        of the genre\u2019s best. || Conjugando patrones del techno berlin\xE9s con
+        ra\xEDces dub jamaicanas, nace el Dubtechno. Desde Moritz Von Oswald, Deepchord
+        o Mark Ernestus hasta \xD3scar Mulero, Monolake o Primal Code. Si te gusta
+        el bombo oscuro, el delay y las bajas revoluciones, esta es tu lista. (Picture:
+        Unsplash)\",\"duration\":28891,\"lastUpdated\":\"2022-07-26T10:59:22.539+0000\",\"created\":\"2020-07-16T13:35:25.463+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/38fa1b3c-b64e-4052-a021-06744d8b477e\",\"image\":\"81c591bd-251a-45a1-9ba4-14f308ac3339\",\"popularity\":24,\"squareImage\":\"1ce7f67f-e71c-4b00-8fe1-f2c5be05ec7c\",\"promotedArtists\":[{\"id\":3523859,\"name\":\"Rhythm
+        & Sound\",\"type\":\"MAIN\",\"picture\":null},{\"id\":3514006,\"name\":\"Burger
+        & Ink\",\"type\":\"MAIN\",\"picture\":null},{\"id\":3745833,\"name\":\"Basic
+        Channel\",\"type\":\"MAIN\",\"picture\":null},{\"id\":3523859,\"name\":\"Rhythm
+        & Sound\",\"type\":\"MAIN\",\"picture\":null}],\"lastItemAddedAt\":\"2021-10-13T16:08:41.616+0000\"},{\"uuid\":\"61454d6f-bf61-4847-98c9-982d0fdb3b6c\",\"title\":\"Balearic\",\"numberOfTracks\":46,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"Desde
+        los primeros y t\xEDmidos escarceos del Balearic beat m\xE1s hedonista durante
+        los 80 hasta el nu-Balearic confeccionado por Jose Padilla, Alfredo, Cantoma
+        y compa\xF1\xEDa. Un soplo de aire fresco entre los 80-110 BPM y que te trasladar\xE1
+        hasta las Pitiusas. (Foto: Unsplash)\",\"duration\":17189,\"lastUpdated\":\"2020-06-18T10:37:34.291+0000\",\"created\":\"2020-06-15T11:18:09.170+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/61454d6f-bf61-4847-98c9-982d0fdb3b6c\",\"image\":\"152e4a36-7f1d-4075-820b-e0dc26f09e2f\",\"popularity\":5,\"squareImage\":\"0e9948c8-9b6f-42d5-bee8-36bcc5c47c8e\",\"promotedArtists\":[],\"lastItemAddedAt\":\"2020-06-15T11:18:09.360+0000\"},{\"uuid\":\"112dd5b3-61e0-40a2-a0a5-02041e337783\",\"title\":\"Electr\xF3nica
+        Emocional\",\"numberOfTracks\":47,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"Porque
+        no toda la electr\xF3nica est\xE1 centrada en el baile, esta lista est\xE1
+        prevista para suscitar todo tipo de emociones. Repleta de cl\xE1sicos pero
+        vanguardista, atemporal pero terrenal y con una combinaci\xF3n entre la composici\xF3n
+        m\xE1s cl\xE1sica y la producci\xF3n experimental.\\n(Foto: Eric Zhu)\",\"duration\":17311,\"lastUpdated\":\"2021-09-15T09:42:04.368+0000\",\"created\":\"2021-09-15T07:52:22.848+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/112dd5b3-61e0-40a2-a0a5-02041e337783\",\"image\":null,\"popularity\":5,\"squareImage\":\"eb31d321-0d6c-4d9e-acca-8be508d27ae0\",\"promotedArtists\":[],\"lastItemAddedAt\":\"2021-09-15T07:52:23.012+0000\"},{\"uuid\":\"a37db8be-fd7b-4a35-a98f-c7c2a0582606\",\"title\":\"Afrobeat
+        Classics\",\"numberOfTracks\":35,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"In
+        the late 1960s, Fela Anikulapo Kuti coined the word Afrobeat to describe his
+        signature big band sound that merged James Brown's funk innovations with highlife,
+        jazz and apala to the signature beat of Tony Allen's drums. However Fela's
+        contemporaries in West Africa and beyond were also experimenting with combining
+        funk with local popular and traditional music, including Orlando Julius in
+        Nigeria, Orchestre Poly-Rythmo de Cotonou in B\xE9nin Republic, Ebo Taylor
+        in Ghana, Afro National in Sierra Leone. This playlist includes the music
+        of Fela Kuti and his contemporaries and some of music inspired by their innovations.
+        \",\"duration\":17160,\"lastUpdated\":\"2023-07-18T15:42:19.439+0000\",\"created\":\"2020-05-26T20:25:41.392+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/a37db8be-fd7b-4a35-a98f-c7c2a0582606\",\"image\":\"12d668ef-470b-4f96-913d-5566f4d9335f\",\"popularity\":16,\"squareImage\":\"50392d64-539f-4864-9793-6de6ed9b4502\",\"promotedArtists\":[{\"id\":30191,\"name\":\"Fela
+        Kuti\",\"type\":\"MAIN\",\"picture\":\"b1e7165e-da39-4bbe-9649-7f767cb2baa3\"},{\"id\":17171265,\"name\":\"M\xE1d\xE9
+        Kuti\",\"type\":\"MAIN\",\"picture\":\"774ccebb-e749-441e-85ed-7128e5ee0318\"},{\"id\":3714523,\"name\":\"Marijata\",\"type\":\"MAIN\",\"picture\":null},{\"id\":3544028,\"name\":\"Ty\",\"type\":\"MAIN\",\"picture\":\"02fab6ec-6736-4d4b-8dec-bf48e73e6348\"}],\"lastItemAddedAt\":\"2023-07-18T15:42:19.295+0000\"},{\"uuid\":\"679559ce-974b-40d5-80fc-842bd1479c09\",\"title\":\"Underground
+        House Spain\",\"numberOfTracks\":64,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"Chicago,
+        deep, acid\u2026 ench\xFAfate el mejor house producido de puertas adentro
+        de nuestro pa\xEDs. \xA1Housazo para todos los gustos! (Foto: Unsplash) \",\"duration\":32877,\"lastUpdated\":\"2020-11-23T14:32:08.065+0000\",\"created\":\"2020-06-15T10:29:33.858+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/679559ce-974b-40d5-80fc-842bd1479c09\",\"image\":\"3b636048-b2bf-44e6-96a8-39716f43059d\",\"popularity\":10,\"squareImage\":\"d03de88e-6641-4623-9dc5-a1e48e4fa625\",\"promotedArtists\":[{\"id\":21522642,\"name\":\"Carlo\",\"type\":\"MAIN\",\"picture\":\"b8de022f-0ee2-4f54-959f-655157944a54\"},{\"id\":7260756,\"name\":\"DWYR\",\"type\":\"MAIN\",\"picture\":null},{\"id\":7883948,\"name\":\"Lis
+        Sarroca\",\"type\":\"MAIN\",\"picture\":null},{\"id\":8871309,\"name\":\"Sumluv\",\"type\":\"MAIN\",\"picture\":\"135d3b9f-521f-4832-93d8-c88ca14e8da9\"}],\"lastItemAddedAt\":\"2020-11-23T14:32:07.637+0000\"},{\"uuid\":\"5d287640-c384-44b1-bf73-d9c97d46f241\",\"title\":\"Bop
+        Electric\",\"numberOfTracks\":48,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"Plug
+        in and get fuelled by crunch, bite and neon synths. Whether roaring ahead
+        or cruising casually, warp from the past to the future with the sound of a
+        mixed-up electro-generation. Fresh tracks added every Friday. \",\"duration\":10525,\"lastUpdated\":\"2023-07-20T19:32:17.488+0000\",\"created\":\"2018-11-06T00:31:01.607+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/5d287640-c384-44b1-bf73-d9c97d46f241\",\"image\":\"4086d6d4-6f02-48e0-b71f-2b4a549a7959\",\"popularity\":39,\"squareImage\":\"021453eb-9b77-41eb-a6c1-8f1f2358e652\",\"promotedArtists\":[{\"id\":4915250,\"name\":\"Troye
+        Sivan\",\"type\":\"MAIN\",\"picture\":\"9884dc57-b7ed-496d-a7b9-022fc9544748\"},{\"id\":6355719,\"name\":\"Carneyval\",\"type\":\"MAIN\",\"picture\":\"61e9c32d-189c-4f32-a52f-61bdd06780be\"},{\"id\":9758139,\"name\":\"Emotional
+        Oranges\",\"type\":\"MAIN\",\"picture\":\"f9cfbe2d-abdc-4665-84aa-5479d4a7a54c\"},{\"id\":4511635,\"name\":\"Zhu\",\"type\":\"MAIN\",\"picture\":\"8fa7ba78-08ce-46c3-99d4-6175d0b99ba4\"}],\"lastItemAddedAt\":\"2023-07-14T04:01:15.147+0000\"},{\"uuid\":\"14401254-568e-462a-aa96-dc0e4c88b73d\",\"title\":\"We
+        Are Everywhere\",\"numberOfTracks\":75,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"LGBTQI+
+        people are everywhere, as they say, and that undoubtedly applies to LGBTQI+
+        musicians. We Are Everywhere celebrates the latest and greatest from queer
+        artists across genre, gender, style and sexual preference.\\n\",\"duration\":16974,\"lastUpdated\":\"2023-07-17T00:45:44.806+0000\",\"created\":\"2019-07-18T22:09:06.299+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/14401254-568e-462a-aa96-dc0e4c88b73d\",\"image\":\"5c181deb-8293-4bee-8b50-8079f14ee35d\",\"popularity\":17,\"squareImage\":\"2bb0f38e-089e-4d0c-992c-587e158e9b9e\",\"promotedArtists\":[{\"id\":4915250,\"name\":\"Troye
+        Sivan\",\"type\":\"MAIN\",\"picture\":\"9884dc57-b7ed-496d-a7b9-022fc9544748\"},{\"id\":7967712,\"name\":\"LSDXOXO\",\"type\":\"MAIN\",\"picture\":\"aff5fe12-1567-466c-a60d-b7c1a9d30227\"},{\"id\":16264401,\"name\":\"claire
+        rousay\",\"type\":\"MAIN\",\"picture\":\"46c98394-9294-4a77-8af7-1ea69df850f3\"},{\"id\":5537822,\"name\":\"Cakes
+        Da Killa\",\"type\":\"MAIN\",\"picture\":\"5c0c291b-23b0-4a0e-9072-4fdce35ac881\"}],\"lastItemAddedAt\":\"2023-07-17T00:45:20.345+0000\"},{\"uuid\":\"c09a5650-919d-4287-8d33-c236b4afa95d\",\"title\":\"Industrial
+        Revolution\",\"numberOfTracks\":40,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"The
+        term 'Industrial music' was coined in mid-1970 when members of Throbbing Gristle
+        formed the record label Industrial Records. This broad genre is usually referring
+        to a fusion of electronic music and rock, often using harsh, aggressive sounds
+        and dealing with provocative and transgressive topics. Industrial music also
+        touches into EBM, gothic metal, dark ambient, noise and other sub-genres.This
+        playlist gives you a taste of some aspects of industrial music, as it grew
+        from an experimental subculture to the mainstream, from the popular acts to
+        the provocative forefront. (Photo: Unsplash) \",\"duration\":14682,\"lastUpdated\":\"2020-03-31T20:27:08.082+0000\",\"created\":\"2020-03-30T23:30:00.300+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/c09a5650-919d-4287-8d33-c236b4afa95d\",\"image\":\"d51ceafc-8729-4452-97bc-2dc2de77ede3\",\"popularity\":11,\"squareImage\":\"08f5464e-abc5-43c5-a8ce-2d1d5113a2b9\",\"promotedArtists\":[{\"id\":3575291,\"name\":\"Front
+        242\",\"type\":\"MAIN\",\"picture\":\"f08b0ba1-7ba0-4e33-a8e7-7baddd32b062\"},{\"id\":4028853,\"name\":\"Nitzer
+        Ebb \",\"type\":\"MAIN\",\"picture\":\"3bab16dc-4766-417b-84df-cd3b061bf080\"},{\"id\":13630,\"name\":\"Ministry\",\"type\":\"MAIN\",\"picture\":\"8a976998-bc0b-41d0-84b0-8b943f6c2cba\"},{\"id\":3527085,\"name\":\"Skinny
+        Puppy\",\"type\":\"MAIN\",\"picture\":\"9eb38a7c-f220-4880-9c87-c98d24b99e20\"}],\"lastItemAddedAt\":\"2020-03-31T20:27:05.038+0000\"},{\"uuid\":\"8a1d62fc-f4ef-4c8d-bf3e-2ca2c50aa6fa\",\"title\":\"Minimalistische
+        Rhythmen \",\"numberOfTracks\":19,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"A
+        taste of German dub techno and beyond: From dubtronica innovators to more
+        glitch based and experimental sound sculptors. (Photo: Unsplash)\",\"duration\":14357,\"lastUpdated\":\"2023-04-19T12:11:52.346+0000\",\"created\":\"2015-02-05T15:17:12.494+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/8a1d62fc-f4ef-4c8d-bf3e-2ca2c50aa6fa\",\"image\":\"c1f8e580-778a-4576-a00c-aec84c0bf82a\",\"popularity\":23,\"squareImage\":\"2d21022d-487b-409b-90b2-c6f65e847924\",\"promotedArtists\":[{\"id\":3575177,\"name\":\"DJ
+        Koze\",\"type\":\"MAIN\",\"picture\":\"cb8cbf8f-eae1-4b85-bc33-a844f3308a4d\"},{\"id\":3588415,\"name\":\"Pole\",\"type\":\"MAIN\",\"picture\":\"57ff6510-ca2e-4938-b8a8-ab7200a6c1b7\"},{\"id\":3906787,\"name\":\"Monolake\",\"type\":\"MAIN\",\"picture\":\"d371592d-1c92-445c-859b-4edbdb461bf2\"},{\"id\":3941046,\"name\":\"Oval\",\"type\":\"MAIN\",\"picture\":\"41317af3-10ee-4ed7-b25a-3c17883312f8\"}],\"lastItemAddedAt\":null},{\"uuid\":\"a8112ea0-2228-44e9-928d-5524134190b8\",\"title\":\"Electronic
+        Pride \",\"numberOfTracks\":45,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"Dance
+        music came from queer culture, and is still enlivened by it year after year.
+        So let's celebrate!\",\"duration\":11804,\"lastUpdated\":\"2023-05-23T08:39:47.571+0000\",\"created\":\"2019-05-28T11:15:48.811+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/a8112ea0-2228-44e9-928d-5524134190b8\",\"image\":\"45df5cc3-289c-420d-81ba-bdfa74e62d38\",\"popularity\":5,\"squareImage\":\"bedd9f67-06c4-4ddd-8b63-ec310f434c21\",\"promotedArtists\":[{\"id\":7967712,\"name\":\"LSDXOXO\",\"type\":\"MAIN\",\"picture\":\"aff5fe12-1567-466c-a60d-b7c1a9d30227\"},{\"id\":7977752,\"name\":\"Wolfgang
+        Tillmans\",\"type\":\"MAIN\",\"picture\":null},{\"id\":8979025,\"name\":\"Kim
+        Petras\",\"type\":\"MAIN\",\"picture\":\"9adae4f6-863e-4600-8829-7e965fe420d3\"},{\"id\":4786917,\"name\":\"Shamir\",\"type\":\"MAIN\",\"picture\":\"3463e7af-1680-408f-82d8-4542517f8867\"}],\"lastItemAddedAt\":\"2023-05-23T08:39:44.338+0000\"},{\"uuid\":\"caf3f329-c38f-4c50-9443-6eac54683e57\",\"title\":\"R&B
+        Pride \",\"numberOfTracks\":56,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"The
+        new wave of R&B and electronically-infused beats from LGBT&Q+ artists.\",\"duration\":11552,\"lastUpdated\":\"2023-06-21T16:38:44.633+0000\",\"created\":\"2019-05-28T11:18:24.853+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/caf3f329-c38f-4c50-9443-6eac54683e57\",\"image\":\"67a3f277-edab-4194-9938-97159323dd95\",\"popularity\":4,\"squareImage\":\"94ff4f5b-21f8-42c1-bdc2-5d12093bca38\",\"promotedArtists\":[{\"id\":4836523,\"name\":\"SYD\",\"type\":\"MAIN\",\"picture\":\"1e38099b-1515-4e3a-8495-585eb0812107\"},{\"id\":5652094,\"name\":\"Kehlani\",\"type\":\"MAIN\",\"picture\":\"2f6e749a-eac2-4520-8ee2-ca7046b940c7\"},{\"id\":8030323,\"name\":\"Asiahn\",\"type\":\"MAIN\",\"picture\":\"27673333-e95c-4590-8664-8081ba216138\"}],\"lastItemAddedAt\":\"2023-06-21T16:38:15.379+0000\"},{\"uuid\":\"394c28f1-ca17-4073-bbcb-618467fd7f31\",\"title\":\"Synth
+        Pride \",\"numberOfTracks\":49,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"In
+        the 80s, a synth was a queer musician's best friend. Since then, no matter
+        the scene, some of the very best bops come from LGBTQ+ artists who know how
+        to work those keyboards like their life depended on it. And when you hear
+        these tracks, you'd be convinced it really did.\",\"duration\":12497,\"lastUpdated\":\"2023-05-23T08:34:33.905+0000\",\"created\":\"2019-05-28T11:17:30.510+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/394c28f1-ca17-4073-bbcb-618467fd7f31\",\"image\":\"54bf181b-778a-4856-ba41-56af67c70027\",\"popularity\":9,\"squareImage\":\"62d46526-d568-4e6d-934f-f26af2272a24\",\"promotedArtists\":[{\"id\":8900,\"name\":\"Pet
+        Shop Boys\",\"type\":\"MAIN\",\"picture\":\"5d43f2b9-7f0e-49ee-833a-2c97a8f8542e\"},{\"id\":3537876,\"name\":\"Frankie
+        Goes To Hollywood\",\"type\":\"MAIN\",\"picture\":\"ef614932-6ef7-4482-8667-5f222429f388\"},{\"id\":3529464,\"name\":\"Gossip\",\"type\":\"MAIN\",\"picture\":\"3e1dbf06-19f2-40cd-a969-1b07efb2c591\"},{\"id\":3877793,\"name\":\"Carly
+        Rae Jepsen\",\"type\":\"MAIN\",\"picture\":\"924d0b60-19bc-4963-9a73-226b130877de\"}],\"lastItemAddedAt\":\"2023-05-23T08:34:22.226+0000\"},{\"uuid\":\"949df25a-3cf8-4986-b9f9-9995b3f57038\",\"title\":\"Black
+        Techno Excellence\",\"numberOfTracks\":45,\"numberOfVideos\":0,\"creator\":{\"id\":0},\"description\":\"People
+        often say that techno, and techno-adjacent styles like tough house music,
+        ghetto house and ghettotech \u2014 sounds like Chicago and Detroit. They usually
+        mean beauty in struggle, imposing and unceasing machinery, an unforgivingly
+        cold core, and its ongoing resilience. But what draws lovers to the sound
+        is a human heartbeat underneath the steely exoskeleton, and the unspoken strive
+        for a better future. That's also Black America \u2013 ergo, that's techno.
+        As icons of the first and second waves of the American Midwest style are beginning
+        to pass in greater numbers, honor their work here.\",\"duration\":17327,\"lastUpdated\":\"2023-07-18T12:31:18.880+0000\",\"created\":\"2019-01-31T18:03:54.085+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/949df25a-3cf8-4986-b9f9-9995b3f57038\",\"image\":\"edc9800f-3b31-45f3-84b3-e809ae68d833\",\"popularity\":20,\"squareImage\":\"d6a37ff9-273f-474b-83ab-c870f71a4839\",\"promotedArtists\":[{\"id\":3601232,\"name\":\"DJ
+        Deeon\",\"type\":\"MAIN\",\"picture\":null},{\"id\":4301469,\"name\":\"Floorplan\",\"type\":\"MAIN\",\"picture\":\"df37cde7-a1f8-4173-9d5f-c3dea9073ee6\"},{\"id\":10951,\"name\":\"Inner
+        City\",\"type\":\"MAIN\",\"picture\":\"546dcae5-736e-42aa-8f89-53e495e8b145\"},{\"id\":3712638,\"name\":\"Drexciya\",\"type\":\"MAIN\",\"picture\":\"4af05f47-0a84-4941-be81-34a192e8373c\"}],\"lastItemAddedAt\":\"2023-05-23T09:05:27.821+0000\"}]}"
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:56 GMT
+      ETag:
+      - '"971358425"'
+      Server:
+      - noyb
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 2fd9c5b0508a46d517c437af26a3a5c8.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - VyM9sOcthRmkmxrOpZ3_GurtOluJaeQY-M214BRfUB2VYa9y0F-3ug==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

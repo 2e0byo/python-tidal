@@ -1,0 +1,322 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/artists/16147?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":16147,"name":"Lasgo","artistTypes":["ARTIST","CONTRIBUTOR"],"url":"http://www.tidal.com/artist/16147","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377","popularity":32,"artistRoles":[{"categoryId":-1,"category":"Artist"},{"categoryId":11,"category":"Performer"},{"categoryId":10,"category":"Production
+        team"},{"categoryId":2,"category":"Songwriter"}],"mixes":{"ARTIST_MIX":"000cb7886dd3be488a8fe3a204ffa5"}}'
+    headers:
+      Age:
+      - '2'
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '412'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:27 GMT
+      Server:
+      - noyb
+      Via:
+      - 1.1 c1caf5d327c9eee53d26ab7b7a8235f0.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - BEL5xmiey9I8NheL2uIrSPhx_kaexTBekUgfL8OtA2LUEi-eoi0kMg==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Hit from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/albums/17927863?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":17927863,"title":"Some Things (Deluxe)","duration":6712,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-10-01T00:00:00.000+0000","allowStreaming":true,"premiumStreamingOnly":false,"numberOfTracks":22,"numberOfVideos":0,"numberOfVolumes":2,"releaseDate":"2011-09-22","copyright":"Sinuz
+        Recordings (a division of HITT bv)","type":"ALBUM","version":"Deluxe","url":"http://www.tidal.com/album/17927863","cover":"30d83a8c-1db6-439d-84b4-dbfb6f03c44c","vibrantColor":"#FFFFFF","videoCover":null,"explicit":false,"upc":"3610151683488","popularity":32,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}]}'
+    headers:
+      Age:
+      - '16'
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '866'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:13 GMT
+      ETag:
+      - '"-460922226"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 9616c9d248a84b00a499563db915c53a.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - S6CttZpClswQDfQhf9jHaK8ceRsXMG0iGV2WMMMT3OOi8NO8CpU5pQ==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Hit from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/albums/36292296?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":36292296,"title":"Smile","duration":2047,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-09-20T00:00:00.000+0000","allowStreaming":true,"premiumStreamingOnly":false,"numberOfTracks":10,"numberOfVideos":0,"numberOfVolumes":1,"releaseDate":"2009-09-07","copyright":"Sinuz
+        Recordings (a division of HITT bv)","type":"ALBUM","version":null,"url":"http://www.tidal.com/album/36292296","cover":"c5b4d9fd-c47d-4b2c-8f58-5119db1ecef6","vibrantColor":"#9ac0e0","videoCover":null,"explicit":false,"upc":"3610151605787","popularity":1,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}]}'
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '846'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:30 GMT
+      ETag:
+      - '"587650703"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 7ec84fa8ea386135e27faa4bc393caba.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - CRBHZuZxSwnKdOHjAwzqLbna-SvoQopw67ansHd_3sw610bfCfrCzw==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/albums/17925106?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":17925106,"title":"Smile","duration":2619,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-09-20T00:00:00.000+0000","allowStreaming":true,"premiumStreamingOnly":false,"numberOfTracks":13,"numberOfVideos":0,"numberOfVolumes":1,"releaseDate":"2009-09-07","copyright":"Sinuz
+        Recordings (a division of HITT bv)","type":"ALBUM","version":null,"url":"http://www.tidal.com/album/17925106","cover":"1b876368-a982-4c5e-aab6-818068aa9f87","vibrantColor":"#9ac0e0","videoCover":null,"explicit":false,"upc":"3610151584853","popularity":6,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}]}'
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '846'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:30 GMT
+      ETag:
+      - '"-1294699031"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 f1f7e88380a0546160e4e023c7c1d332.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 3h2D3nI2jvXVoBuPZax3yWy01lN8nGuDwkbMB7vs_des-7AXjKKMEA==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/albums/17782044?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":17782044,"title":"Some Things","duration":3297,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-09-14T00:00:00.000+0000","allowStreaming":true,"premiumStreamingOnly":false,"numberOfTracks":14,"numberOfVideos":0,"numberOfVolumes":1,"releaseDate":"2006-10-23","copyright":"Sinuz
+        Recordings (a division of HITT bv)","type":"ALBUM","version":null,"url":"http://www.tidal.com/album/17782044","cover":"66033b76-0c59-4717-a372-feef3b79e1dd","vibrantColor":"#FFFFFF","videoCover":null,"explicit":false,"upc":"3610151550216","popularity":6,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}]}'
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '852'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:30 GMT
+      ETag:
+      - '"794455692"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 924bf9febd74cef2bda62c15c8441e00.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - BB_9zMBndz3vLhfXsPy8jdyADo6qV7B5natBVlAuUA4WdnvQDr5rvw==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/albums/17926279?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":17926279,"title":"Far Away","duration":3061,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-09-14T00:00:00.000+0000","allowStreaming":true,"premiumStreamingOnly":false,"numberOfTracks":13,"numberOfVideos":0,"numberOfVolumes":1,"releaseDate":"2005-01-25","copyright":"Sinuz
+        Recordings (a division of HITT bv)","type":"ALBUM","version":null,"url":"http://www.tidal.com/album/17926279","cover":"03e83c1d-2638-420e-8725-330d92ef8c1d","vibrantColor":"#d4a09c","videoCover":null,"explicit":false,"upc":"3610151550209","popularity":8,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}]}'
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '849'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:31 GMT
+      ETag:
+      - '"1820478861"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 c1caf5d327c9eee53d26ab7b7a8235f0.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - W-uqhDKtS06Ap-GK092Xzsr2YN0dWW8RjDQeNvtOWm9gNQaPFQocgw==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/artists/16147/albums?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000&offset=0
+  response:
+    body:
+      string: '{"limit":1000,"offset":0,"totalNumberOfItems":11,"items":[{"id":17927863,"title":"Some
+        Things (Deluxe)","duration":6712,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-10-01T00:00:00.000+0000","allowStreaming":true,"premiumStreamingOnly":false,"numberOfTracks":22,"numberOfVideos":0,"numberOfVolumes":2,"releaseDate":"2011-09-22","copyright":"Sinuz
+        Recordings (a division of HITT bv)","type":"ALBUM","version":"Deluxe","url":"http://www.tidal.com/album/17927863","cover":"30d83a8c-1db6-439d-84b4-dbfb6f03c44c","vibrantColor":"#FFFFFF","videoCover":null,"explicit":false,"upc":"3610151683488","popularity":32,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}]},{"id":36292296,"title":"Smile","duration":2047,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-09-20T00:00:00.000+0000","allowStreaming":true,"premiumStreamingOnly":false,"numberOfTracks":10,"numberOfVideos":0,"numberOfVolumes":1,"releaseDate":"2009-09-07","copyright":"Sinuz
+        Recordings (a division of HITT bv)","type":"ALBUM","version":null,"url":"http://www.tidal.com/album/36292296","cover":"c5b4d9fd-c47d-4b2c-8f58-5119db1ecef6","vibrantColor":"#9ac0e0","videoCover":null,"explicit":false,"upc":"3610151605787","popularity":1,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}]},{"id":17925106,"title":"Smile","duration":2619,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-09-20T00:00:00.000+0000","allowStreaming":true,"premiumStreamingOnly":false,"numberOfTracks":13,"numberOfVideos":0,"numberOfVolumes":1,"releaseDate":"2009-09-07","copyright":"Sinuz
+        Recordings (a division of HITT bv)","type":"ALBUM","version":null,"url":"http://www.tidal.com/album/17925106","cover":"1b876368-a982-4c5e-aab6-818068aa9f87","vibrantColor":"#9ac0e0","videoCover":null,"explicit":false,"upc":"3610151584853","popularity":6,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}]},{"id":28474829,"title":"Out
+        of My Mind","duration":2531,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-09-14T00:00:00.000+0000","allowStreaming":true,"premiumStreamingOnly":false,"numberOfTracks":8,"numberOfVideos":0,"numberOfVolumes":1,"releaseDate":"2008-08-20","copyright":"Sinuz
+        Recordings (a Division Of Hitt Bvba)","type":"ALBUM","version":null,"url":"http://www.tidal.com/album/28474829","cover":"a392036f-5421-469c-9eeb-201d53f812be","vibrantColor":"#856b2e","videoCover":null,"explicit":false,"upc":"3610151578449","popularity":1,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}]},{"id":17782044,"title":"Some
+        Things","duration":3297,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-09-14T00:00:00.000+0000","allowStreaming":true,"premiumStreamingOnly":false,"numberOfTracks":14,"numberOfVideos":0,"numberOfVolumes":1,"releaseDate":"2006-10-23","copyright":"Sinuz
+        Recordings (a division of HITT bv)","type":"ALBUM","version":null,"url":"http://www.tidal.com/album/17782044","cover":"66033b76-0c59-4717-a372-feef3b79e1dd","vibrantColor":"#FFFFFF","videoCover":null,"explicit":false,"upc":"3610151550216","popularity":6,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}]},{"id":24882700,"title":"All
+        Night Long","duration":2016,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-09-14T00:00:00.000+0000","allowStreaming":true,"premiumStreamingOnly":false,"numberOfTracks":6,"numberOfVideos":0,"numberOfVolumes":1,"releaseDate":"2005-03-14","copyright":"Sinuz
+        Recordings (a Division Of Hitt Bvba)","type":"ALBUM","version":null,"url":"http://www.tidal.com/album/24882700","cover":"596cddf6-df84-4a54-83d5-1a73b59efa89","vibrantColor":"#e3c3c0","videoCover":null,"explicit":false,"upc":"3610151549951","popularity":1,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}]},{"id":17926279,"title":"Far
+        Away","duration":3061,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-09-14T00:00:00.000+0000","allowStreaming":true,"premiumStreamingOnly":false,"numberOfTracks":13,"numberOfVideos":0,"numberOfVolumes":1,"releaseDate":"2005-01-25","copyright":"Sinuz
+        Recordings (a division of HITT bv)","type":"ALBUM","version":null,"url":"http://www.tidal.com/album/17926279","cover":"03e83c1d-2638-420e-8725-330d92ef8c1d","vibrantColor":"#d4a09c","videoCover":null,"explicit":false,"upc":"3610151550209","popularity":8,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}]},{"id":28301348,"title":"Surrender
+        (Remixes)","duration":3087,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-09-14T00:00:00.000+0000","allowStreaming":true,"premiumStreamingOnly":false,"numberOfTracks":7,"numberOfVideos":0,"numberOfVolumes":1,"releaseDate":"2004-03-02","copyright":"Sinuz
+        Recordings (a Division Of Hitt Bvba)","type":"ALBUM","version":"Remixes","url":"http://www.tidal.com/album/28301348","cover":"3dcd540e-b916-46f3-a149-2e4a92b929b7","vibrantColor":"#d69fa1","videoCover":null,"explicit":false,"upc":"3610151550285","popularity":1,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}]},{"id":192548378,"title":"Pray","duration":3175,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2021-07-28T00:00:00.000+0000","allowStreaming":true,"premiumStreamingOnly":false,"numberOfTracks":9,"numberOfVideos":0,"numberOfVolumes":1,"releaseDate":"2002-10-19","copyright":"Sinuz
+        Recordings (a division of HITT bv)","type":"ALBUM","version":null,"url":"http://www.tidal.com/album/192548378","cover":"5d740dcb-40f7-4c9d-98e7-3e9920770054","vibrantColor":"#FFFFFF","videoCover":null,"explicit":false,"upc":"3616558090942","popularity":1,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}]},{"id":24750638,"title":"Alone
+        (Remixes)","duration":1881,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-09-14T00:00:00.000+0000","allowStreaming":true,"premiumStreamingOnly":false,"numberOfTracks":5,"numberOfVideos":0,"numberOfVolumes":1,"releaseDate":"2002-01-01","copyright":"Sinuz
+        Recordings (a Division Of Hitt Bvba)","type":"ALBUM","version":"Remixes","url":"http://www.tidal.com/album/24750638","cover":"b3dbf13e-ab7d-40ff-b756-7dde6142dba9","vibrantColor":"#cbcf81","videoCover":null,"explicit":false,"upc":"3610151578494","popularity":1,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}]},{"id":17787013,"title":"Something","duration":3173,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-09-14T00:00:00.000+0000","allowStreaming":true,"premiumStreamingOnly":false,"numberOfTracks":8,"numberOfVideos":0,"numberOfVolumes":1,"releaseDate":"2002-01-01","copyright":"Sinuz
+        Recordings (a division of HITT bv)","type":"ALBUM","version":null,"url":"http://www.tidal.com/album/17787013","cover":"f1cf0f19-a1f2-471e-b167-7e5248c92ede","vibrantColor":"#FFFFFF","videoCover":null,"explicit":false,"upc":"3610151549975","popularity":5,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}]}]}'
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:31 GMT
+      ETag:
+      - '"1718490862"'
+      Server:
+      - noyb
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 c25bc16c1238c23c74267a81302a62f8.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - qGmTgc8QmSCGt8X1rWBq8IKev27ts_bJOBZSG2cOp4au9Jubx1rOqA==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

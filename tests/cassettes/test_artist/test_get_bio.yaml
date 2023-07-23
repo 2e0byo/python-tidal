@@ -1,0 +1,107 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/artists/4822757?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":4822757,"name":"Syn Cole","artistTypes":["ARTIST","CONTRIBUTOR"],"url":"http://www.tidal.com/artist/4822757","picture":"31e0effb-3636-40cb-bdbe-4c2def1bf6f0","popularity":33,"artistRoles":[{"categoryId":-1,"category":"Artist"},{"categoryId":3,"category":"Engineer"},{"categoryId":10,"category":"Production
+        team"},{"categoryId":1,"category":"Producer"},{"categoryId":2,"category":"Songwriter"},{"categoryId":11,"category":"Performer"}],"mixes":{"MASTER_ARTIST_MIX":"0151865d65acad7501b303aceb4aa0","ARTIST_MIX":"0005d1f1cac36eb244205189aa2bf7"}}'
+    headers:
+      Age:
+      - '2'
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '550'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:42 GMT
+      Server:
+      - noyb
+      Via:
+      - 1.1 cd58d60f2b52ca321822f27453e5f098.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - zhjAU5CqK0GSbwWB2P0MhifOjF3kh4qAdgVIvJQY6aPuqKn3DuX2iw==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Hit from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/artists/4822757/bio?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: "{\"source\":\"TiVo\",\"lastUpdated\":\"2023-05-04T05:19:54.917+0000\",\"text\":\"Estonia's
+        [wimpLink artistId=\\\"4822757\\\"]Syn Cole[/wimpLink] is a gifted EDM DJ/producer
+        with a bent toward progressive, electro-influenced sounds. Born Rene Pais
+        in P\xE4rnu, Estonia in 1988, [wimpLink artistId=\\\"4822757\\\"]Cole[/wimpLink]
+        studied classical piano while growing up and first became interested in dance
+        music after discovering the synthesizer in his teens. He began producing his
+        own music around 2004 and eventually caught the ear of Swedish DJ [wimpLink
+        artistId=\\\"3637201\\\"]Avicii[/wimpLink], who signed him to his Le7els Records
+        label in 2012. That same year, [wimpLink artistId=\\\"4822757\\\"]Cole[/wimpLink]
+        broadened his public profile even more with a headlining slot at the U.K.'s
+        Creamfields dance music festival. His remix of [wimpLink artistId=\\\"3637201\\\"]Avicii[/wimpLink]'s
+        \\\"Silhouettes\\\" also hit number 20 on a digital Top 100 dance remix chart
+        in 2012. Several more popular dance singles followed, including \\\"Miami
+        82\\\" in 2013 and \\\"Bright Lights\\\" in 2014. The following year, [wimpLink
+        artistId=\\\"4822757\\\"]Cole[/wimpLink] released the single \\\"It's You\\\"
+        on the ICONS label. In 2016, he returned with the singles \\\"The Daze,\\\"
+        featuring [wimpLink artistId=\\\"6190396\\\"]Madame Buttons[/wimpLink], and
+        \\\"Follow Me,\\\" featuring [wimpLink artistId=\\\"26565\\\"]Joshua Radin[/wimpLink].
+        The single \\\"Who You Are,\\\" featuring MIO, appeared in 2018. ~ Matt Collar\",\"summary\":\"\"}"
+    headers:
+      Age:
+      - '949'
+      Cache-Control:
+      - public, max-age=3600, s-max-age=3600,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1470'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:37:56 GMT
+      ETag:
+      - '"1683177594917"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 43bd2d4908cb8542cdbe4153b40c694a.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - XbmRb3O3n5KCxlZkoCkNsAFOu4SWtUXwEc5TkyPlOfjYwQetmmoZcQ==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Hit from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

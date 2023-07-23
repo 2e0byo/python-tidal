@@ -1,0 +1,46 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/tracks/149119714?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":149119714,"title":"Fibonacci Progressions (Keemiyo Remix)","duration":423,"replayGain":-8.43,"peak":1.0,"allowStreaming":true,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2020-06-29T00:00:00.000+0000","premiumStreamingOnly":false,"trackNumber":1,"volumeNumber":2,"version":null,"popularity":1,"copyright":"2020
+        Altar Records","url":"http://www.tidal.com/track/149119714","isrc":"USCGH1799837","editable":false,"explicit":false,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":4024074,"name":"Lab''s
+        Cloud","type":"MAIN","picture":null},"artists":[{"id":4024074,"name":"Lab''s
+        Cloud","type":"MAIN","picture":null}],"album":{"id":149119703,"title":"Serial
+        Chillers, Pt. 1","cover":"19a0f5a1-f2ce-43e5-8031-4b2282a33017","vibrantColor":"#5e8ec2","videoCover":null},"mixes":{"TRACK_MIX":"0017f154c5a9ac21a17069b42d04bf"}}'
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '898'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:54:13 GMT
+      Server:
+      - noyb
+      Via:
+      - 1.1 c25bc16c1238c23c74267a81302a62f8.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - QK26g_dgF-PVff46bYk-cb7maJcH7hJ_jBQcjVxazVjwVuW52JjACg==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

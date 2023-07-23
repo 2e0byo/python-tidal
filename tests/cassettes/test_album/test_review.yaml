@@ -1,0 +1,128 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/albums/199142349?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: "{\"id\":199142349,\"title\":\"Donda\",\"duration\":6539,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2021-09-28T05:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":27,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2021-08-29\",\"copyright\":\"\xA9
+        2021 Getting Out Our Dreams II, LLC Distributed By Def Jam Recordings,  A
+        Division of UMG Recordings, Inc.\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/199142349\",\"cover\":\"180762b3-d9c3-4343-9cbb-ea2ac1c46573\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":null,\"explicit\":false,\"upc\":\"00602438975501\",\"popularity\":75,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":25022,\"name\":\"Kanye
+        West\",\"type\":\"MAIN\",\"picture\":\"26076dbd-7361-40d3-9335-f944d2c49ea6\"},\"artists\":[{\"id\":25022,\"name\":\"Kanye
+        West\",\"type\":\"MAIN\",\"picture\":\"26076dbd-7361-40d3-9335-f944d2c49ea6\"}]}"
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '933'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:25 GMT
+      ETag:
+      - '"1827492572"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 eaa5b4468d4ba37bc9733291d72738ec.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - -FHP3o6AT7lJev6CeyweOkX_wLLQPw4M9ff2BadrsyJEpM0WOBXDRQ==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/albums/199142349/review?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"source":"TiVo","lastUpdated":"2023-03-29T04:21:51.343+0000","text":"The
+        first noticeable thing about [wimpLink artistId=\"25022\"]Kanye West[/wimpLink]''s
+        tenth studio album, [wimpLink albumId=\"199142349\"]Donda[/wimpLink], is its
+        mass. With 27 tracks, a running time of an hour and 48 minutes, and a dense
+        list of contributors including [wimpLink artistId=\"7804\"]Jay-Z[/wimpLink],
+        [wimpLink artistId=\"3603175\"]Kid Cudi[/wimpLink], [wimpLink artistId=\"8573195\"]Roddy
+        Ricch[/wimpLink], Jay Electronica, [wimpLink artistId=\"5198891\"]Travis Scott[/wimpLink],
+        [wimpLink artistId=\"4743579\"]Lil Durk[/wimpLink], and many, many more, [wimpLink
+        albumId=\"199142349\"]Donda[/wimpLink] is poised to be an epic statement,
+        an all-out event. The music itself tells a different story. Still bearing
+        the religious overtones of 2019''s [wimpLink albumId=\"121012112\"]Jesus Is
+        King[/wimpLink], [wimpLink artistId=\"25022\"]West[/wimpLink] assembles the
+        sprawling [wimpLink albumId=\"199142349\"]Donda[/wimpLink] from minimal, often
+        eerie arrangements. This is perhaps most apparent in the conspicuous absence
+        of drums from many of the tracks. The hooky \"Jail\" sounds like a rocked-up
+        version of something from [wimpLink albumId=\"103805723\"]Graduation[/wimpLink],
+        with Auto-Tuned vocals swimming happily around crunchy guitars. It''s a banger
+        with no bang, though, waiting until the last seconds of the song to bring
+        in a brief, stilted drum pattern. \"Tell the Vision\" also lacks a forceful
+        rhythm track, stitching together a stumbling piano loop with fragmented hi-hat
+        skitters to hold a ghostly verse from [wimpLink artistId=\"10913196\"]Pop
+        Smoke[/wimpLink]. Traces of the old [wimpLink artistId=\"25022\"]Kanye[/wimpLink]
+        show up alongside this new subtractive approach. \"Junya\" is upbeat and confident,
+        with a cheery church organ sample and another skeletal rhythm track serving
+        as a backing track for lively flows. We''re reminded of [wimpLink artistId=\"25022\"]West[/wimpLink]''s
+        production mastery when he cuts up a [wimpLink artistId=\"18496976\"]Lauryn
+        Hill[/wimpLink] sample for standout track \"Believe What I Say,\" while \"Lord
+        I Need You\" carries diminished echoes of the grandiose pop magnitude of [wimpLink
+        albumId=\"4875681\"]My Beautiful Dark Twisted Fantasy[/wimpLink], and the
+        thick bass and abrasive rush of \"God Breathed\" would fit in on [wimpLink
+        albumId=\"20753857\"]Yeezus[/wimpLink]. [wimpLink albumId=\"199142349\"]Donda[/wimpLink]
+        isn''t without its highlights, but taken as a whole it''s both confused and
+        confusing. The album is purportedly a tribute to [wimpLink artistId=\"25022\"]Kanye[/wimpLink]''s
+        late mother, Donda West, who died in 2007. Donda''s presence is felt throughout
+        the record, in particular during moments like the somber beauty of \"Jesus
+        Lord,\" and more directly on the song that bears her name and includes audio
+        of her speaking. ~ Fred Thomas","summary":""}'
+    headers:
+      Age:
+      - '939'
+      Cache-Control:
+      - public, max-age=3600, s-max-age=3600,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '2910'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:37:47 GMT
+      ETag:
+      - '"1680063711343"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 38a3f663851a0597e7026100a58b9b38.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - pdYksZzh1T6e3K1ppeq9HYkzLya7fMUrhI3uFlNH21JVsTAfY6OC0w==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Hit from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

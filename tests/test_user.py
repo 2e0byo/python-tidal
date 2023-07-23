@@ -24,6 +24,7 @@ import pytest
 import tidalapi
 
 
+@pytest.mark.vcr
 def test_user(session):
     assert isinstance(session.user, tidalapi.LoggedInUser)
     user = session.get_user(session.user.id)
@@ -31,6 +32,7 @@ def test_user(session):
     assert "@" in user.email
 
 
+@pytest.mark.vcr
 def test_get_user(session):
     user = session.get_user(58600091)
     assert isinstance(user, tidalapi.FetchedUser)
@@ -39,6 +41,7 @@ def test_get_user(session):
     assert not user.picture_id
 
 
+@pytest.mark.vcr
 def test_get_user_playlists(session):
     user_playlists = session.user.playlists()
     user_favorite_playlists = session.user.favorites.playlists()
@@ -58,6 +61,7 @@ def test_get_user_playlists(session):
     assert playlist_ids | favourite_ids == both_ids
 
 
+@pytest.mark.vcr
 def test_get_user_playlist_creator(session):
     playlist = session.playlist("944dd087-f65c-4954-a9a3-042a574e86e3")
     creator = playlist.creator
@@ -66,6 +70,7 @@ def test_get_user_playlist_creator(session):
     assert creator.name == "user"
 
 
+@pytest.mark.vcr
 def test_get_editorial_playlist_creator(session):
     playlist = session.playlist("aa3611ff-5b25-4bbe-8ce4-36c678c3438f")
     creator = playlist.creator
@@ -74,6 +79,7 @@ def test_get_editorial_playlist_creator(session):
     assert creator.name == "TIDAL"
 
 
+@pytest.mark.vcr
 def test_create_playlist(session):
     playlist = session.user.create_playlist("Testing", "Testing1234")
     playlist.add([125169484])
@@ -123,6 +129,7 @@ def test_create_playlist(session):
     playlist.delete()
 
 
+@pytest.mark.vcr
 def test_add_remove_favorite_artist(session):
     favorites = session.user.favorites
     artist_id = 5247488
@@ -131,12 +138,14 @@ def test_add_remove_favorite_artist(session):
     )
 
 
+@pytest.mark.vcr
 def test_add_remove_favorite_album(session):
     favorites = session.user.favorites
     album_id = 32961852
     add_remove(album_id, favorites.add_album, favorites.remove_album, favorites.albums)
 
 
+@pytest.mark.vcr
 def test_add_remove_favorite_playlist(session):
     favorites = session.user.favorites
     playlists_and_favorite_playlists = session.user.playlist_and_favorite_playlists
@@ -155,12 +164,14 @@ def test_add_remove_favorite_playlist(session):
     )
 
 
+@pytest.mark.vcr
 def test_add_remove_favorite_track(session):
     favorites = session.user.favorites
     track_id = 32961853
     add_remove(track_id, favorites.add_track, favorites.remove_track, favorites.tracks)
 
 
+@pytest.mark.vcr
 def test_add_remove_favorite_video(session):
     favorites = session.user.favorites
     video_id = 160850422

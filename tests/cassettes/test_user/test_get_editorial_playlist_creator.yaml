@@ -1,0 +1,48 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/playlists/aa3611ff-5b25-4bbe-8ce4-36c678c3438f?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"uuid":"aa3611ff-5b25-4bbe-8ce4-36c678c3438f","title":"TIDAL X Sundance","numberOfTracks":0,"numberOfVideos":12,"creator":{"id":0},"description":"In
+        partnership with Vulture, TIDAL talks to actors and musicians at the 2017
+        Sundance Film Festival about the meeting of music and film. #tidalxvulture
+        (Photo: TIDAL) ","duration":1996,"lastUpdated":"2020-03-25T08:05:33.115+0000","created":"2017-01-23T18:34:56.930+0000","type":"EDITORIAL","publicPlaylist":true,"url":"http://www.tidal.com/playlist/aa3611ff-5b25-4bbe-8ce4-36c678c3438f","image":"ef013616-3766-496d-8354-ebc99d3459b0","popularity":0,"squareImage":"dbecd719-8408-4142-b5f5-761d9179caef","promotedArtists":[{"id":8448243,"name":"Sundance
+        Film Festival","type":"MAIN","picture":null}],"lastItemAddedAt":null}'
+    headers:
+      Cache-Control:
+      - no-cache
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '768'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:56:02 GMT
+      ETag:
+      - '"1585123533115"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 9680e9cb5cbc773ebfed1b7a558f7db6.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - f9g2r4WZGb_mNH_KUuCoPf7IgE0sh25IzcEO1gkdvCbe0mFIUI40kg==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

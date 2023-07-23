@@ -1,0 +1,88 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/albums/17927863?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":17927863,"title":"Some Things (Deluxe)","duration":6712,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-10-01T00:00:00.000+0000","allowStreaming":true,"premiumStreamingOnly":false,"numberOfTracks":22,"numberOfVideos":0,"numberOfVolumes":2,"releaseDate":"2011-09-22","copyright":"Sinuz
+        Recordings (a division of HITT bv)","type":"ALBUM","version":"Deluxe","url":"http://www.tidal.com/album/17927863","cover":"30d83a8c-1db6-439d-84b4-dbfb6f03c44c","vibrantColor":"#FFFFFF","videoCover":null,"explicit":false,"upc":"3610151683488","popularity":32,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}]}'
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '866'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:13 GMT
+      ETag:
+      - '"-460922226"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 168a24ef858eb187119582fbc6ac0718.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 2wr-1ygthy_zErK3OD5pcZ7UHC1XTKM1ddte4PCnd3z_E8YsiF-BEg==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/albums/17927863?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":17927863,"title":"Some Things (Deluxe)","duration":6712,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2012-10-01T00:00:00.000+0000","allowStreaming":true,"premiumStreamingOnly":false,"numberOfTracks":22,"numberOfVideos":0,"numberOfVolumes":2,"releaseDate":"2011-09-22","copyright":"Sinuz
+        Recordings (a division of HITT bv)","type":"ALBUM","version":"Deluxe","url":"http://www.tidal.com/album/17927863","cover":"30d83a8c-1db6-439d-84b4-dbfb6f03c44c","vibrantColor":"#FFFFFF","videoCover":null,"explicit":false,"upc":"3610151683488","popularity":32,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"},"artists":[{"id":16147,"name":"Lasgo","type":"MAIN","picture":"42b39a18-be34-4729-8dbc-acabc0e2f377"}]}'
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '866'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:13 GMT
+      ETag:
+      - '"-460922226"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 c49bda74c25f4f26cc20173eec28da1e.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - IIzRitbCXKjJ97hbEcpO5xWS3pUgMKJGdLpvr2IYv4nI38bZxXEp4g==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Hit from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

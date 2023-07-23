@@ -1,0 +1,369 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/artists/9341252?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":9341252,"name":"FiNCH","artistTypes":["ARTIST","CONTRIBUTOR"],"url":"http://www.tidal.com/artist/9341252","picture":"99bb2b18-81fc-49f0-bf2a-439b6809ae23","popularity":30,"artistRoles":[{"categoryId":-1,"category":"Artist"},{"categoryId":11,"category":"Performer"},{"categoryId":2,"category":"Songwriter"}],"mixes":{"MASTER_ARTIST_MIX":"0151748a31320b45797fd3817d9926","ARTIST_MIX":"00073b2dfa3346f5656917a6d06448"}}'
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '422'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:39 GMT
+      Server:
+      - noyb
+      Via:
+      - 1.1 c1caf5d327c9eee53d26ab7b7a8235f0.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 69CVeHU64-oQ03SzRxZH5K0bMSv7T81rDAVqqQITjuk892-sGlALZQ==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/videos/298985403?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: "{\"id\":298985403,\"title\":\"LiEBE AUF DER R\xDCCKBANK\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2023-06-02T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"275a8a2a-711c-4a9b-9a5d-5e5ca7a1dc53\",\"vibrantColor\":\"#ee5581\",\"duration\":189,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2023-06-08T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":2,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artist\":{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"},\"artists\":[{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"},{\"id\":9143824,\"name\":\"Tream\",\"type\":\"MAIN\",\"picture\":\"62757e45-1d0a-4284-a508-a82558214cec\"}],\"album\":null}"
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '781'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:40 GMT
+      Server:
+      - noyb
+      Via:
+      - 1.1 f1f7e88380a0546160e4e023c7c1d332.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - NthZDYh2xA9cD06IaNnpnv6pFH0u0NZRWeZJ4tRBQn9t2-iCd_yE7Q==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/videos/288495954?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":288495954,"title":"PECH & SCHWEFEL","volumeNumber":0,"trackNumber":0,"releaseDate":"2023-04-11T00:00:00.000+0000","imagePath":null,"imageId":"dd40b2c9-e081-4acd-bac2-6843e9e4c844","vibrantColor":"#e7bbf3","duration":197,"quality":"MP4_1080P","streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2023-04-11T00:00:00.000+0000","allowStreaming":true,"explicit":false,"popularity":0,"type":"Music
+        Video","adsUrl":null,"adsPrePaywallOnly":true,"artist":{"id":9341252,"name":"FiNCH","type":"MAIN","picture":"99bb2b18-81fc-49f0-bf2a-439b6809ae23"},"artists":[{"id":9341252,"name":"FiNCH","type":"MAIN","picture":"99bb2b18-81fc-49f0-bf2a-439b6809ae23"},{"id":3514221,"name":"Matthias
+        Reim","type":"MAIN","picture":"3ef4353d-e182-4890-8f74-01cf78fe32fa"}],"album":null}'
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '781'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:40 GMT
+      Server:
+      - noyb
+      Via:
+      - 1.1 43bd2d4908cb8542cdbe4153b40c694a.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - EWTJfGKW80Bf_-gEwu1gXKzNt8l7F45DfKw47SJTIu25mQ1FT7uTOA==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/videos/281813762?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":281813762,"title":"PECH & SCHWEFEL","volumeNumber":0,"trackNumber":0,"releaseDate":"2023-03-14T00:00:00.000+0000","imagePath":null,"imageId":"3145272d-076f-4621-8cd4-2d88409f58ec","vibrantColor":"#ae4751","duration":193,"quality":"MP4_1080P","streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2023-03-14T00:00:00.000+0000","allowStreaming":true,"explicit":false,"popularity":1,"type":"Music
+        Video","adsUrl":null,"adsPrePaywallOnly":true,"artist":{"id":9341252,"name":"FiNCH","type":"MAIN","picture":"99bb2b18-81fc-49f0-bf2a-439b6809ae23"},"artists":[{"id":9341252,"name":"FiNCH","type":"MAIN","picture":"99bb2b18-81fc-49f0-bf2a-439b6809ae23"},{"id":3514221,"name":"Matthias
+        Reim","type":"MAIN","picture":"3ef4353d-e182-4890-8f74-01cf78fe32fa"}],"album":null}'
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '781'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:40 GMT
+      Server:
+      - noyb
+      Via:
+      - 1.1 7ec84fa8ea386135e27faa4bc393caba.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - nTalwbw5CwcC9b9SAsWX8UwdzlUDlZa_En8VnSRQKCaEWP02119JYw==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/videos/271621957?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":271621957,"title":"LEERE AUGEN","volumeNumber":0,"trackNumber":0,"releaseDate":"2023-01-05T00:00:00.000+0000","imagePath":null,"imageId":"ff40ee62-3859-4e9e-b672-b65c8034935a","vibrantColor":"#857d40","duration":176,"quality":"MP4_1080P","streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2023-01-17T00:00:00.000+0000","allowStreaming":true,"explicit":true,"popularity":1,"type":"Music
+        Video","adsUrl":null,"adsPrePaywallOnly":true,"artist":{"id":9341252,"name":"FiNCH","type":"MAIN","picture":"99bb2b18-81fc-49f0-bf2a-439b6809ae23"},"artists":[{"id":9341252,"name":"FiNCH","type":"MAIN","picture":"99bb2b18-81fc-49f0-bf2a-439b6809ae23"}],"album":null}'
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '675'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:41 GMT
+      Server:
+      - noyb
+      Via:
+      - 1.1 6fdf2ccc380f11286f9756c9578f26c6.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - UObw8H_xUko2JLL45Pxg6hScyiL6NcgHC0EBHNiYI0bAx6H4JZ4B8Q==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/videos/267866493?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":267866493,"title":"KEiNE REGELN","volumeNumber":0,"trackNumber":0,"releaseDate":"2022-12-16T00:00:00.000+0000","imagePath":null,"imageId":"8c6cc711-97f1-41b5-81fb-eed98149691d","vibrantColor":"#39c6af","duration":178,"quality":"MP4_1080P","streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2022-12-22T00:00:00.000+0000","allowStreaming":true,"explicit":true,"popularity":3,"type":"Music
+        Video","adsUrl":null,"adsPrePaywallOnly":true,"artist":{"id":9341252,"name":"FiNCH","type":"MAIN","picture":"99bb2b18-81fc-49f0-bf2a-439b6809ae23"},"artists":[{"id":9341252,"name":"FiNCH","type":"MAIN","picture":"99bb2b18-81fc-49f0-bf2a-439b6809ae23"},{"id":3604452,"name":"Saltatio
+        Mortis","type":"MAIN","picture":"1086c5f5-1f00-4a18-907f-a0d24ad6de3d"}],"album":null}'
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '779'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:41 GMT
+      Server:
+      - noyb
+      Via:
+      - 1.1 ec5f7ca5219bc2c06993f1aa180b2fa0.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - qOcwSGc52Lh8XS_XP4noO2D3ZybwKc8EqRZqZ-fDpEkdBsYZ-M1I2Q==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/videos/260469454?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":260469454,"title":"WENDEKiND","volumeNumber":0,"trackNumber":0,"releaseDate":"2022-11-14T00:00:00.000+0000","imagePath":null,"imageId":"bb861373-1316-41ef-8555-058a8f633688","vibrantColor":"#6d3032","duration":183,"quality":"MP4_1080P","streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2022-11-14T00:00:00.000+0000","allowStreaming":true,"explicit":false,"popularity":1,"type":"Music
+        Video","adsUrl":null,"adsPrePaywallOnly":true,"artist":{"id":2771,"name":"Silbermond","type":"MAIN","picture":"605659eb-1f78-4409-8a93-2ba564eb9757"},"artists":[{"id":2771,"name":"Silbermond","type":"MAIN","picture":"605659eb-1f78-4409-8a93-2ba564eb9757"},{"id":9341252,"name":"FiNCH","type":"MAIN","picture":"99bb2b18-81fc-49f0-bf2a-439b6809ae23"},{"id":3722709,"name":"Marteria","type":"MAIN","picture":"b99d07ec-7871-4eeb-bd62-882b3fd9a22d"}],"album":null}'
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '867'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:42 GMT
+      Server:
+      - noyb
+      Via:
+      - 1.1 404ac5621836af31e2d3d32ecae91e78.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - WtbAY8sLLrnrhkOLvH02cdDNbmIfVI4xr1T6A_arQaEqspDsXv0ugw==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/artists/9341252/videos?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000&offset=0
+  response:
+    body:
+      string: "{\"limit\":1000,\"offset\":0,\"totalNumberOfItems\":17,\"items\":[{\"id\":304856053,\"title\":\"VAMOS
+        (Lyric Video)\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2023-07-07T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"1f02560a-0d73-4c8c-a237-d9d703bec4f6\",\"vibrantColor\":\"#98e8dd\",\"duration\":150,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2023-07-15T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":0,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artist\":{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"},\"artists\":[{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"},{\"id\":38653018,\"name\":\"Loona\",\"type\":\"MAIN\",\"picture\":\"6750ac11-8653-4973-a109-bf677508cbe8\"}],\"album\":null},{\"id\":298985403,\"title\":\"LiEBE
+        AUF DER R\xDCCKBANK\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2023-06-02T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"275a8a2a-711c-4a9b-9a5d-5e5ca7a1dc53\",\"vibrantColor\":\"#ee5581\",\"duration\":189,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2023-06-08T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":2,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artist\":{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"},\"artists\":[{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"},{\"id\":9143824,\"name\":\"Tream\",\"type\":\"MAIN\",\"picture\":\"62757e45-1d0a-4284-a508-a82558214cec\"}],\"album\":null},{\"id\":288495954,\"title\":\"PECH
+        & SCHWEFEL\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2023-04-11T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"dd40b2c9-e081-4acd-bac2-6843e9e4c844\",\"vibrantColor\":\"#e7bbf3\",\"duration\":197,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2023-04-11T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":0,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artist\":{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"},\"artists\":[{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"},{\"id\":3514221,\"name\":\"Matthias
+        Reim\",\"type\":\"MAIN\",\"picture\":\"3ef4353d-e182-4890-8f74-01cf78fe32fa\"}],\"album\":null},{\"id\":281813762,\"title\":\"PECH
+        & SCHWEFEL\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2023-03-14T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"3145272d-076f-4621-8cd4-2d88409f58ec\",\"vibrantColor\":\"#ae4751\",\"duration\":193,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2023-03-14T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":1,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artist\":{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"},\"artists\":[{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"},{\"id\":3514221,\"name\":\"Matthias
+        Reim\",\"type\":\"MAIN\",\"picture\":\"3ef4353d-e182-4890-8f74-01cf78fe32fa\"}],\"album\":null},{\"id\":271621957,\"title\":\"LEERE
+        AUGEN\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2023-01-05T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"ff40ee62-3859-4e9e-b672-b65c8034935a\",\"vibrantColor\":\"#857d40\",\"duration\":176,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2023-01-17T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":true,\"popularity\":1,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artist\":{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"},\"artists\":[{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"}],\"album\":null},{\"id\":267866493,\"title\":\"KEiNE
+        REGELN\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2022-12-16T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"8c6cc711-97f1-41b5-81fb-eed98149691d\",\"vibrantColor\":\"#39c6af\",\"duration\":178,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2022-12-22T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":true,\"popularity\":3,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artist\":{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"},\"artists\":[{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"},{\"id\":3604452,\"name\":\"Saltatio
+        Mortis\",\"type\":\"MAIN\",\"picture\":\"1086c5f5-1f00-4a18-907f-a0d24ad6de3d\"}],\"album\":null},{\"id\":260469454,\"title\":\"WENDEKiND\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2022-11-14T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"bb861373-1316-41ef-8555-058a8f633688\",\"vibrantColor\":\"#6d3032\",\"duration\":183,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2022-11-14T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":1,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artist\":{\"id\":2771,\"name\":\"Silbermond\",\"type\":\"MAIN\",\"picture\":\"605659eb-1f78-4409-8a93-2ba564eb9757\"},\"artists\":[{\"id\":2771,\"name\":\"Silbermond\",\"type\":\"MAIN\",\"picture\":\"605659eb-1f78-4409-8a93-2ba564eb9757\"},{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"},{\"id\":3722709,\"name\":\"Marteria\",\"type\":\"MAIN\",\"picture\":\"b99d07ec-7871-4eeb-bd62-882b3fd9a22d\"}],\"album\":null},{\"id\":256195015,\"title\":\"EiSMANN\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2022-10-20T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"378620f1-4abe-4e88-82d0-2a3f5940992b\",\"vibrantColor\":\"#9cded5\",\"duration\":133,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2022-10-26T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":4,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artist\":{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"},\"artists\":[{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"}],\"album\":null},{\"id\":253787811,\"title\":\"DORFDiSKO
+        ZWEi\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2022-10-02T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"7b9a3784-2c25-40af-b7ee-ece696159f71\",\"vibrantColor\":\"#FFFFFF\",\"duration\":233,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2022-10-13T23:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":true,\"popularity\":1,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artist\":{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"},\"artists\":[{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"}],\"album\":null},{\"id\":248168887,\"title\":\"Hold
+        Me Now\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2022-08-18T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"511dc544-92e3-466c-92f8-93d113cf9968\",\"vibrantColor\":\"#FFFFFF\",\"duration\":163,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2022-09-14T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":1,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artist\":{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"},\"artists\":[{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"}],\"album\":null},{\"id\":182251637,\"title\":\"Keine
+        b\xF6sen W\xF6rter\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2021-04-08T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"f5b5825f-e46c-4792-a9da-0233bfdd21ae\",\"vibrantColor\":\"#f9d7c0\",\"duration\":227,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2021-04-09T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":true,\"popularity\":5,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artist\":{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"},\"artists\":[{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"},{\"id\":3904961,\"name\":\"Alligatoah\",\"type\":\"MAIN\",\"picture\":\"adf07b37-bd0f-4013-9e77-dc542c3156ba\"}],\"album\":null},{\"id\":162651673,\"title\":\"Onkelz
+        Poster\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2020-11-13T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"56000b2f-61ce-4a75-8fde-16d593fca8bd\",\"vibrantColor\":\"#a9d1dc\",\"duration\":154,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2020-11-19T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":true,\"popularity\":2,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artist\":{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"},\"artists\":[{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"},{\"id\":10915671,\"name\":\"Tarek
+        K.I.Z\",\"type\":\"MAIN\",\"picture\":null}],\"album\":null},{\"id\":299930663,\"title\":\"Bassdrum\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2020-06-05T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"008dde11-e67a-454b-8baf-263d09786c0c\",\"vibrantColor\":\"#f9ccaa\",\"duration\":178,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2023-06-15T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":0,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artist\":{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"},\"artists\":[{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"},{\"id\":18546,\"name\":\"Scooter\",\"type\":\"MAIN\",\"picture\":\"172deee3-eb0c-4804-b82f-8127dd685324\"}],\"album\":null},{\"id\":117439611,\"title\":\"Plattenbauromantik
+        II\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2019-08-23T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"ba2ee08a-d7ea-4168-9570-4a7817f19cea\",\"vibrantColor\":\"#c7c7ec\",\"duration\":193,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2019-09-11T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":true,\"popularity\":2,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artist\":{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"},\"artists\":[{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"},{\"id\":5826545,\"name\":\"Plusmacher\",\"type\":\"MAIN\",\"picture\":\"38efd259-ceca-4648-b871-fa2c0bbed4e3\"}],\"album\":null},{\"id\":106471970,\"title\":\"Der
+        letzte echte Macho (feat. Big Mike)\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2019-03-08T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"3043ec0c-7611-4e2c-ab18-01bd81dbd0a6\",\"vibrantColor\":\"#aa4858\",\"duration\":215,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2019-03-27T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":true,\"popularity\":2,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artist\":{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"},\"artists\":[{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"},{\"id\":36956,\"name\":\"Big
+        Mike\",\"type\":\"FEATURED\",\"picture\":\"1ee93895-2c82-48be-a4b5-32cdd5284931\"}],\"album\":null},{\"id\":104059079,\"title\":\"Ohne
+        Kondom (feat. MC Bomber)\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2019-02-08T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"fb2b835f-d814-44cf-a553-a12dfcfd2828\",\"vibrantColor\":\"#847438\",\"duration\":165,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2019-02-14T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":true,\"popularity\":2,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artist\":{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"},\"artists\":[{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"},{\"id\":7627279,\"name\":\"MC
+        Bomber\",\"type\":\"FEATURED\",\"picture\":\"58923368-5209-42e8-80d5-99b918a38328\"}],\"album\":null},{\"id\":151050672,\"title\":\"Nachbarn\",\"volumeNumber\":1,\"trackNumber\":1,\"releaseDate\":null,\"imagePath\":null,\"imageId\":\"ac00b8f8-5b7c-4c0f-9dfe-c8082739fc58\",\"vibrantColor\":\"#d1f5dc\",\"duration\":182,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2020-08-04T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":4,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artist\":{\"id\":4070874,\"name\":\"Harris
+        & Ford\",\"type\":\"MAIN\",\"picture\":\"d1f6da5b-27c7-4a26-b01d-872f48d99e3d\"},\"artists\":[{\"id\":4070874,\"name\":\"Harris
+        & Ford\",\"type\":\"MAIN\",\"picture\":\"d1f6da5b-27c7-4a26-b01d-872f48d99e3d\"},{\"id\":9341252,\"name\":\"FiNCH\",\"type\":\"MAIN\",\"picture\":\"99bb2b18-81fc-49f0-bf2a-439b6809ae23\"}],\"album\":null}]}"
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:42 GMT
+      Server:
+      - noyb
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 b8c21c40c485a68c7663b93787f93464.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - WT9T4BjqdAyyBwMonkPoISLlypYVGndChaI6kjXhcMTMA6jVMrIZVQ==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

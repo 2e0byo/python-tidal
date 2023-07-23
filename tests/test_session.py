@@ -25,6 +25,7 @@ import tidalapi
 from tidalapi import Album, Artist, Playlist, Track, Video
 
 
+@pytest.mark.norecord
 def test_load_oauth_session(session):
     token_type = session.token_type
     access_token = session.access_token
@@ -35,6 +36,7 @@ def test_load_oauth_session(session):
     assert isinstance(session.user, tidalapi.LoggedInUser)
 
 
+@pytest.mark.vcr
 def test_failed_login():
     session = tidalapi.Session()
     with pytest.raises(requests.HTTPError):
@@ -42,6 +44,7 @@ def test_failed_login():
     assert session.check_login() is False
 
 
+@pytest.mark.norecord
 @pytest.mark.interactive
 def test_oauth_login(capsys):
     config = tidalapi.Config(item_limit=20000)
@@ -60,6 +63,15 @@ def test_oauth_login(capsys):
     assert session.config.item_limit == 10000
 
 
+@pytest.mark.norecord
+@pytest.mark.interactive
+def test_oauth_login_simple(capsys):
+    session = tidalapi.Session()
+    with capsys.disabled():
+        session.login_oauth_simple()
+
+
+@pytest.mark.vcr
 def test_failed_oauth_login(session):
     client_id = session.config.client_id
     config = tidalapi.Config()
@@ -69,13 +81,7 @@ def test_failed_oauth_login(session):
         session.login_oauth()
 
 
-@pytest.mark.interactive
-def test_oauth_login_simple(capsys):
-    session = tidalapi.Session()
-    with capsys.disabled():
-        session.login_oauth_simple()
-
-
+@pytest.mark.norecord
 def test_oauth_refresh(session):
     access_token = session.access_token
     expiry_time = session.expiry_time
@@ -85,6 +91,7 @@ def test_oauth_refresh(session):
     assert session.expiry_time != expiry_time
 
 
+@pytest.mark.vcr
 def test_search(session):
     # Great edge case test
     search = session.search("Walker", limit=300)
@@ -101,6 +108,7 @@ def test_search(session):
     assert "Walker" in search["top_hit"].artist.name
 
 
+@pytest.mark.vcr
 def test_type_search(session):
     search = session.search("Hello", [Playlist, Video])
     assert isinstance(search["top_hit"], Playlist)
@@ -112,11 +120,13 @@ def test_type_search(session):
     assert len(search["playlists"]) == 50
 
 
+@pytest.mark.vcr
 def test_invalid_type_search(session):
     with pytest.raises(ValueError):
         session.search("Hello", [tidalapi.Genre])
 
 
+@pytest.mark.vcr
 def test_invalid_search(session):
     search = session.search("ERIWGJRGIJGRWEIOGRJOGREIWJIOWREG")
     assert len(search["artists"]) == 0
@@ -127,6 +137,7 @@ def test_invalid_search(session):
     assert search["top_hit"] is None
 
 
+@pytest.mark.vcr
 def test_config(session):
     assert session.config.item_limit == 1000
     assert session.config.quality == tidalapi.Quality.master.value

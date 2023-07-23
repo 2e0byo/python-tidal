@@ -1,0 +1,97 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/tracks/17626400?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: "{\"id\":17626400,\"title\":\"Beethoven: Symphony No. 5 in C Minor,
+        Op. 67 - I. Allegro con brio\",\"duration\":448,\"replayGain\":-2.51,\"peak\":0.772796,\"allowStreaming\":true,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2014-12-23T00:00:00.000+0000\",\"premiumStreamingOnly\":false,\"trackNumber\":1,\"volumeNumber\":1,\"version\":null,\"popularity\":12,\"copyright\":\"\u2117
+        1975 Deutsche Grammophon GmbH, Berlin\",\"url\":\"http://www.tidal.com/track/17626400\",\"isrc\":\"DEF057401772\",\"editable\":false,\"explicit\":false,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"HIRES_LOSSLESS\"]},\"artist\":{\"id\":3652537,\"name\":\"Wiener
+        Philharmoniker\",\"type\":\"MAIN\",\"picture\":\"eed38926-f05f-406b-8f94-00b59c3a8f77\"},\"artists\":[{\"id\":3652537,\"name\":\"Wiener
+        Philharmoniker\",\"type\":\"MAIN\",\"picture\":\"eed38926-f05f-406b-8f94-00b59c3a8f77\"},{\"id\":7246,\"name\":\"Carlos
+        Kleiber\",\"type\":\"FEATURED\",\"picture\":\"d1fd38cd-b475-4986-b2d2-739efc759b85\"}],\"album\":{\"id\":17626399,\"title\":\"Beethoven:
+        Symphonies Nos. 5 & 7\",\"cover\":\"71922f7a-ceee-46cc-856d-7e369ff42531\",\"vibrantColor\":\"#e7d867\",\"videoCover\":null},\"mixes\":{\"TRACK_MIX\":\"00146dbac72cfbf419c979786c807e\"}}"
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1170'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:59 GMT
+      Server:
+      - noyb
+      Via:
+      - 1.1 17c1f7944e7f0a7a5535cc3cecf1da08.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - KyvnkRoSIkUMO4P2Pqkjw8wCQ4nvaks21nW6j5gbccLpNRoVcOvDtw==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/tracks/17626400/lyrics?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"timestamp":"2023-07-23T15:53:59.759+00:00","status":404,"error":"Not
+        Found","path":"/lyrics/public/17626400"}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 23 Jul 2023 15:53:59 GMT
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Origin,Access-Control-Request-Method,Access-Control-Request-Headers,accept-encoding
+      Via:
+      - 1.1 7fbfed9453edeb4b5dca9173a3f5f8dc.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - WOmI3PPgQC1hUS73e-g2yLBzjigeszE748A9y9FQpEY0EYr64q5kUQ==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Error from cloudfront
+      X-RateLimit-Burst-Capacity:
+      - '50'
+      X-RateLimit-Remaining:
+      - '49'
+      X-RateLimit-Replenish-Rate:
+      - '1'
+      X-RateLimit-Requested-Tokens:
+      - '1'
+    status:
+      code: 404
+      message: Not Found
+version: 1

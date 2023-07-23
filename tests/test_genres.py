@@ -24,11 +24,13 @@ from PIL import Image
 import tidalapi
 
 
+@pytest.mark.vcr
 def test_get_genres(session):
     genres = list(session.genre.get_genres())
     assert "Jazz" in [genre.name for genre in genres]
 
 
+@pytest.mark.vcr
 def test_get_items(session):
     genres = list(session.genre.get_genres())
     genres[0].items(tidalapi.Album)
@@ -39,6 +41,7 @@ def test_get_items(session):
     genres[0].items(tidalapi.Playlist)
 
 
+@pytest.mark.vcr
 def test_get_electronic_items(session):
     genres = list(session.genre.get_genres())
     electronic = [genre for genre in genres if genre.path == "Electronic"][0]
@@ -46,6 +49,7 @@ def test_get_electronic_items(session):
     assert "Electronic: RISING" in [playlist.name for playlist in electronic_items]
 
 
+@pytest.mark.vcr
 def test_image(session):
     genres = session.genre.get_genres()
     electronic = [genre for genre in genres if genre.path == "Electronic"][0]

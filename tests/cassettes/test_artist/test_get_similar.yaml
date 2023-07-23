@@ -1,0 +1,90 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/artists/4822757?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":4822757,"name":"Syn Cole","artistTypes":["ARTIST","CONTRIBUTOR"],"url":"http://www.tidal.com/artist/4822757","picture":"31e0effb-3636-40cb-bdbe-4c2def1bf6f0","popularity":33,"artistRoles":[{"categoryId":-1,"category":"Artist"},{"categoryId":3,"category":"Engineer"},{"categoryId":10,"category":"Production
+        team"},{"categoryId":1,"category":"Producer"},{"categoryId":2,"category":"Songwriter"},{"categoryId":11,"category":"Performer"}],"mixes":{"MASTER_ARTIST_MIX":"0151865d65acad7501b303aceb4aa0","ARTIST_MIX":"0005d1f1cac36eb244205189aa2bf7"}}'
+    headers:
+      Age:
+      - '3'
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '550'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:42 GMT
+      Server:
+      - noyb
+      Via:
+      - 1.1 17c1f7944e7f0a7a5535cc3cecf1da08.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 7wUWRV48Gqt6fZhAzVMLfA9MDCVxG1C_TwuatXePJ_rzM8Hby7ef8Q==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Hit from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/artists/4822757/similar?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"limit":50,"offset":0,"totalNumberOfItems":5,"items":[{"id":3550103,"name":"Umek","type":null,"artistTypes":["ARTIST","CONTRIBUTOR"],"url":"http://www.tidal.com/artist/3550103","picture":"995beb19-ed49-420d-b48a-ce6ccb9cbc87","popularity":0,"banner":null,"artistRoles":null,"mixes":null,"relationType":"SIMILAR_ARTIST"},{"id":3637201,"name":"Avicii","type":null,"artistTypes":["ARTIST","CONTRIBUTOR"],"url":"http://www.tidal.com/artist/3637201","picture":"c40836c8-3266-4b00-8274-a2ecb6ccd4ad","popularity":0,"banner":null,"artistRoles":null,"mixes":null,"relationType":"SIMILAR_ARTIST"},{"id":4534681,"name":"Beat
+        Service","type":null,"artistTypes":["ARTIST","CONTRIBUTOR"],"url":"http://www.tidal.com/artist/4534681","picture":"beda3b35-8a66-486e-896d-0eb8620f810f","popularity":0,"banner":null,"artistRoles":null,"mixes":null,"relationType":"SIMILAR_ARTIST"},{"id":4750960,"name":"CAZZETTE","type":null,"artistTypes":["ARTIST","CONTRIBUTOR"],"url":"http://www.tidal.com/artist/4750960","picture":"daeda3a8-cffa-4b9d-9d4a-57dc3f66ae2c","popularity":0,"banner":null,"artistRoles":null,"mixes":null,"relationType":"SIMILAR_ARTIST"},{"id":5642274,"name":"Didrick","type":null,"artistTypes":["ARTIST","CONTRIBUTOR"],"url":"http://www.tidal.com/artist/5642274","picture":"1bdfa307-4d1d-405a-80ea-dc8eb3469e91","popularity":0,"banner":null,"artistRoles":null,"mixes":null,"relationType":"SIMILAR_ARTIST"}],"source":"TiVo"}'
+    headers:
+      Age:
+      - '948'
+      Cache-Control:
+      - public, max-age=3600, s-max-age=3600,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1419'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:37:57 GMT
+      ETag:
+      - '"710088218"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 7ec84fa8ea386135e27faa4bc393caba.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - usmlOoOlOLCplag_rv3Z5Lgz5tpxKO3omAQajLhx6LCtVj6ItGVy7w==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Hit from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

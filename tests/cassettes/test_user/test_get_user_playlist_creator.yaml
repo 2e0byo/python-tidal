@@ -1,0 +1,44 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/playlists/944dd087-f65c-4954-a9a3-042a574e86e3?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"uuid":"944dd087-f65c-4954-a9a3-042a574e86e3","title":"lofi","numberOfTracks":5288,"numberOfVideos":0,"creator":{"id":169584258},"description":"","duration":693350,"lastUpdated":"2020-05-14T20:28:18.226+0000","created":"2020-04-15T15:15:37.282+0000","type":"USER","publicPlaylist":false,"url":"http://www.tidal.com/playlist/944dd087-f65c-4954-a9a3-042a574e86e3","image":"caf9e852-03b4-412c-b17c-16bb5ca18bf5","popularity":0,"squareImage":"f08419c7-a19e-4550-a557-179e19936e06","promotedArtists":[],"lastItemAddedAt":"2020-05-14T01:31:24.431+0000"}'
+    headers:
+      Cache-Control:
+      - no-cache
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '548'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:56:01 GMT
+      ETag:
+      - '"1589488098226"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 eaa5b4468d4ba37bc9733291d72738ec.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - VN4-WGHn6YD053DQp89XGqg_tBnH7YR6ipzlZ8-KkwUrlh0s3G2H9Q==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

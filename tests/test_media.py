@@ -27,11 +27,13 @@ import tidalapi
 from .cover import verify_image_resolution, verify_video_resolution
 
 
+@pytest.mark.vcr
 def test_media(session):
     with pytest.raises(NotImplementedError):
         tidalapi.media.Media(session, 440930)
 
 
+@pytest.mark.vcr
 def test_track(session):
     track = session.track(125169484)
 
@@ -58,12 +60,14 @@ def test_track(session):
     assert [artist in artist_names for artist in ["Alan Walker", "Ava Max"]]
 
 
+@pytest.mark.vcr
 def test_track_url(session):
     session.config = tidalapi.Config(quality=tidalapi.Quality.master)
     track = session.track(142278122)
     assert "audio.tidal.com" in track.get_url()
 
 
+@pytest.mark.vcr
 def test_lyrics(session):
     track = session.track(56480040)
     lyrics = track.lyrics()
@@ -72,6 +76,7 @@ def test_lyrics(session):
     assert lyrics.right_to_left is False
 
 
+@pytest.mark.vcr
 def test_no_lyrics(session):
     track = session.track(17626400)
     with pytest.raises(requests.HTTPError) as exception:
@@ -80,21 +85,23 @@ def test_no_lyrics(session):
     assert exception.value.response.status_code == 404
 
 
+@pytest.mark.vcr
 def test_right_to_left(session):
     lyrics = session.track(95948697).lyrics()
     assert lyrics.right_to_left
     assert "أديني جيت" in lyrics.text
 
 
+@pytest.mark.vcr
 def test_track_with_album(session):
     track_id = 142278122
     track = session.track(track_id)
-    print(track.album)
     assert track.album.duration is None
     track = session.track(track_id, True)
     assert track.album.duration == 221
 
 
+@pytest.mark.vcr
 def test_track_streaming(session):
     track = session.track(62392768)
     stream = track.stream()
@@ -102,6 +109,7 @@ def test_track_streaming(session):
     assert stream.audio_quality == "LOSSLESS"
 
 
+@pytest.mark.vcr
 def test_video(session):
     video = session.video(125506698)
 
@@ -123,6 +131,7 @@ def test_video(session):
     assert [artist in artist_names for artist in ["Alan Walker", "Ava Max"]]
 
 
+@pytest.mark.vcr
 def test_video_no_release_date(session):
     video = session.video(151050672)
     assert video.id == 151050672
@@ -147,6 +156,7 @@ def test_video_no_release_date(session):
     ]
 
 
+@pytest.mark.vcr
 def test_video_url(session):
     video = session.video(125506698)
     url = video.get_url()
@@ -154,6 +164,7 @@ def test_video_url(session):
     verify_video_resolution(url, 1920, 1080)
 
 
+@pytest.mark.vcr
 def test_live_video(session):
     live = session.video(179076073)
     assert live.id == 179076073
@@ -173,6 +184,7 @@ def test_live_video(session):
     assert live.artists[0].name == "SESSIONS"
 
 
+@pytest.mark.vcr
 def test_video_image(session):
     video = session.video(125506698)
 
@@ -187,6 +199,7 @@ def test_video_image(session):
         verify_image_resolution(session, video.image(1080, 720), 1270, 1270)
 
 
+@pytest.mark.vcr
 def test_full_name_track_1(session):
     track = session.track(149119714)
     assert track.name == "Fibonacci Progressions (Keemiyo Remix)"
@@ -194,6 +207,7 @@ def test_full_name_track_1(session):
     assert track.full_name == "Fibonacci Progressions (Keemiyo Remix)"
 
 
+@pytest.mark.vcr
 def test_full_name_track_2(session):
     track = session.track(78495659)
     assert track.name == "Bullitt"
@@ -201,6 +215,7 @@ def test_full_name_track_2(session):
     assert track.full_name == "Bullitt (Bonus Track)"
 
 
+@pytest.mark.vcr
 def test_full_name_track_3(session):
     track = session.track(98849340)
     assert track.name == "Magical place (feat. IOVA)"

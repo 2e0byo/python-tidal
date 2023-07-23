@@ -1,0 +1,47 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/albums/239638071?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":239638071,"title":"Brooklyn. Friday. Love.","duration":943,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2022-08-03T16:00:00.000+0000","allowStreaming":true,"premiumStreamingOnly":false,"numberOfTracks":4,"numberOfVideos":0,"numberOfVolumes":1,"releaseDate":"2022-08-03","copyright":"Counter
+        Records","type":"SINGLE","version":null,"url":"http://www.tidal.com/album/239638071","cover":"e63bcb20-166e-4a6d-bd5d-829b96973e54","vibrantColor":"#a1bad9","videoCover":null,"explicit":false,"upc":"5054429159448","popularity":0,"audioQuality":"LOSSLESS","audioModes":["STEREO","DOLBY_ATMOS"],"mediaMetadata":{"tags":["LOSSLESS","DOLBY_ATMOS"]},"artist":{"id":6065221,"name":"The
+        Midnight","type":"MAIN","picture":"954bf5d0-674c-42ba-92f1-5c8e5f28d92a"},"artists":[{"id":6065221,"name":"The
+        Midnight","type":"MAIN","picture":"954bf5d0-674c-42ba-92f1-5c8e5f28d92a"}]}'
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '886'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:26 GMT
+      ETag:
+      - '"-841609330"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 32e17fe5a1e4cb77ad8ac75ddb0c4584.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - jkLxZSUPds2VBWmlfRo3-gFZf8NkFXbge6AlCEzMfD3YIhdvshZJtQ==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

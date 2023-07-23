@@ -1,0 +1,573 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/albums/108043414?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: "{\"id\":108043414,\"title\":\"Lemonade\",\"duration\":7165,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2019-04-23T05:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":13,\"numberOfVideos\":2,\"numberOfVolumes\":1,\"releaseDate\":\"2016-04-23\",\"copyright\":\"(P)
+        2019 Parkwood Entertainment LLC, under exclusive license to Columbia Records,
+        a Division of Sony Music Entertainment\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/108043414\",\"cover\":\"e85770cd-4d4a-4651-815b-a1ce6cc6aaa8\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":\"07942bd5-bddc-4301-95bf-dc4cd2c593fa\",\"explicit\":true,\"upc\":\"886447695456\",\"popularity\":39,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"},\"artists\":[{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"}]}"
+    headers:
+      Age:
+      - '8'
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '972'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:14 GMT
+      ETag:
+      - '"1667633875"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 eaa5b4468d4ba37bc9733291d72738ec.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - luANPQWCceK_e1mdWp0q-R_-aDk6saQr3JhbydYMmBIni8oC6hv1GQ==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Hit from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/albums/108043414/similar?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: "{\"limit\":50,\"offset\":0,\"totalNumberOfItems\":7,\"items\":[{\"id\":64522277,\"title\":\"Hard
+        II Love\",\"duration\":3579,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2016-09-12T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":15,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2016-09-16\",\"copyright\":\"(P)
+        2016 RCA Records, a division of Sony Music Entertainment\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/64522277\",\"cover\":\"20b70fb1-263f-486f-abef-e22838e105d4\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":null,\"explicit\":true,\"upc\":\"TIDAL1440\",\"popularity\":44,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":1518,\"name\":\"Usher\",\"type\":\"MAIN\",\"picture\":\"7c68dcb8-005a-44b1-8712-70892ad5bea2\"},\"artists\":[{\"id\":1518,\"name\":\"Usher\",\"type\":\"MAIN\",\"picture\":\"7c68dcb8-005a-44b1-8712-70892ad5bea2\"}]},{\"id\":64103838,\"title\":\"Unbreakable\",\"duration\":4270,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2022-02-11T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":19,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2015-10-02\",\"copyright\":\"\xA9
+        2015 Black Doll, Inc. under exclusive license to BMG Rights Management (US)
+        LLC\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/64103838\",\"cover\":\"dfe20658-2613-4c58-9330-1acbf95e38d9\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":null,\"explicit\":false,\"upc\":\"4050538158304\",\"popularity\":21,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":9033,\"name\":\"Janet
+        Jackson\",\"type\":\"MAIN\",\"picture\":\"802bd615-1eb9-4e5f-a0d5-4284a046ac98\"},\"artists\":[{\"id\":9033,\"name\":\"Janet
+        Jackson\",\"type\":\"MAIN\",\"picture\":\"802bd615-1eb9-4e5f-a0d5-4284a046ac98\"}]},{\"id\":77708226,\"title\":\"ANTI
+        (Deluxe)\",\"duration\":3073,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2016-01-29T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":16,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2016-02-05\",\"copyright\":\"\xA9
+        2016 Westbury Road Entertainment. Distributed by Roc Nation Records\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/77708226\",\"cover\":\"0ee60d5a-042f-4d07-9520-b78182672b29\",\"vibrantColor\":\"#e5d186\",\"videoCover\":\"1d4dfda9-e6cb-47cb-9671-f70ccfc3d540\",\"explicit\":true,\"upc\":\"00851365006707\",\"popularity\":73,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":10665,\"name\":\"Rihanna\",\"type\":\"MAIN\",\"picture\":\"3007b448-2392-44d7-acdf-bea8d41cee62\"},\"artists\":[{\"id\":10665,\"name\":\"Rihanna\",\"type\":\"MAIN\",\"picture\":\"3007b448-2392-44d7-acdf-bea8d41cee62\"}]},{\"id\":65988637,\"title\":\"Joanne
+        (Deluxe)\",\"duration\":2843,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2016-10-21T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":14,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2016-10-21\",\"copyright\":\"\xA9
+        2016 Interscope Records\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/65988637\",\"cover\":\"7bc2e3bc-792d-4d86-bd34-5b0b00e9657e\",\"vibrantColor\":\"#c8ddea\",\"videoCover\":null,\"explicit\":true,\"upc\":\"00602557205114\",\"popularity\":46,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":3534754,\"name\":\"Lady
+        Gaga\",\"type\":\"MAIN\",\"picture\":\"fbad421e-293d-42ee-bf38-1e7003983fef\"},\"artists\":[{\"id\":3534754,\"name\":\"Lady
+        Gaga\",\"type\":\"MAIN\",\"picture\":\"fbad421e-293d-42ee-bf38-1e7003983fef\"}]},{\"id\":38558099,\"title\":\"Reality
+        Show\",\"duration\":2660,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2015-01-12T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":12,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2015-01-13\",\"copyright\":\"(P)
+        2014 RCA Records, a division of Sony Music Entertainment\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/38558099\",\"cover\":\"ff868acf-a3c5-46a9-82b9-2d2663fd8486\",\"vibrantColor\":\"#ccb76d\",\"videoCover\":null,\"explicit\":true,\"upc\":\"886444518734\",\"popularity\":46,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"HIRES_LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":3543398,\"name\":\"Jazmine
+        Sullivan\",\"type\":\"MAIN\",\"picture\":\"75b74097-66e5-44b1-a106-d577abab599d\"},\"artists\":[{\"id\":3543398,\"name\":\"Jazmine
+        Sullivan\",\"type\":\"MAIN\",\"picture\":\"75b74097-66e5-44b1-a106-d577abab599d\"}]},{\"id\":58503368,\"title\":\"More
+        Issues Than Vogue\",\"duration\":2784,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2016-03-26T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":12,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2016-03-25\",\"copyright\":\"\xA9
+        2016 Atlantic Recording Corporation for the United States and WEA International
+        Inc. for the world outside of the United States. A Warner Music Group Company\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/58503368\",\"cover\":\"e7624ee5-499f-443f-98fa-c4558ed77d22\",\"vibrantColor\":\"#d9a5a5\",\"videoCover\":null,\"explicit\":true,\"upc\":\"075679914095\",\"popularity\":36,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":3599499,\"name\":\"K.
+        Michelle\",\"type\":\"MAIN\",\"picture\":\"a276b6f6-a369-4418-86db-043d2583981d\"},\"artists\":[{\"id\":3599499,\"name\":\"K.
+        Michelle\",\"type\":\"MAIN\",\"picture\":\"a276b6f6-a369-4418-86db-043d2583981d\"}]},{\"id\":77704200,\"title\":\"Beauty
+        Behind The Madness\",\"duration\":3914,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2015-08-28T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":14,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2015-08-28\",\"copyright\":\"\xA9
+        2015 The Weeknd XO, Inc., Manufactured and Marketed by Republic Records, a
+        Division of UMG Recordings, Inc.\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/77704200\",\"cover\":\"086ef8e1-25f3-473f-844c-da7d360910ce\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":null,\"explicit\":true,\"upc\":\"00602547503343\",\"popularity\":75,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":4761957,\"name\":\"The
+        Weeknd\",\"type\":\"MAIN\",\"picture\":\"200c3e82-b3b2-4965-8e19-ac6a1d7e667b\"},\"artists\":[{\"id\":4761957,\"name\":\"The
+        Weeknd\",\"type\":\"MAIN\",\"picture\":\"200c3e82-b3b2-4965-8e19-ac6a1d7e667b\"}]}],\"source\":\"TiVo\"}"
+    headers:
+      Age:
+      - '937'
+      Cache-Control:
+      - public, max-age=3600, s-max-age=3600,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '6517'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:37:45 GMT
+      ETag:
+      - '"-1348793392"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 2285d262a6b5edcf46f904cd07877cdc.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - ejInHXl1wwasjOBmRd1URIAzZ3VXIZ_oPfIF01D5d7deAji5s13-kQ==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Hit from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/albums/64522277/similar?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: "{\"limit\":50,\"offset\":0,\"totalNumberOfItems\":5,\"items\":[{\"id\":59727856,\"title\":\"LEMONADE\",\"duration\":2749,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2016-04-23T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":12,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2016-04-23\",\"copyright\":\"(C)
+        Parkwood Entertainment\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/59727856\",\"cover\":\"2b3c28fe-bfb8-48b1-9ad7-f912847f3d71\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":\"0f00d544-9d83-4455-b728-fbecd82b1917\",\"explicit\":true,\"upc\":\"886445885439\",\"popularity\":79,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"},\"artists\":[{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"}]},{\"id\":62888652,\"title\":\"The
+        Definition Of...\",\"duration\":2924,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2016-07-29T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":11,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2016-07-29\",\"copyright\":\"(P)
+        2016 19 Recordings Limited under exclusive license to RCA Records, a division
+        of Sony Music Entertainment\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/62888652\",\"cover\":\"5ed2698f-a5c9-4e60-bfe1-8f931048325e\",\"vibrantColor\":\"#ee7950\",\"videoCover\":null,\"explicit\":false,\"upc\":\"886444699914\",\"popularity\":23,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"HIRES_LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":5390,\"name\":\"Fantasia\",\"type\":\"MAIN\",\"picture\":\"16e505d1-1c72-4a6c-bc6b-df8e364e876a\"},\"artists\":[{\"id\":5390,\"name\":\"Fantasia\",\"type\":\"MAIN\",\"picture\":\"16e505d1-1c72-4a6c-bc6b-df8e364e876a\"}]},{\"id\":77708226,\"title\":\"ANTI
+        (Deluxe)\",\"duration\":3073,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2016-01-29T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":16,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2016-02-05\",\"copyright\":\"\xA9
+        2016 Westbury Road Entertainment. Distributed by Roc Nation Records\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/77708226\",\"cover\":\"0ee60d5a-042f-4d07-9520-b78182672b29\",\"vibrantColor\":\"#e5d186\",\"videoCover\":\"1d4dfda9-e6cb-47cb-9671-f70ccfc3d540\",\"explicit\":true,\"upc\":\"00851365006707\",\"popularity\":73,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":10665,\"name\":\"Rihanna\",\"type\":\"MAIN\",\"picture\":\"3007b448-2392-44d7-acdf-bea8d41cee62\"},\"artists\":[{\"id\":10665,\"name\":\"Rihanna\",\"type\":\"MAIN\",\"picture\":\"3007b448-2392-44d7-acdf-bea8d41cee62\"}]},{\"id\":46998236,\"title\":\"Wildheart
+        (Deluxe Version)\",\"duration\":3516,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2015-06-29T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":16,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2015-06-29\",\"copyright\":\"(P)
+        2015 RCA Records, a division of Sony Music Entertainment\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/46998236\",\"cover\":\"2bb4d4fa-7a60-43cd-9631-533f4c06fd45\",\"vibrantColor\":\"#9d493d\",\"videoCover\":\"c63a9eee-5993-4681-bf5c-4fcad965972c\",\"explicit\":true,\"upc\":\"886445204223\",\"popularity\":44,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":3834794,\"name\":\"Miguel\",\"type\":\"MAIN\",\"picture\":\"f618108a-ac2a-4644-b6b4-9b16797405ec\"},\"artists\":[{\"id\":3834794,\"name\":\"Miguel\",\"type\":\"MAIN\",\"picture\":\"f618108a-ac2a-4644-b6b4-9b16797405ec\"}]},{\"id\":60316614,\"title\":\"ELDORADO\",\"duration\":2660,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2016-06-03T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":13,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2016-05-27\",\"copyright\":\"(P)
+        2016 ByStorm Entertainment and RCA Records, a division of Sony Music\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/60316614\",\"cover\":\"ed5fccb1-2824-40a8-b050-ca0111ac845d\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":null,\"explicit\":true,\"upc\":\"886445791471\",\"popularity\":37,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"HIRES_LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":5033648,\"name\":\"Ro
+        James\",\"type\":\"MAIN\",\"picture\":\"aa5478ea-3a63-4a23-9798-c2f7bf679200\"},\"artists\":[{\"id\":5033648,\"name\":\"Ro
+        James\",\"type\":\"MAIN\",\"picture\":\"aa5478ea-3a63-4a23-9798-c2f7bf679200\"}]}],\"source\":\"TiVo\"}"
+    headers:
+      Age:
+      - '936'
+      Cache-Control:
+      - public, max-age=3600, s-max-age=3600,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '4676'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:37:46 GMT
+      ETag:
+      - '"-1106191893"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 158b0f42a1d87ab9108e2baf28e8c990.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - UMcnLauJZOpKjgKPzVp71T0LSmj4sL28XPwsp99WCKdTCVVvlqwq8g==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Hit from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/albums/64103838/similar?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: "{\"limit\":50,\"offset\":0,\"totalNumberOfItems\":6,\"items\":[{\"id\":29492300,\"title\":\"XSCAPE\",\"duration\":4403,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2014-05-12T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":17,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2014-05-12\",\"copyright\":\"(P)
+        2014 MJJ Productions, Inc.\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/29492300\",\"cover\":\"92ab7280-3525-4e23-946c-aef8835f509f\",\"vibrantColor\":\"#d9bd6e\",\"videoCover\":null,\"explicit\":false,\"upc\":\"886444557351\",\"popularity\":53,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"HIRES_LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":606,\"name\":\"Michael
+        Jackson\",\"type\":\"MAIN\",\"picture\":\"1493c264-d68a-4415-9013-2c913f2edf14\"},\"artists\":[{\"id\":606,\"name\":\"Michael
+        Jackson\",\"type\":\"MAIN\",\"picture\":\"1493c264-d68a-4415-9013-2c913f2edf14\"}]},{\"id\":59727856,\"title\":\"LEMONADE\",\"duration\":2749,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2016-04-23T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":12,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2016-04-23\",\"copyright\":\"(C)
+        Parkwood Entertainment\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/59727856\",\"cover\":\"2b3c28fe-bfb8-48b1-9ad7-f912847f3d71\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":\"0f00d544-9d83-4455-b728-fbecd82b1917\",\"explicit\":true,\"upc\":\"886445885439\",\"popularity\":79,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"},\"artists\":[{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"}]},{\"id\":77653349,\"title\":\"The
+        London Sessions\",\"duration\":2738,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2014-12-02T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":12,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2014-12-02\",\"copyright\":\"\xA9
+        2014 Capitol Records, LLC\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/77653349\",\"cover\":\"6041daf4-2ff6-41fa-b4e4-8d81bbc9a76a\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":null,\"explicit\":false,\"upc\":\"00602547066411\",\"popularity\":20,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"HIRES_LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":7036,\"name\":\"Mary
+        J. Blige\",\"type\":\"MAIN\",\"picture\":\"d8508668-1219-4a93-9f69-589876ec7316\"},\"artists\":[{\"id\":7036,\"name\":\"Mary
+        J. Blige\",\"type\":\"MAIN\",\"picture\":\"d8508668-1219-4a93-9f69-589876ec7316\"}]},{\"id\":45638776,\"title\":\"Love
+        Life\",\"duration\":3030,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2015-06-09T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":13,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2015-06-09\",\"copyright\":\"\xA9
+        2015 Def Jam Recordings, a division of UMG Recordings, Inc.\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/45638776\",\"cover\":\"9a22bd0a-1ae2-4b00-8629-f66d80e90898\",\"vibrantColor\":\"#da1125\",\"videoCover\":null,\"explicit\":false,\"upc\":\"00602547382566\",\"popularity\":14,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":13987,\"name\":\"Tamia\",\"type\":\"MAIN\",\"picture\":\"64fd02ef-6862-4edd-b3f7-cf357fa93465\"},\"artists\":[{\"id\":13987,\"name\":\"Tamia\",\"type\":\"MAIN\",\"picture\":\"64fd02ef-6862-4edd-b3f7-cf357fa93465\"}]},{\"id\":38558099,\"title\":\"Reality
+        Show\",\"duration\":2660,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2015-01-12T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":12,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2015-01-13\",\"copyright\":\"(P)
+        2014 RCA Records, a division of Sony Music Entertainment\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/38558099\",\"cover\":\"ff868acf-a3c5-46a9-82b9-2d2663fd8486\",\"vibrantColor\":\"#ccb76d\",\"videoCover\":null,\"explicit\":true,\"upc\":\"886444518734\",\"popularity\":46,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"HIRES_LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":3543398,\"name\":\"Jazmine
+        Sullivan\",\"type\":\"MAIN\",\"picture\":\"75b74097-66e5-44b1-a106-d577abab599d\"},\"artists\":[{\"id\":3543398,\"name\":\"Jazmine
+        Sullivan\",\"type\":\"MAIN\",\"picture\":\"75b74097-66e5-44b1-a106-d577abab599d\"}]},{\"id\":51884831,\"title\":\"Calling
+        All Lovers (Deluxe)\",\"duration\":3383,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2015-10-02T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":16,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2015-10-02\",\"copyright\":\"(P)
+        2015 Epic Records, a division of Sony Music Entertainment/Streamline Records\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/51884831\",\"cover\":\"7006818f-1493-4266-b4ef-749ae45a7516\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":null,\"explicit\":false,\"upc\":\"886445468489\",\"popularity\":33,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"HIRES_LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":4809911,\"name\":\"Tamar
+        Braxton\",\"type\":\"MAIN\",\"picture\":\"19b1ac67-1807-40af-97b9-0ce6f773871e\"},\"artists\":[{\"id\":4809911,\"name\":\"Tamar
+        Braxton\",\"type\":\"MAIN\",\"picture\":\"19b1ac67-1807-40af-97b9-0ce6f773871e\"}]}],\"source\":\"TiVo\"}"
+    headers:
+      Age:
+      - '937'
+      Cache-Control:
+      - public, max-age=3600, s-max-age=3600,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '5455'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:37:46 GMT
+      ETag:
+      - '"1871603223"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 168a24ef858eb187119582fbc6ac0718.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - rrxZMLM4mOOLN7xDh-obQ_4i6-PEugmt7aaulhjWch3Q18Q3qZB5Xw==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Hit from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/albums/77708226/similar?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: "{\"limit\":50,\"offset\":0,\"totalNumberOfItems\":7,\"items\":[{\"id\":55164031,\"title\":\"Royalty
+        (Deluxe Version)\",\"duration\":3997,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2015-12-18T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":18,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2015-12-18\",\"copyright\":\"(P)
+        2015 RCA Records, a division of Sony Music Entertainment\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/55164031\",\"cover\":\"c10c6411-6bfc-4456-8595-33343ad4f205\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":null,\"explicit\":true,\"upc\":\"886445462920\",\"popularity\":58,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"HIRES_LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":3261,\"name\":\"Chris
+        Brown\",\"type\":\"MAIN\",\"picture\":\"7fb0547f-51a0-4ca1-9cf1-f7cee74aeaa6\"},\"artists\":[{\"id\":3261,\"name\":\"Chris
+        Brown\",\"type\":\"MAIN\",\"picture\":\"7fb0547f-51a0-4ca1-9cf1-f7cee74aeaa6\"}]},{\"id\":64522277,\"title\":\"Hard
+        II Love\",\"duration\":3579,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2016-09-12T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":15,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2016-09-16\",\"copyright\":\"(P)
+        2016 RCA Records, a division of Sony Music Entertainment\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/64522277\",\"cover\":\"20b70fb1-263f-486f-abef-e22838e105d4\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":null,\"explicit\":true,\"upc\":\"TIDAL1440\",\"popularity\":44,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":1518,\"name\":\"Usher\",\"type\":\"MAIN\",\"picture\":\"7c68dcb8-005a-44b1-8712-70892ad5bea2\"},\"artists\":[{\"id\":1518,\"name\":\"Usher\",\"type\":\"MAIN\",\"picture\":\"7c68dcb8-005a-44b1-8712-70892ad5bea2\"}]},{\"id\":59727856,\"title\":\"LEMONADE\",\"duration\":2749,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2016-04-23T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":12,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2016-04-23\",\"copyright\":\"(C)
+        Parkwood Entertainment\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/59727856\",\"cover\":\"2b3c28fe-bfb8-48b1-9ad7-f912847f3d71\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":\"0f00d544-9d83-4455-b728-fbecd82b1917\",\"explicit\":true,\"upc\":\"886445885439\",\"popularity\":79,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"},\"artists\":[{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"}]},{\"id\":65988637,\"title\":\"Joanne
+        (Deluxe)\",\"duration\":2843,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2016-10-21T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":14,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2016-10-21\",\"copyright\":\"\xA9
+        2016 Interscope Records\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/65988637\",\"cover\":\"7bc2e3bc-792d-4d86-bd34-5b0b00e9657e\",\"vibrantColor\":\"#c8ddea\",\"videoCover\":null,\"explicit\":true,\"upc\":\"00602557205114\",\"popularity\":46,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":3534754,\"name\":\"Lady
+        Gaga\",\"type\":\"MAIN\",\"picture\":\"fbad421e-293d-42ee-bf38-1e7003983fef\"},\"artists\":[{\"id\":3534754,\"name\":\"Lady
+        Gaga\",\"type\":\"MAIN\",\"picture\":\"fbad421e-293d-42ee-bf38-1e7003983fef\"}]},{\"id\":53893673,\"title\":\"Purpose
+        (Deluxe)\",\"duration\":3979,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2015-11-13T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":18,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2015-11-13\",\"copyright\":\"\xA9
+        2015 Def Jam Recordings, a division of UMG Recordings, Inc.\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/53893673\",\"cover\":\"365f416f-cca4-46e2-9d40-b24367799a07\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":null,\"explicit\":false,\"upc\":\"00602547587466\",\"popularity\":68,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":3639248,\"name\":\"Justin
+        Bieber\",\"type\":\"MAIN\",\"picture\":\"c561791e-6a6e-4c9f-a226-8f8569d0bc1b\"},\"artists\":[{\"id\":3639248,\"name\":\"Justin
+        Bieber\",\"type\":\"MAIN\",\"picture\":\"c561791e-6a6e-4c9f-a226-8f8569d0bc1b\"}]},{\"id\":46998236,\"title\":\"Wildheart
+        (Deluxe Version)\",\"duration\":3516,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2015-06-29T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":16,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2015-06-29\",\"copyright\":\"(P)
+        2015 RCA Records, a division of Sony Music Entertainment\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/46998236\",\"cover\":\"2bb4d4fa-7a60-43cd-9631-533f4c06fd45\",\"vibrantColor\":\"#9d493d\",\"videoCover\":\"c63a9eee-5993-4681-bf5c-4fcad965972c\",\"explicit\":true,\"upc\":\"886445204223\",\"popularity\":44,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":3834794,\"name\":\"Miguel\",\"type\":\"MAIN\",\"picture\":\"f618108a-ac2a-4644-b6b4-9b16797405ec\"},\"artists\":[{\"id\":3834794,\"name\":\"Miguel\",\"type\":\"MAIN\",\"picture\":\"f618108a-ac2a-4644-b6b4-9b16797405ec\"}]},{\"id\":77704200,\"title\":\"Beauty
+        Behind The Madness\",\"duration\":3914,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2015-08-28T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":14,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2015-08-28\",\"copyright\":\"\xA9
+        2015 The Weeknd XO, Inc., Manufactured and Marketed by Republic Records, a
+        Division of UMG Recordings, Inc.\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/77704200\",\"cover\":\"086ef8e1-25f3-473f-844c-da7d360910ce\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":null,\"explicit\":true,\"upc\":\"00602547503343\",\"popularity\":75,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":4761957,\"name\":\"The
+        Weeknd\",\"type\":\"MAIN\",\"picture\":\"200c3e82-b3b2-4965-8e19-ac6a1d7e667b\"},\"artists\":[{\"id\":4761957,\"name\":\"The
+        Weeknd\",\"type\":\"MAIN\",\"picture\":\"200c3e82-b3b2-4965-8e19-ac6a1d7e667b\"}]}],\"source\":\"TiVo\"}"
+    headers:
+      Age:
+      - '937'
+      Cache-Control:
+      - public, max-age=3600, s-max-age=3600,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '6378'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:37:46 GMT
+      ETag:
+      - '"322094426"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 e9ebe38de33a70557cf9d9c1d7e5d11e.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - inezGSwZMKyhP_D0Z5UIFlS4WDHKd6OISG66pVOpm54WUKnUGaxrIA==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Hit from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/albums/65988637/similar?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: "{\"limit\":50,\"offset\":0,\"totalNumberOfItems\":7,\"items\":[{\"id\":59727856,\"title\":\"LEMONADE\",\"duration\":2749,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2016-04-23T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":12,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2016-04-23\",\"copyright\":\"(C)
+        Parkwood Entertainment\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/59727856\",\"cover\":\"2b3c28fe-bfb8-48b1-9ad7-f912847f3d71\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":\"0f00d544-9d83-4455-b728-fbecd82b1917\",\"explicit\":true,\"upc\":\"886445885439\",\"popularity\":79,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"},\"artists\":[{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"}]},{\"id\":39249709,\"title\":\"Uptown
+        Special\",\"duration\":2325,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2015-01-19T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":11,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2015-01-26\",\"copyright\":\"Tracks
+        3, 4 & 6 (P) 2014, all other tracks (P) 2015 Mark Ronson under exclusive licence
+        to Sony Music Entertainment UK Limited\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/39249709\",\"cover\":\"2f507eba-07f8-4bf5-a32b-9aa5c1a9840d\",\"vibrantColor\":\"#f0e76a\",\"videoCover\":null,\"explicit\":true,\"upc\":\"886444959797\",\"popularity\":75,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"HIRES_LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":8722,\"name\":\"Mark
+        Ronson\",\"type\":\"MAIN\",\"picture\":\"0ee81a7f-93e5-47b6-a93f-08b30ba33e81\"},\"artists\":[{\"id\":8722,\"name\":\"Mark
+        Ronson\",\"type\":\"MAIN\",\"picture\":\"0ee81a7f-93e5-47b6-a93f-08b30ba33e81\"}]},{\"id\":77708226,\"title\":\"ANTI
+        (Deluxe)\",\"duration\":3073,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2016-01-29T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":16,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2016-02-05\",\"copyright\":\"\xA9
+        2016 Westbury Road Entertainment. Distributed by Roc Nation Records\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/77708226\",\"cover\":\"0ee60d5a-042f-4d07-9520-b78182672b29\",\"vibrantColor\":\"#e5d186\",\"videoCover\":\"1d4dfda9-e6cb-47cb-9671-f70ccfc3d540\",\"explicit\":true,\"upc\":\"00851365006707\",\"popularity\":73,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":10665,\"name\":\"Rihanna\",\"type\":\"MAIN\",\"picture\":\"3007b448-2392-44d7-acdf-bea8d41cee62\"},\"artists\":[{\"id\":10665,\"name\":\"Rihanna\",\"type\":\"MAIN\",\"picture\":\"3007b448-2392-44d7-acdf-bea8d41cee62\"}]},{\"id\":56290496,\"title\":\"This
+        Is Acting\",\"duration\":2798,\"streamReady\":false,\"adSupportedStreamReady\":false,\"streamStartDate\":null,\"allowStreaming\":false,\"premiumStreamingOnly\":false,\"numberOfTracks\":12,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2016-01-29\",\"copyright\":\"(P)
+        2015 Monkey Puzzle Records, under exclusive license to RCA Records\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/56290496\",\"cover\":\"7004ea52-63ce-4f5b-b5fe-091bd5f7bc93\",\"vibrantColor\":\"#c2707e\",\"videoCover\":null,\"explicit\":false,\"upc\":\"886445602203\",\"popularity\":41,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"HIRES_LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":32954,\"name\":\"Sia\",\"type\":\"MAIN\",\"picture\":\"60e03b5c-d9ba-4556-808b-547cbbbbe3b6\"},\"artists\":[{\"id\":32954,\"name\":\"Sia\",\"type\":\"MAIN\",\"picture\":\"60e03b5c-d9ba-4556-808b-547cbbbbe3b6\"}]},{\"id\":90061706,\"title\":\"Witness
+        (Deluxe)\",\"duration\":3910,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2018-06-08T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":17,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2017-06-09\",\"copyright\":\"\xA9
+        2017 Capitol Records\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/90061706\",\"cover\":\"40a2886e-de68-4813-9a53-defab425bc63\",\"vibrantColor\":\"#e5634e\",\"videoCover\":null,\"explicit\":true,\"upc\":\"00602567794370\",\"popularity\":48,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":3531205,\"name\":\"Katy
+        Perry\",\"type\":\"MAIN\",\"picture\":\"3f5fb645-46b8-44c4-9721-e60ec54c2fa1\"},\"artists\":[{\"id\":3531205,\"name\":\"Katy
+        Perry\",\"type\":\"MAIN\",\"picture\":\"3f5fb645-46b8-44c4-9721-e60ec54c2fa1\"}]},{\"id\":79287870,\"title\":\"Dangerous
+        Woman\",\"duration\":3341,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2016-05-20T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":15,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2016-05-20\",\"copyright\":\"\xA9
+        2016 Republic Records, a division of UMG Recordings, Inc.\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/79287870\",\"cover\":\"5c9b6bd6-0159-44fb-a761-4c00b494316a\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":null,\"explicit\":true,\"upc\":\"00602547955111\",\"popularity\":71,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":4332277,\"name\":\"Ariana
+        Grande\",\"type\":\"MAIN\",\"picture\":\"6b7554b8-5899-40a8-8c13-09af915f1ba7\"},\"artists\":[{\"id\":4332277,\"name\":\"Ariana
+        Grande\",\"type\":\"MAIN\",\"picture\":\"6b7554b8-5899-40a8-8c13-09af915f1ba7\"}]},{\"id\":165359713,\"title\":\"Glory
+        (Deluxe)\",\"duration\":4609,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2020-12-11T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":23,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2016-08-26\",\"copyright\":\"(P)
+        2020 RCA Records, a division of Sony Music Entertainment\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/165359713\",\"cover\":\"f2534c05-142e-4175-9ca6-2b5f9e18a98a\",\"vibrantColor\":\"#7eb4cd\",\"videoCover\":null,\"explicit\":true,\"upc\":\"886448939221\",\"popularity\":28,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"HIRES_LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":1532,\"name\":\"Britney
+        Spears\",\"type\":\"MAIN\",\"picture\":\"4b9454fa-0c35-4472-b8f6-da21ee45d420\"},\"artists\":[{\"id\":1532,\"name\":\"Britney
+        Spears\",\"type\":\"MAIN\",\"picture\":\"4b9454fa-0c35-4472-b8f6-da21ee45d420\"}]}],\"source\":\"TiVo\"}"
+    headers:
+      Age:
+      - '937'
+      Cache-Control:
+      - public, max-age=3600, s-max-age=3600,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '6405'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:37:46 GMT
+      ETag:
+      - '"-453050339"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 7ec84fa8ea386135e27faa4bc393caba.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - j7QYqdYAWrSCbki8P3UM90MoaJve8UpveWoqkd5YwewFu3JzTHpBBA==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Hit from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/albums/38558099/similar?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: "{\"limit\":50,\"offset\":0,\"totalNumberOfItems\":9,\"items\":[{\"id\":49293813,\"title\":\"Woman\",\"duration\":3466,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2015-07-24T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":16,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2015-07-24\",\"copyright\":\"\xA9
+        2015 Blues Babe Records, LLC.  Manufactured and distributed by Atlantic Recording
+        Corporation for the United States and WEA International Inc. for the world
+        outside of the United States.\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/49293813\",\"cover\":\"5fed98fb-8c9c-4d34-bdde-5e209e233ca7\",\"vibrantColor\":\"#87a0dc\",\"videoCover\":null,\"explicit\":false,\"upc\":\"075679923257\",\"popularity\":35,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":1173,\"name\":\"Jill
+        Scott\",\"type\":\"MAIN\",\"picture\":\"f3ec53f3-82ee-42eb-8703-950eb444de0e\"},\"artists\":[{\"id\":1173,\"name\":\"Jill
+        Scott\",\"type\":\"MAIN\",\"picture\":\"f3ec53f3-82ee-42eb-8703-950eb444de0e\"}]},{\"id\":59727856,\"title\":\"LEMONADE\",\"duration\":2749,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2016-04-23T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":12,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2016-04-23\",\"copyright\":\"(C)
+        Parkwood Entertainment\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/59727856\",\"cover\":\"2b3c28fe-bfb8-48b1-9ad7-f912847f3d71\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":\"0f00d544-9d83-4455-b728-fbecd82b1917\",\"explicit\":true,\"upc\":\"886445885439\",\"popularity\":79,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"},\"artists\":[{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"}]},{\"id\":64103838,\"title\":\"Unbreakable\",\"duration\":4270,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2022-02-11T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":19,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2015-10-02\",\"copyright\":\"\xA9
+        2015 Black Doll, Inc. under exclusive license to BMG Rights Management (US)
+        LLC\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/64103838\",\"cover\":\"dfe20658-2613-4c58-9330-1acbf95e38d9\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":null,\"explicit\":false,\"upc\":\"4050538158304\",\"popularity\":21,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":9033,\"name\":\"Janet
+        Jackson\",\"type\":\"MAIN\",\"picture\":\"802bd615-1eb9-4e5f-a0d5-4284a046ac98\"},\"artists\":[{\"id\":9033,\"name\":\"Janet
+        Jackson\",\"type\":\"MAIN\",\"picture\":\"802bd615-1eb9-4e5f-a0d5-4284a046ac98\"}]},{\"id\":40726636,\"title\":\"Non-Fiction
+        (Deluxe)\",\"duration\":4475,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2015-02-16T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":21,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2015-01-27\",\"copyright\":\"\xA9
+        2015 Motown Records, a Division of UMG Recordings, Inc.\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/40726636\",\"cover\":\"04782576-301c-4687-a5f4-b255593eeb08\",\"vibrantColor\":\"#eaa7a4\",\"videoCover\":null,\"explicit\":true,\"upc\":\"00602547183514\",\"popularity\":28,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":16852,\"name\":\"Ne-Yo\",\"type\":\"MAIN\",\"picture\":\"0252110c-79bd-4ba4-8027-23edf90102b4\"},\"artists\":[{\"id\":16852,\"name\":\"Ne-Yo\",\"type\":\"MAIN\",\"picture\":\"0252110c-79bd-4ba4-8027-23edf90102b4\"}]},{\"id\":42687865,\"title\":\"Love
+        Sex Passion\",\"duration\":4562,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2015-02-17T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":17,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2015-02-10\",\"copyright\":\"Entertainment
+        One Music\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/42687865\",\"cover\":\"dc4830c6-79c4-4681-bd4d-b5071d9511c6\",\"vibrantColor\":\"#dcd09e\",\"videoCover\":null,\"explicit\":false,\"upc\":\"099923943822\",\"popularity\":18,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":3504538,\"name\":\"Raheem
+        DeVaughn\",\"type\":\"MAIN\",\"picture\":\"fae5c8da-4c36-4960-973b-8b797d3d1f2a\"},\"artists\":[{\"id\":3504538,\"name\":\"Raheem
+        DeVaughn\",\"type\":\"MAIN\",\"picture\":\"fae5c8da-4c36-4960-973b-8b797d3d1f2a\"}]},{\"id\":38092661,\"title\":\"Anybody
+        Wanna Buy a Heart?\",\"duration\":2909,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2014-12-09T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":12,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2014-12-09\",\"copyright\":\"\xA9
+        2014 Atlantic Recording Corporation for the United States and WEA International
+        for the world outside the United States. A Warner Music Group Company.\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/38092661\",\"cover\":\"46bd4595-d4a2-493e-a601-9fec42f2ea2c\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":null,\"explicit\":true,\"upc\":\"075679932723\",\"popularity\":28,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":3599499,\"name\":\"K.
+        Michelle\",\"type\":\"MAIN\",\"picture\":\"a276b6f6-a369-4418-86db-043d2583981d\"},\"artists\":[{\"id\":3599499,\"name\":\"K.
+        Michelle\",\"type\":\"MAIN\",\"picture\":\"a276b6f6-a369-4418-86db-043d2583981d\"}]},{\"id\":51884831,\"title\":\"Calling
+        All Lovers (Deluxe)\",\"duration\":3383,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2015-10-02T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":16,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2015-10-02\",\"copyright\":\"(P)
+        2015 Epic Records, a division of Sony Music Entertainment/Streamline Records\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/51884831\",\"cover\":\"7006818f-1493-4266-b4ef-749ae45a7516\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":null,\"explicit\":false,\"upc\":\"886445468489\",\"popularity\":33,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"HIRES_LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":4809911,\"name\":\"Tamar
+        Braxton\",\"type\":\"MAIN\",\"picture\":\"19b1ac67-1807-40af-97b9-0ce6f773871e\"},\"artists\":[{\"id\":4809911,\"name\":\"Tamar
+        Braxton\",\"type\":\"MAIN\",\"picture\":\"19b1ac67-1807-40af-97b9-0ce6f773871e\"}]},{\"id\":35345541,\"title\":\"Aquarius\",\"duration\":3341,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2014-10-06T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":18,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2014-10-06\",\"copyright\":\"(P)
+        2014 RCA Records, a division of Sony Music Entertainment\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/35345541\",\"cover\":\"6bbadd09-7b4d-4fd5-b81f-e6ee6783f073\",\"vibrantColor\":\"#4776b8\",\"videoCover\":null,\"explicit\":true,\"upc\":\"886444673228\",\"popularity\":45,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"HIRES_LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":5222063,\"name\":\"Tinashe\",\"type\":\"MAIN\",\"picture\":\"2bfe7577-dc37-4818-9d40-95635fbb040c\"},\"artists\":[{\"id\":5222063,\"name\":\"Tinashe\",\"type\":\"MAIN\",\"picture\":\"2bfe7577-dc37-4818-9d40-95635fbb040c\"}]},{\"id\":37074949,\"title\":\"VII
+        (Deluxe)\",\"duration\":2821,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2014-11-05T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":14,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2014-11-04\",\"copyright\":\"\xA9
+        2014 Getting Out Our Dreams, Inc./Def Jam Recordings, a division of UMG Recordings,
+        Inc.\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/37074949\",\"cover\":\"a7d436a1-9622-4e77-aca4-749f8b61da42\",\"vibrantColor\":\"#e30510\",\"videoCover\":null,\"explicit\":true,\"upc\":\"00602547064868\",\"popularity\":42,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":5734523,\"name\":\"Teyana
+        Taylor\",\"type\":\"MAIN\",\"picture\":\"5d206694-eb4d-4040-9bef-60a9f7972d27\"},\"artists\":[{\"id\":5734523,\"name\":\"Teyana
+        Taylor\",\"type\":\"MAIN\",\"picture\":\"5d206694-eb4d-4040-9bef-60a9f7972d27\"}]}],\"source\":\"TiVo\"}"
+    headers:
+      Age:
+      - '937'
+      Cache-Control:
+      - public, max-age=3600, s-max-age=3600,
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:37:47 GMT
+      ETag:
+      - '"-833831912"'
+      Server:
+      - noyb
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 6e67f1ea42d4e5ff9c87cf2624025a28.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - rayQMAULGKw1giX0Zqk_TIuKM7OmckDAO5X0KHF045dbs5LsUxoCzw==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Hit from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/albums/58503368/similar?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: "{\"limit\":50,\"offset\":0,\"totalNumberOfItems\":8,\"items\":[{\"id\":59727856,\"title\":\"LEMONADE\",\"duration\":2749,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2016-04-23T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":12,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2016-04-23\",\"copyright\":\"(C)
+        Parkwood Entertainment\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/59727856\",\"cover\":\"2b3c28fe-bfb8-48b1-9ad7-f912847f3d71\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":\"0f00d544-9d83-4455-b728-fbecd82b1917\",\"explicit\":true,\"upc\":\"886445885439\",\"popularity\":79,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"},\"artists\":[{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"}]},{\"id\":56628594,\"title\":\"Still\",\"duration\":2215,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2016-02-05T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":10,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2016-02-05\",\"copyright\":\"Entertainment
+        One Music\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/56628594\",\"cover\":\"63429759-5def-403c-804e-ed8413ceca4f\",\"vibrantColor\":\"#c84737\",\"videoCover\":null,\"explicit\":false,\"upc\":\"099923526025\",\"popularity\":19,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":2592,\"name\":\"SWV\",\"type\":\"MAIN\",\"picture\":\"a23e8f46-8528-4986-b2ee-aba39864260e\"},\"artists\":[{\"id\":2592,\"name\":\"SWV\",\"type\":\"MAIN\",\"picture\":\"a23e8f46-8528-4986-b2ee-aba39864260e\"}]},{\"id\":62888652,\"title\":\"The
+        Definition Of...\",\"duration\":2924,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2016-07-29T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":11,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2016-07-29\",\"copyright\":\"(P)
+        2016 19 Recordings Limited under exclusive license to RCA Records, a division
+        of Sony Music Entertainment\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/62888652\",\"cover\":\"5ed2698f-a5c9-4e60-bfe1-8f931048325e\",\"vibrantColor\":\"#ee7950\",\"videoCover\":null,\"explicit\":false,\"upc\":\"886444699914\",\"popularity\":23,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"HIRES_LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":5390,\"name\":\"Fantasia\",\"type\":\"MAIN\",\"picture\":\"16e505d1-1c72-4a6c-bc6b-df8e364e876a\"},\"artists\":[{\"id\":5390,\"name\":\"Fantasia\",\"type\":\"MAIN\",\"picture\":\"16e505d1-1c72-4a6c-bc6b-df8e364e876a\"}]},{\"id\":73078519,\"title\":\"Strength
+        Of A Woman\",\"duration\":3471,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2017-04-28T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":14,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2017-04-28\",\"copyright\":\"\xA9
+        2017 Capitol Records\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/73078519\",\"cover\":\"05730667-c8c7-4a89-8bd1-817498b510eb\",\"vibrantColor\":\"#e8cc86\",\"videoCover\":null,\"explicit\":true,\"upc\":\"00602557261509\",\"popularity\":32,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":7036,\"name\":\"Mary
+        J. Blige\",\"type\":\"MAIN\",\"picture\":\"d8508668-1219-4a93-9f69-589876ec7316\"},\"artists\":[{\"id\":7036,\"name\":\"Mary
+        J. Blige\",\"type\":\"MAIN\",\"picture\":\"d8508668-1219-4a93-9f69-589876ec7316\"}]},{\"id\":57955894,\"title\":\"Struggle
+        Love\",\"duration\":3347,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2016-03-18T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":14,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2016-03-18\",\"copyright\":\"\xA9
+        2016 Julie's Dream Music Group, under exclusive license to BMG/Primary Wave\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/57955894\",\"cover\":\"ab185a19-f63c-47d9-b6c5-8c3dec76f262\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":null,\"explicit\":true,\"upc\":\"04050538166811\",\"popularity\":18,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":13880,\"name\":\"Jaheim\",\"type\":\"MAIN\",\"picture\":\"6220befc-4d55-42bb-860a-0d7e7d455a51\"},\"artists\":[{\"id\":13880,\"name\":\"Jaheim\",\"type\":\"MAIN\",\"picture\":\"6220befc-4d55-42bb-860a-0d7e7d455a51\"}]},{\"id\":57239968,\"title\":\"Rated
+        Love\",\"duration\":2767,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2016-04-22T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":16,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2016-04-22\",\"copyright\":\"2016
+        Aratek Entertainment\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/57239968\",\"cover\":\"c09978c5-0da7-4407-a25b-34c27ccd19ee\",\"vibrantColor\":\"#e2b4b4\",\"videoCover\":null,\"explicit\":false,\"upc\":\"881034188069\",\"popularity\":18,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":3665152,\"name\":\"Keke
+        Wyatt\",\"type\":\"MAIN\",\"picture\":\"833a62ca-a9e4-46bf-9b14-8e52cd7a9dc4\"},\"artists\":[{\"id\":3665152,\"name\":\"Keke
+        Wyatt\",\"type\":\"MAIN\",\"picture\":\"833a62ca-a9e4-46bf-9b14-8e52cd7a9dc4\"}]},{\"id\":51884831,\"title\":\"Calling
+        All Lovers (Deluxe)\",\"duration\":3383,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2015-10-02T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":16,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2015-10-02\",\"copyright\":\"(P)
+        2015 Epic Records, a division of Sony Music Entertainment/Streamline Records\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/51884831\",\"cover\":\"7006818f-1493-4266-b4ef-749ae45a7516\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":null,\"explicit\":false,\"upc\":\"886445468489\",\"popularity\":33,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"HIRES_LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":4809911,\"name\":\"Tamar
+        Braxton\",\"type\":\"MAIN\",\"picture\":\"19b1ac67-1807-40af-97b9-0ce6f773871e\"},\"artists\":[{\"id\":4809911,\"name\":\"Tamar
+        Braxton\",\"type\":\"MAIN\",\"picture\":\"19b1ac67-1807-40af-97b9-0ce6f773871e\"}]},{\"id\":54255711,\"title\":\"Code
+        Red\",\"duration\":3156,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2015-12-18T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":14,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2015-12-18\",\"copyright\":\"(P)
+        2015 RCA Records, a division of Sony Music Entertainment\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/54255711\",\"cover\":\"e387d646-1d4e-4532-8094-d8b4bf841942\",\"vibrantColor\":\"#a32226\",\"videoCover\":null,\"explicit\":true,\"upc\":\"886444702119\",\"popularity\":24,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"HIRES_LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":3317,\"name\":\"Monica\",\"type\":\"MAIN\",\"picture\":\"2e2da2d1-3e9e-4e79-aab5-3197580a0611\"},\"artists\":[{\"id\":3317,\"name\":\"Monica\",\"type\":\"MAIN\",\"picture\":\"2e2da2d1-3e9e-4e79-aab5-3197580a0611\"}]}],\"source\":\"TiVo\"}"
+    headers:
+      Age:
+      - '938'
+      Cache-Control:
+      - public, max-age=3600, s-max-age=3600,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '7175'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:37:47 GMT
+      ETag:
+      - '"-422208370"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 0921eae154c93e666b192fa267ea4bfa.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - mIsPeHWUaQcTQUCsj7vVu-IgQdUUNFwwW8t1bdkVHmSgXXP3tTJJ4Q==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Hit from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/albums/77704200/similar?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: "{\"limit\":50,\"offset\":0,\"totalNumberOfItems\":9,\"items\":[{\"id\":55164031,\"title\":\"Royalty
+        (Deluxe Version)\",\"duration\":3997,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2015-12-18T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":18,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2015-12-18\",\"copyright\":\"(P)
+        2015 RCA Records, a division of Sony Music Entertainment\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/55164031\",\"cover\":\"c10c6411-6bfc-4456-8595-33343ad4f205\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":null,\"explicit\":true,\"upc\":\"886445462920\",\"popularity\":58,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"HIRES_LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":3261,\"name\":\"Chris
+        Brown\",\"type\":\"MAIN\",\"picture\":\"7fb0547f-51a0-4ca1-9cf1-f7cee74aeaa6\"},\"artists\":[{\"id\":3261,\"name\":\"Chris
+        Brown\",\"type\":\"MAIN\",\"picture\":\"7fb0547f-51a0-4ca1-9cf1-f7cee74aeaa6\"}]},{\"id\":59727856,\"title\":\"LEMONADE\",\"duration\":2749,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2016-04-23T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":12,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2016-04-23\",\"copyright\":\"(C)
+        Parkwood Entertainment\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/59727856\",\"cover\":\"2b3c28fe-bfb8-48b1-9ad7-f912847f3d71\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":\"0f00d544-9d83-4455-b728-fbecd82b1917\",\"explicit\":true,\"upc\":\"886445885439\",\"popularity\":79,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"},\"artists\":[{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"}]},{\"id\":77708226,\"title\":\"ANTI
+        (Deluxe)\",\"duration\":3073,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2016-01-29T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":16,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2016-02-05\",\"copyright\":\"\xA9
+        2016 Westbury Road Entertainment. Distributed by Roc Nation Records\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/77708226\",\"cover\":\"0ee60d5a-042f-4d07-9520-b78182672b29\",\"vibrantColor\":\"#e5d186\",\"videoCover\":\"1d4dfda9-e6cb-47cb-9671-f70ccfc3d540\",\"explicit\":true,\"upc\":\"00851365006707\",\"popularity\":73,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":10665,\"name\":\"Rihanna\",\"type\":\"MAIN\",\"picture\":\"3007b448-2392-44d7-acdf-bea8d41cee62\"},\"artists\":[{\"id\":10665,\"name\":\"Rihanna\",\"type\":\"MAIN\",\"picture\":\"3007b448-2392-44d7-acdf-bea8d41cee62\"}]},{\"id\":41295825,\"title\":\"If
+        You're Reading This It's Too Late\",\"duration\":4130,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2015-02-13T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":17,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2015-02-13\",\"copyright\":\"\xA9
+        2015 Cash Money Records Inc.\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/41295825\",\"cover\":\"5161a6ac-a72d-4fa4-9a7e-f7c3770b34ed\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":null,\"explicit\":true,\"upc\":\"00602547261915\",\"popularity\":69,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":3632070,\"name\":\"Drake\",\"type\":\"MAIN\",\"picture\":\"3812d980-630e-4948-a72e-f21a546ec2e3\"},\"artists\":[{\"id\":3632070,\"name\":\"Drake\",\"type\":\"MAIN\",\"picture\":\"3812d980-630e-4948-a72e-f21a546ec2e3\"}]},{\"id\":46998236,\"title\":\"Wildheart
+        (Deluxe Version)\",\"duration\":3516,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2015-06-29T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":16,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2015-06-29\",\"copyright\":\"(P)
+        2015 RCA Records, a division of Sony Music Entertainment\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/46998236\",\"cover\":\"2bb4d4fa-7a60-43cd-9631-533f4c06fd45\",\"vibrantColor\":\"#9d493d\",\"videoCover\":\"c63a9eee-5993-4681-bf5c-4fcad965972c\",\"explicit\":true,\"upc\":\"886445204223\",\"popularity\":44,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":3834794,\"name\":\"Miguel\",\"type\":\"MAIN\",\"picture\":\"f618108a-ac2a-4644-b6b4-9b16797405ec\"},\"artists\":[{\"id\":3834794,\"name\":\"Miguel\",\"type\":\"MAIN\",\"picture\":\"f618108a-ac2a-4644-b6b4-9b16797405ec\"}]},{\"id\":51076479,\"title\":\"Honeymoon\",\"duration\":3914,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2015-09-18T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":14,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2015-09-18\",\"copyright\":\"\xA9
+        2015 Polydor Ltd. (UK)\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/51076479\",\"cover\":\"8d034e5c-46c3-41d6-b0be-13dd925a3c82\",\"vibrantColor\":\"#acc8db\",\"videoCover\":null,\"explicit\":true,\"upc\":\"00602547544780\",\"popularity\":54,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":4099308,\"name\":\"Lana
+        Del Rey\",\"type\":\"MAIN\",\"picture\":\"9204fe91-d83a-4ae1-8e5d-23e545072e8a\"},\"artists\":[{\"id\":4099308,\"name\":\"Lana
+        Del Rey\",\"type\":\"MAIN\",\"picture\":\"9204fe91-d83a-4ae1-8e5d-23e545072e8a\"}]},{\"id\":47223082,\"title\":\"Ego
+        Death\",\"duration\":3395,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2015-06-29T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":12,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2015-06-29\",\"copyright\":\"(P)
+        2015 Odd Future LLC\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/47223082\",\"cover\":\"b9a9f084-17af-4fba-b17d-1bf09b0abe46\",\"vibrantColor\":\"#6195d1\",\"videoCover\":null,\"explicit\":true,\"upc\":\"886445315790\",\"popularity\":59,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"HIRES_LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":4208773,\"name\":\"The
+        Internet\",\"type\":\"MAIN\",\"picture\":\"0e844c28-3476-4a73-bd05-e3acab824afe\"},\"artists\":[{\"id\":4208773,\"name\":\"The
+        Internet\",\"type\":\"MAIN\",\"picture\":\"0e844c28-3476-4a73-bd05-e3acab824afe\"}]},{\"id\":269265847,\"title\":\"PARTYNEXTDOOR
+        TWO\",\"duration\":2731,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2022-12-30T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":12,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2014-07-29\",\"copyright\":\"2014
+        OVO Sound\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/269265847\",\"cover\":\"304d2921-da55-4c1f-8b61-5e9e41abb09d\",\"vibrantColor\":\"#FFFFFF\",\"videoCover\":null,\"explicit\":true,\"upc\":\"093624935254\",\"popularity\":35,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":5006417,\"name\":\"PARTYNEXTDOOR\",\"type\":\"MAIN\",\"picture\":\"c107cf97-f9c4-417a-b3f2-6338723cbcc1\"},\"artists\":[{\"id\":5006417,\"name\":\"PARTYNEXTDOOR\",\"type\":\"MAIN\",\"picture\":\"c107cf97-f9c4-417a-b3f2-6338723cbcc1\"}]},{\"id\":49469677,\"title\":\"Dornik\",\"duration\":2478,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2015-08-07T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":10,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2015-08-14\",\"copyright\":\"\xA9
+        2015 PMR Records, under Exclusive Licence to Island Records, a division of
+        Universal Music Operations Limited\",\"type\":\"ALBUM\",\"version\":null,\"url\":\"http://www.tidal.com/album/49469677\",\"cover\":\"4a60ca1a-eb6f-4b0d-94bd-6a83ce882751\",\"vibrantColor\":\"#f59791\",\"videoCover\":null,\"explicit\":false,\"upc\":\"00602547407108\",\"popularity\":16,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":5174022,\"name\":\"Dornik\",\"type\":\"MAIN\",\"picture\":\"a27f6c28-acf3-45ec-b266-ae5202f1b734\"},\"artists\":[{\"id\":5174022,\"name\":\"Dornik\",\"type\":\"MAIN\",\"picture\":\"a27f6c28-acf3-45ec-b266-ae5202f1b734\"}]}],\"source\":\"TiVo\"}"
+    headers:
+      Age:
+      - '938'
+      Cache-Control:
+      - public, max-age=3600, s-max-age=3600,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '8107'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:37:47 GMT
+      ETag:
+      - '"-1233338191"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 6e67f1ea42d4e5ff9c87cf2624025a28.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - mga73RMtC3ZfkuEOjHan_TR_rEWAA721HUsX0jpTeU3vDMzPwOT-1A==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Hit from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

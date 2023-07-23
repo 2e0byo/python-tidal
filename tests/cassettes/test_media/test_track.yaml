@@ -1,0 +1,47 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/tracks/125169484?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":125169484,"title":"Alone, Pt. II","duration":179,"replayGain":-10.4,"peak":0.988312,"allowStreaming":true,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2019-12-27T00:00:00.000+0000","premiumStreamingOnly":false,"trackNumber":1,"volumeNumber":1,"version":null,"popularity":43,"copyright":"(P)
+        2019 MER under exclusive license to Sony Music Entertainment Sweden AB","url":"http://www.tidal.com/track/125169484","isrc":"NOG841907010","editable":false,"explicit":false,"audioQuality":"HI_RES","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS","HIRES_LOSSLESS","MQA"]},"artist":{"id":6159368,"name":"Alan
+        Walker","type":"MAIN","picture":"c46be937-9869-4454-8d80-ba6a6e23b6c6"},"artists":[{"id":6159368,"name":"Alan
+        Walker","type":"MAIN","picture":"c46be937-9869-4454-8d80-ba6a6e23b6c6"},{"id":9282225,"name":"Ava
+        Max","type":"MAIN","picture":"eca9c7b3-4ba5-4754-a7b9-b78007788603"}],"album":{"id":125169472,"title":"Alone,
+        Pt. II","cover":"345d81fd-3a06-4fe4-b77a-6f6e28baad25","vibrantColor":"#dbf1e3","videoCover":null},"mixes":{"MASTER_TRACK_MIX":"014422d7187a45e27224e85711bb13","TRACK_MIX":"001603cb31f1842e052770e0ad7647"}}'
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1162'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:57 GMT
+      Server:
+      - noyb
+      Via:
+      - 1.1 384bf15c1ac91d451725d766417680b0.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 93xTuVvhWzRgVpUqeBHdsm_Qd2Zx1IcDJXA9pFkI-CtowFAeS2yI2A==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

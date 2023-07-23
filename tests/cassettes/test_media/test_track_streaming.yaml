@@ -1,0 +1,86 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/tracks/62392768?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":62392768,"title":"There''s A Better Place","duration":435,"replayGain":-6.8,"peak":0.944824,"allowStreaming":true,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"1998-04-05T00:00:00.000+0000","premiumStreamingOnly":false,"trackNumber":1,"volumeNumber":1,"version":null,"popularity":5,"copyright":"Paper
+        Recordings","url":"http://www.tidal.com/track/62392768","isrc":"GBEYE0200046","editable":false,"explicit":false,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":3562643,"name":"Crazy
+        P","type":"MAIN","picture":"1f39e05b-1450-4d94-a95d-4ad848e25832"},"artists":[{"id":3562643,"name":"Crazy
+        P","type":"MAIN","picture":"1f39e05b-1450-4d94-a95d-4ad848e25832"}],"album":{"id":62392767,"title":"The
+        Wicked Is Music","cover":"134009d2-6f06-4574-bb75-b70e36651066","vibrantColor":"#bdad71","videoCover":null},"mixes":{"TRACK_MIX":"0016fa35f171efe97122d7edd7fa72"}}'
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '938'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:54:01 GMT
+      Server:
+      - noyb
+      Via:
+      - 1.1 a0b6e5bd6cf5596d4f38f0df8fa929e0.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 1pwx_I3DncLrqwa7Oy3-JcKHD4Hpn9objtzagihJchO-opnTLoiW-g==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/tracks/62392768/playbackinfopostpaywall?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000&playbackmode=STREAM&audioquality=HI_RES&assetpresentation=FULL
+  response:
+    body:
+      string: '{"trackId":62392768,"assetPresentation":"FULL","audioMode":"STEREO","audioQuality":"LOSSLESS","manifestMimeType":"application/vnd.tidal.bts","manifestHash":"5bQzylFeJE3I+7ogNKlLD8n71iK4VGsxKezFAH9S23k=","manifest":"eyJtaW1lVHlwZSI6ImF1ZGlvL2ZsYWMiLCJjb2RlY3MiOiJmbGFjIiwiZW5jcnlwdGlvblR5cGUiOiJOT05FIiwidXJscyI6WyJodHRwczovL3NwLXByLWZhLmF1ZGlvLnRpZGFsLmNvbS9tZWRpYXRyYWNrcy9DQUVhS1JJbk1HSTVaamMzT0RkbFl6UmxPR1V6T0dJM09EazFZakZqWXpobE9UVXpNR1pmTmpFdWJYQTAvMC5mbGFjP3Rva2VuPTE2OTAxMzEyNDJ+WlRBd01qWTJZelk1TUdSaFkyUmhZVEl6T1RabU9EZ3paakEwTlRBek4yWXlNbUpsWWpGaE5BPT0iXX0=","albumReplayGain":-6.8,"albumPeakAmplitude":0.948608,"trackReplayGain":-3.91,"trackPeakAmplitude":0.944824}'
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '676'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:54:02 GMT
+      Server:
+      - noyb
+      Via:
+      - 1.1 f857c6fa23ed7b2d0b237aefe9c50960.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - Xd-dAb_lwcP4hzYuW9TfVXd3rzwg7u0UUw7S4sSTZLRyGlw4_6p9oA==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

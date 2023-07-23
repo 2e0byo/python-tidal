@@ -1,0 +1,45 @@
+interactions:
+- request:
+    body: client_id=zU4XHVVkc2tDPo4ts&scope=r_usr+w_usr+w_sub
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '51'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      User-Agent:
+      - python-requests/2.31.0
+    method: POST
+    uri: https://auth.tidal.com/v1/oauth2/device_authorization
+  response:
+    body:
+      string: '{"status":401,"error":"invalid_client","sub_status":1005,"error_description":"Client
+        with token zU4XHVVkc2tDPo4ts not found","errorCodeWrapper":{"errorCode":"INVALID_CLIENT"}}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '175'
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 23 Jul 2023 15:55:06 GMT
+      Via:
+      - 1.1 6e67f1ea42d4e5ff9c87cf2624025a28.cloudfront.net (CloudFront)
+      WWW-Authenticate:
+      - Basic realm="tidal_1"
+      X-Amz-Cf-Id:
+      - 5IkPj6dInyccqbpbz8ekN1CWVQOGdLaUHw6Kc-Ex_XNzjix9kbauZA==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Error from cloudfront
+    status:
+      code: 401
+      message: ''
+version: 1

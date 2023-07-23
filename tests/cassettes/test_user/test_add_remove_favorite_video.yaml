@@ -1,0 +1,47 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/users/184964830/favorites/videos?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=100&offset=0
+  response:
+    body:
+      string: '{"limit":100,"offset":0,"totalNumberOfItems":1,"items":[{"created":"2023-07-07T20:47:24.390+0000","item":{"id":160850422,"title":"What
+        Was in That Glass (Official Music Video)","volumeNumber":1,"trackNumber":1,"releaseDate":"2020-11-04T00:00:00.000+0000","imagePath":null,"imageId":"b269fe3d-f079-4faf-92ab-f5cfb2c4a845","vibrantColor":"#823e32","duration":253,"quality":"MP4_1080P","streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2020-11-04T21:00:00.000+0000","allowStreaming":true,"explicit":true,"popularity":3,"type":"Music
+        Video","adsUrl":null,"adsPrePaywallOnly":true,"artist":{"id":5247488,"name":"AronChupa","type":"MAIN","picture":"1e522f1d-843b-42f7-8e6f-2d2de1774ac8"},"artists":[{"id":5247488,"name":"AronChupa","type":"MAIN","picture":"1e522f1d-843b-42f7-8e6f-2d2de1774ac8"},{"id":7621395,"name":"Little
+        Sis Nora","type":"MAIN","picture":"475f5c40-169c-4420-aa45-ac35228bb60d"}],"album":null}}]}'
+    headers:
+      Cache-Control:
+      - no-cache
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '928'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:57:20 GMT
+      ETag:
+      - '"1688762844382"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 3b241d28b74f1afdcb7ac9fb7109cff0.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - v3AF25LwoRoiVm8gyYUej9TC9wwpLHi-6fgL88JTxT_UAL8chJhmJQ==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

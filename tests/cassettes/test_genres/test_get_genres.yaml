@@ -1,0 +1,50 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/genres?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '[{"name":"Pop","path":"Pop","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":true,"image":"0239132d-99be-41f4-929d-e27280f7bff1"},{"name":"Rock","path":"Rock","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":true,"image":"674f6c6c-24db-4baf-8cc9-abcda685f2a3"},{"name":"Hip
+        Hop / Rap","path":"Hiphop","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":true,"image":"658519e4-8aea-41a8-86f9-e3fbfb31a630"},{"name":"R&B
+        / Soul","path":"Funk","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":true,"image":"b100bf56-2285-48ad-a608-386a7254fe8c"},{"name":"Metal","path":"Metal","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":true,"image":"d251e1ed-fef2-45a9-98d9-e8d5745f9bdd"},{"name":"Country","path":"Country","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":true,"image":"abc8250d-3fbe-4acc-a69d-29fcd0eb46be"},{"name":"Folk
+        / Americana","path":"Americana","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":false,"image":"7f53e08b-9e07-4813-99cb-237388122847"},{"name":"Blues","path":"Blues","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":false,"image":"a20b6923-0b2c-4651-b9ef-f88372355a74"},{"name":"Jazz","path":"Jazz","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":false,"hasVideos":false,"image":"04fb4597-c712-49ad-9b71-a5aefbe1d894"},{"name":"Classical","path":"Classical","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":false,"hasVideos":false,"image":"aad3c1fd-655a-43fa-8c9d-aab439340395"},{"name":"Electronic","path":"Electronic","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":true,"image":"e388fbee-3506-4000-ac4c-c4853f857d0a"},{"name":"Dance","path":"Dance","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":true,"image":"05fd0839-86f1-4517-a211-b9c20f17bfa2"},{"name":"Kids","path":"Kids","hasPlaylists":false,"hasArtists":false,"hasAlbums":true,"hasTracks":false,"hasVideos":false,"image":"8ee3c6ed-7342-430d-8e5d-20dc72d6ac77"},{"name":"Latin","path":"Latin","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":true,"image":"ddb3306e-c787-4468-a791-8efbe746aa8a"},{"name":"Reggae
+        / Dancehall","path":"Reggae","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":false,"image":"81a066ce-11f9-4685-a739-24dd9be85e5f"},{"name":"World
+        Music","path":"World","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":false,"image":"b0208879-eb06-4669-a5fb-cf1009b46a11"},{"name":"Soundtracks","path":"Film","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":false,"image":"d73a5448-0a5e-4606-9f3e-113d93eaaf05"},{"name":"Gospel
+        / Christian","path":"Gospel","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":false,"image":"3cce1ba2-2530-4384-8c51-dfdf81868a9d"},{"name":"Comedy","path":"Comedy","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":false,"image":"7cf188f8-93df-4119-b624-47dfb4d70e51"},{"name":"Retro","path":"Retro","hasPlaylists":true,"hasArtists":false,"hasAlbums":true,"hasTracks":true,"hasVideos":true,"image":"8173edc1-ca03-4f22-8706-c8800848d331"}]'
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '3476'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:51 GMT
+      ETag:
+      - '"64708782"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 2646a167841368615f96564f373f8d20.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - wUshfpXwiXFnXVOVWwLuwWXI1Mc29GLQWNzlcaollVOhW3vcw_3Qbw==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - RefreshHit from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

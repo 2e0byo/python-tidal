@@ -1,0 +1,46 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/users/184964830?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":184964830,"username":"2e0byo@gmail.com","profileName":"2e0byo","firstName":null,"lastName":null,"email":"2e0byo@gmail.com","emailVerified":true,"countryCode":"GB","created":"2022-01-24T14:10:04.421+0000","newsletter":false,"acceptedEULA":true,"dateOfBirth":"1995-10-17","facebookUid":0,"appleUid":null,"partner":1,"tidalId":null,"earlyAccessProgram":false}'
+    headers:
+      Cache-Control:
+      - no-cache
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '362'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:55:12 GMT
+      ETag:
+      - '"-1143518346"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 f1f7e88380a0546160e4e023c7c1d332.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - s5WCwDWSmCREwmk-iUOdtb-VGvGiYBij3ib4zEdzTxvo__9AyoZafA==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+      X-WIMP-JSON-RESPONSE-VIEW:
+      - com.wimpmusic.api.util.WimpApiViews$UserMe
+    status:
+      code: 200
+      message: OK
+version: 1

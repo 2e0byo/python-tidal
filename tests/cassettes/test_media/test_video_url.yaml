@@ -1,0 +1,88 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/videos/125506698?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":125506698,"title":"Alone, Pt. II","volumeNumber":0,"trackNumber":0,"releaseDate":"2019-12-26T00:00:00.000+0000","imagePath":null,"imageId":"7f1160e3-bdc3-4764-810b-93194443913d","vibrantColor":"#e2f2e5","duration":237,"quality":"MP4_1080P","streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2019-12-27T08:00:00.000+0000","allowStreaming":true,"explicit":false,"popularity":19,"type":"Music
+        Video","adsUrl":null,"adsPrePaywallOnly":true,"artist":{"id":6159368,"name":"Alan
+        Walker","type":"MAIN","picture":"c46be937-9869-4454-8d80-ba6a6e23b6c6"},"artists":[{"id":6159368,"name":"Alan
+        Walker","type":"MAIN","picture":"c46be937-9869-4454-8d80-ba6a6e23b6c6"},{"id":9282225,"name":"Ava
+        Max","type":"MAIN","picture":"eca9c7b3-4ba5-4754-a7b9-b78007788603"}],"album":null}'
+    headers:
+      Age:
+      - '1'
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '786'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:54:02 GMT
+      Server:
+      - noyb
+      Via:
+      - 1.1 c49bda74c25f4f26cc20173eec28da1e.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - NKuxH0oIm_z93CKn8Od6on0TqH2McN7p1Iit_jnBJY2SJ4uS7MP8gg==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Hit from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/videos/125506698/urlpostpaywall?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000&urlusagemode=STREAM&videoquality=HIGH&assetpresentation=FULL
+  response:
+    body:
+      string: '{"urls":["https://im-fa.manifest.tidal.com/1/manifests/CAESCTEyNTUwNjY5OCIWZGgwenU4X1didU1MakNxcE04QjIxZyIWYUpWaElhaGxpcXlmMzQtUk9vMGJVQSIWNTJNRkRwLXFNYmUxM2J3SEtFazFqUSIWMjFjTDVULThVdDJBNWo0YTRKTFF5QSIWbkZwTEhSVVpSdHdRQkVmNnpEejBwUSIWdFRHY20ycFNpVTktaHBtVDlzUlNvdyIWdVJDMlNqMFJQYWVMSnN6NWRhRXZtdyIWZnNYUWZpNk01LUdpeUV3dE9JNTZ2dygBMAJQAQ.m3u8?token=1690131244~OTkzYTU3NmJmMmI2Y2EzNGU5ZTkwN2U5MWNhN2RkOTU4ZWExZmNmNw=="],"videoId":125506698,"assetPresentation":"FULL","videoQuality":"HIGH","streamingSessionId":null,"format":"HLS"}'
+    headers:
+      Cache-Control:
+      - no-cache
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '529'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:54:04 GMT
+      Server:
+      - noyb
+      Via:
+      - 1.1 0d54c3ddc4e7347d45d33a921b50661e.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - Tt2vZcdkeH0avN0CzLZgt3j1Q485k6H9NlFRv-7AW6MZb0_cCSYQpg==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

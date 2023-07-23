@@ -1,0 +1,134 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/tracks/142278122?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: "{\"id\":142278122,\"title\":\"Funny\",\"duration\":221,\"replayGain\":-9.39,\"peak\":0.999935,\"allowStreaming\":true,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2020-07-16T00:00:00.000+0000\",\"premiumStreamingOnly\":false,\"trackNumber\":1,\"volumeNumber\":1,\"version\":null,\"popularity\":21,\"copyright\":\"\u2117
+        2020 Atlantic Recording Corporation and Interscope Records\",\"url\":\"http://www.tidal.com/track/142278122\",\"isrc\":\"USAT22003344\",\"editable\":false,\"explicit\":false,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":3915082,\"name\":\"ZEDD\",\"type\":\"MAIN\",\"picture\":\"336fca72-c672-4ba0-8434-30e499f1f118\"},\"artists\":[{\"id\":3915082,\"name\":\"ZEDD\",\"type\":\"MAIN\",\"picture\":\"336fca72-c672-4ba0-8434-30e499f1f118\"},{\"id\":5039309,\"name\":\"Jasmine
+        Thompson\",\"type\":\"MAIN\",\"picture\":\"24be413d-26fb-40c1-bdac-56aa339a60b6\"}],\"album\":{\"id\":142278121,\"title\":\"Funny\",\"cover\":\"f124794c-7fc6-478e-8802-e7cc69054ddb\",\"vibrantColor\":\"#7aa2c3\",\"videoCover\":null},\"mixes\":{\"MASTER_TRACK_MIX\":\"014b4189d7b8e9a2da811a7e75d6af\",\"TRACK_MIX\":\"001d2e0f94f3fb8e372d679660311a\"}}"
+    headers:
+      Age:
+      - '3'
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1112'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:57 GMT
+      Server:
+      - noyb
+      Via:
+      - 1.1 38a3f663851a0597e7026100a58b9b38.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - rUr4dT8-orEtSkn5WpEo4Ubpy4Zy7klMGsE9fsJHc_MPyb2jOL6vgA==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Hit from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/tracks/142278122?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: "{\"id\":142278122,\"title\":\"Funny\",\"duration\":221,\"replayGain\":-9.39,\"peak\":0.999935,\"allowStreaming\":true,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2020-07-16T00:00:00.000+0000\",\"premiumStreamingOnly\":false,\"trackNumber\":1,\"volumeNumber\":1,\"version\":null,\"popularity\":21,\"copyright\":\"\u2117
+        2020 Atlantic Recording Corporation and Interscope Records\",\"url\":\"http://www.tidal.com/track/142278122\",\"isrc\":\"USAT22003344\",\"editable\":false,\"explicit\":false,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":3915082,\"name\":\"ZEDD\",\"type\":\"MAIN\",\"picture\":\"336fca72-c672-4ba0-8434-30e499f1f118\"},\"artists\":[{\"id\":3915082,\"name\":\"ZEDD\",\"type\":\"MAIN\",\"picture\":\"336fca72-c672-4ba0-8434-30e499f1f118\"},{\"id\":5039309,\"name\":\"Jasmine
+        Thompson\",\"type\":\"MAIN\",\"picture\":\"24be413d-26fb-40c1-bdac-56aa339a60b6\"}],\"album\":{\"id\":142278121,\"title\":\"Funny\",\"cover\":\"f124794c-7fc6-478e-8802-e7cc69054ddb\",\"vibrantColor\":\"#7aa2c3\",\"videoCover\":null},\"mixes\":{\"MASTER_TRACK_MIX\":\"014b4189d7b8e9a2da811a7e75d6af\",\"TRACK_MIX\":\"001d2e0f94f3fb8e372d679660311a\"}}"
+    headers:
+      Age:
+      - '4'
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1112'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:57 GMT
+      Server:
+      - noyb
+      Via:
+      - 1.1 168a24ef858eb187119582fbc6ac0718.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - ya8cNw_it7frZGOd4YHSR32igKD0BJF-VWaDYBlWWAg3PWG5y62NFg==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Hit from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/albums/142278121?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: "{\"id\":142278121,\"title\":\"Funny\",\"duration\":221,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2020-07-16T00:00:00.000+0000\",\"allowStreaming\":true,\"premiumStreamingOnly\":false,\"numberOfTracks\":1,\"numberOfVideos\":0,\"numberOfVolumes\":1,\"releaseDate\":\"2020-09-04\",\"copyright\":\"\xA9
+        2020 Atlantic Recording Corporation and Interscope Records\",\"type\":\"SINGLE\",\"version\":null,\"url\":\"http://www.tidal.com/album/142278121\",\"cover\":\"f124794c-7fc6-478e-8802-e7cc69054ddb\",\"vibrantColor\":\"#7aa2c3\",\"videoCover\":null,\"explicit\":false,\"upc\":\"075679812438\",\"popularity\":0,\"audioQuality\":\"HI_RES\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\",\"MQA\"]},\"artist\":{\"id\":3915082,\"name\":\"ZEDD\",\"type\":\"MAIN\",\"picture\":\"336fca72-c672-4ba0-8434-30e499f1f118\"},\"artists\":[{\"id\":3915082,\"name\":\"ZEDD\",\"type\":\"MAIN\",\"picture\":\"336fca72-c672-4ba0-8434-30e499f1f118\"},{\"id\":5039309,\"name\":\"Jasmine
+        Thompson\",\"type\":\"MAIN\",\"picture\":\"24be413d-26fb-40c1-bdac-56aa339a60b6\"}]}"
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '977'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:54:01 GMT
+      ETag:
+      - '"605359443"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 c1caf5d327c9eee53d26ab7b7a8235f0.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - kYHBwWvV2I7gOp0Ds9iLNf-TO6RbJVUrCuhsC45sMgZjrhOwfvynzg==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

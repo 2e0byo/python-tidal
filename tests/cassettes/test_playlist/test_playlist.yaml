@@ -1,0 +1,49 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/playlists/7eafb342-141a-4092-91eb-da0012da3a19?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"uuid":"7eafb342-141a-4092-91eb-da0012da3a19","title":"JAY-Z''s Year
+        End Picks 2019","numberOfTracks":40,"numberOfVideos":0,"creator":{"id":7804,"name":"JAY
+        Z","type":null,"picture":"a437c542-e9b5-4050-aced-c75ca0565c4f"},"description":"JAY-Z
+        shares his favorite Hip-Hop and R&B songs from the year. (Photo: Ravie B.)","duration":8008,"lastUpdated":"2021-12-09T17:13:40.932+0000","created":"2019-12-19T17:15:05.500+0000","type":"ARTIST","publicPlaylist":true,"url":"http://www.tidal.com/playlist/7eafb342-141a-4092-91eb-da0012da3a19","image":"97c1975f-1829-4392-8807-abba887bf104","popularity":0,"squareImage":"65634f06-bbea-4499-998f-f65f01f91578","promotedArtists":[{"id":8274007,"name":"DaBaby","type":"MAIN","picture":null},{"id":8978060,"name":"Rod
+        Wave","type":"MAIN","picture":null},{"id":3632070,"name":"Drake","type":"MAIN","picture":null},{"id":24995,"name":"Rick
+        Ross","type":"MAIN","picture":null}],"lastItemAddedAt":null}'
+    headers:
+      Cache-Control:
+      - no-cache
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '934'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:54:47 GMT
+      ETag:
+      - '"1639070020932"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 9db8c72ec08059d1364d1dd74e1dc958.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - RGBaSLsWxClK30GmkQfJsrWswGbDKaP6Dgt0uj8_8HN4H4UyzKS10g==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

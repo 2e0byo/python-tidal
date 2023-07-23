@@ -1,0 +1,845 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/pages/moods?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000&deviceType=BROWSER
+  response:
+    body:
+      string: '{"selfLink":null,"id":"eyJwIjoiZDVhYTEyODItOTk0My00ZDRlLWE1N2MtY2VlYzAxOTAyMDA0IiwicFYiOjF9","title":"Moods","rows":[{"modules":[{"id":"eyJwIjoiZDVhYTEyODItOTk0My00ZDRlLWE1N2MtY2VlYzAxOTAyMDA0IiwicFYiOjEsIm0iOiI4NTBjYWE0NS03Mzg2LTRlMTItYmQyYS0xZDBlZWMyYmFmZTEiLCJtViI6MSwibUgiOiJhZGMwMmExMyJ9","type":"PAGE_LINKS_CLOUD","width":100,"title":"","description":"","preTitle":null,"showMore":null,"pagedList":{"limit":1000,"offset":0,"totalNumberOfItems":12,"items":[{"title":"Music
+        School","icon":"music_school","apiPath":"pages/music_school","imageId":"music_school"},{"title":"Workout","icon":"workout","apiPath":"pages/mood_workout","imageId":"workout"},{"title":"Sleep","icon":"mood_sleep","apiPath":"pages/mood_sleep","imageId":"mood_sleep"},{"title":"Party","icon":"party","apiPath":"pages/mood_party","imageId":"party"},{"title":"Summer","icon":"summer","apiPath":"pages/genre_summer","imageId":"summer"},{"title":"Gaming","icon":"mood_gaming","apiPath":"pages/mood_gaming","imageId":"mood_gaming"},{"title":"Relax","icon":"relax","apiPath":"pages/mood_relax","imageId":"relax"},{"title":"Focus","icon":"focus","apiPath":"pages/mood_focus","imageId":"focus"},{"title":"Credits","icon":"credits","apiPath":"pages/credits","imageId":"credits"},{"title":"Wellness","icon":"wellness","apiPath":"pages/mood_wellness","imageId":"wellness"},{"title":"Romance","icon":"love","apiPath":"pages/mood_love","imageId":"love"},{"title":"For
+        DJs","icon":"mood_djselector","apiPath":"pages/mood_djselector","imageId":"mood_djselector"}],"dataApiPath":"pages/data/27b444ac-e539-4f03-81e3-98d1da922edb"},"lines":1}]}]}'
+    headers:
+      Cache-Control:
+      - private, max-age=60, s-max-age=60,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1603'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:54:26 GMT
+      ETag:
+      - '"-260298510"'
+      Server:
+      - noyb
+      Vary:
+      - x-tidal-sessionid,x-tidal-token,authorization
+      Via:
+      - 1.1 a208b778c983eefafa95a32c5d34e8bc.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - jwqHlbVIyT8uSFLUPWKcPhylc2nNbTKpZdDMbvT3Q4G4QVjhOk_pCw==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/pages/music_school?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000&deviceType=DESKTOP
+  response:
+    body:
+      string: "{\"selfLink\":null,\"id\":\"eyJwIjoiNzY2OTkzYzMtZjdmNy00YTdkLTk5NGYtZWQ3NzdiZTczM2QxIiwicFYiOjN9\",\"title\":\"Music
+        School\",\"rows\":[{\"modules\":[{\"id\":\"eyJwIjoiNzY2OTkzYzMtZjdmNy00YTdkLTk5NGYtZWQ3NzdiZTczM2QxIiwicFYiOjMsIm0iOiJjZjBmM2FkNy0zYzBhLTQ2NDEtYTY4My02MzE3YjgwYTFlN2MiLCJtViI6MSwibUgiOiJlMWZiNjJlMSJ9\",\"type\":\"PLAYLIST_LIST\",\"width\":100,\"title\":\"Genres
+        For Beginners\",\"description\":\"\",\"preTitle\":null,\"showMore\":{\"title\":\"View
+        all\",\"apiPath\":\"pages/single-module-page/766993c3-f7f7-4a7d-994f-ed777be733d1/3/cf0f3ad7-3c0a-4641-a683-6317b80a1e7c/1\"},\"supportsPaging\":false,\"quickPlay\":false,\"scroll\":\"HORIZONTAL\",\"pagedList\":{\"limit\":15,\"offset\":0,\"totalNumberOfItems\":16,\"items\":[{\"uuid\":\"20c7cc47-fe81-4a13-bd29-35f672160f79\",\"title\":\"Jazz
+        for Beginners\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/20c7cc47-fe81-4a13-bd29-35f672160f79\",\"image\":null,\"squareImage\":\"c74d6a1f-73d9-4ceb-9de0-a1fc272d8e07\",\"duration\":7435,\"numberOfTracks\":20,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-08-18T16:48:27.052Z\",\"promotedArtists\":[{\"id\":1072,\"name\":\"Louis
+        Armstrong\",\"type\":\"MAIN\",\"picture\":\"112d8866-1b85-4200-a0b2-221e1c0ba003\"},{\"id\":55,\"name\":\"Miles
+        Davis\",\"type\":\"MAIN\",\"picture\":\"e11debbb-a25d-4410-9dc0-bb6114ddff30\"},{\"id\":3364,\"name\":\"Sonny
+        Rollins\",\"type\":\"MAIN\",\"picture\":\"73b53d44-0c35-4d7c-9e29-975e55c7379f\"},{\"id\":4518,\"name\":\"Count
+        Basie\",\"type\":\"MAIN\",\"picture\":\"c1d0ae21-6398-4b7a-9bea-e22daf710b9f\"}],\"creators\":[],\"description\":\"New
+        to jazz? These carefully selected 20 tracks will serve as your beginner's
+        guide to some of the best the genre has to offer. Use them as a jumping-off
+        point to discover even more great rock. /// Jazz's century-plus history is
+        impossible to encapsulate in 20 recordings, but few could argue with the sheer
+        artistic brilliance of these tracks. Consider this your era-spanning, cross-stylistic
+        crash course in America's most gorgeous art form.  \"},{\"uuid\":\"609487ca-21d4-4703-86fb-11a492779f29\",\"title\":\"Indie
+        for Beginners\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/609487ca-21d4-4703-86fb-11a492779f29\",\"image\":null,\"squareImage\":\"760bda1e-bc40-4360-85ae-8c9fd13bcd7b\",\"duration\":4837,\"numberOfTracks\":20,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-08-16T00:58:43.45Z\",\"promotedArtists\":[{\"id\":9366,\"name\":\"R.E.M.\",\"type\":\"MAIN\",\"picture\":\"598806d2-8866-410e-b7e6-0d724a9d84b0\"},{\"id\":2022,\"name\":\"The
+        Stone Roses\",\"type\":\"MAIN\",\"picture\":\"cb6c7e57-17bc-43d3-a446-e594392b1dea\"},{\"id\":13542,\"name\":\"Dinosaur
+        Jr.\",\"type\":\"MAIN\",\"picture\":\"dc6b91bf-9701-4b1c-a8d6-271d76203bc1\"},{\"id\":64518,\"name\":\"Radiohead\",\"type\":\"MAIN\",\"picture\":\"600a6117-32bb-4f9a-ac2b-206cbf1db419\"}],\"creators\":[],\"description\":\"New
+        to indie? These carefully selected 20 tracks will serve as your beginner's
+        guide to some of the best the genre has to offer. Use them as a jumping-off
+        point to discover even more great indie. /// A nebulous term and tradition,
+        \u201Cindie\u201D rock and pop entered the lexicon during the 1980s and gained
+        serious traction in the \u201990s, signifying \u201Cindependent\u201D guitar
+        bands signed to labels operating outside the FM-radio mainstream. Not surprisingly,
+        \u201Cindie\u201D bands tended to find their stylistic roots in punk and post-punk,
+        art pop, experimental rock and other underground sounds. As its sister term,
+        \u201Calternative,\u201D came to embody unabashedly commercial-sounding radio
+        rock in the late \u201990s and aughts, \u201Cindie\u201D became a kind of
+        catch-all for collegey, hipster-approved music of various stripes \u2013 from
+        driving guitar rock to dancey, atmospheric, synth-based alt-pop \u2013 regardless
+        of its major-label affiliations.  \"},{\"uuid\":\"0f978ff2-4625-468c-9223-0a898b49249f\",\"title\":\"Country
+        for Beginners\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/0f978ff2-4625-468c-9223-0a898b49249f\",\"image\":null,\"squareImage\":\"3a77149f-2bf3-4655-9f99-e8f5d752f460\",\"duration\":4076,\"numberOfTracks\":20,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-08-04T20:45:18.093Z\",\"promotedArtists\":[{\"id\":9533,\"name\":\"Hank
+        Williams\",\"type\":\"MAIN\",\"picture\":\"4e7bce41-70a1-4d20-804a-f499ba654ebc\"},{\"id\":156,\"name\":\"Johnny
+        Cash\",\"type\":\"MAIN\",\"picture\":\"b2a6ebf6-ca07-4d4a-a02c-b19de95eb1ca\"},{\"id\":144,\"name\":\"Dolly
+        Parton\",\"type\":\"MAIN\",\"picture\":\"d84254a1-cb21-4730-a4ee-c1bdaffd7db7\"},{\"id\":3574,\"name\":\"Alan
+        Jackson\",\"type\":\"MAIN\",\"picture\":\"3a950ca7-aae2-421c-a779-8e8624bad555\"}],\"creators\":[],\"description\":\"New
+        to Country music? These carefully-selected 20 tracks will serve as your beginner's
+        guide to some of the best the genre has to offer. Use them as a jumping-off
+        point to discover even more great Country music.\"},{\"uuid\":\"97f5f3d0-dbf6-419e-beaa-c2fad906abaf\",\"title\":\"Metal
+        for Beginners\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/97f5f3d0-dbf6-419e-beaa-c2fad906abaf\",\"image\":\"bb45c360-4f29-4078-8734-f34d254f07ba\",\"squareImage\":\"f980aa54-8f5b-4717-9cde-14137013b25f\",\"duration\":5660,\"numberOfTracks\":20,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2023-07-19T12:08:21.449Z\",\"promotedArtists\":[{\"id\":8405,\"name\":\"Metallica\",\"type\":\"MAIN\",\"picture\":\"0a85112a-d1ec-49be-a618-8df9081e9e0c\"},{\"id\":946,\"name\":\"Megadeth\",\"type\":\"MAIN\",\"picture\":\"7458a4ad-d896-4553-97d2-f2611fcbad8e\"},{\"id\":701,\"name\":\"Judas
+        Priest\",\"type\":\"MAIN\",\"picture\":\"c4784c36-885b-407a-b532-ddd2ad3c5dd5\"},{\"id\":9196,\"name\":\"Iron
+        Maiden\",\"type\":\"MAIN\",\"picture\":\"7d9a4e6c-cd37-48fe-8456-1b8b3b0adb1e\"}],\"creators\":[],\"description\":\"New
+        to metal? These carefully-selected 20 tracks will serve as your beginner's
+        guide to some of the best the genre has to offer. Use them as a jumping-off
+        point to discover even more great metal.\"},{\"uuid\":\"e2fec000-e20f-40a0-9a00-66e35af0e5e2\",\"title\":\"Pop
+        for Beginners\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/e2fec000-e20f-40a0-9a00-66e35af0e5e2\",\"image\":\"d30a8c2c-e0f8-480b-b449-e16aa4faf340\",\"squareImage\":\"5f44fb46-1501-4c70-8120-a616ef968ae8\",\"duration\":6081,\"numberOfTracks\":25,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-08-15T13:51:19.668Z\",\"promotedArtists\":[{\"id\":19369,\"name\":\"The
+        Ronettes\",\"type\":\"MAIN\",\"picture\":\"394809b3-1737-418e-a78f-511c1c1e0aec\"},{\"id\":9371,\"name\":\"The
+        Beach Boys\",\"type\":\"MAIN\",\"picture\":\"24582869-9f7b-4cd4-93f5-7a4bc9fd9b6a\"},{\"id\":19275,\"name\":\"ABBA\",\"type\":\"MAIN\",\"picture\":\"1bd4fc35-0a80-4ff2-831e-75ac80962900\"},{\"id\":3530095,\"name\":\"The
+        Jackson 5\",\"type\":\"MAIN\",\"picture\":\"00cfe5e6-2472-406c-ba66-19f9bc71bfff\"}],\"creators\":[],\"description\":\"New
+        to Pop? These carefully-selected 25 tracks will serve as your beginner's guide
+        to some of the best the genre has to offer. Use them as a jumping-off point
+        to discover even more great Pop. From foundational hitmakers to modern day
+        bops, these tracks will help paint the overall picture. Press play and let
+        the learning commence!\"},{\"uuid\":\"af1ca3b9-6812-4f05-b141-6cf9c932204a\",\"title\":\"Gospel
+        & Christian for Beginners\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/af1ca3b9-6812-4f05-b141-6cf9c932204a\",\"image\":\"64368b83-52da-47f3-9d5e-99f9fae4bc01\",\"squareImage\":\"84bd1b38-0da5-47fa-b52f-e6a3f3342c84\",\"duration\":8500,\"numberOfTracks\":25,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-08-24T20:13:29.173Z\",\"promotedArtists\":[{\"id\":5105,\"name\":\"The
+        Edwin Hawkins Singers\",\"type\":\"MAIN\",\"picture\":null},{\"id\":5678801,\"name\":\"Hillsong
+        Worship\",\"type\":\"MAIN\",\"picture\":\"99d7ae2d-f848-4dd7-ba7d-0fab1ce35760\"},{\"id\":3142,\"name\":\"Kirk
+        Franklin\",\"type\":\"MAIN\",\"picture\":\"e64e8cff-f494-47ab-afb6-5f82c221b238\"},{\"id\":4300938,\"name\":\"Todd
+        Dulaney\",\"type\":\"MAIN\",\"picture\":\"29e9c1a6-b79c-4849-b479-90ddb50f3a3c\"}],\"creators\":[],\"description\":\"New
+        to Gospel? These carefully-selected tracks will serve as your beginner's guide
+        to some of the best the genre has to offer. Use them as a jumping-off point
+        to discover even more great Gospel & Christian music. No matter what church
+        you visit, it's guaranteed that every choir, praise team and worship leader
+        will know this selection of songs. (Cover: TIDAL)\"},{\"uuid\":\"7da602ab-d25a-42f7-af86-45458f5eaf4f\",\"title\":\"Reggae
+        for Beginners\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/7da602ab-d25a-42f7-af86-45458f5eaf4f\",\"image\":\"49c66cea-b5e0-4e0b-9b6d-76984be0522d\",\"squareImage\":\"b972a7f7-92c9-46c4-b508-1237c844a9c7\",\"duration\":4424,\"numberOfTracks\":19,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-08-26T10:51:11.121Z\",\"promotedArtists\":[{\"id\":5927,\"name\":\"Bob
+        Marley & The Wailers\",\"type\":\"MAIN\",\"picture\":\"06f6173b-2124-4ce0-9ec5-f9cabd6ccea5\"},{\"id\":14628,\"name\":\"Bobby
+        McFerrin\",\"type\":\"MAIN\",\"picture\":\"9b8681f8-4320-46fd-ab72-e005aa822b68\"},{\"id\":846,\"name\":\"Johnny
+        Nash\",\"type\":\"MAIN\",\"picture\":null},{\"id\":17014,\"name\":\"Sugar
+        Minott\",\"type\":\"MAIN\",\"picture\":\"b2094092-01f7-4051-a388-d9787295625a\"}],\"creators\":[],\"description\":\"New
+        to Reggae? These carefully-selected 20 tracks will serve as your beginner's
+        guide to some of the best the genre has to offer. Use them as a jumping-off
+        point to discover even more great Reggae tracks. (Cover: TIDAL)\"},{\"uuid\":\"805bc343-888f-43de-a88a-f92811108d61\",\"title\":\"Rock
+        for Beginners\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/805bc343-888f-43de-a88a-f92811108d61\",\"image\":null,\"squareImage\":\"d89212eb-24b5-43d7-b2cf-ba3956888ab0\",\"duration\":5402,\"numberOfTracks\":20,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-08-15T21:46:59.929Z\",\"promotedArtists\":[{\"id\":2554,\"name\":\"Chuck
+        Berry\",\"type\":\"MAIN\",\"picture\":\"5af7c84c-9f9c-4bfa-82b8-1b79e7a790c4\"},{\"id\":1588,\"name\":\"Elvis
+        Presley\",\"type\":\"MAIN\",\"picture\":\"3dfd31de-13c4-4bc3-a08f-d9a7c2690d2c\"},{\"id\":3634161,\"name\":\"The
+        Beatles\",\"type\":\"MAIN\",\"picture\":\"ad7946a6-2ec4-43f8-b573-1073d73dfe31\"},{\"id\":573,\"name\":\"The
+        Rolling Stones\",\"type\":\"MAIN\",\"picture\":\"976224e0-8732-4598-b0f0-06d00363e6ab\"}],\"creators\":[],\"description\":\"New
+        to rock? These carefully selected 20 tracks will serve as your beginner's
+        guide to some of the best the genre has to offer. Use them as a jumping-off
+        point to discover even more great rock. /// Welcome to your essential rock-history
+        crash course, from early rock \u2019n\u2019 roll through classic rock, hard
+        rock, punk and alternative.\"},{\"uuid\":\"97061ebf-ab41-4e84-996b-632b45732cd6\",\"title\":\"Electronic
+        for Beginners\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/97061ebf-ab41-4e84-996b-632b45732cd6\",\"image\":\"a51363f2-d2c7-47ad-bdff-ee020e4d22d5\",\"squareImage\":\"02681b19-3b20-42cc-b35a-3b5305268e32\",\"duration\":6175,\"numberOfTracks\":20,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-08-15T23:03:57.024Z\",\"promotedArtists\":[{\"id\":11048,\"name\":\"Gary
+        Numan\",\"type\":\"MAIN\",\"picture\":\"7c8bcb5c-25b4-4205-af8a-7ce3456888d7\"},{\"id\":8903,\"name\":\"Kraftwerk\",\"type\":\"MAIN\",\"picture\":\"9c12f70d-ff4b-4bc3-9f70-559bd347dbf0\"},{\"id\":11950,\"name\":\"New
+        Order\",\"type\":\"MAIN\",\"picture\":\"34d80a5c-90b5-478b-985d-caa3a72029f5\"},{\"id\":8847,\"name\":\"Daft
+        Punk\",\"type\":\"MAIN\",\"picture\":\"c92cf3f5-066f-4f0a-87d0-c2bebff46d36\"}],\"creators\":[],\"description\":\"New
+        to Electronic? These carefully-selected 20 tracks will serve as your beginner's
+        guide to some of the best the genre has to offer. Enjoy some of the most groundbreaking,
+        unique and otherworldly hits from 50 years of Electronic music to help get
+        you started on your journey into the machine. (Cover: TIDAL)\"},{\"uuid\":\"c396fbc0-200f-45f6-956e-0098374d8556\",\"title\":\"K-Pop
+        for Beginners\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/c396fbc0-200f-45f6-956e-0098374d8556\",\"image\":\"5d3f2334-0ebd-4840-8cd6-d73b1c280e85\",\"squareImage\":\"00b45b79-ada8-42d1-9f65-c0dc089f95ff\",\"duration\":4358,\"numberOfTracks\":20,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2023-01-09T17:26:50.551Z\",\"promotedArtists\":[{\"id\":12084,\"name\":\"BIGBANG\",\"type\":\"MAIN\",\"picture\":\"0cc9953b-87f7-459c-ac8c-592b8404fed4\"},{\"id\":4481973,\"name\":\"2NE1\",\"type\":\"MAIN\",\"picture\":\"e78a9fb5-7d84-41ed-85c3-e133bd46361a\"},{\"id\":6201832,\"name\":\"BTS\",\"type\":\"MAIN\",\"picture\":\"b315bc84-7017-404e-8943-6ca790b1a637\"},{\"id\":8036491,\"name\":\"BLACKPINK\",\"type\":\"MAIN\",\"picture\":\"bf767411-e12d-4bc1-b81e-5b40fe3cca15\"}],\"creators\":[],\"description\":\"New
+        to K-pop? These carefully-selected 20 tracks will serve as your beginner's
+        guide to some of the best the genre has to offer. Use them as a jumping-off
+        point to discover even more great K-pop. \"},{\"uuid\":\"ab1b37dd-3a8b-4d3d-bcd2-a1a31b805f3c\",\"title\":\"UK
+        Hip-Hop for Beginners\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/ab1b37dd-3a8b-4d3d-bcd2-a1a31b805f3c\",\"image\":\"2d766ee2-1d67-4743-9c56-bd82fbfde31d\",\"squareImage\":\"44fb7cd8-524b-4d81-a5f2-281fd58fa430\",\"duration\":4598,\"numberOfTracks\":19,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-08-16T08:04:10.248Z\",\"promotedArtists\":[],\"creators\":[],\"description\":\"New
+        to UK hip-hop? These carefully-selected 20 tracks will serve as your beginner's
+        guide to some of the best the genre has to offer. Use them as a jumping-off
+        point to discover even more great music.\"},{\"uuid\":\"fd5c6742-622c-4e1c-9b3d-8dd00a5297cd\",\"title\":\"Classical
+        for Beginners\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/fd5c6742-622c-4e1c-9b3d-8dd00a5297cd\",\"image\":null,\"squareImage\":\"fcb7049a-f3be-4f67-ae8c-ba8f87b9b84b\",\"duration\":6855,\"numberOfTracks\":20,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-08-16T22:58:50.251Z\",\"promotedArtists\":[],\"creators\":[],\"description\":\"New
+        to classical? These carefully-selected 20 tracks will serve as your guide
+        to some of the best the genre has to offer. Use them as a jumping-off point
+        to discover even more great classical music. From the 1600s through to the
+        twentieth century; from orchestral works to famous opera arias to chamber
+        music gems; this playlist introduces you to some of the most important composers
+        of Western classical music from Europe and the United States. You'll immediately
+        recognize the famous four-note motive at the beginning of Beethoven's Fifth,
+        and the prelude to Bach's First Cello Suite, performed here by renowned cellist
+        Yo-Yo Ma, is an instant ear-worm. Some of these tracks you may never have
+        heard before, but are incredibly influential: Igor Stravinsky's \\\"Rite of
+        Spring\\\" set off a riot when it was first performed, and the descending
+        bass line from \\\"When I Am Laid In Earth\\\" by Henry Purcell can be found
+        in modern music across all genres. Consider this your first class in classical
+        music history.\"},{\"uuid\":\"618427b2-e3f8-44b6-bfae-a1fd1008bfdb\",\"title\":\"Hip-Hop
+        for Beginners\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/618427b2-e3f8-44b6-bfae-a1fd1008bfdb\",\"image\":\"e95f8352-19a6-4a55-bd4f-832257ebd5c0\",\"squareImage\":\"acaf28bd-c386-433f-ab43-093876a8416f\",\"duration\":5152,\"numberOfTracks\":20,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2023-07-17T15:19:07.618Z\",\"promotedArtists\":[{\"id\":30399,\"name\":\"Eric
+        B. & Rakim\",\"type\":\"MAIN\",\"picture\":\"e3289726-6ce4-4fc3-972b-8fb95453cb6e\"},{\"id\":30448,\"name\":\"Slick
+        Rick\",\"type\":\"MAIN\",\"picture\":\"ec262d39-68ef-4b7a-b94b-016246a09373\"},{\"id\":9127,\"name\":\"N.W.A\",\"type\":\"MAIN\",\"picture\":\"84299843-40fe-487f-ad7d-35ecadb6e37c\"},{\"id\":30307,\"name\":\"Public
+        Enemy\",\"type\":\"MAIN\",\"picture\":\"050cc918-0711-4ff2-8dbf-dc7a1ebdb18b\"}],\"creators\":[],\"description\":\"New
+        to Hip-Hop? These carefully-selected 20 tracks will serve as your beginner's
+        guide to some of the best the genre has to offer. Use them as a jumping-off
+        point to discover even more great Hip-Hop. (Photo: TIDAL)\"},{\"uuid\":\"2acde5f5-8504-4d46-be76-7fd5d0d4f320\",\"title\":\"R&B
+        for Beginners\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/2acde5f5-8504-4d46-be76-7fd5d0d4f320\",\"image\":\"b41e82f2-5265-4848-a340-2297778dcbe7\",\"squareImage\":\"a32f019c-4c7b-4027-8208-69ebbc8b9823\",\"duration\":4863,\"numberOfTracks\":20,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-08-12T15:30:24.787Z\",\"promotedArtists\":[{\"id\":3500082,\"name\":\"Sam
+        Cooke\",\"type\":\"MAIN\",\"picture\":\"eaee89dc-d8f5-4601-b700-dce1fb90fa5d\"},{\"id\":13694,\"name\":\"Carla
+        Thomas\",\"type\":\"MAIN\",\"picture\":\"eea67d89-88d0-449c-9cb5-e7b95f9fb44e\"},{\"id\":711,\"name\":\"Marvin
+        Gaye\",\"type\":\"MAIN\",\"picture\":\"65cc635f-039d-426b-9ea2-9d452c4faae1\"},{\"id\":11108,\"name\":\"The
+        Supremes\",\"type\":\"MAIN\",\"picture\":\"d65e14f6-a178-492c-a86f-e6cbdabec9c6\"}],\"creators\":[],\"description\":\"New
+        to R&B? These carefully-selected 20 tracks will serve as your beginner's guide
+        to some of the best the genre has to offer. Use them as a jumping-off point
+        to discover even more great R&B. (Photo: TIDAL)\"},{\"uuid\":\"73cfcfc9-2980-48fb-8625-e07e0d22f339\",\"title\":\"Dance
+        for Beginners\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/73cfcfc9-2980-48fb-8625-e07e0d22f339\",\"image\":\"732a13f3-48bc-4675-b65b-3119f50e23c0\",\"squareImage\":\"0ac178c6-40ba-48b9-92cf-00d6aaa97c43\",\"duration\":5432,\"numberOfTracks\":20,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-08-19T15:16:48.294Z\",\"promotedArtists\":[{\"id\":3637201,\"name\":\"Avicii\",\"type\":\"MAIN\",\"picture\":\"c40836c8-3266-4b00-8274-a2ecb6ccd4ad\"},{\"id\":26517,\"name\":\"Darude\",\"type\":\"MAIN\",\"picture\":\"b36aab42-6af8-4239-bea1-6374a5e27c9d\"},{\"id\":10665,\"name\":\"Rihanna\",\"type\":\"MAIN\",\"picture\":\"3007b448-2392-44d7-acdf-bea8d41cee62\"},{\"id\":14843,\"name\":\"Robin
+        S\",\"type\":\"MAIN\",\"picture\":\"5cc4b669-3e20-450d-91cd-d8302e43df69\"}],\"creators\":[],\"description\":\"New
+        to Dance? These carefully-selected 20 tracks will serve as your beginner's
+        guide to some of the best the genre has to offer. Use them as a jumping-off
+        point to discover even more great EDM, Disco, House, Trance and club anthems.
+        You'll be breaking a sweat before you know it. (Cover: TIDAL)\"}],\"dataApiPath\":\"pages/data/fe5fcf2e-09bb-4210-aed7-f20a4c90197d\"},\"layout\":null,\"playlistStyle\":null}]},{\"modules\":[{\"id\":\"eyJwIjoiNzY2OTkzYzMtZjdmNy00YTdkLTk5NGYtZWQ3NzdiZTczM2QxIiwicFYiOjMsIm0iOiIyMTk2YTcxMy04ZjhjLTQ4NTQtYWExZC0wNjVkYTBiM2JiY2UiLCJtViI6MSwibUgiOiJlM2E3NWU4MCJ9\",\"type\":\"PLAYLIST_LIST\",\"width\":100,\"title\":\"Dive
+        Deeper\",\"description\":\"\",\"preTitle\":null,\"showMore\":{\"title\":\"View
+        all\",\"apiPath\":\"pages/single-module-page/766993c3-f7f7-4a7d-994f-ed777be733d1/3/2196a713-8f8c-4854-aa1d-065da0b3bbce/1\"},\"supportsPaging\":false,\"quickPlay\":false,\"scroll\":\"HORIZONTAL\",\"pagedList\":{\"limit\":15,\"offset\":0,\"totalNumberOfItems\":91,\"items\":[{\"uuid\":\"8ed4ec73-d0ee-41b7-8d45-e84727a19583\",\"title\":\"Glam
+        Rock 101\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/8ed4ec73-d0ee-41b7-8d45-e84727a19583\",\"image\":\"bb83f9d9-ddcd-4968-8d19-a926396156a7\",\"squareImage\":\"054dbad4-e8ec-46d2-a41a-54528c6411e2\",\"duration\":3501,\"numberOfTracks\":15,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2023-07-20T15:35:24.113Z\",\"promotedArtists\":[{\"id\":4768,\"name\":\"David
+        Bowie\",\"type\":\"MAIN\",\"picture\":\"eb9b4956-8298-4586-8b5f-5b41c85d8e7d\"},{\"id\":62165,\"name\":\"T.
+        Rex\",\"type\":\"MAIN\",\"picture\":\"8316c037-1b51-49b9-b87c-da09ef4ef736\"},{\"id\":1147,\"name\":\"Mott
+        The Hoople\",\"type\":\"MAIN\",\"picture\":\"47aa701e-1560-4543-89cc-1dd3df46c959\"},{\"id\":3503529,\"name\":\"Slade\",\"type\":\"MAIN\",\"picture\":\"11e070e9-71cf-440b-858d-75477387527f\"}],\"creators\":[],\"description\":\"As
+        the down-to-earth hippies of the 1960s faded in prominence, the early 1970s
+        introduced a more over-the-top look and feel to rock in the UK. This development
+        spawned extravagant rock icons like David Bowie, Mark Bolan, Bryan Ferry and
+        Iggy Pop, who in turn influenced punk and glam metal in the latter half of
+        the decade and beyond. (Cover: David Bowie, Elton John / Photos: Rovi)\"},{\"uuid\":\"dc8e16ab-9dd5-4504-98f4-1b37954cc519\",\"title\":\"Early
+        Jazz & Swing 101\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/dc8e16ab-9dd5-4504-98f4-1b37954cc519\",\"image\":\"b7dfbc57-8b46-4f27-b4ad-21803461178d\",\"squareImage\":\"743eac47-fd69-47fb-a4aa-43e19e81ba29\",\"duration\":7379,\"numberOfTracks\":37,\"numberOfVideos\":0,\"lastItemAddedAt\":null,\"promotedArtists\":[{\"id\":1072,\"name\":\"Louis
+        Armstrong\",\"type\":\"MAIN\",\"picture\":\"112d8866-1b85-4200-a0b2-221e1c0ba003\"},{\"id\":5536514,\"name\":\"Hot
+        Seven\",\"type\":\"MAIN\",\"picture\":null},{\"id\":6571,\"name\":\"Albert
+        Ammons\",\"type\":\"MAIN\",\"picture\":null},{\"id\":4518,\"name\":\"Count
+        Basie\",\"type\":\"MAIN\",\"picture\":\"c1d0ae21-6398-4b7a-9bea-e22daf710b9f\"}],\"creators\":[],\"description\":\"What\u2019s
+        to say of jazz\u2019s early history\u2014roughly the years between the turn
+        of the 20th century and the introduction of bebop in the mid-1940s? Only that
+        this music is arguably America\u2019s greatest cultural gift. Born in the
+        extraordinary cultural melting pot of New Orleans, jazz emerged as a combination
+        of complex yet innately human African rhythmic elements, European harmony
+        and the instrumentation of military and dance bands. But perhaps its most
+        revelatory aspect was its focus on improvisation\u2014first as ensemble-wide
+        embellishments, then as showcases for individual soloists. From Scott Joplin
+        and James P. Johnson through Louis Armstrong, Duke Ellington, Count Basie
+        and Benny Goodman, this playlist covers ragtime and stride, classic New Orleans-style
+        hot jazz, the popular big bands of the \u201930s and early \u201940s and more.
+        (Cover: Duke Ellington [top], Count Basie/Photos: William P. Gottlieb/Library
+        of Congress)\"},{\"uuid\":\"594f9eb6-dba6-459f-b5b5-2ceb46b6fbe8\",\"title\":\"Fusion
+        101\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/594f9eb6-dba6-459f-b5b5-2ceb46b6fbe8\",\"image\":\"4af467d3-4048-4811-8fc5-c4d4c11b4215\",\"squareImage\":\"f7418657-95e7-4377-9cd5-475b0b61826f\",\"duration\":16203,\"numberOfTracks\":36,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2023-01-18T22:30:50.139Z\",\"promotedArtists\":[{\"id\":55,\"name\":\"Miles
+        Davis\",\"type\":\"MAIN\",\"picture\":\"e11debbb-a25d-4410-9dc0-bb6114ddff30\"},{\"id\":105,\"name\":\"Return
+        To Forever\",\"type\":\"MAIN\",\"picture\":\"c78ebfe2-8048-4ae9-900d-71e117392e2a\"},{\"id\":2676,\"name\":\"Al
+        Di Meola\",\"type\":\"MAIN\",\"picture\":\"4aed5633-4ef3-4749-afc6-86406bf816b7\"},{\"id\":209,\"name\":\"Herbie
+        Hancock\",\"type\":\"MAIN\",\"picture\":\"89850789-5417-4885-89a9-5fa4f8e9ca5c\"}],\"creators\":[],\"description\":\"As
+        the technology of rock and roll changed music\u2019s sonic possibilities in
+        the 1960s, jazz improvisers just had to get in on the action. The highest-profile
+        of these was trumpeter Miles Davis, who, more gradually than the jazz-history
+        books might indicate, transitioned from his exploratory Second Great Quintet
+        into psychedelic modal jams that came to define jazz-rock fusion. A crop of
+        generation-defining musicians once in Davis\u2019 employ\u2014drummer Tony
+        Williams, keyboardists Chick Corea and Herbie Hancock, saxophonist Wayne Shorter
+        and guitarist John McLaughlin among them\u2014went on to lead their own fusion
+        juggernauts in the late \u201960s and \u201970s, and the union of jazz improvisation
+        with delightfully loud popular music has been solid ever since. (Cover: Jaco
+        Pastorius [top], Herbie Hancock/Photos: Rovi)\\n\\n\"},{\"uuid\":\"c1f1c110-5bf3-413b-83d0-eb8dc4632eb2\",\"title\":\"Cool
+        Jazz 101\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/c1f1c110-5bf3-413b-83d0-eb8dc4632eb2\",\"image\":\"3b4158b5-2bd6-41a6-9dd5-97ae46e6b7bb\",\"squareImage\":\"29848603-192e-43da-b937-de841050ce3c\",\"duration\":8296,\"numberOfTracks\":31,\"numberOfVideos\":0,\"lastItemAddedAt\":null,\"promotedArtists\":[{\"id\":55,\"name\":\"Miles
+        Davis\",\"type\":\"MAIN\",\"picture\":\"e11debbb-a25d-4410-9dc0-bb6114ddff30\"},{\"id\":115,\"name\":\"Dave
+        Brubeck\",\"type\":\"MAIN\",\"picture\":\"939ba861-6141-4c10-a115-3506997e94b3\"},{\"id\":3755,\"name\":\"Gerry
+        Mulligan\",\"type\":\"MAIN\",\"picture\":\"2a7e392d-affc-482f-a714-73b96821f737\"},{\"id\":1301,\"name\":\"Chet
+        Baker\",\"type\":\"MAIN\",\"picture\":\"7f7469dd-5ef0-4855-9131-d87646e6c207\"}],\"creators\":[],\"description\":\"\u201CCool
+        jazz\u201D is one of those moving-target jazz terms that denotes several things.
+        It is, first and foremost, a temperament\u2014a nimbly swinging, soft-hued
+        incarnation of modern jazz that lacks the frenzied thrust of bebop and the
+        R&B grit of hard bop. Historians like to point to Miles Davis\u2019 1949-50
+        \u201CBirth of the Cool\u201D sessions as the genesis of this whispery innovation,
+        but plenty of earlier musicians\u2014see saxophonist Lester Young in a small
+        group\u2014projected a similar desire to mellow out. In the \u201950s, as
+        bop and hard bop thrived in New York and musicians like trumpeter Chet Baker
+        and saxophonist Gerry Mulligan, a \u201CBirth of the Cool\u201D alum, defined
+        the cool sound in Los Angeles, the tag \u201Ccool jazz\u201D started to become
+        synonymous with \u201CWest Coast jazz\u201D\u2014a mistake once you survey
+        California\u2019s richly varied jazz history. Still, this highly listenable
+        midcentury subgenre thrived on L.A.-based labels like Pacific Jazz, and its
+        airy influence has been a jazz touchstone ever since. (Cover: Gerry Mulligan
+        [top], Chet Baker/Photos: Rovi)\"},{\"uuid\":\"510e63f0-5516-4568-b20b-b676743322ee\",\"title\":\"Memphis
+        Soul 101\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/510e63f0-5516-4568-b20b-b676743322ee\",\"image\":\"95ac3b83-c437-4597-8bf0-e0ec95c37fdd\",\"squareImage\":\"d8718841-6be2-43e1-90f1-d74a11ebc004\",\"duration\":7332,\"numberOfTracks\":39,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2023-01-18T18:08:49.093Z\",\"promotedArtists\":[{\"id\":3888675,\"name\":\"Carla\",\"type\":\"MAIN\",\"picture\":null},{\"id\":3610377,\"name\":\"James
+        Carr\",\"type\":\"MAIN\",\"picture\":null},{\"id\":11263,\"name\":\"Al Green\",\"type\":\"MAIN\",\"picture\":\"1275071b-4a49-4a18-9413-e41f955b2e0f\"},{\"id\":13368,\"name\":\"Otis
+        Redding\",\"type\":\"MAIN\",\"picture\":\"2ec2b41b-349c-430e-b690-56b5916c5087\"}],\"creators\":[],\"description\":\"When
+        President Barack Obama paid tribute to Memphis soul in 2013, he called the
+        sound of Soundsville, U.S.A. \u201Ca music that, at its core, is about the
+        pain of being alone, the power of human connection and the importance of treating
+        each other right. After all, this is the music that asked us to try a little
+        tenderness. It's the music that put 'Mr. Big Stuff' in his place,\u201D referring
+        to Jean Knight and Otis Redding. Memphis soul grew out of Southern soul in
+        the 1960s, immortalized on labels like Stax, Hi and Goldwax. Commonly described
+        as more sultry and stylish than its forerunners in Southern soul, Memphis
+        soul was the defining genre until disco changed the scene in the later parts
+        of the '70s. This is a collection of (mostly) vintage gems from a wonderful
+        period in the history of music. (Cover: Otis Redding / Al Green // Photos:
+        Rovi)\"},{\"uuid\":\"08815a4d-c9ff-49a8-8f66-301a01332a45\",\"title\":\"Indie
+        Folk 101\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/08815a4d-c9ff-49a8-8f66-301a01332a45\",\"image\":\"2d868941-89ba-4fa8-bd97-a2e13b89e04d\",\"squareImage\":\"0839eb6f-6fd3-4cde-a056-feb856d34d15\",\"duration\":3590,\"numberOfTracks\":15,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2023-07-20T16:00:05.741Z\",\"promotedArtists\":[{\"id\":3501428,\"name\":\"Elliott
+        Smith\",\"type\":\"MAIN\",\"picture\":\"e699abcd-4550-400f-afd2-31bfccb97071\"},{\"id\":3537888,\"name\":\"Neutral
+        Milk Hotel\",\"type\":\"MAIN\",\"picture\":\"2a6d99ba-b416-491f-8365-82c55c1e460f\"},{\"id\":27309,\"name\":\"The
+        Decemberists\",\"type\":\"MAIN\",\"picture\":\"5ddcc28a-4b5e-4800-8b30-595b4651469f\"},{\"id\":3534263,\"name\":\"Fleet
+        Foxes\",\"type\":\"MAIN\",\"picture\":\"acbf6945-fe78-4278-b962-f6a0e66284c1\"}],\"creators\":[],\"description\":\"Acoustic
+        guitars, stomping feet and storybook lyrics, indie folk got its start in the
+        early '90s with the likes of Elliott Smith and Will Oldham. Beginning in the
+        early '00s, the genre picked up stream with college rock favorites like Fleet
+        Foxes and the Decembersists. Indie folk is still going strong today, but here's
+        some songs that got the genre off the ground. (Cover: Elliott Smith, Fleet
+        Foxes / Photos: Rovi)\"},{\"uuid\":\"b8daa938-56b5-45de-9777-54fd4dfc73c4\",\"title\":\"Grunge
+        101\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/b8daa938-56b5-45de-9777-54fd4dfc73c4\",\"image\":\"d960eb23-4969-4328-938a-1853d233b122\",\"squareImage\":\"a93d14ee-060a-4054-b3ac-f3cbdd40d489\",\"duration\":3698,\"numberOfTracks\":15,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2023-07-13T08:42:28.491Z\",\"promotedArtists\":[{\"id\":19368,\"name\":\"Nirvana\",\"type\":\"MAIN\",\"picture\":\"354251d0-d434-411a-a889-06cf7daeffef\"},{\"id\":3116,\"name\":\"Pearl
+        Jam\",\"type\":\"MAIN\",\"picture\":\"36863f02-6c8e-4017-b0e9-d6120dd0a63d\"},{\"id\":608,\"name\":\"Alice
+        In Chains\",\"type\":\"MAIN\",\"picture\":\"d1891eaf-b367-4181-9775-e5a3940d97c7\"},{\"id\":34477,\"name\":\"Soundgarden\",\"type\":\"MAIN\",\"picture\":\"bcf6a3d6-7d2e-45a1-aee4-0e5273c044ac\"}],\"creators\":[],\"description\":\"Grunge
+        was born from an intense dislike of the ever-bombastic mainstream sheen of
+        hair metal. The genre germinated in the late \u201880s in the Pacific Northwest,
+        merging hardcore punk, heavy metal and noise rock to raucous results. It entered
+        the mainstream on the backs of Nirvana and the Sub Pop label in the \u201890s,
+        and went on to influence decades of indie-rock bands to come. Check out a
+        selection of some of the most memorable and famous grunge artists and songs
+        with this playlist. (Cover: Pearl Jam and Nirvana, Photo: Rovi) \"},{\"uuid\":\"04302974-6256-44c6-a489-4e6e0666b483\",\"title\":\"Minneapolis
+        Sound 101\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/04302974-6256-44c6-a489-4e6e0666b483\",\"image\":\"ac8b6617-65a5-4787-a1dc-70ff7c082575\",\"squareImage\":\"90c770f2-e1c5-4f1c-90f9-35a310478227\",\"duration\":6414,\"numberOfTracks\":19,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2023-07-14T18:47:47.781Z\",\"promotedArtists\":[{\"id\":4847,\"name\":\"Prince\",\"type\":\"MAIN\",\"picture\":\"f61a6f16-dc73-4645-bd5d-f2706c042769\"},{\"id\":9033,\"name\":\"Janet
+        Jackson\",\"type\":\"MAIN\",\"picture\":\"802bd615-1eb9-4e5f-a0d5-4284a046ac98\"},{\"id\":15047,\"name\":\"The
+        Time\",\"type\":\"MAIN\",\"picture\":\"3312645a-de43-4eee-85c3-9f79ec3c7b30\"},{\"id\":55341,\"name\":\"Ready
+        For The World\",\"type\":\"MAIN\",\"picture\":\"901044b6-d849-4e22-8c35-8ceed116052d\"}],\"creators\":[],\"description\":\"Synthesizers,
+        electronic drum machines, clean guitar parts and catchy melodic hooks define
+        the Minneapolis Sound. Brought into the mainstream by Prince in the late 1970s,
+        the Minneapolis Sound embodied not only a region, but a blend of funk and
+        dance-pop that embodied the black experience in Minnesota during the late
+        1970s. Thanks to this wave of music, we also have artists like Janet Jackson,
+        Morris Day and the Time and Sheila E. (Cover: Janet Jackson / Prince // Photo:
+        Getty Images / Photo: Rovi)\"},{\"uuid\":\"ded77fd5-82aa-4a44-8eca-f4775f6f1219\",\"title\":\"Speed
+        & Thrash Metal 101\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/ded77fd5-82aa-4a44-8eca-f4775f6f1219\",\"image\":\"e4acf38c-a16c-458e-bf47-2a52b60bc025\",\"squareImage\":\"6c4f73cb-4137-43ac-bae6-b42843bd835c\",\"duration\":10587,\"numberOfTracks\":37,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2023-07-14T12:35:05.592Z\",\"promotedArtists\":[{\"id\":8405,\"name\":\"Metallica\",\"type\":\"MAIN\",\"picture\":\"0a85112a-d1ec-49be-a618-8df9081e9e0c\"},{\"id\":16386,\"name\":\"Slayer\",\"type\":\"MAIN\",\"picture\":\"31e99ea6-65bb-4f67-880b-44cfb294f3dc\"},{\"id\":946,\"name\":\"Megadeth\",\"type\":\"MAIN\",\"picture\":\"7458a4ad-d896-4553-97d2-f2611fcbad8e\"},{\"id\":949,\"name\":\"Anthrax\",\"type\":\"MAIN\",\"picture\":\"1b0dfa99-e3c9-4aad-b398-28dfa19adff6\"}],\"creators\":[],\"description\":\"Speed
+        and thrash metal are two related sub-genres that introduced a more aggressive
+        and abrasive form of metal that sharply contrasted with the '80s pop-oriented
+        metal music. Speed/thrash grew out of the new wave of British heavy metal
+        and hardcore punk roots of the early 1980s, and eventually became one of the
+        metal genre's leading styles. The difference between the two is not at all
+        set in stone, but thrash is considered to be riff based and leaned more into
+        shouting, punk orientated sound. Metallica, Megadeth, Anthrax and Slayer are
+        ranked as the \\\"the big four\\\" in Thrash metal. Speed metal is used to
+        describe music that's even faster and less punk. On this playlist you\u2019ll
+        get some examples of some classic tracks from both styles. (Photo: Slayer,
+        Rovi / Megadeth, Rovi) \"},{\"uuid\":\"910b4d40-dbce-4108-bd07-9385b59b8f37\",\"title\":\"Return
+        to Ra\xEDces 101 \",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/910b4d40-dbce-4108-bd07-9385b59b8f37\",\"image\":null,\"squareImage\":\"024f7ac4-f64c-4336-940b-e8a30420e99d\",\"duration\":7797,\"numberOfTracks\":36,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2021-10-07T03:58:03.367Z\",\"promotedArtists\":[{\"id\":1510,\"name\":\"Christina
+        Aguilera\",\"type\":\"MAIN\",\"picture\":\"a723d4a6-dd1a-498b-8dcb-c7c1473fd996\"},{\"id\":3518085,\"name\":\"Pitbull\",\"type\":\"MAIN\",\"picture\":\"45fc9a8d-0fe1-4d6f-bd23-779f4bc1fb22\"},{\"id\":5054713,\"name\":\"J
+        Balvin\",\"type\":\"MAIN\",\"picture\":\"5bb35813-714e-48cc-9d97-7374564b9dd6\"},{\"id\":4903321,\"name\":\"Becky
+        G\",\"type\":\"MAIN\",\"picture\":\"575ae313-0112-48f4-afe3-3be675b5d5c4\"}],\"creators\":[],\"description\":\"For
+        Latinx artists, \\\"crossing over\\\" historically meant singing or rapping
+        in English \u2014 even if it meant learning the language from scratch \u2014
+        in order to tap into the coveted Anglo audience (as was the case with Thalia
+        and Shakira). Nowadays, however, the opposite is true: with urbano music's
+        rising popularity, Latinx artists like Becky G and J.Lo are finding it beneficial
+        to craft songs in Spanish \u2014 or at least flex their skills on a guest
+        appearance or two like Cardi B and Camila Cabello. (Photo: Gomez x Interscope/Aguilera
+        x Yariv Milchan)\"},{\"uuid\":\"115dc560-aac8-44c6-9b31-b16ec2143413\",\"title\":\"Latin
+        Crossover 101\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/115dc560-aac8-44c6-9b31-b16ec2143413\",\"image\":\"93c91106-717a-435a-b3cc-8f8cec22f41e\",\"squareImage\":\"05f24f72-631e-4ff8-9b91-7f52aacb0320\",\"duration\":12939,\"numberOfTracks\":57,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2021-09-16T14:49:07.045Z\",\"promotedArtists\":[{\"id\":535,\"name\":\"Ricky
+        Martin\",\"type\":\"MAIN\",\"picture\":\"5edba78c-0dd8-4633-97a6-d538405803fe\"},{\"id\":1087,\"name\":\"Shakira\",\"type\":\"MAIN\",\"picture\":\"42c2cbef-f288-4c6a-b380-0d2264122cb5\"},{\"id\":74,\"name\":\"Santana\",\"type\":\"MAIN\",\"picture\":\"3e50e746-7e57-4778-af8f-7166545e5f94\"},{\"id\":13461,\"name\":\"Ritchie
+        Valens\",\"type\":\"MAIN\",\"picture\":\"48d2ca49-92d7-4603-b6b3-f95f683eeba4\"}],\"creators\":[],\"description\":\"Though
+        Ritchie Valens and Carlos Santana enjoyed mainstream success in the 50s and
+        70s, respectively, the term \\\"crossover\\\" is closely linked with Gloria
+        Estefan and 1999's Latin pop boom, which was ushered in by Ricky Martin. During
+        this era, singing in English was a non-negotiable if you sought to enjoy mainstream
+        radio airplay. That all changed with reggaet\xF3n's rise \u2014 now, artists
+        like Daddy Yankee, J Balvin, and Bad Bunny can sing and rap in Spanish and
+        still be household names across the US. (Cover: Shakira x Ricky Martin / Photo:
+        Sony)\"},{\"uuid\":\"205314a8-578d-48d2-9e04-4ac8b12ae555\",\"title\":\"One
+        Drop 101\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/205314a8-578d-48d2-9e04-4ac8b12ae555\",\"image\":\"006a5cb8-428d-4a8c-84d8-2bced049ca27\",\"squareImage\":\"470a136e-3a25-4828-a4c3-b9fb9d856b14\",\"duration\":6484,\"numberOfTracks\":30,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2023-02-14T06:21:27.075Z\",\"promotedArtists\":[],\"creators\":[],\"description\":\"Another
+        style of reggae that became popular, One Drop has an emphasis on the snare
+        drum stroke. These songs have beat one left empty. This list compiles some
+        of the most crucial one drop songs. \"},{\"uuid\":\"9d73f933-343b-4269-a07f-1d7650712e92\",\"title\":\"Minimalism
+        101\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/9d73f933-343b-4269-a07f-1d7650712e92\",\"image\":\"a90a737c-445e-4149-9a7c-97485e9a9437\",\"squareImage\":\"ac6afa4b-932e-4973-9040-34a6540865e7\",\"duration\":19603,\"numberOfTracks\":28,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2021-08-16T23:26:48.422Z\",\"promotedArtists\":[],\"creators\":[],\"description\":\"Minimalism
+        is known for its steady pulse, shimmering harmonies, and repetition\u2014but
+        how did it start, and how has it changed over time? Early minimalist music
+        was written in the early 1960s primarily in New York and California under
+        the influence of earlier experimental music as well as jazz musicians like
+        John Coltrane, and was marked by a distinct collaborative approach: masterworks
+        like Steve Reich\u2019s \u201CMusic for 18 Musicians\u201D and Terry Riley\u2019s
+        \u201CIn C\u201D eschew conductors, instead requiring large ensembles to coordinate
+        amongst themselves in real time. Composers like Reich, Philip Glass, and Meredith
+        Monk wrote for their own ensembles at a time when no established groups would
+        commission them (a tradition that continued through the 90s up to this day,
+        with groups like the Steve Martland Band and the Bang on a Can All-Stars).
+        They wrote for larger forms as well: Glass\u2019s landmark \u201CEinstein
+        on the Beach\u201D is a 4.5 hour-long opera, the text of which consists of
+        counting, solf\xE8ge (\u201Cdo re mi\u201D), and absurdist poetry by Christopher
+        Knowles. John Adams quickly became known for his orchestral works and operas,
+        including the oratorio \u201CEl Ni\xF1o\u201D included here. A later generation
+        of composers, like the Bang on a Can group (Michael Gordon, David Lang, Julia
+        Wolfe), Michael Torke, and Julius Eastman used early minimalism as a strong
+        foundation for new experiments, weaving in strains of popular music, committing
+        less to strict process, but maintaining that same sense of repetition and
+        pulse. Allow this playlist to serve as an overview of the great variety of
+        music that falls under the minimalist umbrella. (Photos: Steve Reich (L),
+        Jay Blakesberg; Meredith Monk, Jessie Froman)\"},{\"uuid\":\"3872cb8d-0559-40a4-af7f-d5a3ae25126a\",\"title\":\"Bounce
+        101\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/3872cb8d-0559-40a4-af7f-d5a3ae25126a\",\"image\":\"32bef671-e1fc-4b5c-861c-c6ffea95ead9\",\"squareImage\":\"571d3d31-6699-48b5-bf8a-5fba0caed44d\",\"duration\":5535,\"numberOfTracks\":20,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2021-08-16T19:02:13.842Z\",\"promotedArtists\":[],\"creators\":[],\"description\":\"Juvenile's
+        \\\"Back That Azz Up\\\" became one of the first mainstream songs to come
+        out of the Bounce music scene in New Orleans. The music was born at block
+        parties throughout the city's housing projects; known for unapologetic hypersexual
+        lyrics, samples creating the backing vocal and a call-and-response style.
+        Artists important to the scene include Big Freedia, DJ Jubilee, DJ Jimi, Partners-N-Crime,
+        Juvenile, and Magnolia Shorty. (Photo: Rovi)\"},{\"uuid\":\"21dfd77f-39ec-4473-80c9-f848870a070b\",\"title\":\"K-Pop
+        Girl Groups 101\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/21dfd77f-39ec-4473-80c9-f848870a070b\",\"image\":\"788d04cc-0d62-4414-bca0-d971a3c9b4ac\",\"squareImage\":\"53a7bb7f-34ed-4fec-960e-5cdeade9e309\",\"duration\":11151,\"numberOfTracks\":55,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2023-01-09T17:24:46.95Z\",\"promotedArtists\":[{\"id\":10077805,\"name\":\"S.E.S.\",\"type\":\"MAIN\",\"picture\":null},{\"id\":7698480,\"name\":\"Fin.K.L\",\"type\":\"MAIN\",\"picture\":null},{\"id\":10611119,\"name\":\"\uD30C\uD30C\uC57C\",\"type\":\"MAIN\",\"picture\":null},{\"id\":7698510,\"name\":\"Baby
+        Vox\",\"type\":\"MAIN\",\"picture\":null}],\"creators\":[],\"description\":\"Since
+        K-pop's beginnings, girl groups have been integral to helping the scene expand
+        across borders. From the earlier days of pioneers like S.E.S, Fin.K.L and
+        Big Mama to today's global chart-toppers like BLACKPINK, TWICE and IZ*ONE,
+        listen through for your K-pop girl group history. (Cover: Girls' Generation
+        / Photo: SM Entertainment)\"}],\"dataApiPath\":\"pages/data/7a7f9aa8-81f6-48a6-9984-f2bf4c78b860\"},\"layout\":null,\"playlistStyle\":null}]},{\"modules\":[{\"id\":\"eyJwIjoiNzY2OTkzYzMtZjdmNy00YTdkLTk5NGYtZWQ3NzdiZTczM2QxIiwicFYiOjMsIm0iOiI4NDU5ZDg2Mi1kZWJkLTQ0NmYtYTA4Mi03NzcwZDVkYzQ2ZmMiLCJtViI6MSwibUgiOiI4YjkyMDk2ZSJ9\",\"type\":\"PLAYLIST_LIST\",\"width\":100,\"title\":\"Musicology\",\"description\":\"\",\"preTitle\":null,\"showMore\":{\"title\":\"View
+        all\",\"apiPath\":\"pages/single-module-page/766993c3-f7f7-4a7d-994f-ed777be733d1/3/8459d862-debd-446f-a082-7770d5dc46fc/1\"},\"supportsPaging\":false,\"quickPlay\":false,\"scroll\":\"HORIZONTAL\",\"pagedList\":{\"limit\":15,\"offset\":0,\"totalNumberOfItems\":23,\"items\":[{\"uuid\":\"ebce66f0-a933-4d28-8d5a-082362bb60b8\",\"title\":\"Musicology:
+        The \\\"Nanana\\\" Heritage\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/ebce66f0-a933-4d28-8d5a-082362bb60b8\",\"image\":null,\"squareImage\":\"9043183a-60db-4493-8903-c46053517d0d\",\"duration\":10824,\"numberOfTracks\":44,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-06-06T18:03:25.984Z\",\"promotedArtists\":[{\"id\":3634161,\"name\":\"The
+        Beatles\",\"type\":\"MAIN\",\"picture\":\"ad7946a6-2ec4-43f8-b573-1073d73dfe31\"},{\"id\":9371,\"name\":\"The
+        Beach Boys\",\"type\":\"MAIN\",\"picture\":\"24582869-9f7b-4cd4-93f5-7a4bc9fd9b6a\"},{\"id\":15096,\"name\":\"Bee
+        Gees\",\"type\":\"MAIN\",\"picture\":\"80beb0ec-c9e0-4a66-af11-06d5c22a0426\"},{\"id\":81,\"name\":\"Journey\",\"type\":\"MAIN\",\"picture\":\"1e927282-550b-4817-91da-58c76fd30cac\"}],\"creators\":[],\"description\":\"The
+        world would be a completely different place if the legendary \\\"nanana\\\"
+        didn't exist in music. In this playlist you can listen to evergreen hits that
+        helped build this legacy. \\n\\n\"},{\"uuid\":\"5171e79d-4d26-4f2f-8e21-db4aafb712e5\",\"title\":\"Musicology:
+        Rickenbacker\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/5171e79d-4d26-4f2f-8e21-db4aafb712e5\",\"image\":\"9ad98d14-ae6c-40bb-8a37-6cdf8237dceb\",\"squareImage\":\"26590c09-d59b-4753-9fd3-eaaf359e4cb9\",\"duration\":6929,\"numberOfTracks\":33,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2021-02-02T17:38:23.3Z\",\"promotedArtists\":[{\"id\":580,\"name\":\"The
+        Pretenders\",\"type\":\"MAIN\",\"picture\":\"ef037e4f-effb-4ce6-824a-121f61125917\"},{\"id\":250,\"name\":\"The
+        Byrds\",\"type\":\"MAIN\",\"picture\":\"26c07589-c009-4a50-b34e-3b9da0383ac3\"},{\"id\":3634161,\"name\":\"The
+        Beatles\",\"type\":\"MAIN\",\"picture\":\"ad7946a6-2ec4-43f8-b573-1073d73dfe31\"},{\"id\":9366,\"name\":\"R.E.M.\",\"type\":\"MAIN\",\"picture\":\"598806d2-8866-410e-b7e6-0d724a9d84b0\"}],\"creators\":[],\"description\":\"Jangly.
+        The Rickenbacker sound can best be summed up in this one word, and rightly
+        so. Ironically, the guitar's earliest aficionados were '60s English bands
+        that used it almost exclusively to add some California sunshine into their
+        compositions. In the process, however, they influenced an entire generation
+        of 80s US college radio friendly bands who wanted to sound English. Circle
+        of life. (Photo: Getty)\"},{\"uuid\":\"2fcf395a-e473-4769-b73e-e9bc3a66efd4\",\"title\":\"Musicology:
+        Hammond Organ\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/2fcf395a-e473-4769-b73e-e9bc3a66efd4\",\"image\":\"a2a7d129-bb01-452c-aa70-41662025cd06\",\"squareImage\":\"9711a087-74d4-47b1-98d7-1b297448b790\",\"duration\":14297,\"numberOfTracks\":42,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-08-11T07:51:02.367Z\",\"promotedArtists\":[{\"id\":80,\"name\":\"Bob
+        Dylan\",\"type\":\"MAIN\",\"picture\":\"cf8b1475-9142-4c2e-9826-65f235e00535\"},{\"id\":135,\"name\":\"The
+        Band\",\"type\":\"MAIN\",\"picture\":\"77f3a133-27b0-4939-adcb-36b96aa484a4\"},{\"id\":3608317,\"name\":\"Spencer
+        Davis Group\",\"type\":\"MAIN\",\"picture\":\"3b16f501-3d00-45b5-8e87-d1882c9d41d4\"},{\"id\":3981,\"name\":\"The
+        Allman Brothers Band\",\"type\":\"MAIN\",\"picture\":\"d21ae18d-89aa-4650-9aaf-e4b19275af37\"}],\"creators\":[],\"description\":\"Content
+        to let guitars hog the spotlight, it's the Hammond organ that is often a track's
+        MVP, insinuating itself into a song, slyly layering warmth and texture from
+        inside of the mix. Some of the greatest songs ever recorded have the Hammond
+        organ to thank. You be the judge. (Photo: Getty)\"},{\"uuid\":\"0e5c6dee-6b73-4b3c-a098-721a57a66f4f\",\"title\":\"Musicology:
+        Gibson SG\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/0e5c6dee-6b73-4b3c-a098-721a57a66f4f\",\"image\":\"7d4dd995-a720-4163-9879-648fa8cb289b\",\"squareImage\":\"3bc6abd1-9c3e-4cf4-8566-364266b30baa\",\"duration\":17140,\"numberOfTracks\":58,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2021-05-18T15:40:56.445Z\",\"promotedArtists\":[{\"id\":3888317,\"name\":\"Frank
+        Zappa\",\"type\":\"MAIN\",\"picture\":\"aa0136fb-0e2a-43e8-86a0-5dd2c08028f9\"},{\"id\":3634161,\"name\":\"The
+        Beatles\",\"type\":\"MAIN\",\"picture\":\"ad7946a6-2ec4-43f8-b573-1073d73dfe31\"},{\"id\":945,\"name\":\"AC/DC\",\"type\":\"MAIN\",\"picture\":\"4e22a750-9dea-4f7d-9c70-5ece4fa3b129\"},{\"id\":86,\"name\":\"Black
+        Sabbath\",\"type\":\"MAIN\",\"picture\":\"6a2874d8-f693-4e0a-a4c8-682c990b5e13\"}],\"creators\":[],\"description\":\"The
+        Gibson SG guitar offers a gritty, stinging sound. It was perfect for Black
+        Sabbath, the Doors and AC/DC's Angus Young, not to mention Frank Zappa, Jerry
+        Garcia, Duane Allman, and Santana. It's the axe that makes psych-rock and
+        hard-rock sing. But the thrill isn't gone; younger artists like Gary Clark
+        Jr., Derek Trucks, and Samantha Fish are carrying the SG torch. (Photo: Getty)
+        \ \"},{\"uuid\":\"7f64532a-5c70-49af-951b-7dec42017f72\",\"title\":\"Musicology:
+        Ludwig Drums\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/7f64532a-5c70-49af-951b-7dec42017f72\",\"image\":\"b9d1c87c-0135-4b19-9b22-94eee5459495\",\"squareImage\":\"53187b27-e032-4bf0-934f-17d36c007f8c\",\"duration\":6224,\"numberOfTracks\":27,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2021-03-17T23:08:00.519Z\",\"promotedArtists\":[{\"id\":509,\"name\":\"Bruce
+        Springsteen\",\"type\":\"MAIN\",\"picture\":\"97423d53-c815-4b48-b5ef-d9fa28a3837b\"},{\"id\":13462,\"name\":\"Van
+        Halen\",\"type\":\"MAIN\",\"picture\":\"e26ae1aa-0929-43df-b252-468172f848d9\"},{\"id\":3634161,\"name\":\"The
+        Beatles\",\"type\":\"MAIN\",\"picture\":\"ad7946a6-2ec4-43f8-b573-1073d73dfe31\"},{\"id\":24996,\"name\":\"The
+        Roots\",\"type\":\"MAIN\",\"picture\":\"4ae8790a-f785-4cd6-90cc-26722323f738\"}],\"creators\":[],\"description\":\"It
+        boils down to this: the monsters of rock played Ludwig drums\u2014from John
+        Bonham to Keith Moon to Neil Peart\u2014and that tradition continues today,
+        in the music of Black Keys, the Strokes and the Roots. Why? Because even in
+        the studio the drum kit sounds like you are in an arena to a sold-out crowd.
+        Which is never a bad thing. (Photo: Getty)\"},{\"uuid\":\"a60f3a41-184b-43da-ab04-7e4b18f56df1\",\"title\":\"Musicology:
+        Fender Rhodes Electric Piano\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/a60f3a41-184b-43da-ab04-7e4b18f56df1\",\"image\":\"53c5c042-192c-4db5-8cf6-af81daa2f41b\",\"squareImage\":\"b5d86196-3d3e-4605-ad54-de40ae38a4e1\",\"duration\":14256,\"numberOfTracks\":44,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2023-03-22T21:41:31.987Z\",\"promotedArtists\":[{\"id\":239,\"name\":\"Stevie
+        Wonder\",\"type\":\"MAIN\",\"picture\":\"c9292b86-fcee-48bb-a1e5-84b99e147148\"},{\"id\":209,\"name\":\"Herbie
+        Hancock\",\"type\":\"MAIN\",\"picture\":\"89850789-5417-4885-89a9-5fa4f8e9ca5c\"},{\"id\":17032,\"name\":\"Mos
+        Def\",\"type\":\"MAIN\",\"picture\":\"46ea1054-ce1e-4086-be0d-0f232cd09402\"},{\"id\":637,\"name\":\"Earth,
+        Wind & Fire\",\"type\":\"MAIN\",\"picture\":\"e7a4aa21-acfb-415b-a8eb-15893b16469e\"}],\"creators\":[],\"description\":\"The
+        Fender Rhodes electric piano was the sound of the 1970s. Warm and glowing
+        but with just enough bite, it was the perfect combination of fire and ice.
+        Plus, it worked in every genre. You'll hear it here with Stevie Wonder and
+        Herbie Hancock and Bob James, but also with the Doors, the Beatles, and Billy
+        Joel. So much more than an electric piano, a Rhodes is essentially its own
+        instrument. (Photo: Andrew Lepley/Redferns/Getty Images)\"},{\"uuid\":\"62e19878-b248-467a-b007-d02932c817cc\",\"title\":\"Musicology:
+        The \\\"Lalala\\\" Heritage\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/62e19878-b248-467a-b007-d02932c817cc\",\"image\":null,\"squareImage\":\"9ebee958-834d-470b-b3d7-fd8ab97402d6\",\"duration\":10962,\"numberOfTracks\":45,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-07-11T16:32:52.093Z\",\"promotedArtists\":[{\"id\":239,\"name\":\"Stevie
+        Wonder\",\"type\":\"MAIN\",\"picture\":\"c9292b86-fcee-48bb-a1e5-84b99e147148\"},{\"id\":34411,\"name\":\"Minnie
+        Riperton\",\"type\":\"MAIN\",\"picture\":\"2c9bbe46-41a1-4e35-8761-b956b2c79457\"},{\"id\":8713,\"name\":\"America\",\"type\":\"MAIN\",\"picture\":\"e880eade-762e-4bf0-bd23-f2f0958bd03b\"},{\"id\":2449,\"name\":\"Iggy
+        Pop\",\"type\":\"MAIN\",\"picture\":\"7af2c423-0cdf-43c3-a345-c108a9ad7735\"}],\"creators\":[],\"description\":\"In
+        the middle of your favorite track or even in a song that you can't get out
+        of your head, \\\"lalala\xB4s\\\" have always been present in the music universe.
+        This playlist is a selection of songs that helped popularize this catchy verse.
+        \"},{\"uuid\":\"6a92a233-47c0-4fe4-8a08-e97e6070a44f\",\"title\":\"Musicology:
+        Envelope Filter Guitar\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/6a92a233-47c0-4fe4-8a08-e97e6070a44f\",\"image\":null,\"squareImage\":\"ec14724a-ef9e-46dc-90ea-cb5675fe4e1b\",\"duration\":9808,\"numberOfTracks\":30,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2023-02-28T13:48:41.374Z\",\"promotedArtists\":[{\"id\":222,\"name\":\"Grateful
+        Dead\",\"type\":\"MAIN\",\"picture\":\"dd18c780-4a7e-4c94-bf35-ebc7612405d1\"},{\"id\":4847,\"name\":\"Prince\",\"type\":\"MAIN\",\"picture\":\"f61a6f16-dc73-4645-bd5d-f2706c042769\"},{\"id\":239,\"name\":\"Stevie
+        Wonder\",\"type\":\"MAIN\",\"picture\":\"c9292b86-fcee-48bb-a1e5-84b99e147148\"},{\"id\":2518,\"name\":\"The
+        Headhunters\",\"type\":\"MAIN\",\"picture\":\"54339a8a-1e40-4f3a-9eff-63f06d3c51c9\"}],\"creators\":[],\"description\":\"Envelope
+        Filters are one of the most unique sounds in the Pedals & Effects universe.
+        From Bootsy Collins to Jerry Garcia, from the Headhunters to Prince, and more
+        recently, from Kali Uchis to Thundercat, Filters have been heavily used in
+        music. But what exactly does an Envelope Filter do, one might ask?  An envelope
+        filter is a tone altering effect that is controlled by the dynamics of your
+        playing. As you play louder, that change in tone gets more intense. Make the
+        \u201Ceee\u201D sound with your mouth and then slowly shift your mouth and
+        tongue into the \u201Cooo\u201D sound, while continuing to hum. Notice how
+        the airy high frequencies go away, but the lower frequencies remain? The note
+        doesn\u2019t change, but its sonic character does. You\u2019ve just made and
+        modulated a simple filter and possibly weirded out your coworkers. This playlist
+        contains some of the best Envelope Filters sounds used on Guitars, have fun
+        and funk it up! \"},{\"uuid\":\"d4673eda-f54a-40a1-a9e2-b0ba90b14057\",\"title\":\"Musicology:
+        Moog\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/d4673eda-f54a-40a1-a9e2-b0ba90b14057\",\"image\":\"5eb826c5-d371-4706-969e-089a6f35ba35\",\"squareImage\":\"3323e0e7-1e7e-4fbb-9d5f-9d719753c9b3\",\"duration\":10075,\"numberOfTracks\":30,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2021-03-01T13:47:15.429Z\",\"promotedArtists\":[{\"id\":11950,\"name\":\"New
+        Order\",\"type\":\"MAIN\",\"picture\":\"34d80a5c-90b5-478b-985d-caa3a72029f5\"},{\"id\":743,\"name\":\"Donna
+        Summer\",\"type\":\"MAIN\",\"picture\":\"8abc8b11-9c5a-489c-ba35-7e1c3978998b\"},{\"id\":3634161,\"name\":\"The
+        Beatles\",\"type\":\"MAIN\",\"picture\":\"ad7946a6-2ec4-43f8-b573-1073d73dfe31\"},{\"id\":8903,\"name\":\"Kraftwerk\",\"type\":\"MAIN\",\"picture\":\"9c12f70d-ff4b-4bc3-9f70-559bd347dbf0\"}],\"creators\":[],\"description\":\"The
+        Moog synthesizer was invented by Robert Moog in the 1960s, and known to be
+        the first commercial synthesizer. It gained widespread popularity when the
+        biggest pop and rock acts of the late 1960s era started implementing it in
+        their music, and over in the 1970s when the Moog became an integrated sound
+        in prog rock. This playlist takes you on a Moog de force. (Photo: Robert Moog
+        / Photo: Public domain)\"},{\"uuid\":\"f8b66e29-8488-4c6f-9e7c-b3755df5c755\",\"title\":\"Musicology:
+        Roland TR-808\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/f8b66e29-8488-4c6f-9e7c-b3755df5c755\",\"image\":\"4719775f-4ece-4244-820d-68f656488ac4\",\"squareImage\":\"204605a8-679b-40f9-96c8-7af4b6a2d57c\",\"duration\":22187,\"numberOfTracks\":75,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2023-07-16T22:36:13.73Z\",\"promotedArtists\":[{\"id\":711,\"name\":\"Marvin
+        Gaye\",\"type\":\"MAIN\",\"picture\":\"65cc635f-039d-426b-9ea2-9d452c4faae1\"},{\"id\":1727,\"name\":\"Outkast\",\"type\":\"MAIN\",\"picture\":\"8e235c1c-b742-4acf-aa94-1e12b74d455d\"},{\"id\":5192,\"name\":\"2Pac\",\"type\":\"MAIN\",\"picture\":\"58cb2c48-ea88-4ffe-9847-822e0e4017e4\"},{\"id\":9033,\"name\":\"Janet
+        Jackson\",\"type\":\"MAIN\",\"picture\":\"802bd615-1eb9-4e5f-a0d5-4284a046ac98\"}],\"creators\":[],\"description\":\"The
+        Roland TR-808 Rhythm Composer (a.k.a. the \\\"808\\\") is one of the most
+        consequential instruments in music history \u2014 there's no question about
+        it. We've picked 75 exemplary cuts that connect the dots between the machine's
+        use in hip-hop, electronic, pop, R&B and beyond: from booming trap to sleek
+        quiet storm, '80s synthpop to 21st century electro revival, Chicago footwork
+        to Dirty South. Yes, ever since its deployment on Marvin Gaye's career-revitalizing
+        staple \\\"Sexual Healing,\\\" the 808's versatility has rendered it the heartbeat
+        of modernity \u2014 to the extent that the machine is now celebrated on its
+        own informal public holiday, International 808 Day, taking place each 8th
+        of August (8/08). Here is a small but mighty selection of the best 808 jams
+        around. (Photo: Unsplash)\"},{\"uuid\":\"7f9ad762-84ea-435b-acff-6a095f21b45c\",\"title\":\"Musicology:
+        A Journey Through Sequencers & Arpeggiators\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/7f9ad762-84ea-435b-acff-6a095f21b45c\",\"image\":null,\"squareImage\":\"42d4a187-c934-4e8b-8443-3d6babda39e6\",\"duration\":14761,\"numberOfTracks\":43,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-08-19T16:10:29.907Z\",\"promotedArtists\":[{\"id\":743,\"name\":\"Donna
+        Summer\",\"type\":\"MAIN\",\"picture\":\"8abc8b11-9c5a-489c-ba35-7e1c3978998b\"},{\"id\":8903,\"name\":\"Kraftwerk\",\"type\":\"MAIN\",\"picture\":\"9c12f70d-ff4b-4bc3-9f70-559bd347dbf0\"},{\"id\":9706,\"name\":\"Pink
+        Floyd\",\"type\":\"MAIN\",\"picture\":\"c83f2a72-6373-42e5-8985-e12ad9400c0c\"},{\"id\":24915,\"name\":\"The
+        Who\",\"type\":\"MAIN\",\"picture\":\"0f782232-18c8-40b7-bb13-91c6039e40e6\"}],\"creators\":[],\"description\":\"Groundbreaking
+        artists and contemporary noise scientists have used sequencers and arpeggiators
+        to produce unique tunes throughout history. This is a compilation of evergreen
+        hits made with beautiful synth sounds that will forever resonate in our hearts.
+        \"},{\"uuid\":\"de9c3c88-74eb-4ca8-91ca-aa5dac4af406\",\"title\":\"Musicology:
+        Theremin\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/de9c3c88-74eb-4ca8-91ca-aa5dac4af406\",\"image\":\"de1f6143-7ec0-4c91-9315-82e141edc2da\",\"squareImage\":\"cfe544ee-37ac-4e84-943f-bb2b342e941d\",\"duration\":8420,\"numberOfTracks\":28,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2021-02-17T19:12:41.913Z\",\"promotedArtists\":[{\"id\":9534,\"name\":\"Captain
+        Beefheart\",\"type\":\"MAIN\",\"picture\":\"e5c25c9f-5cc8-4708-b065-c21443d8c90e\"},{\"id\":13857,\"name\":\"The
+        Flaming Lips\",\"type\":\"MAIN\",\"picture\":\"e0915f4c-c910-4fe2-a501-298d14e34d0a\"},{\"id\":27441,\"name\":\"Portishead\",\"type\":\"MAIN\",\"picture\":\"af2591dd-bc89-4433-bb3f-64af75e5b03e\"},{\"id\":26702,\"name\":\"Bernard
+        Herrmann\",\"type\":\"MAIN\",\"picture\":\"4bcd3835-11ad-4357-81ee-2427e8497df4\"}],\"creators\":[],\"description\":\"The
+        theremin is one of the most unique and fascinating electronic instruments
+        ever made, creating eerie, otherworldly soundscapes without physical contact
+        between the actual device and the performer. Invented by Leon Theremin in
+        the 1920s, the theremin can be heard in many different contexts, perhaps most
+        frequently used in sci-fi movies, as well as both classical and popular music.
+        This playlist is a homage to the fabulous theremin, including perhaps the
+        most recognizable of them all: \u201CGood Vibrations\u201D by the Beach Boys
+        - which actually is not a theremin at all, but its close relative; the 1950s
+        electrotheremin. (Photo: Leon Theremin, 1924. Public Domain)\"},{\"uuid\":\"0692544b-a6a5-4cdb-a2a2-ba61d3046c16\",\"title\":\"Musicology:
+        Selmer Mark VI Saxophone\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/0692544b-a6a5-4cdb-a2a2-ba61d3046c16\",\"image\":\"aa48fac5-852d-412c-8e88-c991ae875c2c\",\"squareImage\":\"bbb0b07f-bbb5-40a0-a5af-ba11bacc01df\",\"duration\":12304,\"numberOfTracks\":29,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2021-04-26T21:02:22.689Z\",\"promotedArtists\":[],\"creators\":[],\"description\":\"Sharp,
+        heavy, and strikingly powerful, the Selmer Mark VI saxophone grabs the listener
+        and never lets go. Great players have always gravitated to it, so you'll find
+        it in jazz but also in the music of Paul Simon, Bruce Springsteen, Trey Anastasio,
+        and the Rolling Stones. In this playlist, you'll hear three versions of the
+        instrument: tenor, bari, and soprano. (Photo: Paul Natkin/Getty Images)\"},{\"uuid\":\"92fc4481-4d4f-49f8-9b19-53f058f9a29e\",\"title\":\"Musicology:
+        MPC\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/92fc4481-4d4f-49f8-9b19-53f058f9a29e\",\"image\":\"b6635a06-c2ee-4b3b-89be-524a6cb14c77\",\"squareImage\":\"ec0ea474-5091-41d8-a7f2-794a6390f2d0\",\"duration\":6564,\"numberOfTracks\":25,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2021-03-05T20:28:49.067Z\",\"promotedArtists\":[],\"creators\":[],\"description\":\"From
+        the legends of the past to the torch-carriers of the new school, the MPC has
+        been a defining instrument for hip-hop producers looking to lay down sample-based
+        soundscapes for their MC counterparts (or in some cases, themselves). Listen
+        to the masterful loops, chops, drum patterns and arrangements created by some
+        of the most influential producers in the game using various models of the
+        iconic MPC. (Photo: Getty Images)\"},{\"uuid\":\"ed1346bb-6240-4160-a7db-5c26378e9713\",\"title\":\"Musicology:
+        Gibson Les Paul\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/ed1346bb-6240-4160-a7db-5c26378e9713\",\"image\":\"dcca159a-0e48-4490-a975-484fe6e99d45\",\"squareImage\":\"c180382f-e8d5-4cc3-bb38-c681aed8af46\",\"duration\":6151,\"numberOfTracks\":23,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2021-01-21T21:25:37.287Z\",\"promotedArtists\":[],\"creators\":[],\"description\":\"Riffs.
+        That's what the Gibson Les Paul is most famous for: those bone-crunching,
+        bottom-heavy riffs that have made Led Zep's \\\"Whole Lotta Love\\\" and Free's
+        \\\"All Right Now\\\" such timeless anthems. (Photo: Getty) \"}],\"dataApiPath\":\"pages/data/f743612a-9828-4dd4-9858-168e192bee9c\"},\"layout\":null,\"playlistStyle\":null}]},{\"modules\":[{\"id\":\"eyJwIjoiNzY2OTkzYzMtZjdmNy00YTdkLTk5NGYtZWQ3NzdiZTczM2QxIiwicFYiOjMsIm0iOiI4NzQ2MWU3YS1hOWZkLTQyODItYjY5YS02YzVjYmRjMDM2OWIiLCJtViI6MSwibUgiOiJhZWM3OWZkOSJ9\",\"type\":\"PLAYLIST_LIST\",\"width\":100,\"title\":\"Instrument
+        Essentials\",\"description\":\"\",\"preTitle\":null,\"showMore\":{\"title\":\"View
+        all\",\"apiPath\":\"pages/single-module-page/766993c3-f7f7-4a7d-994f-ed777be733d1/3/87461e7a-a9fd-4282-b69a-6c5cbdc0369b/1\"},\"supportsPaging\":false,\"quickPlay\":false,\"scroll\":\"HORIZONTAL\",\"pagedList\":{\"limit\":15,\"offset\":0,\"totalNumberOfItems\":22,\"items\":[{\"uuid\":\"d27377d7-e43c-47dc-997b-2294c4dd8dfc\",\"title\":\"Talk
+        Box Essentials\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/d27377d7-e43c-47dc-997b-2294c4dd8dfc\",\"image\":\"c700151f-3abe-4286-8d93-5aa0ff2fbbb5\",\"squareImage\":\"61c2a845-54d5-47fc-a62f-c31a1f80900e\",\"duration\":12271,\"numberOfTracks\":38,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2021-05-13T19:06:51.061Z\",\"promotedArtists\":[],\"creators\":[],\"description\":\"Only
+        one instrument runs the sound of, say, a keyboard or guitar into one\u2019s
+        mouth, where the tones can then be played with. The famously robotic-sounding
+        Talk Box has been championed by Stevie Wonder, Peter Frampton, and especially
+        Zapp\u2019s Roger Troutman, for whom it became a signature move.  \"},{\"uuid\":\"dcbbcc5c-067a-46cb-b73c-76bd1e767554\",\"title\":\"New
+        Orleans Piano Essentials\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/dcbbcc5c-067a-46cb-b73c-76bd1e767554\",\"image\":\"e24a1632-569a-4de7-a1d8-13e37b0e02f7\",\"squareImage\":\"c720c987-3341-4155-93bd-89ea6b853199\",\"duration\":11535,\"numberOfTracks\":56,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-03-24T02:00:28.791Z\",\"promotedArtists\":[{\"id\":13747,\"name\":\"Professor
+        Longhair\",\"type\":\"MAIN\",\"picture\":\"4d65c941-feb3-4f01-ae5b-a1d92126d7c4\"},{\"id\":16676,\"name\":\"James
+        Booker\",\"type\":\"MAIN\",\"picture\":\"517e8076-643c-433a-80be-c99ddd9eebc1\"},{\"id\":4513,\"name\":\"Jelly
+        Roll Morton\",\"type\":\"MAIN\",\"picture\":\"d092ece5-b438-4adb-999e-9cdfe915d461\"},{\"id\":15323,\"name\":\"Allen
+        Toussaint\",\"type\":\"MAIN\",\"picture\":\"841ae995-801a-4b8a-a7cc-0b9c80b8d358\"}],\"creators\":[],\"description\":\"The
+        New Orleans piano tradition is a rich, flowing river of sound, full of grand,
+        eloquent statements and exquisite small details. In this playlist, you\u2019ll
+        hear from the musicians who created this world: Professor Longhair, James
+        Booker, Allen Toussaint, Dr. John, and more. (Photo: Getty Images) \"},{\"uuid\":\"0e390bc4-e5fb-4ecd-acc4-b05d95d40342\",\"title\":\"Solo
+        Piano Essentials\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/0e390bc4-e5fb-4ecd-acc4-b05d95d40342\",\"image\":\"b9789b0c-0f2a-485c-8bda-243bcea95117\",\"squareImage\":\"fa78966e-e8be-4eea-9f21-e75733cb4100\",\"duration\":15681,\"numberOfTracks\":60,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2023-03-22T21:55:32.54Z\",\"promotedArtists\":[{\"id\":184,\"name\":\"Thelonious
+        Monk\",\"type\":\"MAIN\",\"picture\":\"e46622be-6a35-4fdb-9370-083606305bae\"},{\"id\":1067,\"name\":\"Keith
+        Jarrett\",\"type\":\"MAIN\",\"picture\":\"dd8cc557-ba04-4e53-8073-700a426bf10d\"},{\"id\":3590128,\"name\":\"Geri
+        Allen\",\"type\":\"MAIN\",\"picture\":\"85f79906-24e7-439c-bf2c-f95889dc2a06\"},{\"id\":209,\"name\":\"Herbie
+        Hancock\",\"type\":\"MAIN\",\"picture\":\"89850789-5417-4885-89a9-5fa4f8e9ca5c\"}],\"creators\":[],\"description\":\"Without
+        the harmonic constraints of a bassist or the rhythmic urgings of a drummer,
+        a pianist is free to go any which way they want. Here, you\u2019ll hear New
+        Orleans musings from James Booker, tender readings from Marian McPartland,
+        and more acute performances from Joanne Brackeen. (Photo: Unsplash)\"},{\"uuid\":\"08d16d22-3ada-45a0-8870-203a52274088\",\"title\":\"Synth
+        Bass Essentials\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/08d16d22-3ada-45a0-8870-203a52274088\",\"image\":\"a1743f0d-29db-4cad-9b23-7e174d045cf6\",\"squareImage\":\"b7f869f2-2548-4232-9ba3-eb52628d4f1d\",\"duration\":15631,\"numberOfTracks\":48,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2021-05-10T19:10:54.122Z\",\"promotedArtists\":[],\"creators\":[],\"description\":\"With
+        the emergence of 1970s synthesizers like the Minimoog and Prophet-5, \u201Csynth
+        bass\u201D kicked into high gear. A fatter, fuzzier alternative to bass guitar,
+        synth bass is the secret ingredient on songs like Stevie Wonder\u2019s \u201CBoogie
+        On Reggae Woman,\u201D Parliament\u2019s \u201CFlash Light,\u201D Donna Summer\u2019s
+        \u201CI Feel Love,\u201D and Herbie Hancock\u2019s \u201CChameleon.\u201D
+        \ (Photo: Getty)\"},{\"uuid\":\"6ad1e897-ab5f-49f8-9d2f-2b5fe68d8593\",\"title\":\"Jazz
+        Baritone Saxophone Essentials\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/6ad1e897-ab5f-49f8-9d2f-2b5fe68d8593\",\"image\":\"75bcb88f-c6db-4141-9671-0538cb90fe98\",\"squareImage\":\"669d9e86-aa4d-462a-921a-5006ba0c1bb8\",\"duration\":16083,\"numberOfTracks\":43,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2021-05-05T18:47:43.305Z\",\"promotedArtists\":[],\"creators\":[],\"description\":\"Gruff
+        and bearish, the baritone saxophone has found its way into the music of nearly
+        every great jazz bandleader. Duke Ellington had Harry Carney; Charles Mingus
+        had Pepper Adams; Sun Ra had Danny Ray Thompson; and Thelonious Monk had Gerry
+        Mulligan. In this playlist, you\u2019ll hear the aforementioned bari specialists
+        plus Lauren Sevian, Hamiet Bluiett, and more. (Photo//Unsplash)\"},{\"uuid\":\"a72d7f2d-2d8f-4da9-949f-42165c4eb44e\",\"title\":\"Jazz
+        Clarinet Essentials\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/a72d7f2d-2d8f-4da9-949f-42165c4eb44e\",\"image\":\"8f0a7233-f740-4793-a9bf-40ce5b407ab1\",\"squareImage\":\"22fa30a3-1a70-4171-9eb8-f305cd96ed38\",\"duration\":12767,\"numberOfTracks\":50,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2021-05-05T18:05:10.356Z\",\"promotedArtists\":[],\"creators\":[],\"description\":\"One
+        associates the clarinet with the swing era, when big band heroes like Benny
+        Goodman and Artie Shaw made the instrument skip and dance. In this playlist,
+        though, you\u2019ll find the clarinet in a variety of jazz situations, from
+        the New Orleans moods of Dr. Michael White to the cosmic flows of Angel Bat
+        Dawid. (Photo: Getty)\"},{\"uuid\":\"968adb83-e8d4-46d3-89cd-8e36f31119fc\",\"title\":\"Jazz
+        Violin Essentials\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/968adb83-e8d4-46d3-89cd-8e36f31119fc\",\"image\":\"b5f02946-47f6-4e9d-924a-6888504d8a87\",\"squareImage\":\"7910cb30-ce52-452c-a181-501307246369\",\"duration\":15802,\"numberOfTracks\":44,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2021-05-04T19:51:19.291Z\",\"promotedArtists\":[],\"creators\":[],\"description\":\"The
+        violin is not a common instrument in jazz. But whenever it appears, it offers
+        a singing, joyful feel to the studio or stage. Jazz violinists also tend to
+        be terrific bandleaders; one would be lucky to play in the bands of either
+        Regina Carter or Jenny Scheinman. (Photo: Getty)\"},{\"uuid\":\"394b3c66-33ea-47f8-860c-16f71b9ebdcf\",\"title\":\"Jazz
+        Flute Essentials\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/394b3c66-33ea-47f8-860c-16f71b9ebdcf\",\"image\":\"8cb28910-95ff-43ec-b8bb-fe050b500fcc\",\"squareImage\":\"f47fe9b6-22e6-403b-90a9-ea2789cb4df1\",\"duration\":15915,\"numberOfTracks\":49,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2021-05-04T18:06:45.245Z\",\"promotedArtists\":[],\"creators\":[],\"description\":\"When
+        one thinks jazz, they think trumpet. Or saxophone. But when one swaps in flute,
+        the music takes on a lighter, more ethereal feel, with the rhythm section
+        taking care of the heavier sounds. The legends of jazz flute are many, from
+        Bobbi Humphrey to Yusef Lateef. (Photo: Getty)\"},{\"uuid\":\"7696e78b-c963-464e-945a-f35eee1ca4c6\",\"title\":\"Clavinet
+        Essentials\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/7696e78b-c963-464e-945a-f35eee1ca4c6\",\"image\":\"b81ff378-bea8-494d-96fe-588c818a6e14\",\"squareImage\":\"d4fac482-5f05-4d96-befa-d5e8a13f676d\",\"duration\":14569,\"numberOfTracks\":48,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2021-04-26T21:03:29.434Z\",\"promotedArtists\":[],\"creators\":[],\"description\":\"Deep,
+        springy, and intrinsically funky, the clavinet is a legendary keyboard. Long
+        and skinny, you\u2019ll often see it laid on top of a Fender Rhodes or Hammond
+        organ. When Stevie Wonder wanted a bass-y, percussive axe for \u201CSuperstition,\u201D
+        he brought in the clavinet. And when Bernie Worrell needed to turn Talking
+        Heads into a dance party, he reached for the \u201Cclav.\u201D Just one note
+        from the instrument will make you want to move your body. (photo: Getty)\"},{\"uuid\":\"9bb32740-3d28-4f99-a50f-8fbb579a3a1c\",\"title\":\"Double
+        Bass Drum Essentials\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/9bb32740-3d28-4f99-a50f-8fbb579a3a1c\",\"image\":\"82b4245b-c78a-469d-98c8-ce5fe1303739\",\"squareImage\":\"f3ea1d49-48ec-4ab6-a558-9ef711b52b99\",\"duration\":16314,\"numberOfTracks\":49,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2021-04-26T21:04:16.809Z\",\"promotedArtists\":[],\"creators\":[],\"description\":\"As
+        far as instrument names go, \u201Cbass drum\u201D is quite accurate; it\u2019s
+        the big drum up front grounding the other parts of the kit with low, booming
+        tones. So when you add a second bass drum, the drum set becomes an unstoppable
+        rhythmic force. One usually hears the double bass drum in metal bands like
+        Slayer and Metallica, but in this playlist you\u2019ll hear from a number
+        of sources, including the jazz drummers Billy Cobham and Jack DeJohnette.
+        \ (Photo: Getty)\"},{\"uuid\":\"20792cb5-4a54-4ecc-a5fa-110f95cbfa95\",\"title\":\"Slap
+        and Pop Bass Essentials\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/20792cb5-4a54-4ecc-a5fa-110f95cbfa95\",\"image\":\"982ebbdd-796c-4b1b-8a5b-1764be0b6555\",\"squareImage\":\"fba84807-7d91-44d6-89bd-908deeeedfc7\",\"duration\":15359,\"numberOfTracks\":49,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2021-04-22T14:02:22.586Z\",\"promotedArtists\":[],\"creators\":[],\"description\":\"Most
+        bassists pluck with the tips of their fingers. Or use a pick. But when you
+        slap the bass with your thumb, the notes come alive in a different, more percussive
+        way. They seem to leap off the fretboard. In this playlist, you'll hear from
+        slap pioneers like Larry Graham and Stanley Clarke, plus the artists they
+        influenced, like Flea and Les Claypool. (Photo: Gems/Redferns/Getty Images)\"},{\"uuid\":\"829456c2-acfc-44b4-81bf-37c356f1c471\",\"title\":\"Jazz
+        Trumpet Essentials\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/829456c2-acfc-44b4-81bf-37c356f1c471\",\"image\":\"0369bafa-23e2-4d8a-8b44-4f0b72a7b2b9\",\"squareImage\":\"a5aca4d8-e96d-4cd2-9ab2-49e3fc8e4d06\",\"duration\":22219,\"numberOfTracks\":65,\"numberOfVideos\":0,\"lastItemAddedAt\":null,\"promotedArtists\":[{\"id\":55,\"name\":\"Miles
+        Davis\",\"type\":\"MAIN\",\"picture\":\"e11debbb-a25d-4410-9dc0-bb6114ddff30\"},{\"id\":15734747,\"name\":\"Franco
+        Ambrosetti Quintet\",\"type\":\"MAIN\",\"picture\":null},{\"id\":13947,\"name\":\"Wallace
+        Roney\",\"type\":\"MAIN\",\"picture\":\"4f6a68ef-1cfb-48e0-9890-537dd3c14736\"},{\"id\":2649,\"name\":\"Dizzy
+        Gillespie\",\"type\":\"MAIN\",\"picture\":\"1d989829-d3f9-49c9-b2b9-22e89b18c73e\"}],\"creators\":[],\"description\":\"The
+        very first jazz icon, New Orleans\u2019 Buddy Bolden, played the trumpet\u2019s
+        cousin, the cornet. He never released a recording, but fortunately the generations
+        of great trumpeters to emerge over the past century did. This playlist surveys
+        jazz\u2019s oldest soloist tradition, from Louis Armstrong to Dizzy Gillespie,
+        Miles Davis, Freddie Hubbard and present-day standouts like Christian Scott
+        aTunde Adjuah. (Photo: Unsplash)   \"},{\"uuid\":\"048f1968-b90a-4c9f-9e84-82c8625e5fff\",\"title\":\"Jazz
+        Bass Essentials\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/048f1968-b90a-4c9f-9e84-82c8625e5fff\",\"image\":\"71e9ecf9-35c5-4582-8675-ab9e33d72652\",\"squareImage\":\"99c644be-5736-4669-940f-6f964ca7c007\",\"duration\":22168,\"numberOfTracks\":58,\"numberOfVideos\":0,\"lastItemAddedAt\":null,\"promotedArtists\":[{\"id\":3676738,\"name\":\"Dave
+        Holland\",\"type\":\"MAIN\",\"picture\":\"fd1344f1-a00a-4fb1-ad37-55bc23967bfd\"},{\"id\":3961349,\"name\":\"Zakir
+        Hussain\",\"type\":\"MAIN\",\"picture\":\"cb520ac8-301d-4db0-a7a1-6bbda6d32555\"},{\"id\":60001,\"name\":\"Chris
+        Potter\",\"type\":\"MAIN\",\"picture\":\"897dcdf1-cacb-41e3-9b62-248c9b529ea4\"},{\"id\":1359,\"name\":\"Jaco
+        Pastorius\",\"type\":\"MAIN\",\"picture\":\"6a51c00b-c1b2-43f1-b6db-04022a6613b2\"}],\"creators\":[],\"description\":\"Sure,
+        the bass is the foundation, the anchor, the bedrock. But as the likes of Charles
+        Mingus, Scott LaFaro, Stanley Clarke, Esperanza Spalding, Marcus Miller and
+        others prove in this playlist, the bass is every bit as powerful and cathartic
+        and commanding as the instruments it supports. (Photo: Unsplash) \"},{\"uuid\":\"ea589be3-fdfe-4370-9ade-5b23958cb1d6\",\"title\":\"Jazz
+        Drums & Percussion Essentials\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/ea589be3-fdfe-4370-9ade-5b23958cb1d6\",\"image\":\"58c4faf7-0dd6-452b-a2a6-c39b184f3cf6\",\"squareImage\":\"cc7b2f12-678a-4301-850f-b4c7a742bd37\",\"duration\":29462,\"numberOfTracks\":69,\"numberOfVideos\":0,\"lastItemAddedAt\":null,\"promotedArtists\":[{\"id\":855,\"name\":\"Art
+        Blakey\",\"type\":\"MAIN\",\"picture\":\"d865ac40-eb1d-4afc-a2da-e0ad964d50a6\"},{\"id\":27460,\"name\":\"Roy
+        Haynes\",\"type\":\"MAIN\",\"picture\":\"dbaa3985-621c-43f6-911c-d8e15971b3dc\"},{\"id\":29597,\"name\":\"Phineas
+        Newborn\",\"type\":\"MAIN\",\"picture\":null},{\"id\":3510594,\"name\":\"Paul
+        Chambers\",\"type\":\"MAIN\",\"picture\":\"5adb961b-62f0-4d05-b3a1-0c760034e600\"}],\"creators\":[],\"description\":\"Jazz
+        is rhythm above all, but beyond that dictum the rules are made to be broken,
+        as this playlist illustrates. From the bebop innovations of Kenny Clarke and
+        Max Roach to the heaven-sent swing of Art Blakey and Philly Joe Jones, the
+        polyrhythmic genius of Elvin Jones, the fusion excellence of Tony Williams
+        and the Afro-Cuban grooves of Candido and Poncho Sanchez, jazz begins with
+        the beat. (Photo: Unsplash) \"},{\"uuid\":\"2906c2e9-ca85-416e-9522-9e44ecdf41e5\",\"title\":\"Jazz
+        Piano/Keyboards Essentials\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/2906c2e9-ca85-416e-9522-9e44ecdf41e5\",\"image\":\"53462c4a-6db2-48f6-96ea-aa51b27c8f43\",\"squareImage\":\"b17e63a2-eec2-449e-9cff-112be72f625b\",\"duration\":32019,\"numberOfTracks\":87,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2023-03-22T22:10:13.725Z\",\"promotedArtists\":[{\"id\":1067,\"name\":\"Keith
+        Jarrett\",\"type\":\"MAIN\",\"picture\":\"dd8cc557-ba04-4e53-8073-700a426bf10d\"},{\"id\":877,\"name\":\"Erroll
+        Garner\",\"type\":\"MAIN\",\"picture\":\"bcfa437b-049d-4cff-b1f4-8df15ed8504f\"},{\"id\":10957,\"name\":\"Chick
+        Corea\",\"type\":\"MAIN\",\"picture\":\"f6556ee2-091f-48e6-bef9-47b3cf438455\"},{\"id\":14128,\"name\":\"Christian
+        McBride\",\"type\":\"MAIN\",\"picture\":\"7cf639b4-7880-46d9-816f-d4ba9e476bc3\"}],\"creators\":[],\"description\":\"There
+        are 88 keys on a piano\u2014and at least that many game-changing ideas about
+        how the instrument should function in jazz. In this playlist we\u2019ll cover
+        more than a few of those breakthroughs, from ragtime and stride to Monk\u2019s
+        inverted bop, Bill Evans\u2019 romantic grace and Geri Allen\u2019s comprehensive
+        mastery of the jazz language. (Photo: Unsplash) \"}],\"dataApiPath\":\"pages/data/2002644d-83a0-4214-880c-9c6ee2fadfb1\"},\"layout\":null,\"playlistStyle\":null}]},{\"modules\":[{\"id\":\"eyJwIjoiNzY2OTkzYzMtZjdmNy00YTdkLTk5NGYtZWQ3NzdiZTczM2QxIiwicFYiOjMsIm0iOiIyY2JhZjEzMS00NjQ5LTRlYWYtOWFmMS04NDZhZmFjN2E0NjQiLCJtViI6MSwibUgiOiJkNjNjY2Y3ZSJ9\",\"type\":\"PLAYLIST_LIST\",\"width\":100,\"title\":\"For
+        Kids\",\"description\":\"\",\"preTitle\":null,\"showMore\":{\"title\":\"View
+        all\",\"apiPath\":\"pages/single-module-page/766993c3-f7f7-4a7d-994f-ed777be733d1/3/2cbaf131-4649-4eaf-9af1-846afac7a464/1\"},\"supportsPaging\":false,\"quickPlay\":false,\"scroll\":\"HORIZONTAL\",\"pagedList\":{\"limit\":15,\"offset\":0,\"totalNumberOfItems\":12,\"items\":[{\"uuid\":\"1d8300a9-2803-4d6c-87a7-d4597fc6c928\",\"title\":\"Classical
+        for Kids\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/1d8300a9-2803-4d6c-87a7-d4597fc6c928\",\"image\":\"05be510b-dfb4-49d9-ac49-3e95db7cecbb\",\"squareImage\":\"4ee3a838-8894-4568-9981-6762b9003e5d\",\"duration\":17227,\"numberOfTracks\":66,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-09-16T04:00:19.898Z\",\"promotedArtists\":[{\"id\":3495,\"name\":\"Eugene
+        Ormandy\",\"type\":\"MAIN\",\"picture\":\"043fa3e9-c88b-49a3-8fca-c08a11d3b0e1\"},{\"id\":17093,\"name\":\"Lang
+        Lang\",\"type\":\"MAIN\",\"picture\":\"69dcdb37-f125-498b-beee-44b9859a0553\"},{\"id\":3109,\"name\":\"Leopold
+        Stokowski\",\"type\":\"MAIN\",\"picture\":\"96f32e88-1e23-4d62-b9ee-b58c8fcaf7e7\"},{\"id\":4412409,\"name\":\"Josef
+        Bogacz\",\"type\":\"MAIN\",\"picture\":null}],\"creators\":[],\"description\":\"Get
+        the kids curious about classical music with this selection of all-time greats.\"},{\"uuid\":\"f55b5687-2142-4af7-9bbf-745a839c5012\",\"title\":\"Rock
+        for Kids\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/f55b5687-2142-4af7-9bbf-745a839c5012\",\"image\":null,\"squareImage\":\"3f91bf97-5526-4ce1-9d6d-d878eddcbe07\",\"duration\":5982,\"numberOfTracks\":35,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-08-16T15:59:02.746Z\",\"promotedArtists\":[{\"id\":9366,\"name\":\"R.E.M.\",\"type\":\"MAIN\",\"picture\":\"598806d2-8866-410e-b7e6-0d724a9d84b0\"},{\"id\":14283,\"name\":\"Ramones\",\"type\":\"MAIN\",\"picture\":\"ebef25d5-6329-4820-9d6c-439d323107ec\"},{\"id\":30369,\"name\":\"Bo
+        Diddley\",\"type\":\"MAIN\",\"picture\":\"7d916310-2d38-41e7-8e98-ae523cc1c010\"},{\"id\":3634161,\"name\":\"The
+        Beatles\",\"type\":\"MAIN\",\"picture\":\"ad7946a6-2ec4-43f8-b573-1073d73dfe31\"}],\"creators\":[],\"description\":\"Tots
+        will be twistin\u2019 and shoutin\u2019 with this era- and style-spanning
+        collection of kiddie-appropriate rock tunes.\"},{\"uuid\":\"9c0063c3-36d6-474b-95c9-fd0327d4e1d8\",\"title\":\"Country
+        & Folk for Kids\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/9c0063c3-36d6-474b-95c9-fd0327d4e1d8\",\"image\":null,\"squareImage\":\"581854e6-3cf0-4016-bd36-4522c0f32465\",\"duration\":3266,\"numberOfTracks\":19,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-08-15T10:49:30.445Z\",\"promotedArtists\":[{\"id\":33186,\"name\":\"The
+        Soggy Bottom Boys\",\"type\":\"MAIN\",\"picture\":null},{\"id\":9530,\"name\":\"Rascal
+        Flatts\",\"type\":\"MAIN\",\"picture\":\"310b8ee2-e915-464b-8eed-5b6b5f7799cf\"},{\"id\":144,\"name\":\"Dolly
+        Parton\",\"type\":\"MAIN\",\"picture\":\"d84254a1-cb21-4730-a4ee-c1bdaffd7db7\"},{\"id\":27400,\"name\":\"Loretta
+        Lynn\",\"type\":\"MAIN\",\"picture\":\"e85c3835-b023-4435-8255-2fda39e47a64\"}],\"creators\":[],\"description\":\"Enjoy
+        this selection of kid-friendly Folk & Country songs of all kinds.\"},{\"uuid\":\"2c6a9a8f-d501-4bb0-9511-6fc5565891a4\",\"title\":\"Reggae
+        for Kids\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/2c6a9a8f-d501-4bb0-9511-6fc5565891a4\",\"image\":\"efd4555c-2e33-44d8-9309-e0157d136d37\",\"squareImage\":\"7205c29d-eb1e-4aa0-9b9f-1095a22a960e\",\"duration\":6296,\"numberOfTracks\":27,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-08-23T18:14:44.779Z\",\"promotedArtists\":[{\"id\":14628,\"name\":\"Bobby
+        McFerrin\",\"type\":\"MAIN\",\"picture\":\"9b8681f8-4320-46fd-ab72-e005aa822b68\"},{\"id\":5927,\"name\":\"Bob
+        Marley & The Wailers\",\"type\":\"MAIN\",\"picture\":\"06f6173b-2124-4ce0-9ec5-f9cabd6ccea5\"},{\"id\":486,\"name\":\"Jimmy
+        Cliff\",\"type\":\"MAIN\",\"picture\":\"dba3c182-3aba-4192-9d08-9c8af475e896\"},{\"id\":4482,\"name\":\"Ziggy
+        Marley\",\"type\":\"MAIN\",\"picture\":\"298eccb1-dc26-4088-8bfd-190e560a9280\"}],\"creators\":[],\"description\":\"A
+        collection of well-loved reggae tracks perfect for skankers of all ages. No
+        overt political statements, no ganja references, no trippy dub bass - just
+        fun, optimistic tunes with catchy melodies and good messages. \"},{\"uuid\":\"5a47cdce-fa30-4842-9367-8dd22a2b1de2\",\"title\":\"Jazz
+        for Kids\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/5a47cdce-fa30-4842-9367-8dd22a2b1de2\",\"image\":null,\"squareImage\":\"d87b7eb5-f165-45f0-b928-29240d82a0c1\",\"duration\":5621,\"numberOfTracks\":24,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-08-15T23:38:04.882Z\",\"promotedArtists\":[{\"id\":3780424,\"name\":\"Gregory
+        Porter\",\"type\":\"MAIN\",\"picture\":\"dd597233-5c6c-47e4-8e70-91728f04eb83\"},{\"id\":3656430,\"name\":\"Jazz
+        at Lincoln Center Orchestra\",\"type\":\"MAIN\",\"picture\":null},{\"id\":805,\"name\":\"Wynton
+        Marsalis\",\"type\":\"MAIN\",\"picture\":\"096d4779-67e7-40cf-9b42-6edc82a1d8a3\"}],\"creators\":[],\"description\":\"Swinging
+        jazz tunes for your little one, culled from TIDAL\u2019s expansive, great-sounding
+        jazz catalog. \"},{\"uuid\":\"2f08d765-bd7a-4365-86c8-039ffcbecea8\",\"title\":\"Latin
+        for Kids\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/2f08d765-bd7a-4365-86c8-039ffcbecea8\",\"image\":\"1b43f243-f03b-4daf-b485-92b23fc37839\",\"squareImage\":\"32214cd3-917a-4a89-ad9a-d6e57bce5f79\",\"duration\":6800,\"numberOfTracks\":39,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-08-12T06:01:48.329Z\",\"promotedArtists\":[{\"id\":3628717,\"name\":\"Carlos
+        Vives\",\"type\":\"MAIN\",\"picture\":\"f4a97f8c-9b66-4fa3-bfb8-61e0461c24e3\"},{\"id\":20415797,\"name\":\"Mini
+        \ Stars\",\"type\":\"MAIN\",\"picture\":null},{\"id\":8977873,\"name\":\"Pinkfong\",\"type\":\"MAIN\",\"picture\":\"c3b2e89c-1c71-4f39-99b7-ff1361c8923d\"},{\"id\":6382153,\"name\":\"Anthony
+        Gonzalez\",\"type\":\"MAIN\",\"picture\":null}],\"creators\":[],\"description\":\"Sing
+        along, dance and discover Latin songs for kids of all ages.\"},{\"uuid\":\"f64b04ee-7293-48ae-943b-32ba240a88d8\",\"title\":\"Hits
+        For Kids of All Ages\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/f64b04ee-7293-48ae-943b-32ba240a88d8\",\"image\":\"ba68d41d-34c3-49ef-8fbc-1a04c3f3bd39\",\"squareImage\":\"973899c6-7ed3-4d5b-896e-516e467e24da\",\"duration\":23401,\"numberOfTracks\":101,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2023-01-24T21:49:22.934Z\",\"promotedArtists\":[{\"id\":2554,\"name\":\"Chuck
+        Berry\",\"type\":\"MAIN\",\"picture\":\"5af7c84c-9f9c-4bfa-82b8-1b79e7a790c4\"},{\"id\":1356,\"name\":\"Little
+        Richard\",\"type\":\"MAIN\",\"picture\":\"5c56545b-2938-4fb2-8f80-30b3b18c31d0\"},{\"id\":1588,\"name\":\"Elvis
+        Presley\",\"type\":\"MAIN\",\"picture\":\"3dfd31de-13c4-4bc3-a08f-d9a7c2690d2c\"},{\"id\":9572,\"name\":\"Ray
+        Charles\",\"type\":\"MAIN\",\"picture\":\"29c8f214-8d02-460a-b65d-39789909683d\"}],\"creators\":[],\"description\":\"Teach
+        your children well; sing along, dance and discover the iconic classics with
+        this (more or less chronological) playlist of artists and songs kids of all
+        ages should know. Clean tracks only.  (Cover: TIDAL)\"},{\"uuid\":\"f44b93bd-1f69-4345-8ec7-169a6e20c6a3\",\"title\":\"Hip-Hop
+        for Kids\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/f44b93bd-1f69-4345-8ec7-169a6e20c6a3\",\"image\":\"99f8bf9a-38b1-4b42-945b-08e10a0cf2b3\",\"squareImage\":\"68e702e2-8674-467f-aac7-cb1719792b48\",\"duration\":4748,\"numberOfTracks\":20,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2023-01-18T18:00:12.089Z\",\"promotedArtists\":[{\"id\":3519246,\"name\":\"DJ
+        Jazzy Jeff\",\"type\":\"MAIN\",\"picture\":\"c8274348-fa26-4cdf-8f2a-c6864436c334\"},{\"id\":6263230,\"name\":\"The
+        Fresh Prince\",\"type\":\"MAIN\",\"picture\":\"52a40cd0-2a22-4ea3-ba74-560b4521d983\"},{\"id\":17486,\"name\":\"Kurtis
+        Blow\",\"type\":\"MAIN\",\"picture\":\"1bb4de02-546f-49bd-9138-827ad7bd2908\"},{\"id\":27651,\"name\":\"Kris
+        Kross\",\"type\":\"MAIN\",\"picture\":\"153e46e0-434a-4532-9b33-0d036de8b54d\"}],\"creators\":[],\"description\":\"Enjoy
+        this selection of upbeat kid friendly Hip-Hop songs. \"},{\"uuid\":\"f09fb970-4d5b-40d8-a09a-07f1b9762a52\",\"title\":\"Pop
+        for Kids\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/f09fb970-4d5b-40d8-a09a-07f1b9762a52\",\"image\":\"f0fc9aa3-a029-4ac2-a124-811991a60a6e\",\"squareImage\":\"35e4e3e2-428d-4f64-9268-0e5b2ee20286\",\"duration\":3747,\"numberOfTracks\":19,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-08-15T19:11:14.668Z\",\"promotedArtists\":[{\"id\":5006711,\"name\":\"Lizzo\",\"type\":\"MAIN\",\"picture\":\"3ba1f85c-d333-4146-a045-5abf5e2a49cd\"},{\"id\":5346252,\"name\":\"Nico
+        & Vinz\",\"type\":\"MAIN\",\"picture\":\"6c622179-3afb-465a-924b-5d3340a818be\"},{\"id\":29256918,\"name\":\"Jessica
+        Darrow\",\"type\":\"MAIN\",\"picture\":null},{\"id\":64665,\"name\":\"OneRepublic\",\"type\":\"MAIN\",\"picture\":\"4342534f-36a5-4af5-bf2a-795471c52499\"}],\"creators\":[],\"description\":\"Press
+        play and enjoy a feel good dance and sing-along to these kid-friendly Pop
+        tunes. \"},{\"uuid\":\"3a69a616-2e91-49e7-b2e4-4d3931218da4\",\"title\":\"K-Pop
+        for Kids\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/3a69a616-2e91-49e7-b2e4-4d3931218da4\",\"image\":\"d18183e4-b475-4734-b260-7900849cdb97\",\"squareImage\":\"debc4afd-5d09-481d-a80a-2de5a4d077e6\",\"duration\":7020,\"numberOfTracks\":38,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2023-07-07T19:54:57.124Z\",\"promotedArtists\":[{\"id\":29728553,\"name\":\"Kep1er\",\"type\":\"MAIN\",\"picture\":\"78f9fe19-ed95-4fdb-9984-d8199bf78ea8\"},{\"id\":6201832,\"name\":\"BTS\",\"type\":\"MAIN\",\"picture\":\"b315bc84-7017-404e-8943-6ca790b1a637\"},{\"id\":6064874,\"name\":\"Tiger
+        Jk\",\"type\":\"MAIN\",\"picture\":\"7e9c9f53-a030-406e-9d38-e11a8daaba16\"},{\"id\":10457554,\"name\":\"Yoon
+        mi rae\",\"type\":\"MAIN\",\"picture\":null}],\"creators\":[],\"description\":\"Catchy,
+        kid-friendly K-pop that puts the emphasis on danceable earworms and Korean
+        versions of children's hits that are sure to keep any K-pop kiddo's attention.\"},{\"uuid\":\"d0543516-73d3-40d2-b3de-2b29e6e08c4e\",\"title\":\"R&B
+        for Kids\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/d0543516-73d3-40d2-b3de-2b29e6e08c4e\",\"image\":\"6e440ada-9167-469c-a997-eecf0b152e38\",\"squareImage\":\"a702497a-2bee-49da-8d39-72a93d963127\",\"duration\":4999,\"numberOfTracks\":20,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-08-17T20:09:25.573Z\",\"promotedArtists\":[{\"id\":18634,\"name\":\"New
+        Edition\",\"type\":\"MAIN\",\"picture\":\"fe69729f-982d-43d3-9aac-6714a096f147\"},{\"id\":1728,\"name\":\"Whitney
+        Houston\",\"type\":\"MAIN\",\"picture\":\"18315732-58dc-40e0-bb08-1b181232f6e6\"},{\"id\":13770,\"name\":\"Sister
+        Sledge\",\"type\":\"MAIN\",\"picture\":\"d87c3ce9-666c-47ae-90aa-a00c492dbca7\"},{\"id\":1530,\"name\":\"Mario\",\"type\":\"MAIN\",\"picture\":\"4e0e29ec-dcb6-4676-b97c-da3841c8f0f8\"}],\"creators\":[],\"description\":\"Fun
+        and happy R&B songs for kids to enjoy. \"},{\"uuid\":\"08489059-9f94-4dd5-908e-108501ab1ae8\",\"title\":\"Gospel
+        & Christian for Kids\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/08489059-9f94-4dd5-908e-108501ab1ae8\",\"image\":\"b90ef05e-fe01-4fd2-b85f-c99ba624e22a\",\"squareImage\":\"5a0dcb12-0429-4acf-a692-c88d0b26df6d\",\"duration\":6224,\"numberOfTracks\":33,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2023-06-30T15:53:46.333Z\",\"promotedArtists\":[{\"id\":36860417,\"name\":\"Influence
+        Music Kids\",\"type\":\"MAIN\",\"picture\":null},{\"id\":10403313,\"name\":\"Whitney
+        Medina\",\"type\":\"MAIN\",\"picture\":null},{\"id\":22849782,\"name\":\"Little
+        DP\",\"type\":\"MAIN\",\"picture\":null},{\"id\":5976860,\"name\":\"Hillsong
+        Kids\",\"type\":\"MAIN\",\"picture\":\"c2941fc8-0735-43ef-bdd7-57ed6a7cdf17\"}],\"creators\":[],\"description\":\"Uplifting
+        songs that will plant seeds of faith in the hearts of young worshippers.\"}],\"dataApiPath\":\"pages/data/f7198dc8-c191-4b2c-be96-114ebff22f8d\"},\"layout\":null,\"playlistStyle\":null}]},{\"modules\":[{\"id\":\"eyJwIjoiNzY2OTkzYzMtZjdmNy00YTdkLTk5NGYtZWQ3NzdiZTczM2QxIiwicFYiOjMsIm0iOiIxNmU1MWI5MS0zYjZkLTRhMjktOTg3Mi0wZGNmNjFhMTI2OGEiLCJtViI6MSwibUgiOiI2MzAyOTQ2MSJ9\",\"type\":\"PLAYLIST_LIST\",\"width\":100,\"title\":\"Geography
+        For Beginners\",\"description\":\"\",\"preTitle\":null,\"showMore\":{\"title\":\"View
+        all\",\"apiPath\":\"pages/single-module-page/766993c3-f7f7-4a7d-994f-ed777be733d1/3/16e51b91-3b6d-4a29-9872-0dcf61a1268a/1\"},\"supportsPaging\":false,\"quickPlay\":false,\"scroll\":\"HORIZONTAL\",\"pagedList\":{\"limit\":15,\"offset\":0,\"totalNumberOfItems\":25,\"items\":[{\"uuid\":\"64bb3a23-60df-45ba-98c7-751e31a1ea35\",\"title\":\"Sweden
+        for Beginners\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/64bb3a23-60df-45ba-98c7-751e31a1ea35\",\"image\":\"2511829b-4793-44fa-b60f-4f788d7ebffc\",\"squareImage\":\"c67dc141-36de-43d1-b020-6398fee0010d\",\"duration\":4574,\"numberOfTracks\":19,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-08-02T11:08:12.049Z\",\"promotedArtists\":[],\"creators\":[],\"description\":\"New
+        to music from Sweden? These carefully-selected 20 tracks will serve as your
+        beginner's guide to some of the best local sounds on offer. Use them as a
+        jumping-off point to discover even more great Swedish music.\"},{\"uuid\":\"fd7513f8-ba0c-4808-b2eb-7e8122f7beff\",\"title\":\"France
+        for Beginners\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/fd7513f8-ba0c-4808-b2eb-7e8122f7beff\",\"image\":\"28d83fa7-4ec2-4cf1-a2d7-90e617a60cba\",\"squareImage\":\"0d3decc6-a255-4e51-87f6-f8e970233e42\",\"duration\":4439,\"numberOfTracks\":20,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-08-22T10:08:17.172Z\",\"promotedArtists\":[{\"id\":4519578,\"name\":\"\xC9dith
+        Piaf\",\"type\":\"MAIN\",\"picture\":\"b5d597be-18c4-4b65-aece-7e371a0800cd\"},{\"id\":29859,\"name\":\"Jacques
+        Brel\",\"type\":\"MAIN\",\"picture\":\"eaf9757c-796d-4802-8c1f-d0088f492315\"},{\"id\":1803,\"name\":\"Johnny
+        Hallyday\",\"type\":\"MAIN\",\"picture\":\"922fe455-81a3-43d5-ae6e-3dde8d39f633\"},{\"id\":13824,\"name\":\"Fran\xE7oise
+        Hardy\",\"type\":\"MAIN\",\"picture\":\"09b0bacd-28c4-4e94-bb25-df9f1507b115\"}],\"creators\":[],\"description\":\"New
+        to music from France? or Belgium if we larger lightly the scope ? These carefully-selected
+        20 tracks will serve as your beginner's guide to some of the best local sounds
+        on offer. Use them as a jumping-off point to discover even more great French
+        music.\\n\\nCover: TIDAL.\"},{\"uuid\":\"3d6b07fb-94ec-4d20-937d-7f830c1e3d8c\",\"title\":\"Ireland
+        for Beginners\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/3d6b07fb-94ec-4d20-937d-7f830c1e3d8c\",\"image\":\"cefb8929-2d1a-43c2-9671-7de5f4ca5560\",\"squareImage\":\"e72851f5-586e-4069-b0e6-2859bd9fd68a\",\"duration\":4879,\"numberOfTracks\":20,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2023-07-19T12:20:09.158Z\",\"promotedArtists\":[{\"id\":17123,\"name\":\"U2\",\"type\":\"MAIN\",\"picture\":\"bcc0e5a1-3ab6-4991-8f96-63f59a75ac08\"},{\"id\":19050,\"name\":\"Thin
+        Lizzy\",\"type\":\"MAIN\",\"picture\":\"e0b2f96a-71fc-41b9-b41e-9d04873028c3\"},{\"id\":27538,\"name\":\"The
+        Cranberries\",\"type\":\"MAIN\",\"picture\":\"4222d423-f55e-4004-9137-5a58712320c6\"},{\"id\":10464,\"name\":\"Enya\",\"type\":\"MAIN\",\"picture\":\"48c0382e-89fe-4c9f-a11b-ea3e3d73be63\"}],\"creators\":[],\"description\":\"New
+        to music from Ireland? These carefully-selected 20 tracks will serve as your
+        beginner's guide to some of the best local sounds on offer. Use them as a
+        jumping-off point to discover even more great Irish music.\"},{\"uuid\":\"cdd651ae-c8e7-4a66-8d99-8e4186feb636\",\"title\":\"Germany
+        for Beginners\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/cdd651ae-c8e7-4a66-8d99-8e4186feb636\",\"image\":\"296d9078-4dad-49b7-a5b9-1dd8af7122c8\",\"squareImage\":\"ed66ce75-e8a0-40bf-9eb5-5209a0390c0a\",\"duration\":4854,\"numberOfTracks\":20,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-08-05T11:09:41.531Z\",\"promotedArtists\":[{\"id\":12832,\"name\":\"Scorpions\",\"type\":\"MAIN\",\"picture\":\"49f1ed29-4a05-47b0-86d4-7891e0166ce0\"},{\"id\":12014,\"name\":\"Hildegard
+        Knef\",\"type\":\"MAIN\",\"picture\":\"6f928ec0-b8ad-4493-b48f-483418f997da\"},{\"id\":1239,\"name\":\"Nena\",\"type\":\"MAIN\",\"picture\":\"a65c2c85-1186-4865-87f3-f6b8856fa915\"},{\"id\":8903,\"name\":\"Kraftwerk\",\"type\":\"MAIN\",\"picture\":\"9c12f70d-ff4b-4bc3-9f70-559bd347dbf0\"}],\"creators\":[],\"description\":\"New
+        to music from Germany? These carefully-selected 20 tracks will serve as your
+        beginner's guide to some of the best local sounds on offer. Use them as a
+        jumping-off point to discover even more great German music.\"},{\"uuid\":\"232b56e1-9795-4353-84c7-9cb2606b4eaa\",\"title\":\"Scotland
+        for Beginners\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/232b56e1-9795-4353-84c7-9cb2606b4eaa\",\"image\":\"ef2ef44a-3859-4759-a8e9-b5524bf07d40\",\"squareImage\":\"6d204b3f-d1c8-4e62-9e4b-da7cbb2288bd\",\"duration\":5354,\"numberOfTracks\":21,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2023-07-19T12:11:24.557Z\",\"promotedArtists\":[{\"id\":8401,\"name\":\"Calvin
+        Harris\",\"type\":\"MAIN\",\"picture\":\"31835eef-c706-462f-93fc-67bf93656421\"},{\"id\":1194,\"name\":\"Primal
+        Scream\",\"type\":\"MAIN\",\"picture\":\"e1b1a2e7-c5f9-4274-8478-d2626636fb97\"},{\"id\":34541,\"name\":\"Cocteau
+        Twins\",\"type\":\"MAIN\",\"picture\":\"e7bdd51a-5e46-435a-a859-e6b3cbbec7c6\"},{\"id\":4122,\"name\":\"Teenage
+        Fanclub\",\"type\":\"MAIN\",\"picture\":\"40848f34-5f82-4815-9f6e-00d16ea227e4\"}],\"creators\":[],\"description\":\"New
+        to music from Scotland? These carefully-selected 20 tracks will serve as your
+        beginner's guide to some of the best local sounds on offer. Use them as a
+        jumping-off point to discover even more great Scottish music.\"},{\"uuid\":\"198d2530-86ff-415f-82be-4cb31af1be5c\",\"title\":\"Iceland
+        for Beginners\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/198d2530-86ff-415f-82be-4cb31af1be5c\",\"image\":\"4362965f-ffba-4f20-9566-fac702b36ca4\",\"squareImage\":\"950f4922-ddd3-4409-9c62-e09007e4d6c8\",\"duration\":5356,\"numberOfTracks\":19,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-08-02T11:43:13.423Z\",\"promotedArtists\":[{\"id\":16992,\"name\":\"Bj\xF6rk\",\"type\":\"MAIN\",\"picture\":\"34a62eac-a04e-4a01-a242-394a49082b29\"},{\"id\":4375227,\"name\":\"Of
+        Monsters And Men\",\"type\":\"MAIN\",\"picture\":\"b8e0fadf-b9d2-4273-94d0-3b82204c6b17\"},{\"id\":8911021,\"name\":\"Da\xF0i
+        Freyr\",\"type\":\"MAIN\",\"picture\":\"c04fb451-be0e-4c69-9bf8-7d4c2c4f34b7\"},{\"id\":8990,\"name\":\"Sigur
+        R\xF3s\",\"type\":\"MAIN\",\"picture\":\"2d8df285-05dd-4655-b57e-55f8db0e5c54\"}],\"creators\":[],\"description\":\"New
+        to music from Iceland? These carefully-selected 20 tracks will serve as your
+        beginner's guide to some of the best local sounds on offer. Use them as a
+        jumping-off point to discover even more great Icelandic music.\"},{\"uuid\":\"b9a7632c-0af9-4494-9408-a00af54b94ac\",\"title\":\"Brazil
+        for Beginners\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/b9a7632c-0af9-4494-9408-a00af54b94ac\",\"image\":null,\"squareImage\":\"64e21a2f-5bba-451a-9adf-a595e0af671f\",\"duration\":4883,\"numberOfTracks\":20,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-08-15T18:59:13.378Z\",\"promotedArtists\":[{\"id\":24941,\"name\":\"Tom
+        Jobim\",\"type\":\"MAIN\",\"picture\":null},{\"id\":5072,\"name\":\"Elis Regina\",\"type\":\"MAIN\",\"picture\":\"40098d59-e7cd-47d4-b0d7-6bcadcbd30fd\"},{\"id\":7720,\"name\":\"Chico
+        Buarque\",\"type\":\"MAIN\",\"picture\":\"2af87bf8-6cfa-42ad-9885-90ea23bde6c3\"},{\"id\":64622,\"name\":\"Maria
+        Beth\xE2nia\",\"type\":\"MAIN\",\"picture\":\"f8973443-5523-4ef2-b1de-2b6e637d9a9f\"}],\"creators\":[],\"description\":\"New
+        to music from Brazil. These carefully-selected 20 tracks will serve as your
+        beginner's guide to some of the best local sounds on offer. Use them as a
+        jumping-off point to discover even more great Brazilian music. \"},{\"uuid\":\"d1b7dc63-380a-48f2-8528-6fdbecd8a39a\",\"title\":\"Canada
+        for Beginners\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/d1b7dc63-380a-48f2-8528-6fdbecd8a39a\",\"image\":\"4f51ad84-6732-4cf6-8bbe-29a262926144\",\"squareImage\":\"57d4c6cc-ccf7-42ea-9486-87af5d8c7af0\",\"duration\":5472,\"numberOfTracks\":20,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-08-09T07:02:25.981Z\",\"promotedArtists\":[{\"id\":4761957,\"name\":\"The
+        Weeknd\",\"type\":\"MAIN\",\"picture\":\"200c3e82-b3b2-4965-8e19-ac6a1d7e667b\"},{\"id\":3748,\"name\":\"Shania
+        Twain\",\"type\":\"MAIN\",\"picture\":\"9e4f9dc7-e85d-49e3-8fc6-4588bbd8107a\"},{\"id\":13572,\"name\":\"Joni
+        Mitchell\",\"type\":\"MAIN\",\"picture\":\"8441b3ee-e870-45ef-b11f-b457c518cd87\"},{\"id\":3632070,\"name\":\"Drake\",\"type\":\"MAIN\",\"picture\":\"3812d980-630e-4948-a72e-f21a546ec2e3\"}],\"creators\":[],\"description\":\"New
+        to music from Canada? These carefully-selected 20 tracks will serve as your
+        beginner's guide to some of the best local sounds on offer. Use them as a
+        jumping-off point to discover even more great Canadian music.\"},{\"uuid\":\"b072c88c-eb35-4fad-a621-0a1708dfbf0f\",\"title\":\"Norway
+        for Beginners\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/b072c88c-eb35-4fad-a621-0a1708dfbf0f\",\"image\":\"ef206934-283d-487c-b882-e429b77816fd\",\"squareImage\":\"84ccfd72-198c-40fd-a3ed-a32956d96b12\",\"duration\":4349,\"numberOfTracks\":16,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-08-02T12:01:40.654Z\",\"promotedArtists\":[],\"creators\":[],\"description\":\"New
+        to music from Norway? These carefully-selected 20 tracks will serve as your
+        beginner's guide to some of the best local sounds on offer. Use them as a
+        jumping-off point to discover even more great Norwegian music.\"},{\"uuid\":\"00b2d3de-16ad-4325-8fce-30bb7924526d\",\"title\":\"Denmark
+        for Beginners\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/00b2d3de-16ad-4325-8fce-30bb7924526d\",\"image\":\"920dc202-4fa1-41bf-b9de-cc0cd3f66658\",\"squareImage\":\"95f7d499-e804-444e-bd48-781e9f046ed8\",\"duration\":4464,\"numberOfTracks\":18,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-08-08T09:37:27.35Z\",\"promotedArtists\":[],\"creators\":[],\"description\":\"New
+        to music from Denmark? These carefully-selected 20 tracks will serve as your
+        beginner's guide to some of the best local sounds on offer. Use them as a
+        jumping-off point to discover even more great Danish music.\"},{\"uuid\":\"ec1f637a-8011-4b1e-a30b-232a3e94f7f3\",\"title\":\"Spain
+        for Beginners\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/ec1f637a-8011-4b1e-a30b-232a3e94f7f3\",\"image\":\"daecc99c-0ad9-4e06-b9a2-bd86a14bf0a8\",\"squareImage\":\"978bb81a-8551-4f76-aaa8-25ba3e7b1b1b\",\"duration\":4994,\"numberOfTracks\":20,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-08-22T13:09:10.141Z\",\"promotedArtists\":[{\"id\":4147062,\"name\":\"Paco
+        de Luc\xEDa\",\"type\":\"MAIN\",\"picture\":\"1e118384-82cd-429f-8c5b-d2ad268c1e75\"},{\"id\":3964169,\"name\":\"Camar\xF3n
+        de la Isla\",\"type\":\"MAIN\",\"picture\":\"12f043e4-abb3-4627-bc1b-88f1a4337ac3\"},{\"id\":62,\"name\":\"Julio
+        Iglesias\",\"type\":\"MAIN\",\"picture\":\"d925f33e-650a-4309-806e-37f46a3c51b2\"},{\"id\":4588,\"name\":\"Joan
+        Manuel Serrat\",\"type\":\"MAIN\",\"picture\":\"aeedbac2-beed-4df1-b397-366619db0ac3\"}],\"creators\":[],\"description\":\"New
+        to music from Spain? These carefully-selected 20 tracks will serve as your
+        beginner's guide to some of the best local sounds on offer. Use them as a
+        jumping-off point to discover even more great Spanish music.\\n\\n\\n\"},{\"uuid\":\"2af6efa2-6084-4dbd-9fa7-a44c16f108cb\",\"title\":\"Wales
+        for Beginners\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/2af6efa2-6084-4dbd-9fa7-a44c16f108cb\",\"image\":\"9b196028-024f-4049-ac88-416e4416b9f1\",\"squareImage\":\"a883d66b-03f2-43df-a2aa-265072dcf7d1\",\"duration\":4785,\"numberOfTracks\":20,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2023-07-19T12:14:27.336Z\",\"promotedArtists\":[{\"id\":10298,\"name\":\"Shirley
+        Bassey\",\"type\":\"MAIN\",\"picture\":\"1c9b8e39-5f5c-4d65-a639-a33f75ebc3bb\"},{\"id\":1294,\"name\":\"Manic
+        Street Preachers\",\"type\":\"MAIN\",\"picture\":\"1861685d-e956-4eeb-b780-e7152d99a484\"},{\"id\":12697,\"name\":\"Catatonia\",\"type\":\"MAIN\",\"picture\":\"a312b03c-f117-440b-93cb-01d0f6c4d35d\"},{\"id\":1185,\"name\":\"Super
+        Furry Animals\",\"type\":\"MAIN\",\"picture\":\"c804dcfd-f887-45fb-921a-fec49902b280\"}],\"creators\":[],\"description\":\"New
+        to music from Wales? These carefully-selected 20 tracks will serve as your
+        beginner's guide to some of the best local sounds on offer. Use them as a
+        jumping-off point to discover even more great Welsh music.\"},{\"uuid\":\"76d1b5c2-bba2-421f-95b1-bc3549a4ef65\",\"title\":\"Serbia
+        for Beginners\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/76d1b5c2-bba2-421f-95b1-bc3549a4ef65\",\"image\":\"e3feba34-938d-42c3-9eb5-159ea232de03\",\"squareImage\":\"5c792131-2c42-4bf5-9a9f-8b9e9c3c22bf\",\"duration\":4839,\"numberOfTracks\":19,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-08-29T12:49:14.881Z\",\"promotedArtists\":[{\"id\":16478082,\"name\":\"Galija\",\"type\":\"MAIN\",\"picture\":null},{\"id\":7779931,\"name\":\"\u0110or\u0111e
+        Bala\u0161evi\u0107\",\"type\":\"MAIN\",\"picture\":\"19ae98a7-c6bd-433a-b81e-ca8ab083c747\"},{\"id\":6370164,\"name\":\"Artan
+        Lili\",\"type\":\"MAIN\",\"picture\":\"4ae2ac46-111e-46e6-904b-4b38cf4afb50\"},{\"id\":4398774,\"name\":\"Riblja
+        \u010Corba\",\"type\":\"MAIN\",\"picture\":null}],\"creators\":[],\"description\":\"New
+        to music from Serbia? These carefully-selected twenty tracks will serve as
+        an intro guide to some of the best local sounds on offer. Use them as a jumping-off
+        point to discover even more great Serbian music.\"},{\"uuid\":\"0382de36-ff4c-4f88-b771-c23d3ba283d7\",\"title\":\"Italy
+        for Beginners\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/0382de36-ff4c-4f88-b771-c23d3ba283d7\",\"image\":\"c01188c9-6a9a-43a1-aad5-a0a188c8634a\",\"squareImage\":\"eabe46ef-947b-40f2-92cf-d6c68ca5d2d5\",\"duration\":4448,\"numberOfTracks\":20,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-08-19T10:08:10.712Z\",\"promotedArtists\":[{\"id\":4082,\"name\":\"Ennio
+        Morricone\",\"type\":\"MAIN\",\"picture\":\"06231bb7-aac8-4230-9b0c-c47e63ac7e29\"},{\"id\":11918,\"name\":\"Domenico
+        Modugno\",\"type\":\"MAIN\",\"picture\":\"75f8a16b-19cb-4cc1-a722-876259c6b5c1\"},{\"id\":2391,\"name\":\"Jimmy
+        Fontana\",\"type\":\"MAIN\",\"picture\":null},{\"id\":7305,\"name\":\"Mina\",\"type\":\"MAIN\",\"picture\":\"ba4a4a70-9e26-4136-b6fe-6ba69944e739\"}],\"creators\":[],\"description\":\"New
+        to music from Italy? These carefully-selected 20 tracks will serve as your
+        beginner's guide to some of the best local sounds on offer. Use them as a
+        jumping-off point to discover even more great Italian music.\"},{\"uuid\":\"bf00ccd7-949f-4c4e-a2ac-b21e49b3c2ee\",\"title\":\"Poland
+        for Beginners\",\"type\":\"EDITORIAL\",\"url\":\"https://tidal.com/browse/playlist/bf00ccd7-949f-4c4e-a2ac-b21e49b3c2ee\",\"image\":null,\"squareImage\":\"c55966be-dac2-4da6-8ef7-777fd9e0e947\",\"duration\":4911,\"numberOfTracks\":20,\"numberOfVideos\":0,\"lastItemAddedAt\":\"2022-08-12T14:13:09.324Z\",\"promotedArtists\":[{\"id\":4859020,\"name\":\"Niemen\",\"type\":\"MAIN\",\"picture\":\"27092301-64f5-42c1-a08b-0bad9963f921\"},{\"id\":3513324,\"name\":\"Marek
+        Grechuta\",\"type\":\"MAIN\",\"picture\":null},{\"id\":3511265,\"name\":\"Maanam\",\"type\":\"MAIN\",\"picture\":\"3da95abb-4191-4aa3-830d-641497279168\"},{\"id\":4539198,\"name\":\"Bajm\",\"type\":\"MAIN\",\"picture\":\"2a537c77-36a1-44d1-b201-13b061f63d02\"}],\"creators\":[],\"description\":\"New
+        to music from Poland? These carefully-selected 20 tracks will serve as your
+        beginner's guide to some of the best local sounds on offer. Use them as a
+        jumping-off point to discover even more great Polish music.\"}],\"dataApiPath\":\"pages/data/65940699-0976-4528-b7ac-f1c7fa3697d8\"},\"layout\":null,\"playlistStyle\":null}]}]}"
+    headers:
+      Cache-Control:
+      - private, max-age=60, s-max-age=60,
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:54:26 GMT
+      ETag:
+      - '"725989169"'
+      Server:
+      - noyb
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - x-tidal-sessionid,x-tidal-token,authorization
+      Via:
+      - 1.1 a208b778c983eefafa95a32c5d34e8bc.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - MGpTtGKlHfSj9k89qEW8_lFIpgM1uMmfJ53d7IC7KqsGhqL4eaFv4g==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

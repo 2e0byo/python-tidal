@@ -1,0 +1,571 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/search?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=50&query=Hello&offset=0&types=playlists%2Cvideos
+  response:
+    body:
+      string: "{\"artists\":{\"limit\":50,\"offset\":0,\"totalNumberOfItems\":0,\"items\":[]},\"albums\":{\"limit\":50,\"offset\":0,\"totalNumberOfItems\":0,\"items\":[]},\"playlists\":{\"limit\":50,\"offset\":0,\"totalNumberOfItems\":300,\"items\":[{\"uuid\":\"4261748a-4287-4758-aaab-6d5be3e99e52\",\"title\":\"Big
+        Dance Energy\",\"numberOfTracks\":50,\"numberOfVideos\":0,\"creator\":{},\"description\":\"Big
+        Dance Energy is your peak hour party-starter with certified bangers direct
+        from festival main stages and megaclub dancefloors. From big room, EDM and
+        disco house to amapiano, tropical and tech, the hooks don't stop. New tracks
+        added every Friday. (Cover: Steve Angello & Wh0 / Photo: Astralwerks)\",\"duration\":9241,\"lastUpdated\":\"2023-07-21T04:01:15.000+0000\",\"created\":\"2018-08-16T20:04:34.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/4261748a-4287-4758-aaab-6d5be3e99e52\",\"image\":\"55ca2fcd-3b4c-4330-946c-e086f0041d90\",\"popularity\":88,\"squareImage\":\"59cea38c-ae17-4eec-9355-4a8a186b1ae2\",\"promotedArtists\":[{\"id\":3641363,\"name\":\"Steve
+        Angello\",\"type\":\"MAIN\",\"picture\":\"e5c00b57-5582-4cee-a968-f2c3ccc275e7\"},{\"id\":6297452,\"name\":\"Wh0\",\"type\":\"MAIN\",\"picture\":\"5b425a20-8023-43cf-baa7-f83f5e395ab0\"},{\"id\":40684794,\"name\":\"Dimitri
+        Vegas & Like Mike & David Guetta & Afro bros & Akon Feat. Afro Bros\",\"type\":\"MAIN\",\"picture\":null},{\"id\":4306587,\"name\":\"Sam
+        Smith\",\"type\":\"MAIN\",\"picture\":\"6b423f9c-7c72-487f-9b9f-876ede608f54\"}],\"lastItemAddedAt\":\"2023-07-21T04:01:15.000+0000\"},{\"uuid\":\"9412ba5b-4db0-4824-9f35-4f5f930f2738\",\"title\":\"Hip-Hop
+        Classics\",\"numberOfTracks\":612,\"numberOfVideos\":0,\"creator\":{},\"description\":\"Just
+        what you need when you're looking for all the classic Hip-Hop songs. (Cover:
+        \\nJay-Z // Photo: Getty)\",\"duration\":157786,\"lastUpdated\":\"2023-07-14T12:39:41.000+0000\",\"created\":\"2015-04-07T23:45:23.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/9412ba5b-4db0-4824-9f35-4f5f930f2738\",\"image\":\"5c4a0b43-f6fa-4921-b205-4ec5c9bb2e44\",\"popularity\":82,\"squareImage\":\"8e6c986d-79c0-4baf-8059-151d7a450d31\",\"promotedArtists\":[{\"id\":7804,\"name\":\"JAY
+        Z\",\"type\":\"MAIN\",\"picture\":\"a437c542-e9b5-4050-aced-c75ca0565c4f\"},{\"id\":8914,\"name\":\"Snoop
+        Dogg\",\"type\":\"MAIN\",\"picture\":\"3e29689c-351e-4832-9c33-45619c5e46dc\"},{\"id\":1727,\"name\":\"Outkast\",\"type\":\"MAIN\",\"picture\":\"8e235c1c-b742-4acf-aa94-1e12b74d455d\"},{\"id\":30136,\"name\":\"N.O.R.E.\",\"type\":\"MAIN\",\"picture\":\"b4e723a6-cc96-4311-bb8b-6549a16524c3\"}],\"lastItemAddedAt\":\"2023-07-14T12:39:41.000+0000\"},{\"uuid\":\"bf26cb50-e07f-4d5c-9538-b7f8ec4291a0\",\"title\":\"Remember...the
+        1980s\",\"numberOfTracks\":132,\"numberOfVideos\":0,\"creator\":{},\"description\":\"Let\u2019s
+        take a musical journey through the \u201880s, a decade that gave us synth-pop,
+        power ballads and hair metal, but also so much more. This is a journey through
+        the 1980s with some of its biggest hits, best songs, forgotten favorites and
+        more. (Cover: Michael Jackson - Thriller, Epic/Sony)\",\"duration\":35292,\"lastUpdated\":\"2023-07-21T18:23:18.000+0000\",\"created\":\"2014-09-30T17:14:42.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/bf26cb50-e07f-4d5c-9538-b7f8ec4291a0\",\"image\":\"897347f7-f036-4e42-a247-226c46d367b2\",\"popularity\":72,\"squareImage\":\"1e2ac189-f215-4cc8-8518-d10b4b93cf33\",\"promotedArtists\":[{\"id\":4847,\"name\":\"Prince\",\"type\":\"MAIN\",\"picture\":\"f61a6f16-dc73-4645-bd5d-f2706c042769\"},{\"id\":15545,\"name\":\"Madonna\",\"type\":\"MAIN\",\"picture\":\"f5e4f084-87b7-4f8c-8b86-819e3ede576d\"},{\"id\":606,\"name\":\"Michael
+        Jackson\",\"type\":\"MAIN\",\"picture\":\"1493c264-d68a-4415-9013-2c913f2edf14\"},{\"id\":3005,\"name\":\"RUN-DMC\",\"type\":\"MAIN\",\"picture\":\"e04c8f03-a209-4a37-8606-01a18abfea03\"}],\"lastItemAddedAt\":\"2023-07-21T18:23:15.000+0000\"},{\"uuid\":\"7678d3a6-c55c-4037-83d8-c6ba3b9fd236\",\"title\":\"Metal
+        Classics\",\"numberOfTracks\":135,\"numberOfVideos\":0,\"creator\":{},\"description\":\"A
+        rough guide to five decades of hard rock and metal. (Cover: Judas Priest /
+        Photo: Rovi)\",\"duration\":39168,\"lastUpdated\":\"2023-07-10T15:25:40.000+0000\",\"created\":\"2018-04-18T13:43:17.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/7678d3a6-c55c-4037-83d8-c6ba3b9fd236\",\"image\":\"7f4239ee-8e0e-4478-928c-cc1c04a1d802\",\"popularity\":68,\"squareImage\":\"18cdd49a-e83c-4052-b8cc-ef0a9191f452\",\"promotedArtists\":[{\"id\":701,\"name\":\"Judas
+        Priest\",\"type\":\"MAIN\",\"picture\":\"c4784c36-885b-407a-b532-ddd2ad3c5dd5\"},{\"id\":86,\"name\":\"Black
+        Sabbath\",\"type\":\"MAIN\",\"picture\":\"6a2874d8-f693-4e0a-a4c8-682c990b5e13\"},{\"id\":8405,\"name\":\"Metallica\",\"type\":\"MAIN\",\"picture\":\"0a85112a-d1ec-49be-a618-8df9081e9e0c\"},{\"id\":12832,\"name\":\"Scorpions\",\"type\":\"MAIN\",\"picture\":\"49f1ed29-4a05-47b0-86d4-7891e0166ce0\"}],\"lastItemAddedAt\":\"2023-07-10T15:25:18.000+0000\"},{\"uuid\":\"edb69697-fc65-4580-b938-55f0f4bd7c54\",\"title\":\"Timeless
+        Pop Classics\",\"numberOfTracks\":250,\"numberOfVideos\":0,\"creator\":{},\"description\":\"A
+        mega playlist with unforgettable throwback pop jams for all generations. (Cover:
+        Cyndi Lauper / Photo: Annie Leibovitz, press)\",\"duration\":57892,\"lastUpdated\":\"2023-07-20T22:02:27.000+0000\",\"created\":\"2015-05-28T12:22:50.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/edb69697-fc65-4580-b938-55f0f4bd7c54\",\"image\":\"7a1691cc-5737-495b-9403-1410ddb04b1a\",\"popularity\":66,\"squareImage\":\"b8393f57-5122-4c07-b738-84dd6bc4d378\",\"promotedArtists\":[{\"id\":147,\"name\":\"Cyndi
+        Lauper\",\"type\":\"MAIN\",\"picture\":\"ecfc7020-43ae-4b9e-b206-6c7211137502\"},{\"id\":10103,\"name\":\"Jonas
+        Brothers\",\"type\":\"MAIN\",\"picture\":\"72f3e623-c044-4c04-a1fa-b1d2186f9568\"},{\"id\":81,\"name\":\"Journey\",\"type\":\"MAIN\",\"picture\":\"1e927282-550b-4817-91da-58c76fd30cac\"},{\"id\":31919,\"name\":\"Billie
+        Myers\",\"type\":\"MAIN\",\"picture\":\"54a19aee-bfa2-4fed-8e09-ca1ea230320a\"}],\"lastItemAddedAt\":\"2023-07-20T22:02:27.000+0000\"},{\"uuid\":\"aef0e70d-eef6-4ac7-88d6-928bfd8c6f1a\",\"title\":\"Soul
+        Classics\",\"numberOfTracks\":449,\"numberOfVideos\":0,\"creator\":{},\"description\":\"Take
+        a stroll down memory lane with these timeless and unforgettable songs. (Cover:
+        Lionel Richie // Photo: Rovi)\",\"duration\":119902,\"lastUpdated\":\"2023-07-11T14:47:12.000+0000\",\"created\":\"2019-08-30T19:25:22.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/aef0e70d-eef6-4ac7-88d6-928bfd8c6f1a\",\"image\":\"78e03655-269e-4f11-94b3-b46003f13f97\",\"popularity\":56,\"squareImage\":\"40182816-92b8-4b87-9678-8a997aa85fe3\",\"promotedArtists\":[{\"id\":17277,\"name\":\"Lionel
+        Richie\",\"type\":\"MAIN\",\"picture\":\"bbaeb9d8-7060-4502-a254-d60ad2617b4b\"},{\"id\":5117,\"name\":\"Barry
+        White\",\"type\":\"MAIN\",\"picture\":\"2528cd7a-c4dd-495a-a02b-0af84ceff40e\"},{\"id\":3657868,\"name\":\"Bobby
+        Caldwell\",\"type\":\"MAIN\",\"picture\":\"56baa614-58aa-40e0-a4cc-12283f513db1\"},{\"id\":11263,\"name\":\"Al
+        Green\",\"type\":\"MAIN\",\"picture\":\"1275071b-4a49-4a18-9413-e41f955b2e0f\"}],\"lastItemAddedAt\":\"2023-07-11T14:47:12.000+0000\"},{\"uuid\":\"a94e7dce-da66-413d-81a5-990328afa3c9\",\"title\":\"FRESCO:
+        New & Hot in Latin\",\"numberOfTracks\":79,\"numberOfVideos\":0,\"creator\":{},\"description\":\"Dedicated
+        to everything new and fresh in the vibrant and diverse Latin music universe\u2014covering
+        pop, reggaeton, tropical, indie and beyond. (Cover: Sech, Mora, Saiko / Photo:
+        Press)  \",\"duration\":15403,\"lastUpdated\":\"2023-07-21T04:00:17.000+0000\",\"created\":\"2016-11-16T22:23:08.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/a94e7dce-da66-413d-81a5-990328afa3c9\",\"image\":\"cb185b7f-f880-4b79-9bcd-9fab8f7c3c8a\",\"popularity\":51,\"squareImage\":\"1a4e7fe7-7fa1-4455-84b0-57f075b9ed0f\",\"promotedArtists\":[{\"id\":6846360,\"name\":\"Sech\",\"type\":\"MAIN\",\"picture\":\"a4ec1da3-fb95-4ccd-a448-bdc13b39c5a0\"},{\"id\":4854214,\"name\":\"MORA\",\"type\":\"MAIN\",\"picture\":\"90a16e9a-96ea-4f40-a72e-dd733718ffe0\"},{\"id\":3514954,\"name\":\"Saiko\",\"type\":\"MAIN\",\"picture\":null},{\"id\":5198891,\"name\":\"Travis
+        Scott\",\"type\":\"MAIN\",\"picture\":\"da110c26-386a-4023-83cf-a739baee2e79\"}],\"lastItemAddedAt\":\"2023-07-21T04:00:17.000+0000\"},{\"uuid\":\"870b1baa-a778-4e9e-9f02-2bc27775701b\",\"title\":\"Hip-Hop
+        Workout\",\"numberOfTracks\":392,\"numberOfVideos\":0,\"creator\":{},\"description\":\"Need
+        a new gym flow? TIDAL does the heavy lifting for your next workout with this
+        heart-pumping soundtrack. (Photo: Unsplash) \",\"duration\":74960,\"lastUpdated\":\"2023-07-14T04:00:15.000+0000\",\"created\":\"2017-08-03T13:20:50.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/870b1baa-a778-4e9e-9f02-2bc27775701b\",\"image\":\"855f033d-6469-4415-9062-30bfd62bafe3\",\"popularity\":53,\"squareImage\":\"82382e38-e0be-446b-85f6-4455b655aaaa\",\"promotedArtists\":[{\"id\":6265028,\"name\":\"Lil
+        Uzi Vert\",\"type\":\"MAIN\",\"picture\":\"d896f527-4248-4b46-a23e-84aed5b2ee02\"},{\"id\":4743579,\"name\":\"Lil
+        Durk\",\"type\":\"MAIN\",\"picture\":\"0014230f-5e68-4daa-9247-79d66e273132\"},{\"id\":36851,\"name\":\"Jay
+        Rock\",\"type\":\"MAIN\",\"picture\":\"9117dc0a-641a-43d3-b988-65abac27a197\"},{\"id\":13051604,\"name\":\"Kal
+        Banx\",\"type\":\"MAIN\",\"picture\":null}],\"lastItemAddedAt\":\"2023-07-14T04:00:15.000+0000\"},{\"uuid\":\"381240ed-041e-46bb-961c-ddd94cdd87b2\",\"title\":\"Weekend
+        Waves\",\"numberOfTracks\":49,\"numberOfVideos\":0,\"creator\":{},\"description\":\"Get
+        ready for the weekend with this playlist. Bangers only. (Cover: Rita Ora /
+        Photo: Ed Cooke)\",\"duration\":8950,\"lastUpdated\":\"2023-07-21T07:24:00.000+0000\",\"created\":\"2018-09-14T08:32:45.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/381240ed-041e-46bb-961c-ddd94cdd87b2\",\"image\":\"a27cc0f0-7d26-478d-b953-52ca338ed235\",\"popularity\":60,\"squareImage\":\"0ffab79c-514a-4c89-9a94-617c36e93155\",\"promotedArtists\":[{\"id\":3641363,\"name\":\"Steve
+        Angello\",\"type\":\"MAIN\",\"picture\":\"e5c00b57-5582-4cee-a968-f2c3ccc275e7\"},{\"id\":6297452,\"name\":\"Wh0\",\"type\":\"MAIN\",\"picture\":\"5b425a20-8023-43cf-baa7-f83f5e395ab0\"},{\"id\":4639239,\"name\":\"Rita
+        Ora\",\"type\":\"MAIN\",\"picture\":\"c7d46919-e4cc-4b58-9d6f-6690bd776391\"},{\"id\":4915250,\"name\":\"Troye
+        Sivan\",\"type\":\"MAIN\",\"picture\":\"9884dc57-b7ed-496d-a7b9-022fc9544748\"}],\"lastItemAddedAt\":\"2023-07-21T07:23:57.000+0000\"},{\"uuid\":\"e62a74be-853d-47d2-b1cd-61706efd1f43\",\"title\":\"Remember...the
+        1970s\",\"numberOfTracks\":116,\"numberOfVideos\":0,\"creator\":{},\"description\":\"The
+        1970s were a prosperous, prolific and polysemic time through rock, folk, funk,
+        punk and disco. It was a time of excess and perfection, idealism and hypocrisy,
+        high art and high commercial value. If the 1960s sparked the cultural renaissance
+        of the later 20th century, and the 1980s were one hell of a hangover, the
+        \u201870s were our golden age. (Cover: Sly & the Family Stone - There's a
+        Riot Goin' On, Epic/Sony)\",\"duration\":31869,\"lastUpdated\":\"2022-10-19T11:19:37.000+0000\",\"created\":\"2014-09-30T17:15:22.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/e62a74be-853d-47d2-b1cd-61706efd1f43\",\"image\":\"94f335ec-90e3-4c07-98bb-3f8f6975f630\",\"popularity\":51,\"squareImage\":\"154d6555-8bdf-450a-86e2-cafacf0b0cff\",\"promotedArtists\":[{\"id\":711,\"name\":\"Marvin
+        Gaye\",\"type\":\"MAIN\",\"picture\":\"65cc635f-039d-426b-9ea2-9d452c4faae1\"},{\"id\":239,\"name\":\"Stevie
+        Wonder\",\"type\":\"MAIN\",\"picture\":\"c9292b86-fcee-48bb-a1e5-84b99e147148\"},{\"id\":606,\"name\":\"Michael
+        Jackson\",\"type\":\"MAIN\",\"picture\":\"1493c264-d68a-4415-9013-2c913f2edf14\"},{\"id\":4768,\"name\":\"David
+        Bowie\",\"type\":\"MAIN\",\"picture\":\"eb9b4956-8298-4586-8b5f-5b41c85d8e7d\"}],\"lastItemAddedAt\":\"2022-10-19T10:49:20.000+0000\"},{\"uuid\":\"72bc733e-aaf8-425a-a5c9-465037555026\",\"title\":\"Hello
+        Mundo (Ao Vivo)\",\"numberOfTracks\":0,\"numberOfVideos\":24,\"creator\":{\"id\":4046749,\"name\":\"LUDMILLA\",\"artistTypes\":null,\"url\":null,\"picture\":\"eb783a10-d540-48cf-87f6-a0af0170a742\",\"popularity\":0,\"artistRoles\":null,\"mixes\":null},\"description\":null,\"duration\":4648,\"lastUpdated\":\"2020-03-25T10:07:22.000+0000\",\"created\":\"2019-05-30T19:59:28.000+0000\",\"type\":\"ARTIST\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/72bc733e-aaf8-425a-a5c9-465037555026\",\"image\":\"b3010eae-5153-4cd5-8f9c-63868dde0688\",\"popularity\":1,\"squareImage\":\"0241c565-46f6-4f5d-840a-b66f89b3f15f\",\"promotedArtists\":[{\"id\":4046749,\"name\":\"LUDMILLA\",\"type\":\"MAIN\",\"picture\":\"eb783a10-d540-48cf-87f6-a0af0170a742\"},{\"id\":4906194,\"name\":\"Anitta\",\"type\":\"MAIN\",\"picture\":\"a707c33c-f478-44e4-9644-92146fc6a18c\"}],\"lastItemAddedAt\":null},{\"uuid\":\"5a224abf-f6b2-4a33-918e-e33386210fac\",\"title\":\"Country
+        Classics\",\"numberOfTracks\":153,\"numberOfVideos\":0,\"creator\":{},\"description\":\"Country
+        music is without a doubt one of the most vital and popular American music
+        forms, evolving from a southern-rooted folk tradition to the multi-faceted
+        conglomerate of today. Here are the biggest hits and the most iconic Country
+        songs of all time. (Cover: Waylon Jennings / Photo: Rovi)\",\"duration\":29759,\"lastUpdated\":\"2023-06-27T09:02:38.000+0000\",\"created\":\"2015-07-23T10:23:40.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/5a224abf-f6b2-4a33-918e-e33386210fac\",\"image\":\"2e90977b-a92e-4965-9e6d-193f3c311b9b\",\"popularity\":48,\"squareImage\":\"32ebad34-4cb4-4090-b2c3-4a13c1e63dcc\",\"promotedArtists\":[{\"id\":2835,\"name\":\"Waylon
+        Jennings\",\"type\":\"MAIN\",\"picture\":\"2c46fbac-e78e-43e0-8629-a1a3c76ee2ec\"},{\"id\":144,\"name\":\"Dolly
+        Parton\",\"type\":\"MAIN\",\"picture\":\"d84254a1-cb21-4730-a4ee-c1bdaffd7db7\"},{\"id\":3574,\"name\":\"Alan
+        Jackson\",\"type\":\"MAIN\",\"picture\":\"3a950ca7-aae2-421c-a779-8e8624bad555\"},{\"id\":4460,\"name\":\"Brooks
+        & Dunn\",\"type\":\"MAIN\",\"picture\":\"77b17138-0482-449a-a6b6-927020f29899\"}],\"lastItemAddedAt\":\"2023-06-27T09:02:01.000+0000\"},{\"uuid\":\"2e99533a-aff5-42ad-9bed-387eba081427\",\"title\":\"Remember...the
+        1960s\",\"numberOfTracks\":118,\"numberOfVideos\":0,\"creator\":{},\"description\":\"From
+        manicured crooners to freak-flag-waving hippies: the years between 1960 and
+        1969 were perhaps the most revolutionary and influential modern culture has
+        ever seen. It was a time when the pop charts and the alternative charts were
+        one and the same. In a rainbow of genres and styles, it was a period of unprecedented
+        and unrepeated innovation - the results as timeless as anything that\u2019s
+        been created since. So much of this music still lives strong in the popular
+        consciousness, reaching out to new generations. The \u201860s were a time
+        of such optimism and idealism, progress and change, the biggest disappointment
+        was when the trajectory of that rocket didn\u2019t last. These are some of
+        the biggest hits and most memorable moments from a golden era. (Cover: Jimi
+        Hendrix - Are You Experienced, Sony/Legacy)\",\"duration\":22545,\"lastUpdated\":\"2022-11-22T13:35:40.000+0000\",\"created\":\"2014-09-30T17:16:18.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/2e99533a-aff5-42ad-9bed-387eba081427\",\"image\":\"d58f31bd-3efa-42cf-8387-698648296147\",\"popularity\":41,\"squareImage\":\"83bdc8c2-b241-4858-bca1-609f145a78e0\",\"promotedArtists\":[{\"id\":30192,\"name\":\"Jimi
+        Hendrix\",\"type\":\"MAIN\",\"picture\":\"ebd23047-d38e-471c-aff6-2dd8ff84d138\"},{\"id\":3634161,\"name\":\"The
+        Beatles\",\"type\":\"MAIN\",\"picture\":\"ad7946a6-2ec4-43f8-b573-1073d73dfe31\"},{\"id\":9371,\"name\":\"The
+        Beach Boys\",\"type\":\"MAIN\",\"picture\":\"24582869-9f7b-4cd4-93f5-7a4bc9fd9b6a\"},{\"id\":13596,\"name\":\"The
+        Doors\",\"type\":\"MAIN\",\"picture\":\"59feab7c-d455-4352-8503-98ff4c2db2a2\"}],\"lastItemAddedAt\":\"2022-11-22T13:33:04.000+0000\"},{\"uuid\":\"0dfc3b10-fbdb-4419-bf54-11b90051fa6c\",\"title\":\"Chill
+        Pop\",\"numberOfTracks\":75,\"numberOfVideos\":0,\"creator\":{},\"description\":\"Pop
+        sounds to keep you feeling care-free & without a worry in the world. (Cover:
+        Lizzo / Photo: Warner Music Group, press)      \",\"duration\":13124,\"lastUpdated\":\"2023-07-21T04:01:17.000+0000\",\"created\":\"2019-12-12T21:11:47.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/0dfc3b10-fbdb-4419-bf54-11b90051fa6c\",\"image\":\"3988ba2a-a206-4b10-9c14-d1aef5f0ee4e\",\"popularity\":40,\"squareImage\":\"80beeb0e-f5db-4d2c-aec4-0804286abff4\",\"promotedArtists\":[{\"id\":5006711,\"name\":\"Lizzo\",\"type\":\"MAIN\",\"picture\":\"3ba1f85c-d333-4146-a045-5abf5e2a49cd\"},{\"id\":5980020,\"name\":\"Charlotte
+        Cardin\",\"type\":\"MAIN\",\"picture\":\"9c72b384-cad3-492a-bbd1-64efd3f862d9\"},{\"id\":6241227,\"name\":\"Jon
+        Batiste\",\"type\":\"MAIN\",\"picture\":\"7b497d13-3700-4305-947b-3572d40cc75a\"},{\"id\":33385244,\"name\":\"NewJeans\",\"type\":\"MAIN\",\"picture\":\"71008b6d-3661-42ec-acbe-a521b24b8966\"}],\"lastItemAddedAt\":\"2023-07-21T04:01:17.000+0000\"},{\"uuid\":\"3b73ea36-5f68-4b94-928d-9b550b9abafa\",\"title\":\"NME:
+        Greatest Songs of All Time\",\"numberOfTracks\":324,\"numberOfVideos\":0,\"creator\":{},\"description\":\"NME
+        has compiled a list of the best songs of all time - and not just any list.
+        According to the British weekly and website, this is \\\"the definitive countdown
+        of the best tracks ever recorded.\\\" (Photo: logo)\",\"duration\":101224,\"lastUpdated\":\"2020-03-24T12:19:56.000+0000\",\"created\":\"2014-10-01T10:37:54.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/3b73ea36-5f68-4b94-928d-9b550b9abafa\",\"image\":\"0d8ab0a1-7633-49af-9678-b928b7cbaf43\",\"popularity\":46,\"squareImage\":\"c6e6e3d8-60d1-4828-8370-23259dfbd6a8\",\"promotedArtists\":[{\"id\":19368,\"name\":\"Nirvana\",\"type\":\"MAIN\",\"picture\":\"354251d0-d434-411a-a889-06cf7daeffef\"},{\"id\":11949,\"name\":\"Joy
+        Division\",\"type\":\"MAIN\",\"picture\":\"74a64e59-8527-464d-bd30-464914686f8f\"},{\"id\":12699,\"name\":\"The
+        Smiths\",\"type\":\"MAIN\",\"picture\":\"104e4dc9-987a-4ed6-b62b-bfbaa7c048e6\"},{\"id\":29037,\"name\":\"The
+        Strokes\",\"type\":\"MAIN\",\"picture\":\"a4f4d92c-a78d-4a97-9b41-f16f3454dd2e\"}],\"lastItemAddedAt\":null},{\"uuid\":\"182d982c-6651-4dcb-8487-a7dfab44cfa8\",\"title\":\"Alt
+        Radio\",\"numberOfTracks\":120,\"numberOfVideos\":0,\"creator\":{},\"description\":\"Alt
+        Radio gives you fresh alternative rock tunes from brand new and exciting artists
+        as well as established favorites. (Cover: WILLOW / Photo: Roc Nation/Press)\",\"duration\":25158,\"lastUpdated\":\"2023-07-21T05:08:40.000+0000\",\"created\":\"2018-05-22T18:54:17.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/182d982c-6651-4dcb-8487-a7dfab44cfa8\",\"image\":\"405e152c-04bc-4010-8016-ab040c475d9a\",\"popularity\":38,\"squareImage\":\"d4a634f9-863b-4173-bc33-67b5321fe2f6\",\"promotedArtists\":[{\"id\":7792846,\"name\":\"Meet
+        Me @ The Altar\",\"type\":\"MAIN\",\"picture\":\"3ae1f557-2dae-4ef6-869f-823644d3d9a6\"},{\"id\":9023,\"name\":\"Yellowcard\",\"type\":\"MAIN\",\"picture\":\"6f121fbc-48ef-4001-9dd8-c6d886321b2f\"},{\"id\":30301,\"name\":\"Dashboard
+        Confessional\",\"type\":\"MAIN\",\"picture\":\"539d1d6c-e3ed-48d0-a415-0641f10eee95\"},{\"id\":11550,\"name\":\"OK
+        Go\",\"type\":\"MAIN\",\"picture\":\"e7154b43-3c95-4d5c-8384-ac732eb07a5f\"}],\"lastItemAddedAt\":\"2023-07-21T05:08:40.000+0000\"},{\"uuid\":\"d46a3906-25fd-4ac2-a4ac-d72a30065999\",\"title\":\"The
+        Beatles Essentials \",\"numberOfTracks\":73,\"numberOfVideos\":0,\"creator\":{},\"description\":\"In
+        the illustrious history of popular music and rock 'n' roll alike, there has
+        simply never been a bigger band, nor one more beloved or influential, than
+        The Beatles. Formed 1960 in Liverpool, England around the massive pillars
+        of John Lennon, Paul McCartney, George Harrison and Ringo Starr, the Fab Four
+        grew from overnight pop sensation to the most respected and pioneering artists
+        of their craft. In less than a decade, The Beatles released 13 groundbreaking
+        studio albums, compiling a legendary music catalogue unlike anything the world
+        has seen before or after. More than any compilation has been able to contain,
+        this definitive playlist gathers all the greatest songs from the greatest
+        band of all time. \\n(Photo: Universal)\",\"duration\":12902,\"lastUpdated\":\"2023-02-24T20:08:48.000+0000\",\"created\":\"2015-12-23T12:00:18.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/d46a3906-25fd-4ac2-a4ac-d72a30065999\",\"image\":\"097676cd-db74-4fd1-ac9a-ce2ba802ef3c\",\"popularity\":39,\"squareImage\":\"4e0e47ae-6bb8-4713-8bdd-095f86fb9ea0\",\"promotedArtists\":[{\"id\":3634161,\"name\":\"The
+        Beatles\",\"type\":\"MAIN\",\"picture\":\"ad7946a6-2ec4-43f8-b573-1073d73dfe31\"}],\"lastItemAddedAt\":\"2022-11-22T21:18:14.000+0000\"},{\"uuid\":\"3f199d1d-5fcd-458c-ac4e-906e77981f34\",\"title\":\"K-Pop
+        Cross\",\"numberOfTracks\":95,\"numberOfVideos\":0,\"creator\":{},\"description\":\"K-pop
+        is now worldwide. With recent collaborations between megastars on all sides
+        of the globe, it only made sense to create a destination for these projects
+        to live. Whether it's a cross-genre collaboration or K-pop cuts in English,
+        this is just one of the ways to celebrate K-pop crossing over. (Cover: NewJeans,
+        J.I.D / Photo: ADOR, InGrooves)\",\"duration\":18026,\"lastUpdated\":\"2023-07-21T07:18:26.000+0000\",\"created\":\"2019-04-10T17:07:41.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/3f199d1d-5fcd-458c-ac4e-906e77981f34\",\"image\":\"7039d204-05b9-41ab-9eab-0e803a436c79\",\"popularity\":32,\"squareImage\":\"a78f5ac2-f6fe-4b2c-94ff-074ec93749cb\",\"promotedArtists\":[{\"id\":7915347,\"name\":\"Eric
+        Nam\",\"type\":\"MAIN\",\"picture\":\"bb0edccb-32a7-4e45-9965-20b19de9baaa\"},{\"id\":18904052,\"name\":\"Em
+        Beihold\",\"type\":\"MAIN\",\"picture\":\"6ce87e2b-838f-44ac-8f2e-20d85b35b845\"},{\"id\":13030799,\"name\":\"Jung
+        Kook\",\"type\":\"MAIN\",\"picture\":\"1ffb1fa2-ab69-4050-b516-bf15c588bbf8\"},{\"id\":3933554,\"name\":\"Latto\",\"type\":\"MAIN\",\"picture\":\"578d6628-3bb0-49e1-ad98-84faf67d5bc8\"}],\"lastItemAddedAt\":\"2023-07-21T07:18:26.000+0000\"},{\"uuid\":\"f618a107-87e1-4af6-b66c-7fb8908508bb\",\"title\":\"Reggaeton
+        Classics\",\"numberOfTracks\":230,\"numberOfVideos\":0,\"creator\":{},\"description\":\"Just
+        what you need when you're looking for all the classic Reggaeton songs. (Cover:
+        J Balvin / Photo: UMLE)\",\"duration\":51491,\"lastUpdated\":\"2023-05-25T18:45:03.000+0000\",\"created\":\"2020-03-30T18:46:10.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/f618a107-87e1-4af6-b66c-7fb8908508bb\",\"image\":\"eec209d4-9bd5-4718-9bb9-c1b9761e5c2c\",\"popularity\":29,\"squareImage\":\"4f943b4e-5a08-4b66-b476-ee854935d86d\",\"promotedArtists\":[{\"id\":5054713,\"name\":\"J
+        Balvin\",\"type\":\"MAIN\",\"picture\":\"5bb35813-714e-48cc-9d97-7374564b9dd6\"},{\"id\":4482420,\"name\":\"Willy
+        William\",\"type\":\"MAIN\",\"picture\":\"9d63e095-9317-459a-a151-3eae736062a0\"},{\"id\":3635155,\"name\":\"Wisin
+        & Yandel\",\"type\":\"MAIN\",\"picture\":\"f463dbd4-34af-468c-8f45-7242582b8a54\"},{\"id\":3704950,\"name\":\"Ivy
+        Queen\",\"type\":\"MAIN\",\"picture\":\"04258517-07c2-4924-929e-56002ee461a9\"}],\"lastItemAddedAt\":\"2022-07-28T18:05:55.000+0000\"},{\"uuid\":\"e430f313-9505-4463-9fc2-fc2c875bfad6\",\"title\":\"Country
+        Summer\",\"numberOfTracks\":85,\"numberOfVideos\":0,\"creator\":{},\"description\":\"With
+        this playlist it\u2019s forever summer, country style. (Photo: Unsplash)\",\"duration\":16793,\"lastUpdated\":\"2023-06-30T11:08:55.000+0000\",\"created\":\"2015-07-13T09:29:18.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/e430f313-9505-4463-9fc2-fc2c875bfad6\",\"image\":\"f593f93e-b088-4c2a-b2d5-088f037fde3b\",\"popularity\":35,\"squareImage\":\"ed3ed873-ec64-4f17-aad4-8aba96e67c56\",\"promotedArtists\":[{\"id\":4688453,\"name\":\"Florida
+        Georgia Line\",\"type\":\"MAIN\",\"picture\":\"be10e560-a3ca-4106-af25-5377f07f1200\"},{\"id\":6326493,\"name\":\"Morgan
+        Wallen\",\"type\":\"MAIN\",\"picture\":\"7cd65e12-f3ba-485e-aaa7-ce00e1037195\"},{\"id\":4463707,\"name\":\"Lady
+        A\",\"type\":\"MAIN\",\"picture\":null},{\"id\":1638,\"name\":\"Brad Paisley\",\"type\":\"MAIN\",\"picture\":\"6a6d40e6-dbb3-4555-924a-443ac0acdb59\"}],\"lastItemAddedAt\":\"2023-06-30T10:58:08.000+0000\"},{\"uuid\":\"bafcf2ac-1a7e-4181-9609-6c16ffbdb032\",\"title\":\"Cover
+        to Cover\",\"numberOfTracks\":62,\"numberOfVideos\":0,\"creator\":{},\"description\":\"Another
+        book, another adventure. These sublime indie and folk cuts are curated for
+        optimal background listening, helping you get lost in literature. (Photo:
+        Unsplash)\",\"duration\":16667,\"lastUpdated\":\"2020-09-17T22:36:10.000+0000\",\"created\":\"2019-03-19T16:43:43.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/bafcf2ac-1a7e-4181-9609-6c16ffbdb032\",\"image\":\"55bd0734-2f3d-412f-9f9b-a175e940f7f0\",\"popularity\":31,\"squareImage\":\"8bacaf6a-cec0-430e-9ee6-d7dcaa13c76b\",\"promotedArtists\":[{\"id\":10249,\"name\":\"Norah
+        Jones\",\"type\":\"MAIN\",\"picture\":\"317cbed7-e20e-4342-8dc9-1ed1702060f3\"},{\"id\":8724521,\"name\":\"Billy
+        Raffoul\",\"type\":\"MAIN\",\"picture\":\"f4f67d4c-068a-4fbe-8ad3-63dc71e835c7\"},{\"id\":3557299,\"name\":\"Taylor
+        Swift\",\"type\":\"MAIN\",\"picture\":\"42edd026-d581-4929-b856-2ae142918f44\"},{\"id\":3637822,\"name\":\"Bibio\",\"type\":\"MAIN\",\"picture\":\"4b8e4e3d-8371-4f0c-9b55-76d5e918de9b\"}],\"lastItemAddedAt\":\"2020-08-28T19:14:37.000+0000\"},{\"uuid\":\"2c84d61c-3cac-4b6e-9611-6d7b86b4c302\",\"title\":\"Americana
+        Classics\",\"numberOfTracks\":104,\"numberOfVideos\":0,\"creator\":{},\"description\":\"Whether
+        you call it folk, rock, roots or anything in between, this playlist of Americana
+        highlights travels from the birth of folk-rock in the late 1960s to present-day
+        classics. (Cover: Eagles, celebrating the 50th anniversary of their classic
+        album 'Desperado' / Photo: \xA9 Henry Dilt, press)\",\"duration\":23883,\"lastUpdated\":\"2023-07-14T11:11:52.000+0000\",\"created\":\"2018-03-12T15:31:51.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/2c84d61c-3cac-4b6e-9611-6d7b86b4c302\",\"image\":\"a019a26d-01cf-44f2-9866-f33ef06587f7\",\"popularity\":33,\"squareImage\":\"ad82a0ca-64d7-47df-b73f-6cdfa07f4c30\",\"promotedArtists\":[{\"id\":8415,\"name\":\"Son
+        Volt\",\"type\":\"MAIN\",\"picture\":\"67e46e37-4b7b-4357-9092-c5d85c6b1b5e\"},{\"id\":17650,\"name\":\"The
+        Jayhawks\",\"type\":\"MAIN\",\"picture\":\"1a7ebc7b-2d75-4a83-807f-784178e696b1\"},{\"id\":3522392,\"name\":\"Townes
+        Van Zandt\",\"type\":\"MAIN\",\"picture\":\"a5b4e513-46ca-47ea-9c97-1b25995a32f6\"},{\"id\":13971,\"name\":\"Wilco\",\"type\":\"MAIN\",\"picture\":\"9008f2d5-d034-4ca9-836d-7c86640690d5\"}],\"lastItemAddedAt\":\"2023-07-14T11:11:49.000+0000\"},{\"uuid\":\"073b4319-3f3a-4bdd-be2a-eba90b6a9d08\",\"title\":\"Adele
+        Essentials\",\"numberOfTracks\":27,\"numberOfVideos\":0,\"creator\":{},\"description\":\"A
+        lot has happened to Adele Laurie Blue Adkins since her first demo appeared
+        on MySpace back in 2007. Between graduating from BRIT School for Performing
+        Arts and Technology, signing a recording contract with XL Recordings, releasing
+        her first album '19' in 2008 and her second album '21' in 2011, the young
+        Londoner had managed to become everyone's favorite goose bump-enducing vocal
+        talent. Her album '21' stayed at number 1 in the U.S. for 21 non-consecutive
+        weeks, setting the record for the longest number 1 album by a female artist
+        in Billboard history. In 2015, Adele broke equally impressive records when
+        her massively-anticipated third album '25' became the world's best-selling
+        album of 2015 with 17.4 million copies sold within the year. The album has
+        since sold 19 million copies globally. But the story of this singular singer
+        is more than just smashing sales records \u2013 it's that of a unique, sincere
+        and universally appealing talent with a voice for the ages. (Photo: Rovi)\",\"duration\":7272,\"lastUpdated\":\"2021-11-19T05:01:17.000+0000\",\"created\":\"2018-05-02T20:18:41.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/073b4319-3f3a-4bdd-be2a-eba90b6a9d08\",\"image\":\"4780d5a9-6211-4fdf-b0e9-c228f91263ff\",\"popularity\":31,\"squareImage\":\"d4faeade-44b5-4401-b5f9-a1901267af51\",\"promotedArtists\":[{\"id\":3521920,\"name\":\"Adele\",\"type\":\"MAIN\",\"picture\":\"7a3dcc0f-5392-45fd-9778-381e56bbcf91\"},{\"id\":3521920,\"name\":\"Adele\",\"type\":\"MAIN\",\"picture\":\"7a3dcc0f-5392-45fd-9778-381e56bbcf91\"},{\"id\":3521920,\"name\":\"Adele\",\"type\":\"MAIN\",\"picture\":\"7a3dcc0f-5392-45fd-9778-381e56bbcf91\"},{\"id\":3521920,\"name\":\"Adele\",\"type\":\"MAIN\",\"picture\":\"7a3dcc0f-5392-45fd-9778-381e56bbcf91\"}],\"lastItemAddedAt\":\"2021-11-19T05:01:17.000+0000\"},{\"uuid\":\"04205239-85a5-4edd-9e37-5880ad68d22c\",\"title\":\"The
+        Pulse\",\"numberOfTracks\":63,\"numberOfVideos\":0,\"creator\":{},\"description\":\"Rhythmic,
+        danceable new indie/rock and alt tracks for a night out, or a zoned-out night
+        in. (Cover: MUNYA / Photo: Fat Possum/Press)\",\"duration\":14859,\"lastUpdated\":\"2023-07-21T04:46:51.000+0000\",\"created\":\"2018-05-22T16:38:49.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/04205239-85a5-4edd-9e37-5880ad68d22c\",\"image\":\"1c94255e-075f-40c7-8a3c-4d03027cfd5e\",\"popularity\":31,\"squareImage\":\"98a723d9-ad57-40b7-a550-bfc9e82e1175\",\"promotedArtists\":[{\"id\":3736815,\"name\":\"Tame
+        Impala\",\"type\":\"MAIN\",\"picture\":\"b62f6345-54d3-4f06-b8ca-6ac753b48016\"},{\"id\":10314714,\"name\":\"No-No
+        Boy\",\"type\":\"MAIN\",\"picture\":\"25d0cc53-ac95-4453-ab1d-01ade90ad74b\"},{\"id\":4067216,\"name\":\"Lost
+        Girls\",\"type\":\"MAIN\",\"picture\":\"42022c8a-db0f-4e59-858b-fd08b83dadcd\"},{\"id\":8128069,\"name\":\"Strange
+        Ranger\",\"type\":\"MAIN\",\"picture\":\"6ca619cf-b727-4139-b34d-93b8b17949d6\"}],\"lastItemAddedAt\":\"2023-07-21T04:46:51.000+0000\"},{\"uuid\":\"98bbdd8b-20f7-486a-acb0-4eeb3ad4820a\",\"title\":\"Candlelight
+        Dinner\",\"numberOfTracks\":50,\"numberOfVideos\":0,\"creator\":{},\"description\":\"You
+        and your sweetheart are invited to dinner for a romantic tasting of fresh
+        aural delights and savory romantic classics. Let the evening be filled with
+        candles, good food and the best songs about love through the ages. Bon app\xE9tit,
+        love birds! (Photo: TIDAL)\",\"duration\":13238,\"lastUpdated\":\"2022-02-11T05:00:20.000+0000\",\"created\":\"2014-09-30T13:15:41.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/98bbdd8b-20f7-486a-acb0-4eeb3ad4820a\",\"image\":\"22d35103-92ea-458a-ab9e-83429fa1417e\",\"popularity\":35,\"squareImage\":\"cb5abbf5-f354-4d82-9160-baf04cff80cf\",\"promotedArtists\":[{\"id\":145,\"name\":\"Luther
+        Vandross\",\"type\":\"MAIN\",\"picture\":\"c1e4f385-1785-4cf0-8e09-d48349617f76\"},{\"id\":16866,\"name\":\"Smokey
+        Robinson\",\"type\":\"MAIN\",\"picture\":\"40324a4d-eea8-4127-89bc-2b7ac727e783\"},{\"id\":11263,\"name\":\"Al
+        Green\",\"type\":\"MAIN\",\"picture\":\"1275071b-4a49-4a18-9413-e41f955b2e0f\"},{\"id\":13591,\"name\":\"Anita
+        Baker\",\"type\":\"MAIN\",\"picture\":\"9133ad0a-c3b4-4a5e-9469-61eaa4f1c384\"}],\"lastItemAddedAt\":\"2022-02-11T05:00:20.000+0000\"},{\"uuid\":\"80bec9ad-f208-4225-9e7f-7edef61f1919\",\"title\":\"Hip-Hop
+        Classics (Clean)\",\"numberOfTracks\":472,\"numberOfVideos\":0,\"creator\":{},\"description\":\"Just
+        what you need when you're looking for all the classic Hip-Hop songs. (Cover:
+        DMX // Photo: CP McBride)\",\"duration\":120114,\"lastUpdated\":\"2023-05-19T04:00:24.000+0000\",\"created\":\"2020-08-18T15:10:58.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/80bec9ad-f208-4225-9e7f-7edef61f1919\",\"image\":\"f4aa890b-045a-42cf-871f-91c8d994fe7a\",\"popularity\":22,\"squareImage\":\"d4f37c6e-2375-4b59-98e7-0b0fc846bced\",\"promotedArtists\":[{\"id\":3667844,\"name\":\"Big
+        Pun\",\"type\":\"MAIN\",\"picture\":\"fffe1583-26da-4dee-8842-a1be6a5d9f65\"},{\"id\":4139,\"name\":\"Donell
+        Jones\",\"type\":\"FEATURED\",\"picture\":\"7e68c5d3-6e0d-45ec-a336-a18729430e4b\"},{\"id\":11405,\"name\":\"De
+        La Soul\",\"type\":\"MAIN\",\"picture\":\"6596ca2d-14ee-48aa-86f6-40384a32097d\"},{\"id\":17548,\"name\":\"50
+        Cent\",\"type\":\"MAIN\",\"picture\":\"5067c307-a417-48b7-93b3-83eece517f1a\"},{\"id\":30457,\"name\":\"Freeway\",\"type\":\"MAIN\",\"picture\":\"c4b34693-0aa5-467a-9130-d4c5407e0c6c\"}],\"lastItemAddedAt\":\"2023-05-19T04:00:24.000+0000\"},{\"uuid\":\"58b26365-afc9-413c-9437-04b58ec9748f\",\"title\":\"K-Pop
+        - TIDAL Masters\",\"numberOfTracks\":82,\"numberOfVideos\":0,\"creator\":{},\"description\":\"Listen
+        to master quality versions of the best and latest K-pop tracks\u2014only on
+        TIDAL. With our TIDAL Masters playlists, we highlight the very best of Master
+        Quality Authenticated recordings, curated to get the most out of your stereo,
+        headphones and your TIDAL HiFi membership. Hear the difference. (Cover: Bryan
+        Chase / Photo: Interscope Records)\",\"duration\":16241,\"lastUpdated\":\"2023-07-21T08:08:29.000+0000\",\"created\":\"2020-06-26T17:50:51.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/58b26365-afc9-413c-9437-04b58ec9748f\",\"image\":\"c714474e-ba3f-43a9-a545-402f6919e0f3\",\"popularity\":29,\"squareImage\":\"b2b3731e-30a4-4cc7-98e8-4fe9527c51a3\",\"promotedArtists\":[{\"id\":11545715,\"name\":\"Bryan
+        Chase\",\"type\":\"MAIN\",\"picture\":\"84be37c6-09dd-47b3-a12f-576db5aaeb8d\"},{\"id\":16599711,\"name\":\"The
+        Rose\",\"type\":\"MAIN\",\"picture\":\"cc7c61a7-b57b-44fc-aae2-368fd8b371bc\"},{\"id\":23075871,\"name\":\"Ash-B(\uC560\uC26C\uBE44)\",\"type\":\"MAIN\",\"picture\":null},{\"id\":3953622,\"name\":\"Henry\",\"type\":\"MAIN\",\"picture\":null}],\"lastItemAddedAt\":\"2023-07-21T08:08:29.000+0000\"},{\"uuid\":\"59e71b2e-39dd-40f0-ad02-eb99c8192c61\",\"title\":\"Bruce
+        Springsteen Essentials\",\"numberOfTracks\":70,\"numberOfVideos\":0,\"creator\":{},\"description\":\"Since
+        rising on the scene in the mid-\u201970s, Bruce Springsteen has lived up to
+        his nickname - \\\"The Boss\\\" - as one of the world's largest rock stars.
+        It is a position he has retained by holding firm his earthy, hometown style.
+        With a clear social profile, his tunes have often spoken in defense of the
+        working class, the everyman - often with stories of those who have fallen
+        off, but continue fighting for the promises of the American Dream. He joins
+        a long tradition of such socially-conscious artists, with Woody Guthrie and
+        Bob Dylan among his most obvious influences. Musically Springsteen also represents
+        continuity. Influenced by blues, country, folk, and early rock of the \u201850s
+        and \u201860s, he became one of the spearheads in the so-called \\\"heartland
+        rock\\\" that flourished in the United States at the beginning of \u201880s.
+        Beginning with the breakthrough of Born To Run (1975), Springsteen found continuous
+        success into the \u201890s. The River (1980), Born In The USA (1984), and
+        Tunnel Of Love (1987) live on as some of his most successful releases, though
+        many discerning critics hold Nebraska (1982) and The Ghost Of Tom Joad (1995)
+        among his very best albums. After a low period in the \u201890s, the Boss
+        came back in the 2000s with a renewed energy and a prolific string of strong
+        releases and near-constant touring that continues today. (Photo: Sony)\",\"duration\":19223,\"lastUpdated\":\"2023-01-05T15:43:51.000+0000\",\"created\":\"2014-09-30T15:20:28.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/59e71b2e-39dd-40f0-ad02-eb99c8192c61\",\"image\":\"ee0faa12-d306-440c-8717-bd154db46b9a\",\"popularity\":31,\"squareImage\":\"40e9fc80-bc98-49b2-8036-e40a5bce223f\",\"promotedArtists\":[{\"id\":509,\"name\":\"Bruce
+        Springsteen\",\"type\":\"MAIN\",\"picture\":\"97423d53-c815-4b48-b5ef-d9fa28a3837b\"}],\"lastItemAddedAt\":\"2022-10-03T17:23:37.000+0000\"},{\"uuid\":\"77f25800-0321-4333-a387-7f82e3a04471\",\"title\":\"The
+        Doors - TIDAL Masters\",\"numberOfTracks\":20,\"numberOfVideos\":0,\"creator\":{},\"description\":\"With
+        charismatic and troubled Jim Morrison at the helm, The Doors had an iconic
+        figurehead who became the poster child of his generation.\\n\\nWith TIDAL
+        Masters playlists we highlight the very best examples of Master Quality Authenticated
+        recordings, curated to get the most out of your stereo, your headphones and
+        your TIDAL HiFi membership. Hear the difference. (Photo: Rovi)\",\"duration\":5106,\"lastUpdated\":\"2020-03-25T08:36:17.000+0000\",\"created\":\"2017-03-29T16:34:39.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/77f25800-0321-4333-a387-7f82e3a04471\",\"image\":\"5d829b08-1579-4f08-9915-6b883917e688\",\"popularity\":30,\"squareImage\":\"73a3a8da-0fe8-4f5f-a7be-d185de903dcc\",\"promotedArtists\":[{\"id\":13596,\"name\":\"The
+        Doors\",\"type\":\"MAIN\",\"picture\":\"59feab7c-d455-4352-8503-98ff4c2db2a2\"}],\"lastItemAddedAt\":null},{\"uuid\":\"bc1a8cd3-7464-4ad3-a275-b70efb93a8e0\",\"title\":\"Eric
+        Clapton Essentials\",\"numberOfTracks\":27,\"numberOfVideos\":0,\"creator\":{},\"description\":\"Long
+        before Eric Clapton's solo career took off in the mid-\u201970s, he was established
+        as one of the world's biggest rock stars through his stints with the The Yardbirds,
+        John Mayall's Bluesbreakers, Cream, Blind Faith and Derek & The Dominos. Sarcastically
+        nicknamed \u201CSlowhand,\u201D his position as one of the most important
+        guitarists of his generation is indisputable, which found him collaborating
+        with the most important musicians of the time. During the period of his ascent,
+        the graffiti text \\\"Clapton is God\\\" began to appear in public places
+        all over London. Though he\u2019s most associated with rock, Clapton's foundation
+        is deeply rooted in the blues, which is evident in his admiration of Robert
+        Johnson, his guitar stylings with John Mayall and Derek & The Dominos, and
+        his longstanding relationship with his idol and mentor, the late JJ Cale.
+        On top of rock and blues credibility, Clapton proved adept at generating radio
+        friendly pop (\\\"Tears In Heaven\\\", \\\"My Fathers Eyes\\\"), hard rock
+        and psychedelia (particularly with Cream), and reggae (his cover of \\\"I
+        Shot The Sheriff\\\" brought reggae outside of Jamaica). We have gathered
+        the biggest hits of his career here. (Photo: Rovi)\",\"duration\":11317,\"lastUpdated\":\"2020-03-24T12:18:47.000+0000\",\"created\":\"2014-09-30T14:40:24.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/bc1a8cd3-7464-4ad3-a275-b70efb93a8e0\",\"image\":\"babb3fae-d402-4738-b2b9-b1bd2d537ccf\",\"popularity\":30,\"squareImage\":\"0705d3fa-d059-4ec6-89e6-b3728d2ed7bf\",\"promotedArtists\":[{\"id\":124,\"name\":\"Eric
+        Clapton\",\"type\":\"MAIN\",\"picture\":\"4f46d21c-bada-458c-afaa-2921f111061f\"},{\"id\":32880,\"name\":\"Derek
+        & The Dominos\",\"type\":\"MAIN\",\"picture\":\"7fc81340-2687-4804-bb8d-07b024231705\"},{\"id\":32879,\"name\":\"Cream\",\"type\":\"MAIN\",\"picture\":\"5ee9f7ab-092d-4861-b9d1-c931ea858718\"},{\"id\":30373,\"name\":\"Blind
+        Faith\",\"type\":\"MAIN\",\"picture\":\"c537ac21-8704-4220-97c3-08441699a06c\"}],\"lastItemAddedAt\":null},{\"uuid\":\"f64b04ee-7293-48ae-943b-32ba240a88d8\",\"title\":\"Hits
+        For Kids of All Ages\",\"numberOfTracks\":101,\"numberOfVideos\":0,\"creator\":{},\"description\":\"Teach
+        your children well; sing along, dance and discover the iconic classics with
+        this (more or less chronological) playlist of artists and songs kids of all
+        ages should know. Clean tracks only.  (Cover: TIDAL)\",\"duration\":23401,\"lastUpdated\":\"2023-01-24T21:49:23.000+0000\",\"created\":\"2016-07-11T15:45:51.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/f64b04ee-7293-48ae-943b-32ba240a88d8\",\"image\":\"ba68d41d-34c3-49ef-8fbc-1a04c3f3bd39\",\"popularity\":30,\"squareImage\":\"973899c6-7ed3-4d5b-896e-516e467e24da\",\"promotedArtists\":[{\"id\":2554,\"name\":\"Chuck
+        Berry\",\"type\":\"MAIN\",\"picture\":\"5af7c84c-9f9c-4bfa-82b8-1b79e7a790c4\"},{\"id\":1356,\"name\":\"Little
+        Richard\",\"type\":\"MAIN\",\"picture\":\"5c56545b-2938-4fb2-8f80-30b3b18c31d0\"},{\"id\":1588,\"name\":\"Elvis
+        Presley\",\"type\":\"MAIN\",\"picture\":\"3dfd31de-13c4-4bc3-a08f-d9a7c2690d2c\"},{\"id\":9572,\"name\":\"Ray
+        Charles\",\"type\":\"MAIN\",\"picture\":\"29c8f214-8d02-460a-b65d-39789909683d\"}],\"lastItemAddedAt\":\"2023-01-24T21:49:22.000+0000\"},{\"uuid\":\"12a02df3-333c-4613-aa10-408030fd6c8b\",\"title\":\"T.I.
+        Essentials\",\"numberOfTracks\":45,\"numberOfVideos\":0,\"creator\":{},\"description\":\"Clifford
+        Joseph Harris Jr., better known by his stage names T.I. and Tip, is a rapper,
+        producer, actor, TV personality and entrepreneur who first made his mark popularizing
+        the trap sound of his native Atlanta. All hail the King of the South. (Photo:
+        Rovi)\",\"duration\":11749,\"lastUpdated\":\"2023-03-28T17:26:08.000+0000\",\"created\":\"2016-02-21T08:21:29.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/12a02df3-333c-4613-aa10-408030fd6c8b\",\"image\":\"862d8163-269f-4b31-a345-9ae495141259\",\"popularity\":26,\"squareImage\":\"fcd1a4f3-5aba-4793-81e3-8d1fc994b5b6\",\"promotedArtists\":[{\"id\":14979,\"name\":\"T.I.\",\"type\":\"MAIN\",\"picture\":\"4497e64b-0f40-4f36-9f65-9a5228d0aeb4\"}],\"lastItemAddedAt\":\"2023-03-28T17:25:08.000+0000\"},{\"uuid\":\"ea0b82f3-c9d9-49de-9509-f79e10ab38c2\",\"title\":\"Chris
+        Cornell Essentials\",\"numberOfTracks\":25,\"numberOfVideos\":0,\"creator\":{},\"description\":\"Primarily
+        associated with Seattle's Soundgarden, Chris Cornell is the uncrowned king
+        of grungy rock vocals. Aside from his main gig, Cornell has made his sonic
+        mark on many other significant projects. He co-founded the cult band Temple
+        of the Dog, the supergroup Audioslave (which also consisted of members from
+        Rage Against the Machine) and, made a James Bond theme song and worked with
+        the likes of Alice Cooper, Santana, Alice in Chains and Slash. (Cover: Chris
+        Cornell/Photo: Rovi)\",\"duration\":7913,\"lastUpdated\":\"2020-03-24T12:32:18.000+0000\",\"created\":\"2015-09-18T14:29:08.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/ea0b82f3-c9d9-49de-9509-f79e10ab38c2\",\"image\":\"ac894580-970d-4acc-93b5-bbbb7b70f721\",\"popularity\":31,\"squareImage\":\"2cb49251-db6a-40e1-b369-d8a9a3b14ded\",\"promotedArtists\":[{\"id\":17478,\"name\":\"Chris
+        Cornell\",\"type\":\"MAIN\",\"picture\":\"67c896ec-ad94-4954-a514-8f7defc2eb6b\"},{\"id\":34477,\"name\":\"Soundgarden\",\"type\":\"MAIN\",\"picture\":\"bcf6a3d6-7d2e-45a1-aee4-0e5273c044ac\"},{\"id\":5027,\"name\":\"Audioslave\",\"type\":\"MAIN\",\"picture\":\"0d940473-c98a-442b-a4a3-33d188fcd250\"},{\"id\":3502854,\"name\":\"Temple
+        Of The Dog\",\"type\":\"MAIN\",\"picture\":\"e57e1ae5-1260-4511-b046-6a431a468bac\"}],\"lastItemAddedAt\":null},{\"uuid\":\"83c09057-8484-4011-80ac-ceb3e0772318\",\"title\":\"Global:
+        RISING\",\"numberOfTracks\":99,\"numberOfVideos\":0,\"creator\":{},\"description\":\"Whether
+        it is rap, R&B, rock, pop or electronic; talent is blooming and the next superstars
+        are never far away. These are up-and-coming acts of tomorrow from around the
+        world as predicted by TIDAL's local editors. (Cover: Balu Brigada / WMG) \",\"duration\":20064,\"lastUpdated\":\"2023-07-12T18:15:44.000+0000\",\"created\":\"2019-02-07T14:14:15.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/83c09057-8484-4011-80ac-ceb3e0772318\",\"image\":\"3b1279fa-63cb-4f61-a9d8-ac3a34714c06\",\"popularity\":24,\"squareImage\":\"232c69ab-b523-4fc4-903f-55794fbeb2eb\",\"promotedArtists\":[{\"id\":9609951,\"name\":\"MAVICA\",\"type\":\"MAIN\",\"picture\":\"5012765e-1010-4b32-9dae-3e3ba7246d01\"},{\"id\":7177859,\"name\":\"HAEVN\",\"type\":\"MAIN\",\"picture\":\"f94a71e3-e7a0-4ef9-82d9-1a283aa6ce0b\"},{\"id\":6378087,\"name\":\"MISOGI\",\"type\":\"MAIN\",\"picture\":\"6ad639a9-f0e3-4e64-9759-a81b55409662\"},{\"id\":4771566,\"name\":\"Zanillya\",\"type\":\"MAIN\",\"picture\":null}],\"lastItemAddedAt\":\"2023-07-12T18:15:17.000+0000\"},{\"uuid\":\"b52cbef0-6b7d-45e3-8b4f-ea5dd3892b2d\",\"title\":\"Guest
+        Verses: Andre 3000\",\"numberOfTracks\":32,\"numberOfVideos\":0,\"creator\":{},\"description\":\"3
+        Stacks continues to be in popular demand for a feature. Hear the best cameos
+        from Andr\xE9 3000 to date. (Photo: Rovi)  \",\"duration\":8429,\"lastUpdated\":\"2023-06-06T19:04:44.000+0000\",\"created\":\"2017-04-28T02:24:23.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/b52cbef0-6b7d-45e3-8b4f-ea5dd3892b2d\",\"image\":\"17b23927-32ec-41dc-95d5-76bf261e4926\",\"popularity\":24,\"squareImage\":\"19bece8b-6307-4c8f-aa8b-022390aa52c8\",\"promotedArtists\":[{\"id\":25022,\"name\":\"Kanye
+        West\",\"type\":\"MAIN\",\"picture\":\"26076dbd-7361-40d3-9335-f944d2c49ea6\"},{\"id\":3710287,\"name\":\"Andr\xE9
+        3000\",\"type\":\"MAIN\",\"picture\":\"703ba273-11d5-4c15-820e-bf457d819ab8\"},{\"id\":29695,\"name\":\"UGK
+        (Underground Kingz)\",\"type\":\"MAIN\",\"picture\":\"94d93c70-f233-4381-a722-3598d22398dd\"},{\"id\":3997333,\"name\":\"Frank
+        Ocean\",\"type\":\"MAIN\",\"picture\":\"532a2052-8a8f-4a8d-8a45-2baadb2a3e59\"}],\"lastItemAddedAt\":\"2023-06-06T19:03:23.000+0000\"},{\"uuid\":\"ab1ba9b5-f6ea-4535-8368-7aa456567d68\",\"title\":\"Kids'
+        Corner\",\"numberOfTracks\":137,\"numberOfVideos\":0,\"creator\":{},\"description\":\"It's
+        hard to keep up with the little ones, so be sure to check out this playlist
+        for some family friendly tunes. (Cover: MusicClubKids! / Photo: Republic Records,
+        press) \",\"duration\":20621,\"lastUpdated\":\"2023-07-21T04:01:15.000+0000\",\"created\":\"2018-02-20T21:44:58.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/ab1ba9b5-f6ea-4535-8368-7aa456567d68\",\"image\":\"df419c04-28b2-4914-a9ea-626e7fc9d1bc\",\"popularity\":26,\"squareImage\":\"06d2b1a3-3602-4f69-a974-d172f4f639de\",\"promotedArtists\":[{\"id\":39547604,\"name\":\"MusicClubKids!\",\"type\":\"MAIN\",\"picture\":null},{\"id\":19895476,\"name\":\"Nick
+        JR.\",\"type\":\"MAIN\",\"picture\":\"c90a0e9b-7aaf-460f-b524-bc2b0f1cfe73\"},{\"id\":3642166,\"name\":\"Sam
+        Moran\",\"type\":\"MAIN\",\"picture\":\"d18cd7ea-8904-4819-8e17-a8d57d8cc41f\"},{\"id\":13695449,\"name\":\"Mr.
+        Greg\",\"type\":\"MAIN\",\"picture\":null}],\"lastItemAddedAt\":\"2023-07-21T04:01:15.000+0000\"},{\"uuid\":\"e783f09c-7105-4bce-bc5b-38d974d3118f\",\"title\":\"Jack
+        White Essentials\",\"numberOfTracks\":60,\"numberOfVideos\":0,\"creator\":{},\"description\":\"Listen
+        to a collection of choice cuts from Jack White's deep catalog, across all
+        of his projects. (Photo: Courtesy of Artist)\",\"duration\":16664,\"lastUpdated\":\"2022-07-22T14:15:08.000+0000\",\"created\":\"2016-08-11T10:39:48.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/e783f09c-7105-4bce-bc5b-38d974d3118f\",\"image\":\"dfe08206-b897-4a32-afb7-4bba99ed7ecf\",\"popularity\":30,\"squareImage\":\"3300eaa9-4b93-4978-b1ad-c072a954556b\",\"promotedArtists\":[{\"id\":3523905,\"name\":\"Jack
+        White\",\"type\":\"MAIN\",\"picture\":\"a209a9ce-52bb-474a-942e-8174a5e2dbcd\"},{\"id\":3520510,\"name\":\"The
+        White Stripes\",\"type\":\"MAIN\",\"picture\":\"b6cafa1f-3db3-4e1a-b392-5adafc7d201a\"}],\"lastItemAddedAt\":\"2022-07-22T14:15:07.000+0000\"},{\"uuid\":\"78834c8d-fe56-4801-b9f1-7b7993ccab54\",\"title\":\"Jhen\xE9
+        Aiko Essentials\",\"numberOfTracks\":34,\"numberOfVideos\":0,\"creator\":{},\"description\":\"Since
+        stepping onto the scene, Jhen\xE9 has consistently delivered sweet poetry
+        in the form of song.The songstress gentle and sweet voice are unmistakable.
+        \\\"Sail Out\\\" with the best from Jhen\xE9. (Photo: Rovi)\",\"duration\":9504,\"lastUpdated\":\"2021-12-17T05:44:35.000+0000\",\"created\":\"2017-09-19T14:32:54.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/78834c8d-fe56-4801-b9f1-7b7993ccab54\",\"image\":\"75f81978-034d-4b3a-9049-b116aabf9dc9\",\"popularity\":28,\"squareImage\":\"2581867b-6e6c-4763-9fa7-05765ee50868\",\"promotedArtists\":[{\"id\":4899960,\"name\":\"Jhen\xE9
+        Aiko\",\"type\":\"MAIN\",\"picture\":\"327a5a30-7849-464f-8334-f82395cf5361\"},{\"id\":4899960,\"name\":\"Jhen\xE9
+        Aiko\",\"type\":\"MAIN\",\"picture\":\"327a5a30-7849-464f-8334-f82395cf5361\"},{\"id\":4899960,\"name\":\"Jhen\xE9
+        Aiko\",\"type\":\"MAIN\",\"picture\":\"327a5a30-7849-464f-8334-f82395cf5361\"},{\"id\":4899960,\"name\":\"Jhen\xE9
+        Aiko\",\"type\":\"MAIN\",\"picture\":\"327a5a30-7849-464f-8334-f82395cf5361\"}],\"lastItemAddedAt\":\"2021-12-17T05:44:34.000+0000\"},{\"uuid\":\"dce9ed22-e709-4b5f-a35f-15ea45fb7047\",\"title\":\"Ice
+        Cube Essentials\",\"numberOfTracks\":40,\"numberOfVideos\":0,\"creator\":{},\"description\":\"Ice
+        Cube (O'Shea Jackson Sr.) established himself as a progressive and provocative
+        artist in the rap game. As a founder and keystone lyricist in the pioneering
+        gangsta rap group, N.W.A., he then embarked on a hugely successful solo career
+        and branched into film. Bringing light to politics and other social commentary,
+        Ice Cube stirred up incredible fame and controversy through his aggressive
+        and brutally honest lyrical delivery, and he's widely regarded as one of rap's
+        greatest storytellers. (Photo: Rovi)\",\"duration\":10336,\"lastUpdated\":\"2023-03-31T00:55:48.000+0000\",\"created\":\"2016-08-03T07:28:56.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/dce9ed22-e709-4b5f-a35f-15ea45fb7047\",\"image\":\"4b7a4362-f14d-4a84-ab94-bae3dce1ba41\",\"popularity\":24,\"squareImage\":\"ea63b065-c039-497c-9cd1-2aa637f41ef4\",\"promotedArtists\":[{\"id\":9126,\"name\":\"Ice
+        Cube\",\"type\":\"MAIN\",\"picture\":\"fa291846-c063-40f3-9557-762c765e0540\"}],\"lastItemAddedAt\":\"2023-03-31T00:55:48.000+0000\"},{\"uuid\":\"0fa30617-662a-42fc-ad16-fb699f3636b7\",\"title\":\"2010s
+        Love Songs\",\"numberOfTracks\":54,\"numberOfVideos\":0,\"creator\":{},\"description\":\"From
+        the decade that brought us UGGs, Athleisure and the Cinnamon Challenge, these
+        are the love songs of the 2010s. (Cover: A Star Is Born Soundtrack, UMG)\",\"duration\":12782,\"lastUpdated\":\"2023-02-09T09:21:13.000+0000\",\"created\":\"2020-01-29T16:45:16.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/0fa30617-662a-42fc-ad16-fb699f3636b7\",\"image\":\"94a9f783-f19f-4215-9f8a-691ffcd14a17\",\"popularity\":23,\"squareImage\":\"1550fe16-352b-4a7b-a55f-3a01f505adbd\",\"promotedArtists\":[{\"id\":490,\"name\":\"John
+        Legend\",\"type\":\"MAIN\",\"picture\":\"dbf17b28-b207-471a-b97d-34d94a339a41\"},{\"id\":3995478,\"name\":\"Ed
+        Sheeran\",\"type\":\"MAIN\",\"picture\":\"05d72ae4-319f-4237-821f-1d7af9ec8acf\"},{\"id\":10665,\"name\":\"Rihanna\",\"type\":\"MAIN\",\"picture\":\"3007b448-2392-44d7-acdf-bea8d41cee62\"},{\"id\":3557299,\"name\":\"Taylor
+        Swift\",\"type\":\"MAIN\",\"picture\":\"42edd026-d581-4929-b856-2ae142918f44\"}],\"lastItemAddedAt\":\"2023-02-09T09:21:03.000+0000\"},{\"uuid\":\"afff3b1b-13a4-4225-8f27-fd4af1cdb41a\",\"title\":\"Produced
+        By: Pharrell\",\"numberOfTracks\":61,\"numberOfVideos\":0,\"creator\":{},\"description\":\"While
+        Pharrell's work behind the boards as part of the legendary production team
+        The Neptunes created smash hits for pop and hip-hop royalty, Skateboard P's
+        also done his own thing. Hats off to Pha-Real's solo production credits. (Photo:
+        Columbia Records, press)\",\"duration\":13467,\"lastUpdated\":\"2023-04-04T17:57:13.000+0000\",\"created\":\"2017-07-16T20:48:16.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/afff3b1b-13a4-4225-8f27-fd4af1cdb41a\",\"image\":\"e90c4726-286f-420e-84e0-1c85c2848127\",\"popularity\":27,\"squareImage\":\"aaccdbcf-9438-4a2e-9c48-57198379905d\",\"promotedArtists\":[{\"id\":17256,\"name\":\"Robin
+        Thicke\",\"type\":\"MAIN\",\"picture\":\"09198ec2-3134-455b-bb2e-af9b26a58829\"},{\"id\":4900204,\"name\":\"Pharrell
+        Williams\",\"type\":\"MAIN\",\"picture\":\"584f8ed5-154f-4861-ba77-e2bc34d2bef4\"},{\"id\":3972883,\"name\":\"Pusha
+        T\",\"type\":\"MAIN\",\"picture\":\"1a66b643-d534-4c74-88fa-4e61109149f7\"},{\"id\":3816041,\"name\":\"Kendrick
+        Lamar\",\"type\":\"MAIN\",\"picture\":\"f081ffab-8fba-4989-9043-9823518b6db3\"}],\"lastItemAddedAt\":\"2023-03-29T15:10:02.000+0000\"},{\"uuid\":\"4e618a07-fd16-48ff-a0b3-efdfb28cf408\",\"title\":\"Label
+        Focus: Motown - TIDAL Masters\",\"numberOfTracks\":14,\"numberOfVideos\":0,\"creator\":{},\"description\":\"With
+        TIDAL Masters playlists we highlight the very best examples of Master Quality
+        Authenticated recordings, curated to get the most out of your stereo, your
+        headphones and your TIDAL HiFi membership. Hear the difference. (Cover: Stevie
+        Wonder / Photo: Rovi)  \",\"duration\":3614,\"lastUpdated\":\"2020-03-25T08:43:55.000+0000\",\"created\":\"2017-08-29T08:42:46.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/4e618a07-fd16-48ff-a0b3-efdfb28cf408\",\"image\":\"b1f51b27-3665-4b2f-9fe5-a345c59fa07c\",\"popularity\":29,\"squareImage\":\"7a6124fc-0cbb-40f1-b6bc-aef0299c4e3d\",\"promotedArtists\":[{\"id\":3619958,\"name\":\"The
+        Commodores\",\"type\":\"MAIN\",\"picture\":\"c7516e42-edec-40ac-99c1-75579fc04fa6\"},{\"id\":239,\"name\":\"Stevie
+        Wonder\",\"type\":\"MAIN\",\"picture\":\"c9292b86-fcee-48bb-a1e5-84b99e147148\"},{\"id\":3530095,\"name\":\"The
+        Jackson 5\",\"type\":\"MAIN\",\"picture\":\"00cfe5e6-2472-406c-ba66-19f9bc71bfff\"},{\"id\":11108,\"name\":\"The
+        Supremes\",\"type\":\"MAIN\",\"picture\":\"d65e14f6-a178-492c-a86f-e6cbdabec9c6\"}],\"lastItemAddedAt\":null},{\"uuid\":\"82a66bb9-8c6c-4450-b8ff-138207edd8d4\",\"title\":\"1971!
+        Songs of the Year\",\"numberOfTracks\":100,\"numberOfVideos\":0,\"creator\":{},\"description\":\"Timeless
+        singer-songwriters, R&B masters and the emergence of heavy metal were just
+        some of the musical trends that made 1971 a remarkable year in music. (Cover:
+        Marvin Gaye - What's Going On, Motown/Universal)\",\"duration\":30153,\"lastUpdated\":\"2021-12-28T22:36:05.000+0000\",\"created\":\"2021-01-11T14:05:03.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/82a66bb9-8c6c-4450-b8ff-138207edd8d4\",\"image\":\"9e288a01-6502-4ad3-ba03-cb3491e53169\",\"popularity\":26,\"squareImage\":\"573563b3-0401-4364-9e5a-5d0bec29c4a1\",\"promotedArtists\":[{\"id\":711,\"name\":\"Marvin
+        Gaye\",\"type\":\"MAIN\",\"picture\":\"65cc635f-039d-426b-9ea2-9d452c4faae1\"},{\"id\":4768,\"name\":\"David
+        Bowie\",\"type\":\"MAIN\",\"picture\":\"eb9b4956-8298-4586-8b5f-5b41c85d8e7d\"},{\"id\":573,\"name\":\"The
+        Rolling Stones\",\"type\":\"MAIN\",\"picture\":\"976224e0-8732-4598-b0f0-06d00363e6ab\"},{\"id\":73,\"name\":\"Bill
+        Withers\",\"type\":\"MAIN\",\"picture\":\"38ea7d24-9121-4db8-8569-6040871ce085\"}],\"lastItemAddedAt\":\"2021-06-17T21:24:33.000+0000\"},{\"uuid\":\"ded77fd5-82aa-4a44-8eca-f4775f6f1219\",\"title\":\"Speed
+        & Thrash Metal 101\",\"numberOfTracks\":37,\"numberOfVideos\":0,\"creator\":{},\"description\":\"Speed
+        and thrash metal are two related sub-genres that introduced a more aggressive
+        and abrasive form of metal that sharply contrasted with the '80s pop-oriented
+        metal music. Speed/thrash grew out of the new wave of British heavy metal
+        and hardcore punk roots of the early 1980s, and eventually became one of the
+        metal genre's leading styles. The difference between the two is not at all
+        set in stone, but thrash is considered to be riff based and leaned more into
+        shouting, punk orientated sound. Metallica, Megadeth, Anthrax and Slayer are
+        ranked as the \\\"the big four\\\" in Thrash metal. Speed metal is used to
+        describe music that's even faster and less punk. On this playlist you\u2019ll
+        get some examples of some classic tracks from both styles. (Photo: Slayer,
+        Rovi / Megadeth, Rovi) \",\"duration\":10587,\"lastUpdated\":\"2023-07-14T12:35:06.000+0000\",\"created\":\"2017-05-30T12:06:34.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/ded77fd5-82aa-4a44-8eca-f4775f6f1219\",\"image\":\"e4acf38c-a16c-458e-bf47-2a52b60bc025\",\"popularity\":22,\"squareImage\":\"6c4f73cb-4137-43ac-bae6-b42843bd835c\",\"promotedArtists\":[{\"id\":8405,\"name\":\"Metallica\",\"type\":\"MAIN\",\"picture\":\"0a85112a-d1ec-49be-a618-8df9081e9e0c\"},{\"id\":16386,\"name\":\"Slayer\",\"type\":\"MAIN\",\"picture\":\"31e99ea6-65bb-4f67-880b-44cfb294f3dc\"},{\"id\":946,\"name\":\"Megadeth\",\"type\":\"MAIN\",\"picture\":\"7458a4ad-d896-4553-97d2-f2611fcbad8e\"},{\"id\":949,\"name\":\"Anthrax\",\"type\":\"MAIN\",\"picture\":\"1b0dfa99-e3c9-4aad-b398-28dfa19adff6\"}],\"lastItemAddedAt\":\"2023-07-14T12:35:05.000+0000\"},{\"uuid\":\"23b5bba5-47fc-47c3-ad3e-1ff7a146ad4e\",\"title\":\"Sad
+        Country Songs\",\"numberOfTracks\":50,\"numberOfVideos\":0,\"creator\":{},\"description\":\"Who
+        deals with breakups, sadness, loneliness and shattered dreams more than country
+        singers? Country music is largely concerned with real human feelings, and
+        as we all know, agony is a major part of our emotional spectrum. On this playlist
+        we have gathered some heartbreaking country favorites \u2013 songs of comfort
+        and pain, songs for crying into your beer and getting back up on your feet.
+        Just don\u2019t forget to keep a hanky within reach, and remember there are
+        brighter days ahead. (Photo: Unsplash) \",\"duration\":10998,\"lastUpdated\":\"2022-06-28T09:15:53.000+0000\",\"created\":\"2015-07-21T11:53:05.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/23b5bba5-47fc-47c3-ad3e-1ff7a146ad4e\",\"image\":\"4848b313-db5d-4c3e-8fcb-05d8b7918da9\",\"popularity\":25,\"squareImage\":\"63211853-9314-4d54-9981-9007bbecd5c7\",\"promotedArtists\":[{\"id\":6493216,\"name\":\"Glen
+        Campbell and The Wrecking Crew\",\"type\":\"MAIN\",\"picture\":null},{\"id\":14803,\"name\":\"John
+        Prine\",\"type\":\"MAIN\",\"picture\":\"a4926bf7-84d2-4559-b668-473cb0d1911a\"},{\"id\":3522392,\"name\":\"Townes
+        Van Zandt\",\"type\":\"MAIN\",\"picture\":\"a5b4e513-46ca-47ea-9c97-1b25995a32f6\"},{\"id\":784,\"name\":\"George
+        Jones\",\"type\":\"MAIN\",\"picture\":\"e10e64b7-2be5-4266-8878-00c25239b27e\"}],\"lastItemAddedAt\":\"2022-06-28T09:15:06.000+0000\"},{\"uuid\":\"f5885516-fc5d-43f1-9a40-ac89e3a8c5c3\",\"title\":\"Beyonc\xE9
+        Live Video Essentials\",\"numberOfTracks\":0,\"numberOfVideos\":20,\"creator\":{},\"description\":\"Watch
+        memorable performances from Beyonc\xE9. (Photo: TIDAL Event)\",\"duration\":16001,\"lastUpdated\":\"2023-02-01T15:16:42.000+0000\",\"created\":\"2020-03-20T20:55:43.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/f5885516-fc5d-43f1-9a40-ac89e3a8c5c3\",\"image\":\"fd43c69b-7277-440d-8eca-659dbca16da8\",\"popularity\":21,\"squareImage\":\"35e477b9-19b5-4cf2-9562-6ef8814b0aef\",\"promotedArtists\":[{\"id\":1566,\"name\":\"Beyonc\xE9\",\"type\":\"MAIN\",\"picture\":\"14416e8d-abae-4e90-9349-8efeb5c8d447\"},{\"id\":7804,\"name\":\"JAY
+        Z\",\"type\":\"MAIN\",\"picture\":\"a437c542-e9b5-4050-aced-c75ca0565c4f\"}],\"lastItemAddedAt\":\"2023-02-01T15:14:57.000+0000\"},{\"uuid\":\"7c7fbcad-4741-42a9-ac57-081b67070943\",\"title\":\"Lyrical
+        Legends: Country & Folk\",\"numberOfTracks\":79,\"numberOfVideos\":0,\"creator\":{},\"description\":\"Meet
+        some of the finest and most poignant singers and songwriters of all time in
+        this playlist packed with new, old and timeless storytellers. (Cover: John
+        Prine / Photo: Rovi)\",\"duration\":18603,\"lastUpdated\":\"2023-04-12T12:45:29.000+0000\",\"created\":\"2018-03-12T15:32:17.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/7c7fbcad-4741-42a9-ac57-081b67070943\",\"image\":\"470aabcd-e7b5-4212-b4d7-6590ba188a71\",\"popularity\":26,\"squareImage\":\"34b17b40-eb66-4536-b07a-8f168be90da2\",\"promotedArtists\":[{\"id\":14803,\"name\":\"John
+        Prine\",\"type\":\"MAIN\",\"picture\":\"a4926bf7-84d2-4559-b668-473cb0d1911a\"},{\"id\":125,\"name\":\"Kris
+        Kristofferson\",\"type\":\"MAIN\",\"picture\":\"475fc3c4-2978-4119-b8ca-905bebfce33a\"},{\"id\":156,\"name\":\"Johnny
+        Cash\",\"type\":\"MAIN\",\"picture\":\"b2a6ebf6-ca07-4d4a-a02c-b19de95eb1ca\"},{\"id\":3522392,\"name\":\"Townes
+        Van Zandt\",\"type\":\"MAIN\",\"picture\":\"a5b4e513-46ca-47ea-9c97-1b25995a32f6\"}],\"lastItemAddedAt\":\"2023-03-27T19:28:51.000+0000\"},{\"uuid\":\"116b6539-c5d1-46d7-b58e-4022a3fec8e0\",\"title\":\"Best
+        of Broadway\",\"numberOfTracks\":53,\"numberOfVideos\":0,\"creator\":{},\"description\":\"This
+        playlist celebrates some of the biggest Broadway hits past and present, including
+        cuts from 'Hello Dolly,' 'Miss Saigon,' 'War Paint' and 'West Side Story'
+        (Photo: Unsplash)\",\"duration\":12771,\"lastUpdated\":\"2021-11-26T23:06:59.000+0000\",\"created\":\"2016-06-15T11:32:14.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/116b6539-c5d1-46d7-b58e-4022a3fec8e0\",\"image\":\"82f09461-92e6-4a87-b8ac-72a443cfcf9f\",\"popularity\":23,\"squareImage\":\"aeeb49f4-a04e-4fe6-9a1d-cb75219ba68d\",\"promotedArtists\":[{\"id\":64018,\"name\":\"Larry
+        Kert\",\"type\":\"MAIN\",\"picture\":null},{\"id\":3503537,\"name\":\"Katherine
+        Jenkins\",\"type\":\"MAIN\",\"picture\":\"087603da-7b0c-4e2b-bb76-cac6d08b8444\"},{\"id\":14772,\"name\":\"Stephen
+        Sondheim\",\"type\":\"MAIN\",\"picture\":\"bdf2805b-5867-4e13-9400-b2290a5c532e\"},{\"id\":3838724,\"name\":\"Zero
+        Mostel\",\"type\":\"MAIN\",\"picture\":null}],\"lastItemAddedAt\":\"2021-11-26T22:57:44.000+0000\"},{\"uuid\":\"b2dfeb1e-d8ba-4433-a053-c73c29173641\",\"title\":\"Eric
+        Clapton - TIDAL Masters\",\"numberOfTracks\":10,\"numberOfVideos\":0,\"creator\":{},\"description\":\"Sarcastically
+        nicknamed \u201CSlowhand,\u201D his position as one of the most important
+        guitarists of his generation is indisputable, which found him collaborating
+        with the most important musicians of the time.\\n\\nWith TIDAL Masters playlists
+        we highlight the very best examples of Master Quality Authenticated recordings,
+        curated to get the most out of your stereo, your headphones and your TIDAL
+        HiFi membership. Hear the difference. (Photo: Rovi)\",\"duration\":3505,\"lastUpdated\":\"2020-03-25T10:36:58.000+0000\",\"created\":\"2020-01-14T13:26:19.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/b2dfeb1e-d8ba-4433-a053-c73c29173641\",\"image\":\"721ca4b6-fa24-4a01-a8f3-5a09c9dbef25\",\"popularity\":18,\"squareImage\":\"f37ef557-b26f-4fd0-9398-3d6d15c7a049\",\"promotedArtists\":[{\"id\":124,\"name\":\"Eric
+        Clapton\",\"type\":\"MAIN\",\"picture\":\"4f46d21c-bada-458c-afaa-2921f111061f\"},{\"id\":5307,\"name\":\"B.B.
+        King\",\"type\":\"MAIN\",\"picture\":\"dd3e6a50-57de-469e-8322-5536ee9cc0db\"}],\"lastItemAddedAt\":null},{\"uuid\":\"a434a12d-55a8-4df9-bd62-2981773b69ab\",\"title\":\"2016
+        Pop Hits\",\"numberOfTracks\":54,\"numberOfVideos\":0,\"creator\":{},\"description\":\"2016
+        arrived & Pop music dominated the charts. Showcasing the Pop songs that swept
+        the globe, these are the biggest hits of 2016! \\n\\n(Cover: Shawn Mendes
+        // Photo: Rovi, press)\",\"duration\":12188,\"lastUpdated\":\"2021-09-24T13:49:50.000+0000\",\"created\":\"2021-09-23T00:57:56.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/a434a12d-55a8-4df9-bd62-2981773b69ab\",\"image\":\"5e5341c6-f462-444b-a2a5-9d308d6ce074\",\"popularity\":17,\"squareImage\":\"6b821936-bdde-48bf-809a-5f9bfdf3d49f\",\"promotedArtists\":[{\"id\":5747802,\"name\":\"Shawn
+        Mendes\",\"type\":\"MAIN\",\"picture\":\"18d5f228-cda2-44db-a76c-d3f05a7cb4e6\"},{\"id\":32954,\"name\":\"Sia\",\"type\":\"MAIN\",\"picture\":\"60e03b5c-d9ba-4556-808b-547cbbbbe3b6\"},{\"id\":3639248,\"name\":\"Justin
+        Bieber\",\"type\":\"MAIN\",\"picture\":\"c561791e-6a6e-4c9f-a226-8f8569d0bc1b\"},{\"id\":4818468,\"name\":\"The
+        Chainsmokers\",\"type\":\"MAIN\",\"picture\":\"1e492f0d-27fd-44e9-8cc7-084dc1d20565\"}],\"lastItemAddedAt\":\"2021-09-23T00:57:56.000+0000\"}]},\"tracks\":{\"limit\":50,\"offset\":0,\"totalNumberOfItems\":0,\"items\":[]},\"videos\":{\"limit\":50,\"offset\":0,\"totalNumberOfItems\":300,\"items\":[{\"id\":28917290,\"title\":\"Hello
+        Kitty (Official Video)\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2014-04-24T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"f0767410-948a-4c58-8fb0-7f4bdcbc9359\",\"vibrantColor\":\"#bd647e\",\"duration\":199,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2014-04-24T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":16,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":1567,\"name\":\"Avril
+        Lavigne\",\"type\":\"MAIN\",\"picture\":\"eef765c3-8017-4817-9911-2c59729ce465\"}],\"album\":null},{\"id\":67037318,\"title\":\"Hello\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2016-11-15T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"a4eb81f7-e564-4e85-83ec-26710afcab68\",\"vibrantColor\":\"#edd7a5\",\"duration\":275,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2016-11-14T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":true,\"popularity\":9,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":false,\"artists\":[{\"id\":5237820,\"name\":\"Karol
+        G\",\"type\":\"MAIN\",\"picture\":\"88f1429c-cc27-43c7-9dda-cee0181acd4c\"},{\"id\":5371163,\"name\":\"Ozuna\",\"type\":\"MAIN\",\"picture\":\"a9fbee9b-b010-4661-884a-5fe457415ebc\"}],\"album\":null},{\"id\":60108049,\"title\":\"Hello
+        Friday (feat. Jason Derulo)\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2016-02-26T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"f4ebe118-2744-4b74-8fa5-9eb1b54d2837\",\"vibrantColor\":\"#d0d197\",\"duration\":204,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2016-05-17T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":14,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":3500259,\"name\":\"Flo
+        Rida\",\"type\":\"MAIN\",\"picture\":\"75d90db9-d36b-4727-a139-398fc411798e\"},{\"id\":3851664,\"name\":\"Jason
+        Derulo\",\"type\":\"FEATURED\",\"picture\":\"af6ee599-b687-47ae-8ffe-b3cdbcfcbabf\"}],\"album\":null},{\"id\":228259547,\"title\":\"Hello
+        (feat. Chl\xF6e & KayCyy) (Official Video)\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2022-05-11T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"874c1a2d-724c-49b2-a931-ad43dec9a4c2\",\"vibrantColor\":\"#decf80\",\"duration\":265,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2022-05-11T17:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":true,\"popularity\":9,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":12267536,\"name\":\"Fivio
+        Foreign\",\"type\":\"MAIN\",\"picture\":\"738968a8-6f29-4271-aaa5-4297f782872b\"},{\"id\":26160631,\"name\":\"Chl\xF6e\",\"type\":\"MAIN\",\"picture\":\"d680a203-2d48-4b9e-9e95-34bf13882cd3\"},{\"id\":8345252,\"name\":\"KayCyy\",\"type\":\"MAIN\",\"picture\":\"75ade836-2760-48ac-9cde-cd26ea4eadac\"}],\"album\":null},{\"id\":25378132,\"title\":\"Hello
+        Good Morning\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2010-01-01T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"00a13cf5-57ba-4e47-a415-28bfa728e351\",\"vibrantColor\":\"#b2e3f6\",\"duration\":284,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2010-07-27T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":13,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":3503485,\"name\":\"Diddy\",\"type\":\"MAIN\",\"picture\":\"fb55f557-adef-464a-8f94-c9df355d241a\"},{\"id\":14979,\"name\":\"T.I.\",\"type\":\"FEATURED\",\"picture\":\"4497e64b-0f40-4f36-9f65-9a5228d0aeb4\"},{\"id\":24995,\"name\":\"Rick
+        Ross\",\"type\":\"FEATURED\",\"picture\":\"87e8b6e4-bc90-458a-9467-8cbc0e7d8509\"}],\"album\":null},{\"id\":104817340,\"title\":\"Hello\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2007-01-01T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"4fe8ffa1-d47f-4cb5-bff3-8865d62fe4ba\",\"vibrantColor\":\"#42e1f2\",\"duration\":250,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2019-09-19T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":4,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":17277,\"name\":\"Lionel
+        Richie\",\"type\":\"MAIN\",\"picture\":\"bbaeb9d8-7060-4502-a254-d60ad2617b4b\"}],\"album\":null},{\"id\":162111744,\"title\":\"Hello\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"1984-02-13T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"f57ee423-41d3-4360-9fe0-189be4eb451c\",\"vibrantColor\":\"#c2776a\",\"duration\":326,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2020-11-20T17:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":4,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":17277,\"name\":\"Lionel
+        Richie\",\"type\":\"MAIN\",\"picture\":\"bbaeb9d8-7060-4502-a254-d60ad2617b4b\"}],\"album\":null},{\"id\":102255224,\"title\":\"Hello
+        Happiness\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2018-01-14T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"585a13b5-6138-45f3-b015-cba10f6a3968\",\"vibrantColor\":\"#3c64c3\",\"duration\":299,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2019-01-14T15:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":6,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":14023,\"name\":\"Chaka
+        Khan\",\"type\":\"MAIN\",\"picture\":\"6f8018a3-295f-4380-9631-f43705a0bd66\"}],\"album\":null},{\"id\":164776862,\"title\":\"Hello\",\"volumeNumber\":1,\"trackNumber\":35,\"releaseDate\":\"2020-12-11T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"64f88d41-f4ec-4fdb-9e02-4f95f35ebf3d\",\"vibrantColor\":\"#59d5ea\",\"duration\":279,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2020-12-11T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":3,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":3510943,\"name\":\"Helene
+        Fischer\",\"type\":\"MAIN\",\"picture\":\"cbf015ad-b805-4d96-ae41-d5182c18b9de\"},{\"id\":3671534,\"name\":\"Naturally
+        7\",\"type\":\"MAIN\",\"picture\":\"7624720e-cbf0-47e2-a770-618709560d75\"}],\"album\":{\"id\":164776825,\"title\":\"Die
+        Helene Fischer Show - Meine sch\xF6nsten Momente, Vol. 1 (Video Album)\",\"cover\":\"7a25616d-1365-4d7a-a74d-5a30318a4033\",\"vibrantColor\":\"#d292a2\",\"videoCover\":null,\"releaseDate\":\"2020-12-11\"}},{\"id\":102190175,\"title\":\"Hello
+        My Love\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2019-01-11T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"10d84255-4ed0-48c0-8c6d-21f584754bc9\",\"vibrantColor\":\"#edd56a\",\"duration\":224,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2019-01-11T09:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":8,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":1554,\"name\":\"Westlife\",\"type\":\"MAIN\",\"picture\":\"59ce089a-cb5b-4629-86b7-ce04a0976c65\"}],\"album\":null},{\"id\":86702152,\"title\":\"Hello
+        Again\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"1984-03-13T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"ccb7b92c-2b73-4fa4-a27b-6f7a8e2dbd92\",\"vibrantColor\":\"#587ef0\",\"duration\":272,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2018-04-06T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":5,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":13594,\"name\":\"The
+        Cars\",\"type\":\"MAIN\",\"picture\":\"608ab629-f476-4d0a-b888-d3918b855954\"}],\"album\":null},{\"id\":29579633,\"title\":\"Hello\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2012-08-08T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"51517ad9-46be-4e58-b9ce-3421d7de6462\",\"vibrantColor\":\"#67ead8\",\"duration\":238,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2012-08-08T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":4,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":3795914,\"name\":\"Karmin\",\"type\":\"MAIN\",\"picture\":\"37e791fa-50cf-4daf-94c1-3937f39babad\"}],\"album\":null},{\"id\":186064831,\"title\":\"Hello\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2021-05-31T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"abae0806-9ff4-4cfa-b09a-154210b73dbd\",\"vibrantColor\":\"#bca66e\",\"duration\":274,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2021-05-31T05:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":2,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":25308564,\"name\":\"JOY\",\"type\":\"MAIN\",\"picture\":\"09389987-7f67-410a-9861-c04e84659ca4\"}],\"album\":null},{\"id\":145336204,\"title\":\"Hello,
+        Dolly!\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"1964-10-04T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"49ccf7c0-1dab-45d1-9d11-69d4b610a864\",\"vibrantColor\":\"#FFFFFF\",\"duration\":163,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2020-06-21T19:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":6,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":1072,\"name\":\"Louis
+        Armstrong\",\"type\":\"MAIN\",\"picture\":\"112d8866-1b85-4200-a0b2-221e1c0ba003\"}],\"album\":null},{\"id\":219296764,\"title\":\"Hello
+        World\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2022-03-04T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"2c1deb21-8347-49e6-b1d1-7afcc9790510\",\"vibrantColor\":\"#d3daeb\",\"duration\":170,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2022-03-04T14:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":3,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":6159368,\"name\":\"Alan
+        Walker\",\"type\":\"MAIN\",\"picture\":\"c46be937-9869-4454-8d80-ba6a6e23b6c6\"},{\"id\":15274947,\"name\":\"Torine\",\"type\":\"MAIN\",\"picture\":\"f4ecfe4a-783c-4c88-9a66-c6ef67caf7b3\"}],\"album\":null},{\"id\":144406574,\"title\":\"Hello\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2020-05-26T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"108c68f4-ac8f-4134-a842-5957708f3abd\",\"vibrantColor\":\"#FFFFFF\",\"duration\":276,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2020-06-10T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":2,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":3708260,\"name\":\"Jam
+        Hsiao\",\"type\":\"MAIN\",\"picture\":\"e1b3f887-b45d-4302-92c8-0463b68498be\"},{\"id\":4778346,\"name\":\"JJ
+        Lin\",\"type\":\"MAIN\",\"picture\":\"68dff673-820e-4826-ac40-db4d649fbd00\"}],\"album\":null},{\"id\":140640754,\"title\":\"Hello
+        - Moto/Spory\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2020-05-14T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"b0fca669-4027-46fe-9b4e-5ddb7f6bed0c\",\"vibrantColor\":\"#FFFFFF\",\"duration\":184,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2020-05-14T11:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":2,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":9927712,\"name\":\"Kukon\",\"type\":\"MAIN\",\"picture\":\"5b93d730-99f7-4e58-bde1-694e52af0320\"},{\"id\":4361052,\"name\":\"Magiera\",\"type\":\"MAIN\",\"picture\":\"674ee6d9-e7d8-48fd-a9d1-293166691777\"}],\"album\":null},{\"id\":189197268,\"title\":\"Hello
+        Future\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2021-06-28T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"e11ad91b-54f9-47d7-acc9-b325c72b8f18\",\"vibrantColor\":\"#58702d\",\"duration\":233,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2021-06-28T10:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":3,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":8545375,\"name\":\"NCT
+        DREAM\",\"type\":\"MAIN\",\"picture\":\"63f64025-34e9-4222-9d57-342b1ab34bcc\"}],\"album\":null},{\"id\":131871668,\"title\":\"Hello\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2020-02-19T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"3a9e1967-920d-40b5-bbe6-12d1b3ec1c6c\",\"vibrantColor\":\"#703436\",\"duration\":216,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2020-02-19T19:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":true,\"popularity\":1,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":5039349,\"name\":\"Emily
+        Burns\",\"type\":\"MAIN\",\"picture\":\"fe45c6e8-4062-4042-ba73-5cafd4b2d4b4\"}],\"album\":null},{\"id\":74975810,\"title\":\"Hello\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2017-06-09T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"1f3a4c00-31ad-4a1d-bf29-f7a20b470476\",\"vibrantColor\":\"#4dcfbd\",\"duration\":205,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2017-06-12T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":1,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":10842,\"name\":\"Royal
+        Liverpool Philharmonic Orchestra\",\"type\":\"MAIN\",\"picture\":\"b7aea51f-2fea-48a9-81bd-bed4842248d8\"}],\"album\":null},{\"id\":145623409,\"title\":\"Hello\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2020-06-22T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"9639aed8-5e63-4c78-906a-a5c6418f99e6\",\"vibrantColor\":\"#7de1f3\",\"duration\":132,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2020-06-22T07:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":1,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":5441502,\"name\":\"Scarlet
+        Pleasure\",\"type\":\"MAIN\",\"picture\":\"8dcaf493-37b0-443a-9aec-99fc45f32931\"}],\"album\":null},{\"id\":133095141,\"title\":\"Hello\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2020-03-04T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"b3a5321c-bb21-4b2a-9210-a97c14f7fb0f\",\"vibrantColor\":\"#dbbe83\",\"duration\":235,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2020-03-04T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":1,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":5039349,\"name\":\"Emily
+        Burns\",\"type\":\"MAIN\",\"picture\":\"fe45c6e8-4062-4042-ba73-5cafd4b2d4b4\"}],\"album\":null},{\"id\":82557973,\"title\":\"Hello\",\"volumeNumber\":1,\"trackNumber\":1,\"releaseDate\":\"2017-12-15T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"889fcac0-3990-4069-bea6-119bb3995338\",\"vibrantColor\":\"#dfec9e\",\"duration\":191,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2017-12-15T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":1,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":8350775,\"name\":\"Bay
+        Boyz\",\"type\":\"MAIN\",\"picture\":null}],\"album\":null},{\"id\":59926781,\"title\":\"Hello\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2016-05-06T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"36e86116-bd1b-44d1-90d2-85d6f75c6019\",\"vibrantColor\":\"#33b1eb\",\"duration\":215,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2016-05-02T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":1,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":5625162,\"name\":\"Sean
+        Bradford\",\"type\":\"MAIN\",\"picture\":\"27fe1c3e-2a74-4a85-8df5-b3549e5d6a8b\"}],\"album\":null},{\"id\":145231489,\"title\":\"Hello\",\"volumeNumber\":1,\"trackNumber\":1,\"releaseDate\":\"2020-03-22T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"50218448-14ef-4302-841e-12acb8213f7e\",\"vibrantColor\":\"#d5aa53\",\"duration\":284,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2020-03-22T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":true,\"popularity\":1,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":9209818,\"name\":\"Iman.\",\"type\":\"MAIN\",\"picture\":null}],\"album\":null},{\"id\":108314046,\"title\":\"Hello
+        Sunshine (Official Lyric Video)\",\"volumeNumber\":1,\"trackNumber\":1,\"releaseDate\":\"2019-04-25T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"0a54e1aa-0e03-48d6-bcf6-0abd20d4c7cc\",\"vibrantColor\":\"#cdbc8e\",\"duration\":238,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2019-04-26T05:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":2,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":509,\"name\":\"Bruce
+        Springsteen\",\"type\":\"MAIN\",\"picture\":\"97423d53-c815-4b48-b5ef-d9fa28a3837b\"}],\"album\":null},{\"id\":106613671,\"title\":\"Hello\",\"volumeNumber\":1,\"trackNumber\":1,\"releaseDate\":\"2019-04-12T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"8bc87071-9063-4450-9018-c62a28e94995\",\"vibrantColor\":\"#942335\",\"duration\":154,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2019-04-12T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":0,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":5452521,\"name\":\"Nischay
+        Parekh\",\"type\":\"FEATURED\",\"picture\":null},{\"id\":6378622,\"name\":\"Jivraj
+        Singh\",\"type\":\"FEATURED\",\"picture\":null},{\"id\":15377715,\"name\":\"Akshita
+        Bhanjdeo\",\"type\":\"FEATURED\",\"picture\":null},{\"id\":15377716,\"name\":\"Mrinalika
+        Bhanjdeo\",\"type\":\"FEATURED\",\"picture\":null},{\"id\":15377717,\"name\":\"Mekhola
+        Bose\",\"type\":\"FEATURED\",\"picture\":null},{\"id\":15377718,\"name\":\"Priyam
+        Bose\",\"type\":\"FEATURED\",\"picture\":null},{\"id\":15377719,\"name\":\"Ishani
+        Chakrabarti\",\"type\":\"FEATURED\",\"picture\":null},{\"id\":15377720,\"name\":\"Srijita
+        Saha\",\"type\":\"FEATURED\",\"picture\":null},{\"id\":15377721,\"name\":\"Aditi
+        Sinha\",\"type\":\"FEATURED\",\"picture\":null},{\"id\":15377722,\"name\":\"Krishna
+        Vinod\",\"type\":\"FEATURED\",\"picture\":null},{\"id\":15377723,\"name\":\"Amandeep
+        Chanda\",\"type\":\"FEATURED\",\"picture\":null},{\"id\":15377724,\"name\":\"Zaid
+        Ashraf\",\"type\":\"FEATURED\",\"picture\":null},{\"id\":8084842,\"name\":\"Parekh
+        & Singh\",\"type\":\"MAIN\",\"picture\":null}],\"album\":null},{\"id\":48008213,\"title\":\"Hello\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2015-01-01T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"af5e19ef-fb80-4648-b6b8-c6221b492abb\",\"vibrantColor\":\"#347985\",\"duration\":198,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2015-07-13T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":0,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":4970028,\"name\":\"Boys
+        Republic\",\"type\":\"MAIN\",\"picture\":\"f90d35f5-a10a-4778-aa3f-2da06ee2e0d0\"}],\"album\":null},{\"id\":240408582,\"title\":\"Hello\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2015-10-20T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"04883025-c46d-4dc1-a82e-13ff03cafbc7\",\"vibrantColor\":\"#FFFFFF\",\"duration\":218,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2015-10-20T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":0,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":4503810,\"name\":\"Daniel
+        Santacruz\",\"type\":\"MAIN\",\"picture\":\"a3d1ac26-7314-41f9-b398-f9025d79826f\"}],\"album\":null},{\"id\":26398430,\"title\":\"Hello\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2013-08-23T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"d9159243-8739-4cff-8f9e-cfa95e4a66ca\",\"vibrantColor\":\"#e5d8b6\",\"duration\":254,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2014-02-18T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":0,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":5056044,\"name\":\"DIANA
+        WANG\",\"type\":\"MAIN\",\"picture\":\"459539a1-a7d6-483f-99f1-02ac2dd6b2b0\"}],\"album\":null},{\"id\":52922745,\"title\":\"Hello\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2015-11-23T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"eeee7910-622b-4832-8780-39fa00f2da78\",\"vibrantColor\":\"#FFFFFF\",\"duration\":263,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2015-10-23T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":0,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":6214276,\"name\":\"Music
+        Lab Collective\",\"type\":\"MAIN\",\"picture\":\"c09e7786-f2ce-4022-bd0a-63e801e4ca17\"}],\"album\":null},{\"id\":276339054,\"title\":\"Hello\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2018-01-18T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"5a91816a-ecad-4ef4-8206-11bbdf4575b3\",\"vibrantColor\":\"#90ed89\",\"duration\":101,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2018-01-18T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":0,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":8348897,\"name\":\"Kids
+        Imagine Nation\",\"type\":\"MAIN\",\"picture\":null}],\"album\":null},{\"id\":291994718,\"title\":\"Hello\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2023-04-28T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"07a96afe-b2fa-4ace-9773-dbb27520faed\",\"vibrantColor\":\"#be9139\",\"duration\":181,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2023-04-28T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":true,\"popularity\":0,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":15950405,\"name\":\"Shawnyy\",\"type\":\"MAIN\",\"picture\":null}],\"album\":null},{\"id\":244164008,\"title\":\"Hello\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2021-03-31T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"a6c88c68-b64e-47b6-b445-949115261152\",\"vibrantColor\":\"#c9a05b\",\"duration\":259,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2021-03-31T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":0,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":1184,\"name\":\"Puretone\",\"type\":\"MAIN\",\"picture\":null}],\"album\":null},{\"id\":243778949,\"title\":\"Hello\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2022-08-05T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"fb64407f-aafe-4de5-997c-8a7830cd2165\",\"vibrantColor\":\"#2f727b\",\"duration\":257,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2022-08-19T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":0,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":5252308,\"name\":\"\u0410\u043D\u0442\u0438\u0442\u0456\u043B\u0430\",\"type\":\"MAIN\",\"picture\":null}],\"album\":null},{\"id\":288081812,\"title\":\"Hello\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2023-04-07T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"ddb41a73-850e-428e-8735-3a4c842ec953\",\"vibrantColor\":\"#58e397\",\"duration\":171,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2023-04-08T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":true,\"popularity\":0,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":6740687,\"name\":\"5thgen\",\"type\":\"MAIN\",\"picture\":null}],\"album\":null},{\"id\":292902727,\"title\":\"Hello\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2023-04-28T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"f7e2104d-87be-4e9b-9d8b-10adb502b1ba\",\"vibrantColor\":\"#66e3e4\",\"duration\":236,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2023-04-28T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":true,\"popularity\":0,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":25271513,\"name\":\"Big
+        Boss Blossom\",\"type\":\"MAIN\",\"picture\":null}],\"album\":null},{\"id\":289310985,\"title\":\"Hello\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2023-04-19T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"d2b05295-bc3f-4a54-a517-75412cf1d98f\",\"vibrantColor\":\"#a6cfd9\",\"duration\":140,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2023-04-19T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":0,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":3965056,\"name\":\"Propa
+        Fade\",\"type\":\"MAIN\",\"picture\":null}],\"album\":null},{\"id\":145488306,\"title\":\"Hello\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2020-02-21T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"43544e59-24fd-40f1-b82d-e39197156473\",\"vibrantColor\":\"#FFFFFF\",\"duration\":164,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2020-07-08T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":0,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":17051182,\"name\":\"21
+        Juin Le Duo\",\"type\":\"MAIN\",\"picture\":null}],\"album\":null},{\"id\":216181416,\"title\":\"Hello\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2022-02-04T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"6f175b5c-d6d3-4d16-9b8f-d1a37eaecc22\",\"vibrantColor\":\"#99d5c4\",\"duration\":200,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2022-02-04T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":true,\"popularity\":0,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":30626673,\"name\":\"Tay
+        Money &  Saucy Santana\",\"type\":\"MAIN\",\"picture\":null}],\"album\":null},{\"id\":229000547,\"title\":\"Hello\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2020-08-06T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"edd6d5d1-068a-4796-ab96-e1898c6af268\",\"vibrantColor\":\"#a25146\",\"duration\":230,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2020-08-06T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":true,\"popularity\":0,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":6751759,\"name\":\"Lroc\",\"type\":\"MAIN\",\"picture\":null}],\"album\":null},{\"id\":220479072,\"title\":\"Hello\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2022-03-11T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"9253319d-55a2-4593-a005-a9ae369ad14a\",\"vibrantColor\":\"#b44b4b\",\"duration\":216,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2022-03-11T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":0,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":8221028,\"name\":\"Buffalo
+        Hideout\",\"type\":\"MAIN\",\"picture\":null}],\"album\":null},{\"id\":121965230,\"title\":\"Hello\",\"volumeNumber\":1,\"trackNumber\":1,\"releaseDate\":\"2019-11-06T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"3b53af37-e6f2-4803-a3e7-44ce000ca32e\",\"vibrantColor\":\"#89d5eb\",\"duration\":208,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2019-11-06T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":0,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":15199426,\"name\":\"MP
+        Grey\",\"type\":\"MAIN\",\"picture\":null}],\"album\":null},{\"id\":266997277,\"title\":\"Hello\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2022-03-16T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"c08d08d5-73e0-4a8a-88d1-ab3870d371df\",\"vibrantColor\":\"#FFFFFF\",\"duration\":337,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2022-12-21T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":0,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":36167657,\"name\":\"Mr.Neo.\",\"type\":\"MAIN\",\"picture\":null}],\"album\":null},{\"id\":248474348,\"title\":\"Hello\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2022-01-26T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"2c9d598c-c546-41bd-837e-37f1c859199f\",\"vibrantColor\":\"#FFFFFF\",\"duration\":223,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2022-09-20T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":0,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":15505186,\"name\":\"Sanha\",\"type\":\"MAIN\",\"picture\":null}],\"album\":null},{\"id\":248071617,\"title\":\"HELLO\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2022-03-30T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"c21c94cf-0c30-4ff4-826c-e450de565e98\",\"vibrantColor\":\"#7c5fde\",\"duration\":163,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2022-10-03T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":0,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":16462195,\"name\":\"Josh
+        Fudge\",\"type\":\"MAIN\",\"picture\":null}],\"album\":null},{\"id\":261132794,\"title\":\"Hello\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2022-11-16T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"5b368104-b225-4d78-9e06-e55cd4dfbb93\",\"vibrantColor\":\"#d9d44f\",\"duration\":182,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2022-11-16T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":0,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":16232999,\"name\":\"Mad
+        Daag6\",\"type\":\"MAIN\",\"picture\":null}],\"album\":null},{\"id\":223168073,\"title\":\"Hello\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2022-04-02T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"01b1de8d-c860-4e4d-bb97-a9a2fcb6a333\",\"vibrantColor\":\"#FFFFFF\",\"duration\":146,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2022-04-02T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":0,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":4470104,\"name\":\"Yuna\",\"type\":\"MAIN\",\"picture\":\"05ae7fdd-c913-423d-94d3-cd47ecb7adb8\"}],\"album\":null},{\"id\":297328315,\"title\":\"Hello\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2023-05-30T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"e24be9ac-9dc6-40ad-81e2-7f7cf506482b\",\"vibrantColor\":\"#e2c0bc\",\"duration\":256,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2023-05-30T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":true,\"popularity\":0,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":35587974,\"name\":\"Yung
+        Alone\",\"type\":\"MAIN\",\"picture\":null}],\"album\":null},{\"id\":276402619,\"title\":\"Hello\",\"volumeNumber\":0,\"trackNumber\":0,\"releaseDate\":\"2023-02-20T00:00:00.000+0000\",\"imagePath\":null,\"imageId\":\"223cb6ad-c4ae-4c82-905b-fc257e85e2dc\",\"vibrantColor\":\"#FFFFFF\",\"duration\":190,\"quality\":\"MP4_1080P\",\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2023-02-20T00:00:00.000+0000\",\"allowStreaming\":true,\"explicit\":false,\"popularity\":0,\"type\":\"Music
+        Video\",\"adsUrl\":null,\"adsPrePaywallOnly\":true,\"artists\":[{\"id\":6485480,\"name\":\"Ricky
+        Paquette\",\"type\":\"MAIN\",\"picture\":null}],\"album\":null}]},\"topHit\":{\"value\":{\"uuid\":\"4261748a-4287-4758-aaab-6d5be3e99e52\",\"title\":\"Big
+        Dance Energy\",\"numberOfTracks\":50,\"numberOfVideos\":0,\"creator\":{},\"description\":\"Big
+        Dance Energy is your peak hour party-starter with certified bangers direct
+        from festival main stages and megaclub dancefloors. From big room, EDM and
+        disco house to amapiano, tropical and tech, the hooks don't stop. New tracks
+        added every Friday. (Cover: Steve Angello & Wh0 / Photo: Astralwerks)\",\"duration\":9241,\"lastUpdated\":\"2023-07-21T04:01:15.000+0000\",\"created\":\"2018-08-16T20:04:34.000+0000\",\"type\":\"EDITORIAL\",\"publicPlaylist\":true,\"url\":\"http://www.tidal.com/playlist/4261748a-4287-4758-aaab-6d5be3e99e52\",\"image\":\"55ca2fcd-3b4c-4330-946c-e086f0041d90\",\"popularity\":88,\"squareImage\":\"59cea38c-ae17-4eec-9355-4a8a186b1ae2\",\"promotedArtists\":[{\"id\":3641363,\"name\":\"Steve
+        Angello\",\"type\":\"MAIN\",\"picture\":\"e5c00b57-5582-4cee-a968-f2c3ccc275e7\"},{\"id\":6297452,\"name\":\"Wh0\",\"type\":\"MAIN\",\"picture\":\"5b425a20-8023-43cf-baa7-f83f5e395ab0\"},{\"id\":40684794,\"name\":\"Dimitri
+        Vegas & Like Mike & David Guetta & Afro bros & Akon Feat. Afro Bros\",\"type\":\"MAIN\",\"picture\":null},{\"id\":4306587,\"name\":\"Sam
+        Smith\",\"type\":\"MAIN\",\"picture\":\"6b423f9c-7c72-487f-9b9f-876ede608f54\"}],\"lastItemAddedAt\":\"2023-07-21T04:01:15.000+0000\"},\"type\":\"PLAYLISTS\"}}"
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:55:11 GMT
+      Server:
+      - noyb
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 9680e9cb5cbc773ebfed1b7a558f7db6.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 3i3UPcp16X8WOpnfhrSRlgpQY_uk5BShdAg4NRpK9mMrGWeyblB_Gg==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+      X-Tidal-SearchQueryId:
+      - edbdd536-0532-4b2d-9cea-cb1b57beb0eb
+    status:
+      code: 200
+      message: OK
+version: 1

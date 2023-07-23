@@ -1,0 +1,46 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/users/58600091?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":58600091,"firstName":"Five Dragons","lastName":"Music"}'
+    headers:
+      Cache-Control:
+      - no-cache
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '61'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:55:12 GMT
+      ETag:
+      - '"666664235"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 0921eae154c93e666b192fa267ea4bfa.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - Y6gZiZgD0hEt0dj-3FG9NdSJ_nUIDsc4pKtrboKzPAMM7zfxzUWu5Q==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+      X-WIMP-JSON-RESPONSE-VIEW:
+      - com.wimpmusic.api.util.WimpApiViews$User
+    status:
+      code: 200
+      message: OK
+version: 1

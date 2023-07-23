@@ -1,0 +1,43 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/videos/179076073?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":179076073,"title":"Justine Skye","volumeNumber":1,"trackNumber":1,"releaseDate":"2021-04-01T00:00:00.000+0000","imagePath":null,"imageId":"6b81673d-be23-45f8-9288-36bef50493bc","vibrantColor":"#f9b48e","duration":204,"quality":"MP4_1080P","streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2021-04-01T17:00:00.000+0000","allowStreaming":true,"explicit":false,"popularity":2,"type":"Live","adsUrl":null,"adsPrePaywallOnly":false,"artist":{"id":22053183,"name":"SESSIONS","type":"MAIN","picture":"d75275e3-f1ad-4dcd-93ab-1f8d317456b5"},"artists":[{"id":22053183,"name":"SESSIONS","type":"MAIN","picture":"d75275e3-f1ad-4dcd-93ab-1f8d317456b5"},{"id":5078244,"name":"Justine
+        Skye","type":"MAIN","picture":"3d021197-098b-4aa5-ac0d-298773bb8d1f"}],"album":null}'
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '779'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:54:10 GMT
+      Server:
+      - noyb
+      Via:
+      - 1.1 404ac5621836af31e2d3d32ecae91e78.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - qJY6zc_4_CHN8atLWlKScCJwtyXxBBEGF1XEDkQIbYLicCg9mM_8aQ==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

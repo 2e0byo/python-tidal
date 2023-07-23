@@ -1,0 +1,46 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/tracks/98849340?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":98849340,"title":"Magical place (feat. IOVA)","duration":188,"replayGain":-9.83,"peak":0.998871,"allowStreaming":true,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2018-11-21T00:00:00.000+0000","premiumStreamingOnly":false,"trackNumber":1,"volumeNumber":1,"version":"Dj
+        Dark & MD Dj Remix","popularity":7,"copyright":"MDM Records","url":"http://www.tidal.com/track/98849340","isrc":"GBWUL1805492","editable":false,"explicit":false,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":3959624,"name":"DJ
+        Sava","type":"MAIN","picture":null},"artists":[{"id":3959624,"name":"DJ Sava","type":"MAIN","picture":null},{"id":9570432,"name":"Iova","type":"MAIN","picture":null},{"id":4718038,"name":"DJ
+        Dark","type":"MAIN","picture":null},{"id":8221845,"name":"MD DJ","type":"MAIN","picture":null}],"album":{"id":98849339,"title":"Magical
+        place (feat. IOVA) [Remixes]","cover":"f13f1b6a-0c8d-4ff4-978d-e5138e229be0","vibrantColor":"#f9ef37","videoCover":null},"mixes":{"TRACK_MIX":"00119c27c4da628536cf928d6a814e"}}'
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1084'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:54:13 GMT
+      Server:
+      - noyb
+      Via:
+      - 1.1 76991fdca074ecae847653e013587ff8.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - _MkxjCsAZeFciGWgmPiN8n2Tb8X6KjB7uyVhzWpH46z14NsmfUwbaA==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

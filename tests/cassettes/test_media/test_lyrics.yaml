@@ -1,0 +1,136 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/tracks/56480040?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: "{\"id\":56480040,\"title\":\"Falling Away\",\"duration\":345,\"replayGain\":-10.65,\"peak\":0.988403,\"allowStreaming\":true,\"streamReady\":true,\"adSupportedStreamReady\":true,\"streamStartDate\":\"2016-01-29T00:00:00.000+0000\",\"premiumStreamingOnly\":false,\"trackNumber\":1,\"volumeNumber\":1,\"version\":\"MitiS
+        Remix\",\"popularity\":2,\"copyright\":\"\u2117 2015 Republic Records, a division
+        of UMG Recordings, Inc.\",\"url\":\"http://www.tidal.com/track/56480040\",\"isrc\":\"USUM71600251\",\"editable\":false,\"explicit\":false,\"audioQuality\":\"LOSSLESS\",\"audioModes\":[\"STEREO\"],\"mediaMetadata\":{\"tags\":[\"LOSSLESS\"]},\"artist\":{\"id\":4612886,\"name\":\"Seven
+        Lions\",\"type\":\"MAIN\",\"picture\":\"27a44d67-b24b-4519-a227-5ebffc3a24c4\"},\"artists\":[{\"id\":4612886,\"name\":\"Seven
+        Lions\",\"type\":\"MAIN\",\"picture\":\"27a44d67-b24b-4519-a227-5ebffc3a24c4\"},{\"id\":3541275,\"name\":\"Lights\",\"type\":\"FEATURED\",\"picture\":\"a1ca44d7-6178-48bb-aaa6-b8be927f0425\"}],\"album\":{\"id\":56480039,\"title\":\"Falling
+        Away (Remixes)\",\"cover\":\"286302f3-89ff-4677-a816-f6500efa910f\",\"vibrantColor\":\"#8abcdb\",\"videoCover\":null},\"mixes\":{\"TRACK_MIX\":\"001b8ac87d148fe787ec700bd68328\"}}"
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1093'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:58 GMT
+      Server:
+      - noyb
+      Via:
+      - 1.1 3b241d28b74f1afdcb7ac9fb7109cff0.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - uFqOEfIribhJq9wbERWcXlbgbPHR-5Ehol4BMQ6hHmKA-jMEhteiBA==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/tracks/56480040/lyrics?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"trackId":56480040,"lyricsProvider":"MUSIXMATCH","providerCommontrackId":"54226130","providerLyricsId":"14066511","lyrics":"I
+        didn''t want to think\nCause I knew I was out of my mind\nYou pulled me from
+        the brink\nAnd brought me to the other side\n\nAnd I\nThink we''re there\nAnd
+        I\nThink we''re there\n\nSo goodnight goodnight\nDon''t have to have it all
+        figured out\nWe''ll be alright\nWhat comes about is gonna come about\nTomorrow
+        when we meet\nJust take me to a place I''ve never been\nFind me in the sweetest
+        oblivion\n\nOh, oh\nWe have it all\nIn front of us\nAnd I can see the\nSun
+        is up to cover us\nI''m lifted up\nTake me to a beautiful day\nAnd I feel
+        like our\nShadow is falling away\nFalling away And I don''t want to go\nI
+        want to be here all night\nNo one has to know\nNo one has to say it''s alright\n\n''Cause
+        I\nThink we''re there\nAnd I\nThink we''re there\n\nSo goodnight goodnight\nDon''t
+        have to have it all figured out\nWe''ll be alright\nWhat comes back is gonna
+        come back\nTomorrow when we meet\nJust take me to a place I''ve never been\nFind
+        me in the sweetest oblivion\n\nWe have it all\nIn front of us\nAnd I can''t
+        see the\nSun is up to cover us\nI''m lifted up\nTake me to a beautiful day\nAnd
+        I feel like our\nShadow is falling away\nFalling away","subtitles":"[00:28.29]
+        I didn''t want to think\n[00:31.73] Cause I knew I was out of my mind\n[00:35.18]
+        You pulled me from the brink\n[00:38.27] And brought me to the other side\n[00:41.25]
+        And I\n[00:45.23] Think we''re there\n[00:48.15] And I\n[00:51.84] Think we''re
+        there\n[00:55.30] So goodnight goodnight\n[00:58.86] Don''t have to have it
+        all figured out\n[01:02.37] We''ll be alright\n[01:05.71] What comes about
+        is gonna come about\n[01:09.08] Tomorrow when we meet\n[01:12.35] Just take
+        me to a place I''ve never been\n[01:15.61] Find me in the sweetest oblivion\n[01:23.53]
+        Oh, oh\n[01:48.81] We have it all\n[01:50.47] In front of us\n[01:52.99] And
+        I can see the\n[01:55.69] Sun is up to cover us\n[01:59.99] I''m lifted up\n[02:02.42]
+        Take me to a beautiful day\n[02:06.83] And I feel like our\n[02:09.28] Shadow
+        is falling away\n[02:45.65] Falling away And I don''t want to go\n[02:46.14]
+        I want to be here all night\n[02:46.70] No one has to know\n[02:47.39] No
+        one has to say it''s alright\n[02:47.82] ''Cause I\n[02:48.48] Think we''re
+        there\n[02:49.05] And I\n[02:49.62] Think we''re there\n[02:50.21] So goodnight
+        goodnight\n[02:50.72] Don''t have to have it all figured out\n[02:51.39] We''ll
+        be alright\n[02:51.97] What comes back is gonna come back\n[02:52.55] Tomorrow
+        when we meet\n[02:53.24] Just take me to a place I''ve never been\n[02:53.81]
+        Find me in the sweetest oblivion\n[02:54.55] We have it all\n[03:38.60] In
+        front of us\n[03:41.18] And I can''t see the\n[03:43.76] Sun is up to cover
+        us\n[03:47.88] I''m lifted up\n[03:50.74] Take me to a beautiful day\n[03:54.98]
+        And I feel like our\n[03:57.12] Shadow is falling away\n[04:05.75] Falling
+        away \n[05:23.96] ","isRightToLeft":false}'
+    headers:
+      Age:
+      - '956'
+      Cache-Control:
+      - max-age=3600, s-maxage=3600
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 23 Jul 2023 15:38:02 GMT
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Origin,Access-Control-Request-Method,Access-Control-Request-Headers,authorization,accept-encoding
+      Via:
+      - 1.1 38a3f663851a0597e7026100a58b9b38.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - Bp9LWZuCaaw5lopwKUcY3D3NVCXsMj13oHKO9WpoOYmKr0Ciaa5N9g==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Hit from cloudfront
+      X-RateLimit-Burst-Capacity:
+      - '50'
+      X-RateLimit-Remaining:
+      - '49'
+      X-RateLimit-Replenish-Rate:
+      - '1'
+      X-RateLimit-Requested-Tokens:
+      - '1'
+    status:
+      code: 200
+      message: OK
+version: 1

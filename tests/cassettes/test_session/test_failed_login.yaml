@@ -1,0 +1,45 @@
+interactions:
+- request:
+    body: username=&password=&clientUniqueKey=89f3267890a81217
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '52'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      User-Agent:
+      - python-requests/2.31.0
+      X-Tidal-Token:
+      - zU4XHVVkc2tDPo4t
+    method: POST
+    uri: https://api.tidal.com/v1/login/username
+  response:
+    body:
+      string: '{"status":400,"subStatus":1002,"userMessage":"Parameter username is
+        mandatory"}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '79'
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 23 Jul 2023 15:55:06 GMT
+      Via:
+      - 1.1 17c1f7944e7f0a7a5535cc3cecf1da08.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - QgrlCC8rx6xxERFywF2KU6emFjViluciDcnSnjqanfWpE3gtrNTuFg==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Error from cloudfront
+    status:
+      code: 400
+      message: Bad Request
+version: 1

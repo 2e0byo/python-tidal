@@ -1,0 +1,126 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/playlists/aa3611ff-5b25-4bbe-8ce4-36c678c3438f?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"uuid":"aa3611ff-5b25-4bbe-8ce4-36c678c3438f","title":"TIDAL X Sundance","numberOfTracks":0,"numberOfVideos":12,"creator":{"id":0},"description":"In
+        partnership with Vulture, TIDAL talks to actors and musicians at the 2017
+        Sundance Film Festival about the meeting of music and film. #tidalxvulture
+        (Photo: TIDAL) ","duration":1996,"lastUpdated":"2020-03-25T08:05:33.115+0000","created":"2017-01-23T18:34:56.930+0000","type":"EDITORIAL","publicPlaylist":true,"url":"http://www.tidal.com/playlist/aa3611ff-5b25-4bbe-8ce4-36c678c3438f","image":"ef013616-3766-496d-8354-ebc99d3459b0","popularity":0,"squareImage":"dbecd719-8408-4142-b5f5-761d9179caef","promotedArtists":[{"id":8448243,"name":"Sundance
+        Film Festival","type":"MAIN","picture":null}],"lastItemAddedAt":null}'
+    headers:
+      Cache-Control:
+      - no-cache
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '768'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:54:57 GMT
+      ETag:
+      - '"1585123533115"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 e9ebe38de33a70557cf9d9c1d7e5d11e.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - DeYH4GbNg1CA5ZtMYIOhvMs3c6uES6vVVKVgazArqQ49DYu7OVtOGw==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - RefreshHit from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/playlists/aa3611ff-5b25-4bbe-8ce4-36c678c3438f/items?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=100&offset=0
+  response:
+    body:
+      string: '{"limit":100,"offset":0,"totalNumberOfItems":12,"items":[{"item":{"id":69600390,"title":"Day
+        1: Part 1","volumeNumber":1,"trackNumber":1,"releaseDate":"2017-01-21T00:00:00.000+0000","imagePath":null,"imageId":"8b856775-0882-4715-b7d7-c718f14b48a2","vibrantColor":"#FFFFFF","duration":127,"quality":"MP4_1080P","streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2017-01-21T00:00:00.000+0000","allowStreaming":true,"explicit":false,"popularity":12,"type":"Event","adsUrl":null,"adsPrePaywallOnly":true,"artist":{"id":8448243,"name":"Sundance
+        Film Festival","type":"MAIN","picture":"0131465a-9424-4d8e-93d4-accbd52486be"},"artists":[{"id":8448243,"name":"Sundance
+        Film Festival","type":"MAIN","picture":"0131465a-9424-4d8e-93d4-accbd52486be"}],"album":null,"dateAdded":"2017-01-23T18:34:57.289+0000","index":0,"itemUuid":"6e1c8cf4-577d-4b18-a121-3e544c12aefb"},"type":"video","cut":null},{"item":{"id":69600504,"title":"Day
+        1: Part 2","volumeNumber":1,"trackNumber":1,"releaseDate":"2017-01-21T00:00:00.000+0000","imagePath":null,"imageId":"8d5a4fd5-f536-4c36-8c68-ffbf8cdd09b6","vibrantColor":"#c1c883","duration":153,"quality":"MP4_1080P","streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2017-01-21T00:00:00.000+0000","allowStreaming":true,"explicit":false,"popularity":6,"type":"Event","adsUrl":null,"adsPrePaywallOnly":true,"artist":{"id":8448243,"name":"Sundance
+        Film Festival","type":"MAIN","picture":"0131465a-9424-4d8e-93d4-accbd52486be"},"artists":[{"id":8448243,"name":"Sundance
+        Film Festival","type":"MAIN","picture":"0131465a-9424-4d8e-93d4-accbd52486be"}],"album":null,"dateAdded":"2017-01-23T18:34:57.289+0000","index":100000,"itemUuid":"99540b99-5b51-439f-acb8-a7a143416c6b"},"type":"video","cut":null},{"item":{"id":69600613,"title":"Day
+        1: Part 3","volumeNumber":1,"trackNumber":1,"releaseDate":"2017-01-21T00:00:00.000+0000","imagePath":null,"imageId":"f8130f0f-8434-4ce4-86f2-88bc50f45280","vibrantColor":"#949041","duration":67,"quality":"MP4_1080P","streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2017-01-21T00:00:00.000+0000","allowStreaming":true,"explicit":false,"popularity":4,"type":"Event","adsUrl":null,"adsPrePaywallOnly":true,"artist":{"id":8448243,"name":"Sundance
+        Film Festival","type":"MAIN","picture":"0131465a-9424-4d8e-93d4-accbd52486be"},"artists":[{"id":8448243,"name":"Sundance
+        Film Festival","type":"MAIN","picture":"0131465a-9424-4d8e-93d4-accbd52486be"}],"album":null,"dateAdded":"2017-01-23T18:34:57.289+0000","index":200000,"itemUuid":"07149384-096a-4f23-a7f0-13ed8ad80aa1"},"type":"video","cut":null},{"item":{"id":69625427,"title":"Day
+        2: Part 1","volumeNumber":1,"trackNumber":1,"releaseDate":"2017-01-22T00:00:00.000+0000","imagePath":null,"imageId":"f3f83ae9-9fad-4108-bf90-7ff329d2db17","vibrantColor":"#98e76b","duration":201,"quality":"MP4_1080P","streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2017-01-22T00:00:00.000+0000","allowStreaming":true,"explicit":false,"popularity":3,"type":"Other","adsUrl":null,"adsPrePaywallOnly":true,"artist":{"id":8448243,"name":"Sundance
+        Film Festival","type":"MAIN","picture":"0131465a-9424-4d8e-93d4-accbd52486be"},"artists":[{"id":8448243,"name":"Sundance
+        Film Festival","type":"MAIN","picture":"0131465a-9424-4d8e-93d4-accbd52486be"}],"album":null,"dateAdded":"2017-01-23T18:34:57.289+0000","index":300000,"itemUuid":"9ab654c1-21ff-491d-92ad-aebe9700e158"},"type":"video","cut":null},{"item":{"id":69625430,"title":"Day
+        2: Part 2","volumeNumber":1,"trackNumber":1,"releaseDate":"2017-01-22T00:00:00.000+0000","imagePath":null,"imageId":"95881dba-2163-4f6b-932a-84514bc96c4e","vibrantColor":"#f11b0e","duration":176,"quality":"MP4_1080P","streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2017-01-22T00:00:00.000+0000","allowStreaming":true,"explicit":false,"popularity":3,"type":"Other","adsUrl":null,"adsPrePaywallOnly":true,"artist":{"id":8448243,"name":"Sundance
+        Film Festival","type":"MAIN","picture":"0131465a-9424-4d8e-93d4-accbd52486be"},"artists":[{"id":8448243,"name":"Sundance
+        Film Festival","type":"MAIN","picture":"0131465a-9424-4d8e-93d4-accbd52486be"}],"album":null,"dateAdded":"2017-01-23T18:34:57.289+0000","index":400000,"itemUuid":"8a24a5e0-4b7c-4604-b29d-33b20cdef807"},"type":"video","cut":null},{"item":{"id":69625433,"title":"Day
+        2: Part 3","volumeNumber":1,"trackNumber":1,"releaseDate":"2017-01-22T00:00:00.000+0000","imagePath":null,"imageId":"7555c636-e440-40dd-bb01-f88a8dddf8e6","vibrantColor":"#FFFFFF","duration":152,"quality":"MP4_1080P","streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2017-01-22T00:00:00.000+0000","allowStreaming":true,"explicit":false,"popularity":2,"type":"Other","adsUrl":null,"adsPrePaywallOnly":true,"artist":{"id":8448243,"name":"Sundance
+        Film Festival","type":"MAIN","picture":"0131465a-9424-4d8e-93d4-accbd52486be"},"artists":[{"id":8448243,"name":"Sundance
+        Film Festival","type":"MAIN","picture":"0131465a-9424-4d8e-93d4-accbd52486be"}],"album":null,"dateAdded":"2017-01-23T18:43:05.506+0000","index":500000,"itemUuid":"e4adab26-b167-4590-a4fb-845025bec8e1"},"type":"video","cut":null},{"item":{"id":69633871,"title":"Day
+        3: Part 1","volumeNumber":1,"trackNumber":1,"releaseDate":"2017-01-23T00:00:00.000+0000","imagePath":null,"imageId":"fd6ecbcb-c7ec-451c-8aa5-db1d474cf67c","vibrantColor":"#d9a732","duration":114,"quality":"MP4_1080P","streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2017-01-23T00:00:00.000+0000","allowStreaming":true,"explicit":false,"popularity":2,"type":"Other","adsUrl":null,"adsPrePaywallOnly":true,"artist":{"id":8448243,"name":"Sundance
+        Film Festival","type":"MAIN","picture":"0131465a-9424-4d8e-93d4-accbd52486be"},"artists":[{"id":8448243,"name":"Sundance
+        Film Festival","type":"MAIN","picture":"0131465a-9424-4d8e-93d4-accbd52486be"}],"album":null,"dateAdded":"2017-01-24T08:42:31.724+0000","index":600000,"itemUuid":"dfdac964-48ca-4541-a538-70812ab8a948"},"type":"video","cut":null},{"item":{"id":69633874,"title":"Day
+        3: Part 2","volumeNumber":1,"trackNumber":1,"releaseDate":"2017-01-23T00:00:00.000+0000","imagePath":null,"imageId":"dc115242-ffa7-4fba-aeab-7644c3175039","vibrantColor":"#bb0e21","duration":121,"quality":"MP4_1080P","streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2017-01-23T00:00:00.000+0000","allowStreaming":true,"explicit":false,"popularity":2,"type":"Other","adsUrl":null,"adsPrePaywallOnly":true,"artist":{"id":8448243,"name":"Sundance
+        Film Festival","type":"MAIN","picture":"0131465a-9424-4d8e-93d4-accbd52486be"},"artists":[{"id":8448243,"name":"Sundance
+        Film Festival","type":"MAIN","picture":"0131465a-9424-4d8e-93d4-accbd52486be"}],"album":null,"dateAdded":"2017-01-24T08:42:46.542+0000","index":700000,"itemUuid":"0af66f88-3fff-40b6-a179-e911129b2e17"},"type":"video","cut":null},{"item":{"id":69633877,"title":"Day
+        3: Part 3","volumeNumber":1,"trackNumber":1,"releaseDate":"2017-01-23T00:00:00.000+0000","imagePath":null,"imageId":"b1997197-2b9f-4aa6-8432-f431102c8682","vibrantColor":"#ddaaaa","duration":135,"quality":"MP4_1080P","streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2017-01-23T00:00:00.000+0000","allowStreaming":true,"explicit":false,"popularity":2,"type":"Other","adsUrl":null,"adsPrePaywallOnly":true,"artist":{"id":8448243,"name":"Sundance
+        Film Festival","type":"MAIN","picture":"0131465a-9424-4d8e-93d4-accbd52486be"},"artists":[{"id":8448243,"name":"Sundance
+        Film Festival","type":"MAIN","picture":"0131465a-9424-4d8e-93d4-accbd52486be"}],"album":null,"dateAdded":"2017-01-24T13:05:16.047+0000","index":800000,"itemUuid":"e39768ec-a414-4150-b96d-2f128af23ee8"},"type":"video","cut":null},{"item":{"id":69664748,"title":"Day
+        4: Part 1","volumeNumber":1,"trackNumber":1,"releaseDate":"2017-01-24T00:00:00.000+0000","imagePath":null,"imageId":"299df546-7c98-4771-84ca-603a19782506","vibrantColor":"#c92f39","duration":154,"quality":"MP4_1080P","streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2017-01-24T00:00:00.000+0000","allowStreaming":true,"explicit":false,"popularity":2,"type":"Other","adsUrl":null,"adsPrePaywallOnly":true,"artist":{"id":8448243,"name":"Sundance
+        Film Festival","type":"MAIN","picture":"0131465a-9424-4d8e-93d4-accbd52486be"},"artists":[{"id":8448243,"name":"Sundance
+        Film Festival","type":"MAIN","picture":"0131465a-9424-4d8e-93d4-accbd52486be"}],"album":null,"dateAdded":"2017-01-25T15:50:34.593+0000","index":900000,"itemUuid":"7ae3ef55-9483-4c43-8c25-ae544cbc36f2"},"type":"video","cut":null},{"item":{"id":69664745,"title":"Day
+        4: Part 2","volumeNumber":1,"trackNumber":1,"releaseDate":"2017-01-24T00:00:00.000+0000","imagePath":null,"imageId":"1e1da7b1-91ce-4a5e-bb9b-f79fac6e0ccf","vibrantColor":"#a02028","duration":246,"quality":"MP4_1080P","streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2017-01-24T00:00:00.000+0000","allowStreaming":true,"explicit":false,"popularity":2,"type":"Other","adsUrl":null,"adsPrePaywallOnly":true,"artist":{"id":8448243,"name":"Sundance
+        Film Festival","type":"MAIN","picture":"0131465a-9424-4d8e-93d4-accbd52486be"},"artists":[{"id":8448243,"name":"Sundance
+        Film Festival","type":"MAIN","picture":"0131465a-9424-4d8e-93d4-accbd52486be"}],"album":null,"dateAdded":"2017-01-25T15:50:37.666+0000","index":1000000,"itemUuid":"7d730ef0-6493-4afd-8b04-3f154b67af26"},"type":"video","cut":null},{"item":{"id":69964550,"title":"Sundance
+        2017 Recap","volumeNumber":1,"trackNumber":1,"releaseDate":"2017-02-01T00:00:00.000+0000","imagePath":null,"imageId":"2055cd83-70fc-4b88-af51-40c333fe64de","vibrantColor":"#FFFFFF","duration":355,"quality":"MP4_1080P","streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2017-02-01T00:00:00.000+0000","allowStreaming":true,"explicit":false,"popularity":3,"type":"Other","adsUrl":null,"adsPrePaywallOnly":true,"artist":{"id":8448243,"name":"Sundance
+        Film Festival","type":"MAIN","picture":"0131465a-9424-4d8e-93d4-accbd52486be"},"artists":[{"id":8448243,"name":"Sundance
+        Film Festival","type":"MAIN","picture":"0131465a-9424-4d8e-93d4-accbd52486be"}],"album":null,"dateAdded":"2017-02-01T23:02:18.256+0000","index":1100000,"itemUuid":"ff76a19f-ab5c-4e36-ab99-07925987cf31"},"type":"video","cut":null}]}'
+    headers:
+      Cache-Control:
+      - no-cache
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:54:58 GMT
+      ETag:
+      - '"1585123533115"'
+      Server:
+      - noyb
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 98e6142a124268fae259e9413f391902.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - K86OoRHDyY9PgcA3y5BHuJYDsG8HFE8kqXoXhsFXcrVQyL-5_s_nCg==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

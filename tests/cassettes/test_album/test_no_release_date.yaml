@@ -1,0 +1,47 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://api.tidal.com/v1/albums/174114082?sessionId=9f5d031b-da64-4265-826d-7240002b84b0&countryCode=GB&limit=1000
+  response:
+    body:
+      string: '{"id":174114082,"title":"Fire Starter","duration":895,"streamReady":true,"adSupportedStreamReady":true,"streamStartDate":"2021-03-09T00:00:00.000+0000","allowStreaming":true,"premiumStreamingOnly":false,"numberOfTracks":6,"numberOfVideos":0,"numberOfVolumes":1,"releaseDate":null,"copyright":"2021
+        Artlist Original - Use This Song In Your Video - Go To Artlist.io","type":"ALBUM","version":null,"url":"http://www.tidal.com/album/174114082","cover":"5a587720-ca16-4a2f-9326-66e32f63153a","vibrantColor":"#fa889f","videoCover":null,"explicit":false,"upc":"194492010101","popularity":1,"audioQuality":"LOSSLESS","audioModes":["STEREO"],"mediaMetadata":{"tags":["LOSSLESS"]},"artist":{"id":22783084,"name":"Captain
+        Qubz produced by Avishay Goren, Yossi Cohen","type":"MAIN","picture":null},"artists":[{"id":22783084,"name":"Captain
+        Qubz produced by Avishay Goren, Yossi Cohen","type":"MAIN","picture":null}]}'
+    headers:
+      Cache-Control:
+      - public, max-age=300, s-max-age=300,
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '904'
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Sun, 23 Jul 2023 15:53:21 GMT
+      ETag:
+      - '"-1183755796"'
+      Server:
+      - noyb
+      Via:
+      - 1.1 7fbfed9453edeb4b5dca9173a3f5f8dc.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - GS60kDyxuqeLw9RJXKVGSMyC3rLk9XKm1NYVSmpWOP26Hdw0Dlbcew==
+      X-Amz-Cf-Pop:
+      - ZAG50-C1
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

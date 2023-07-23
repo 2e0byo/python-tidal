@@ -104,8 +104,6 @@ interactions:
       - max-age=3600, s-maxage=3600
       Connection:
       - keep-alive
-      Content-Encoding:
-      - gzip
       Content-Type:
       - application/json
       Date:

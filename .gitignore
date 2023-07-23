@@ -72,3 +72,4 @@ prof/
 .netlify
 
 **/.hypothesis/
+**/coverage.xml

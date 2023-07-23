@@ -64,7 +64,7 @@ black = true
 legacy_tox_ini = """
 [tox]
 isolated_build = true
-envlist = py39,py310,py311
+envlist = py39,py310,py311,type,cov
 
 [testenv]
 skip_install = true
@@ -72,7 +72,7 @@ allowlist_externals = poetry
 commands_pre =
     poetry install
 commands =
-    poetry run pytest tests/ --cov=tidalapi --cov-report=html --cov-report=xml --cov-report=term-missing --cov-branch
+    poetry run pytest tests/
 
 passenv =
     TIDAL_ACCESS_TOKEN
@@ -80,9 +80,13 @@ passenv =
     TIDAL_TOKEN_TYPE
     DBUS_SESSION_BUS_ADDRESS # For keyring support
 
-[testenv:types]
+[testenv:type]
 description = type checking
 commands = mypy tidalapi
+
+[testenv:cov]
+commands =
+    poetry run pytest tests/ --cov=tidalapi --cov-report=html --cov-report=xml --cov-report=term-missing --cov-branch
 """
 
 [tool.pytest.ini_options]

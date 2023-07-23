@@ -70,3 +70,5 @@ prof/
 
 # Local Netlify folder
 .netlify
+
+**/.hypothesis/

@@ -87,4 +87,5 @@ commands = mypy tidalapi
 [tool.pytest.ini_options]
 markers = [
     "norecord: this test should not be recorded as the recording cannot be sanitised.",
+    "interactive: this test requires user input.",
 ]

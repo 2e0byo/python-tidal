@@ -12,6 +12,7 @@ def test_mix(session):
     assert isinstance(first, tidalapi.Mix)
 
 
+@pytest.mark.vcr
 def test_image(session):
     mixes = session.mixes()
     first = next(iter(mixes))

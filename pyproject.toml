@@ -42,6 +42,7 @@ pytest-mock = "^3.11.1"
 # Needed until release which works with vcrpy>=4.4.0
 pytest-recording = {git = "https://github.com/kiwicom/pytest-recording.git"}
 vcrpy = "4.4.0" # Older versions no longer patch urllib3 properly
+pytest-coverage = "^0.0"
 
 [build-system]
 requires = ["poetry-core"]
@@ -71,7 +72,7 @@ allowlist_externals = poetry
 commands_pre =
     poetry install
 commands =
-    poetry run pytest tests/
+    poetry run pytest tests/ --cov=tidalapi --cov-report=html --cov-report=xml --cov-report=term-missing --cov-branch
 
 passenv =
     TIDAL_ACCESS_TOKEN

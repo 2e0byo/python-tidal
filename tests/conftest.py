@@ -153,11 +153,16 @@ def _oauth_login(request, tidal_session):
 
 
 def pytest_collection_modifyitems(config, items):
-    if config.getoption("--interactive"):
-        return
-    for item in items:
-        if "interactive" in item.keywords:
-            item.add_marker(pytest.mark.skip(reason="Skipping interactive tests"))
+    options = {
+        "interactive": "Skipping interactive tests",
+        "norecord": "Skipping test which cannot be recorded",
+    }
+    for option, msg in options.items():
+        if config.getoption(f"--{option}"):
+            continue
+        for item in items:
+            if option in item.keywords:
+                item.add_marker(pytest.mark.skip(reason=msg))
 
 
 def pytest_addoption(parser):
@@ -166,6 +171,12 @@ def pytest_addoption(parser):
         action="store_true",
         default=False,
         help="Run tests that require user input",
+    )
+    parser.addoption(
+        "--norecord",
+        action="store_true",
+        default=False,
+        help="Run tests which cannot be recorded",
     )
 
 

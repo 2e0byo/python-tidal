@@ -36,7 +36,7 @@ lint:
 
 
 test:
-	${POETRY} pytest tests/
+	${POETRY} pytest tests/ --cov=tidalapi --cov-report=html --cov-report=xml --cov-report=term-missing --cov-branch
 
 typing:
 	${POETRY} mypy tidalapi/

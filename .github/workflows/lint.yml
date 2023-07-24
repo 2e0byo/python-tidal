@@ -1,4 +1,4 @@
-name: Lint
+name: Tests
 
 on:
   push:
@@ -21,3 +21,39 @@ jobs:
             cache: 'poetry'
         - run: poetry install
         - run: make lint
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+        matrix:
+          python-version: ['3.9', '3.10', '3.11']
+    steps:
+        - uses: actions/checkout@v3
+        - name: Install Poetry
+          uses: abatilo/actions-poetry@v2
+        - name: Set up Python
+          uses: actions/setup-python@v4
+          with:
+            python-version: 3.11
+            cache: 'poetry'
+        - run: poetry install
+        - run: make test
+        - name: Upload coverage
+          if: ${{ matrix.python-version  == '3.10' }}
+          uses: codecov/codecov-action@v3
+          with:
+            token: ${{ secrets.CODECOV_TOKEN }}
+            fail_ci_if_error: true
+  typing:
+    runs-on: ubuntu-latest
+    steps:
+        - uses: actions/checkout@v3
+        - name: Install Poetry
+          uses: abatilo/actions-poetry@v2
+        - name: Set up Python
+          uses: actions/setup-python@v4
+          with:
+            python-version: 3.11
+            cache: 'poetry'
+        - run: poetry install
+        - run: make typing
+

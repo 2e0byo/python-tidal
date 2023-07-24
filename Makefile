@@ -1,4 +1,4 @@
-.PHONY: lint test install format all develop shell help
+.PHONY: lint test install format all develop shell help typing
 POETRY ?= poetry run
 
 help:
@@ -37,3 +37,6 @@ lint:
 
 test:
 	${POETRY} pytest tests/
+
+typing:
+	${POETRY} mypy tidalapi/
